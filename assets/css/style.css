@@ -1,22 +1,27 @@
-.heading {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
 
-h1 {
-    color: red;
-    font-family: 'Great Vibes', cursive;
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand {
+    font-family: 'Amatic SC', cursive;
     font-size: 5rem;
 }
-
-#å {
-    color:yellow;
+.navbar-light .navbar-brand {
+    color: black;
+}
+.å {
+    color: black;
 }
 
-.bg-custom {
-    background-color: red;
+.å:hover {
+    color: yellow;
 }
-
+.navbar-light .navbar-brand:hover {
+    color: red;
+}
 .navbar-light .navbar-nav .nav-link {
     color: yellow;
+    font-family: 'Amatic SC';
+    font-size: 1.5rem;
 }
