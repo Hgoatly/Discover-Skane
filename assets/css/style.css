@@ -1,0 +1,22 @@
+.heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: red;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+}
+
+#å {
+    color:yellow;
+}
+
+.bg-custom {
+    background-color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: yellow;
+}
