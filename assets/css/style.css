@@ -3,12 +3,14 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+/*
 .navbar-light .bg-custom {
-    background-color: transparent;
+    background: none;
 }
+*/
 .navbar-brand {
     font-family: 'Amatic SC', cursive;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .navbar-light .navbar-brand {
     color: black;
@@ -28,13 +30,15 @@
     font-family: 'Amatic SC';
     font-size: 1.5rem;
 }
+/*
 .bg-light {
-    background-color: rgba(255,255,255,0);
+    background: none;
 }
+*/
 .callout-container-fluid{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    background: url("../images/yellow-field.jpg") no-repeat center center fixed; 
+    background: url("../images/lake.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -61,5 +65,7 @@
 }
 
 .jumbotron-header {
-    color: black;
+    color: white;
+    font-family: 'Amatic SC';
+    font-size: 5rem; 
 }
