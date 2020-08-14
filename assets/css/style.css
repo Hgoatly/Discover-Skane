@@ -1,13 +1,18 @@
-
+body {
+    overflow-x: hidden;
+}
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
 }
 /*
-.navbar-light .bg-custom {
-    background: none;
+.navbar-light .bg-light {
+    background-color: white;
 }
 */
+.bg-custom {
+    background-color: white;
+}
 .navbar-brand {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
@@ -36,7 +41,7 @@
 }
 */
 .callout-container-fluid{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background: url("../images/lake.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
@@ -49,6 +54,7 @@
     font-family: 'Rock Salt', cursive;
     position: relative;
     color: #ffff00;
+    margin-top: 5rem; 
    }
 
    .container-fluid{
@@ -57,6 +63,12 @@
     padding-left: 0;
     padding-right: 0;
     border: 0;
+}
+
+.navbar-container-fluid{
+    position: fixed;
+    width: 100%;
+    z-index:10;  
 }
 
 .jumbotron {
@@ -68,4 +80,17 @@
     color: white;
     font-family: 'Amatic SC';
     font-size: 5rem; 
+}
+
+.main-heading {
+    font-family: 'Amatic SC';
+    padding-top: 2rem;
+}
+
+/*---------City and Culture---------*/
+
+.city-and-culture-header {
+    font-family: 'Amatic SC';
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
