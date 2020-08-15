@@ -94,3 +94,13 @@ body {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
+
+.card-deck-container {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.card {
+    width: 28rem;
+}
