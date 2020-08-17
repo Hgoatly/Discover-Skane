@@ -39,7 +39,7 @@ body {
 .callout-container-fluid{
     height: 70vh;
     width: 100%;
-    background: url("../images/lake.jpg") no-repeat center center fixed; 
+    background: url("images/lake.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
