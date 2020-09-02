@@ -19,13 +19,7 @@ html, body {
 .navbar-light .navbar-brand {
     color: black;
 }
-.å {
-    color: black;
-}
 
-.å:hover {
-    color: yellow;
-}
 .navbar-light .navbar-brand:hover {
     color: white;
 }
@@ -37,11 +31,10 @@ html, body {
 .navbar-light .navbar-nav .nav-link:hover {
     color:white;
 }
-/*
-.bg-light {
-    background: none;
+
+.img-fluid {
+    padding-top: 5.1rem;
 }
-*/
 .callout-container-fluid{
     height: 70vh;
     width: 100%;
@@ -119,6 +112,17 @@ html, body {
 
 .card-img-top {
     height:20rem;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ada1a1;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
 }
 @media only screen and (max-width: 700px) {
     .card-deck {

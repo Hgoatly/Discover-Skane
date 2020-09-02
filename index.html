@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Discover Skåne</title>
 </head>
 <body>
-<!--
-<div class = "heading">
-    <h1 class = "text-center" id = "main-heading">Sk<span id = "å">å</span>ne Recommends</h1>
-</div>
--->
-<!--Navbar
-<div class = "navbar-container-fluid overflow-hidden">
-<nav class="navbar navbar-expand-lg navbar-light bg-custom justify-content-center">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link" href="#">Lakes and Forests<span class="sr-only">Lakes and Forests</span></a>
-      <a class="nav-link" href="#">City and Culture<span class="sr-only">City and Culture</span></a>
-      <a class="nav-link" href="#">Beautiful Beaches<span class="sr-only">Beautiful Beaches</span></a>
-    </div>
-  </div>
-</nav>
-</div>
--->
+
+<!--navbar-->
 <div class = "navbar-container-fluid overflow-hidden">
 <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-custom"> 
   <a class="navbar-brand" href="#">Discover Skåne</a>
@@ -38,13 +25,17 @@
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link active" href="#">Lakes and Forests <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#">Beautiful Beaches</a>
-      <a class="nav-link" href="#">City and Culture</a>
+      <a class="nav-link active" href="#lakes-and-forests">Lakes and Forests <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#beautiful-beaches">Beautiful Beaches</a>
+      <a class="nav-link" href="#city-and-culture">City and Culture</a>
+      <a class="nav-link" href="#">
+    <img src="assets/images/sweden-flag.png" width="30" height="30" alt="">
+  </a> 
     </div>
   </div>
 </nav>
 </div>
+
 <!--Carousel code copied from Bootstrap
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
@@ -90,29 +81,46 @@
 </div>
 -->
 <!-- This section copied from CI 'Whiskey Drop' walkthrough -->
-    
+   <!-- 
     <div class="container-fluid overflow-hidden">
       <div class="callout-container-fluid overflow-hidden">
         <div class="row">
           <div class="col-12 callout-column">
             <section class="callout jumbotron text-center">
-          <!--    <h2 class="jumbotron-header text-uppercase"><strong>Discover Skåne</strong></h2> -->
+              <h2 class="jumbotron-header text-uppercase"><strong>Discover Skåne</strong></h2> 
             </section> 
           </div>
         </div>
       </div>
     </div> 
+-->
+      <div>
+        <a>
+          <img
+            class="img-fluid hero-image"
+            src="assets/images/lake_cropped.jpg"
+            alt="Reflections in a lake in southern Sweden"
+          />
+        </a>
+      </div>
 
     <div class = "row">
         <div class = "col-12 text-center header">
             <h1 class = "main-heading">Plan your perfect trip to Southern Sweden</h1> 
         </div>   
     </div>
-
+    <div class = "row">
+    <div class = "col-12 text-center">
+        <p>Whether you are looking to get back to nature, to enjoy a family beach break, or to soak up some world class culture, Sweden's southern-most county has something for everyone.
+         Find out below about some of our favourite places to visit, and see them marked
+        on the map. Don't forget to get in touch with us to suggest more places of interest.   </p>
+    </div>
+    
+    </div>
     <!--Lakes and Forests Cards-->
    <div class = "row">
    <div class = "col-12 text-center">
-    <h2 class = "city-and-culture-header">Lakes and Forests</h2>
+    <h2 class = "city-and-culture-header" id="lakes-and-forests">Lakes and Forests</h2>
 </div> 
 
 <div class = "card-deck-container-fluid overflow-hidden">
@@ -121,9 +129,9 @@
 <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
 <div class="card-deck"> 
   <div class="card falsterbo-card">
-    <img src="assets/images/malmo1.jpg" class="card-img-top" alt="...">
+    <img src="assets/images/lake-with-jetty.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Malmö</h5>
+      <h5 class="card-title">Lakes</h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
@@ -131,15 +139,15 @@
   <div class="card">
     <img src="assets/images/soderasen.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Helsingborg</h5>
+      <h5 class="card-title">National Parks</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img src="assets/images/lund.jpg" class="card-img-top" alt="...">
+    <img src="assets/images/forest-with-sun.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Lund</h5>
+      <h5 class="card-title">Forests</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
@@ -153,7 +161,7 @@
 <!--Beautiful Beaches Cards-->
    <div class = "row">
    <div class = "col-12 text-center">
-    <h2 class = "city-and-culture-header">Beautiful Beaches</h2>
+    <h2 class = "city-and-culture-header" id="beautiful-beaches">Beautiful Beaches</h2>
 </div>
 <div class = "card-deck-container-fluid overflow-hidden">
 <div class = "row">
@@ -193,7 +201,7 @@
 <!--City and Culture Cards-->
    <div class = "row">
    <div class = "col-12 text-center">
-    <h2 class = "city-and-culture-header">City and Culture</h2>
+    <h2 class = "city-and-culture-header" id="city-and-culture">City and Culture</h2>
 </div>
 <div class = "card-deck-container-fluid overflow-hidden">
 <div class = "row">
@@ -229,6 +237,38 @@
 </div>
 </div>
 </div>
+
+<footer class="container-fluid" id="footer">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/BombayGroove/"
+                >
+                  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="http://www.twitter.com/bombaygroove">
+                  <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="http://www.instagram.com/bombaygroovequartet">
+                  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+   
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
