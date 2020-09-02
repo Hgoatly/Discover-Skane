@@ -1,7 +1,7 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
-    background-color: #ada1a1;
+    background-color: #d8c3a5;
 }
 .navbar {
     padding-left: 1rem;
@@ -10,7 +10,7 @@ html, body {
 }
 
 .bg-custom {
-    background-color:#ada1a1;
+    background-color:#d8c3a5;
 }
 .navbar-brand {
     font-family: 'Amatic SC', cursive;
@@ -119,7 +119,7 @@ html, body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #ada1a1;
+  background-color: #d8c3a5;
   color: white;
   text-align: center;
   padding-top: 1rem;
