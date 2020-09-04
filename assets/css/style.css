@@ -2,6 +2,7 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     background-color: #d8c3a5;
+    color: #696e82;
 }
 .navbar {
     padding-left: 1rem;
@@ -17,14 +18,14 @@ html, body {
     font-size: 3rem;
 }
 .navbar-light .navbar-brand {
-    color: black;
+    color: #696e82;
 }
 
 .navbar-light .navbar-brand:hover {
     color: white;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color:#696e82;
     font-family: 'Amatic SC';
     font-size: 1.5rem;
 }
@@ -79,15 +80,23 @@ html, body {
     font-family: 'Amatic SC';
     font-size: 6rem; 
 }
-.header {
-    padding: 0rem;
+
+.intro-text {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
+
 .main-heading {
     font-family: 'Amatic SC';
     padding-top: 2rem;
     margin-right: 0rem;
 }
 
+.intro-paragraph {
+    margin-top: 2rem;
+}
 /*---------City and Culture---------*/
 
 .city-and-culture-header {
@@ -125,8 +134,20 @@ html, body {
   padding-top: 1rem;
 }
 @media only screen and (max-width: 700px) {
+    .callout-container-fluid{
+        height: 65vh;
+    }
+    .intro-text {
+        margin: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .card-deck {
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .card-deck .card {
+        border: 0rem;
+        margin: 0rem;
     }
 }
