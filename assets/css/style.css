@@ -2,7 +2,7 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     background-color: #d8c3a5;
-    color: #696e82;
+  /*  color: #696e82; */
 }
 .navbar {
     padding-left: 1rem;
@@ -47,11 +47,15 @@ html, body {
    display: flex;
    align-items: center;
    justify-content: center;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Roboto', cursive;
     position: relative;
- /*   color: #ffff00; */
-    margin-bottom: 5rem; 
+ /*   color: #ffff00; 
+    margin-bottom: 5rem; */
    }
+
+.btn {
+    font-family: 'Roboto', cursive;
+}
 
 .btn-lg {
     color:#8c5151;
@@ -80,7 +84,7 @@ html, body {
 
 .jumbotron-header {
     color: #8c5151;
-    font-family: 'Roboto';
+    font-family: 'Oswald';
     font-size: 6rem; 
 }
 
@@ -138,7 +142,7 @@ html, body {
 }
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
-        height: 65vh;
+        height: 100vh;
     }
     .intro-text {
         margin: 0rem;
