@@ -13,4 +13,4 @@ The site has two main objectives.
 5. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
 6. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 7. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
-8. I want to know what kind of cultural activities there are in the cities, so that I know whether to book a city break there.
+8. I want to know what kind of cultural activities there are in the cities in Skåne, so that I know whether to book a city break there.
