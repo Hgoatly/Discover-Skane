@@ -14,7 +14,7 @@ html, body {
     background-color:#d8c3a5;
 }
 .navbar-brand {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Oswald', cursive;
     font-size: 3rem;
 }
 .navbar-light .navbar-brand {
@@ -26,7 +26,7 @@ html, body {
 }
 .navbar-light .navbar-nav .nav-link {
     color:#696e82;
-    font-family: 'Amatic SC';
+    font-family: 'Oswald';
     font-size: 1.5rem;
 }
 .navbar-light .navbar-nav .nav-link:hover {
@@ -53,17 +53,22 @@ html, body {
     margin-bottom: 5rem; */
    }
 
-.btn {
-    font-family: 'Roboto', cursive;
+.enter {
+    color:#8c5151;
+    font-family: 'Oswald', cursive;
+    font-size: 3rem;
+    margin-top: 4rem;
 }
 
-.btn-lg {
-    color:#8c5151;
+.enter:hover {
+    color:black;
+    text-decoration: none;
 }
+
 .col-12 {
     padding: 0px;
 }
-   .container-fluid{
+.container-fluid{
     margin-right: 0;
     margin-left: 0;
     padding-left: 0;
@@ -96,7 +101,7 @@ html, body {
 }
 
 .main-heading {
-    font-family: 'Amatic SC';
+    font-family: 'Oswald';
     padding-top: 2rem;
     margin-right: 0rem;
 }
@@ -106,8 +111,8 @@ html, body {
 }
 /*---------City and Culture---------*/
 
-.city-and-culture-header {
-    font-family: 'Amatic SC';
+.section-header {
+    font-family: 'Oswald';
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
