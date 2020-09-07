@@ -54,12 +54,16 @@ html, body {
    }
 
 .enter {
-    color:#8c5151;
+   /* color:#8c5151; */
+   color: #f5f5f5;
     font-family: 'Oswald', cursive;
     font-size: 3rem;
     margin-top: 4rem;
 }
-
+/*
+.hidden {
+    display: none;
+} */
 .enter:hover {
     color:black;
     text-decoration: none;
@@ -88,7 +92,8 @@ html, body {
 }
 
 .jumbotron-header {
-    color: #8c5151;
+   /* color: #8c5151; */
+   color: #f5f5f5;
     font-family: 'Oswald';
     font-size: 6rem; 
 }
@@ -121,7 +126,7 @@ html, body {
 }
 
 .carousel-caption > h4 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'Oswald', cursive;
 }
 .carousel-caption > h5 {
