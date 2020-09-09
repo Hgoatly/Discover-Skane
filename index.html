@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <link
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Discover Skåne</title>
-</head>
+  </head>
 
-<body>
-      
+  <body>
     <div class="container-fluid overflow-hidden" id="landing-page">
       <div class="callout-container-fluid overflow-hidden">
         <div class="row">
           <div class="col-12 callout-column">
             <section class="callout jumbotron text-center">
-              <h2 class="jumbotron-header text-uppercase"><strong>Discover Skåne</strong></h2> 
+              <h2 class="jumbotron-header text-uppercase">
+                <strong>Discover Skåne</strong>
+              </h2>
               <a class="enter" onclick="hideLandingPage()">Enter</a>
-            </section> 
+            </section>
           </div>
         </div>
       </div>
-    </div> 
-<div id="main-content" onclick="displayMainContent()">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    </div>
+
+    <div id="main-content" onclick="displayMainContent()">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active text-center">
       <img src="../assets/images/stone-beach-sunset.jpg" class="d-block w-100" alt="...">
   <div class="carousel-caption d-md-block">
-  <h4>Discover Skåne</h4>
-    <h5>Plan your perfect trip to Southern Sweden</h5>
-<!--    <p>Are you are looking to get back to nature, to enjoy a family beach break, or hoping to soak up some world class culture? Sweden's southern-most county has something for everyone.
-         Find out below about some of our favourite places to visit, and see them marked
-        on the map. Don't forget to get in touch with us to suggest more places of interest.</p> -->
+  <h3>Discover Skåne</h3>
+    <h4>Plan your perfect trip to Southern Sweden</h4>
   </div>
 </div>
     <div class="carousel-item text-center">
       <img src="../assets/images/sunlit-forest.jpg" class="d-block w-100" alt="...">
     <div class="carousel-caption d-md-block">
-    <h4>Discover Skåne</h4>
-    <h5>Plan your perfect trip to Southern Sweden</h5>
-<!--    <p>Are you are looking to get back to nature, to enjoy a family beach break, or hoping to soak up some world class culture? Sweden's southern-most county has something for everyone.
-         Find out below about some of our favourite places to visit, and see them marked
-        on the map. Don't forget to get in touch with us to suggest more places of interest.</p> -->
+    <h3>Discover Skåne</h3>
+    <h4>Plan your perfect trip to Southern Sweden</h4>
   </div>
 </div>
     <div class="carousel-item text-center">
       <img src="../assets/images/turning-torso1.jpg" class="d-block w-100" alt="...">
 <div class="carousel-caption d-md-block">
-   <h4>Discover Skåne</h4>
-    <h5>Plan your perfect trip to Southern Sweden</h5>
+   <h3>Discover Skåne</h3>
+    <h4>Plan your perfect trip to Southern Sweden</h4>
+  </div>
+</div>
+<div class="carousel-item text-center">
+      <img src="../assets/images/ystad-beach.jpg" class="d-block w-100" alt="...">
+<div class="carousel-caption d-md-block">
+   <h3>Discover Skåne</h3>
+    <h4>Plan your perfect trip to Southern Sweden</h4>
 <!--    <p>Are you are looking to get back to nature, to enjoy a family beach break, or hoping to soak up some world class culture? Sweden's southern-most county has something for everyone.
          Find out below about some of our favourite places to visit, and see them marked
         on the map. Don't forget to get in touch with us to suggest more places of interest.</p> -->
@@ -75,30 +86,50 @@
 </div>
 </div>
 
-<!--navbar-->
-<div class = "navbar-container-fluid overflow-hidden">
-<nav class="navbar navbar-expand-lg navbar-light bg-custom"> 
-<!--  <a class="navbar-brand" href="#">Discover Skåne</a> -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link" href="#lakes-and-forests">Lakes and Forests <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#beautiful-beaches">Beautiful Beaches</a>
-      <a class="nav-link" href="#city-and-culture">City and Culture</a>
-      <a class="nav-link" href="#city-and-culture">Map</a>
-      <a class="nav-link" href="#city-and-culture">Contact</a>
-      <a class="nav-link" href="#">
-    <img src="assets/images/sweden-flag.png" width="30" height="30" alt="">
-  </a> 
-    </div>
-  </div>
-</nav>
-</div>
+      <!--navbar-->
+      <div class="navbar-container-fluid overflow-hidden">
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+          <!--  <a class="navbar-brand" href="#">Discover Skåne</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="#lakes-and-forests"
+                >Lakes and Forests <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-link" href="#beautiful-beaches"
+                >Beautiful Beaches</a
+              >
+              <a class="nav-link" href="#city-and-culture">City and Culture</a>
+              <a class="nav-link" href="#city-and-culture">Map</a>
+              <a class="nav-link" href="#city-and-culture">Contact</a>
+              <a class="nav-link" href="#">
+                <img
+                  src="assets/images/sweden-flag.png"
+                  width="30"
+                  height="30"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-<!-- This section copied from CI 'Whiskey Drop' walkthrough -->
-  <!--  
+      <!-- This section copied from CI 'Whiskey Drop' walkthrough -->
+      <!--  
     <div class="container-fluid overflow-hidden">
       <div class="callout-container-fluid overflow-hidden">
         <div class="row">
@@ -111,7 +142,7 @@
       </div>
     </div> 
 -->
-  <!--
+      <!--
       <div class = "row">
       <div class = "col-12">
         <a>
@@ -124,142 +155,243 @@
       </div>
       </div>
 -->
-    <section class="intro-text">
-    <div class = "row">
-        <div class = "col-12 text-center header">
-            <h1 class = "main-heading">Plan your perfect trip to Southern Sweden</h1> 
-        </div>   
-    </div>
-    <div class = "row">
-    <div class = "col-12 text-center intro-paragraph">
-        <p>Are you are looking to get back to nature, to enjoy a family beach break, or hoping to soak up some world class culture? Sweden's southern-most county has something for everyone.
-         Find out below about some of our favourite places to visit, and see them marked
-        on the map. Don't forget to get in touch with us to suggest more places of interest.   </p>
-    </div>
-    </div>
-    </section>
+      <section class="intro-text">
+        <div class="row">
+          <div class="col-12 text-center header">
+            <h1 class="main-heading">
+              Plan your perfect trip to Southern Sweden
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center intro-paragraph">
+            <p>
+              Are you are looking to get back to nature, to enjoy a family beach
+              break, or hoping to soak up some world class culture? Sweden's
+              southern-most county has something for everyone. Find out below
+              about some of our favourite places to visit, and see them marked
+              on the map. Don't forget to get in touch with us to suggest more
+              places of interest.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <!--Lakes and Forests Cards-->
-   <div class = "row">
-   <div class = "col-12 text-center">
-    <h2 class = "section-header" id="lakes-and-forests">Lakes and Forests</h2> 
-    </div>
-<div class = "card-deck-container-fluid overflow-hidden">
-<div class = "row">
-<div class= "col-md">
-<!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-<div class="card-deck"> 
-  <div class="card falsterbo-card">
-    <img src="assets/images/lake-with-jetty.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lakes</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card d-md-none d-lg-block">
-    <img src="assets/images/soderasen.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">National Parks</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="assets/images/forest-with-sun.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Forests</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+      <!--Lakes and Forests Cards-->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-header" id="lakes-and-forests">
+            Lakes and Forests
+          </h2>
+        </div>
+        <div class="card-deck-container-fluid overflow-hidden">
+          <div class="row">
+            <div class="col-md">
+              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+              <div class="card-deck">
+                <div class="card falsterbo-card">
+                  <img
+                    src="assets/images/lake-with-jetty.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lakes</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card d-md-none d-lg-block">
+                  <img
+                    src="assets/images/soderasen.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">National Parks</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="assets/images/forest-with-sun.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Forests</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<!--Beautiful Beaches Cards-->
-   <div class = "row">
-   <div class = "col-12 text-center">
-    <h2 class = "section-header" id="beautiful-beaches">Beautiful Beaches</h2>
-</div>
-<div class = "card-deck-container-fluid overflow-hidden">
-<div class = "row">
-<div class= "col-md">
-<!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-<div class="card-deck"> 
-  <div class="card malmo-card">
-    <img src="../assets/images/falsterbo.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">East Coast</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/stenshuvud1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">West Coast</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card d-md-none d-lg-block">
-    <img src="../assets/images/malarhusen.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">South Coast</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+      <!--Beautiful Beaches Cards-->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-header" id="beautiful-beaches">
+            Beautiful Beaches
+          </h2>
+        </div>
+        <div class="card-deck-container-fluid overflow-hidden">
+          <div class="row">
+            <div class="col-md">
+              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+              <div class="card-deck">
+                <div class="card malmo-card">
+                  <img
+                    src="../assets/images/falsterbo.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">East Coast</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="../assets/images/stenshuvud1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">West Coast</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card d-md-none d-lg-block">
+                  <img
+                    src="../assets/images/malarhusen.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">South Coast</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<!--City and Culture Cards-->
-   <div class = "row">
-   <div class = "col-12 text-center">
-    <h2 class = "section-header" id="city-and-culture">City and Culture</h2>
-</div>
-<div class = "card-deck-container-fluid overflow-hidden">
-<div class = "row">
-<div class= "col-md">
-<!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-<div class="card-deck"> 
-  <div class="card malmo-card">
-    <img src="../assets/images/malmo1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Malmö</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="../assets/images/helsingborg.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Helsingborg</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card d-md-none d-lg-block">
-    <img src="../assets/images/lund.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lund</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+      <!--City and Culture Cards-->
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-header" id="city-and-culture">City and Culture</h2>
+        </div>
+        <div class="card-deck-container-fluid overflow-hidden">
+          <div class="row">
+            <div class="col-md">
+              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+              <div class="card-deck">
+                <div class="card malmo-card">
+                  <img
+                    src="../assets/images/malmo1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Malmö</h5>
+                    <p class="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="../assets/images/helsingborg.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Helsingborg</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="card d-md-none d-lg-block">
+                  <img
+                    src="../assets/images/lund.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lund</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<footer class="container-fluid" id="footer">
+      <footer class="container-fluid" id="footer">
         <div class="row justify-content-center">
           <div class="col-12">
             <ul class="list-inline social-links">
@@ -279,7 +411,10 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="http://www.instagram.com/bombaygroovequartet">
+                <a
+                  target="_blank"
+                  href="http://www.instagram.com/bombaygroovequartet"
+                >
                   <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                   <span class="sr-only">Instagram</span>
                 </a>
@@ -288,14 +423,23 @@
           </div>
         </div>
       </footer>
-      </div>
-   
+    </div>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

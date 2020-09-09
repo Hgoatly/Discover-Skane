@@ -54,8 +54,7 @@ html, body {
    }
 
 .enter {
-   /* color:#8c5151; */
-   color: #f5f5f5;
+   color: #105960;
     font-family: 'Oswald', cursive;
     font-size: 3rem;
     margin-top: 4rem;
@@ -93,7 +92,7 @@ html, body {
 
 .jumbotron-header {
    /* color: #8c5151; */
-   color: #f5f5f5;
+   color: #105960;
     font-family: 'Oswald';
     font-size: 6rem; 
 }
@@ -118,22 +117,29 @@ html, body {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev{
-    display:block;
+   display:block; 
 }
 
 .carousel-caption {
-    margin-bottom: 18rem;
+    margin-bottom: 20rem; 
 }
 
-.carousel-caption > h4 {
+.carousel-caption > h3 {
     font-size: 6rem;
-    font-family: 'Oswald', cursive;
+    font-family: 'Oswald', cursive; 
+  /*  position: relative; 
+    display: flex;
+   align-items: center;
+   justify-content: center; */
+    position: relative;
+   
 }
-.carousel-caption > h5 {
+.carousel-caption > h4 {
     font-size: 3rem;
     font-family: 'Oswald';
-    margin-bottom: 18rem; 
+/*    margin-bottom: 18rem; */ 
 }
+
 /*---------City and Culture---------*/
 
 .section-header {
