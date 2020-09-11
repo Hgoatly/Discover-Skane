@@ -1,9 +1,49 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5; 
   /*  color: #696e82; */
+} 
+.navbar-container-fluid{
+    position: absolute; 
+    width: 100%;
+    z-index:10;  
+    background: transparent;
 }
+
+.navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0;
+    background: none;
+    }
+
+.bg-custom {
+    background: none;
+}
+.navbar-brand {
+    font-family: 'Oswald', cursive;
+    font-size: 3rem;
+}
+.navbar-light .navbar-brand {
+    color: #696e82;
+}
+
+.navbar-fixed-top {
+    background: transparent;
+}
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#696e82;
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:white;
+}
+
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
 .pimg1, .pimg2, .pimg3, .pimg4{
@@ -55,36 +95,6 @@ html, body {
 }
 /* End of copied code */
 
-
-.navbar {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0;
-}
-
-.bg-custom {
-    background-color: #f5f5f5;
-}
-.navbar-brand {
-    font-family: 'Oswald', cursive;
-    font-size: 3rem;
-}
-.navbar-light .navbar-brand {
-    color: #696e82;
-}
-
-.navbar-light .navbar-brand:hover {
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-    color:#696e82;
-    font-family: 'Oswald';
-    font-size: 1.5rem;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-    color:white;
-}
-
 .img-fluid {
     padding-top: 5.1rem;s
 }
@@ -129,12 +139,6 @@ html, body {
     padding-left: 0;
     padding-right: 0;
     border: 0;
-}
-
-.navbar-container-fluid{
-/*    position: fixed; */
-    width: 100%;
-    z-index:10;  
 }
 
 .jumbotron {
