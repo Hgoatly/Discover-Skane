@@ -2,46 +2,42 @@ html, body {
     width: 100%;
     overflow-x: hidden;
     background-color: #f5f5f5; 
-  /*  color: #696e82; */
 } 
 .navbar-container-fluid{
-    position: absolute; 
+    position: relative; 
     width: 100%;
     z-index:10;  
-    background: transparent;
+  /*  background: transparent; */
 }
 
 .navbar {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 0;
-    background: none;
+    background: #4f4646;
     }
 
-.bg-custom {
-    background: none;
-}
+
 .navbar-brand {
     font-family: 'Oswald', cursive;
     font-size: 3rem;
 }
-.navbar-light .navbar-brand {
-    color: #696e82;
-}
 
+/*
 .navbar-fixed-top {
     background: transparent;
-}
+}*/
+/*
 .navbar-light .navbar-brand:hover {
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-    color:#696e82;
+    color: #000;
+} */
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
     font-family: 'Oswald';
     font-size: 1.5rem;
 }
-.navbar-light .navbar-nav .nav-link:hover {
-    color:white;
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#fff;
 }
 
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
@@ -58,7 +54,7 @@ html, body {
 }
 
 .pimg1{
-    background-image:url('../images/sunlit-forest.jpg');
+    background-image:url('../images/skane-flag.jpg');
     min-height: 100vh;
 }
 
@@ -82,16 +78,18 @@ html, body {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color:#000;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    font-family: 'oswald'
 }
 
 .ptext .border {
-    background-color: #111;
+  /*  background-color: #111; */
     color: #fff;
     padding: 20px;
+    background-color: #4f4646;
 }
 /* End of copied code */
 
