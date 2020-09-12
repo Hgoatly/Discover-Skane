@@ -26,19 +26,33 @@
   <body>
     <div class="container-fluid overflow-hidden" id="landing-page">
       <div class="callout-container-fluid overflow-hidden">
-        <div class="row">
+   <!--     <div class="row">
           <div class="col-12 callout-column">
-            <section class="callout jumbotron text-center">
-              <h2 class="jumbotron-header text-uppercase">
+            <section class="callout jumbotron text-center">    
+             <h2 class="jumbotron-header text-uppercase border">
                 <strong>Discover Skåne</strong>
-              </h2>
-              <a class="enter" onclick="hideLandingPage()">Enter</a>
+             </h2> 
+             <a class="enter" onclick="hideLandingPage()">Enter</a>
             </section>
           </div>
+        </div> 
+        <div class="pimg1"> -->
+        
+        <div class="ptext">
+            <span class="border">
+                Discover Skåne
+            </span>
         </div>
-      </div>
+   
+        <div class="ptext" id="enter-link" onclick="hideLandingPage()">
+            <span class="border enter">
+                Enter
+            </span>
+            
+        </div>
+        </div>
     </div>
-
+     
     <div id="main-content" onclick="displayMainContent()">
     <!--navbar-->
       <div class="navbar-container-fluid overflow-hidden">
@@ -91,82 +105,7 @@
         </div>
     </div>
 
-     
-   <!--   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active text-center">
-      <img src="../assets/images/stone-beach-sunset.jpg" class="d-block w-100" alt="...">
-  <div class="carousel-caption d-md-block">
-  <h3>Discover Skåne</h3>
-    <h4>Plan your perfect trip to Southern Sweden</h4>
-  </div>
-</div>
-    <div class="carousel-item text-center">
-      <img src="../assets/images/sunlit-forest.jpg" class="d-block w-100" alt="...">
-    <div class="carousel-caption d-md-block">
-    <h3>Discover Skåne</h3>
-    <h4>Plan your perfect trip to Southern Sweden</h4>
-  </div>
-</div>
-    <div class="carousel-item text-center">
-      <img src="../assets/images/turning-torso1.jpg" class="d-block w-100" alt="...">
-<div class="carousel-caption d-md-block">
-   <h3>Discover Skåne</h3>
-    <h4>Plan your perfect trip to Southern Sweden</h4>
-  </div>
-</div>
-<div class="carousel-item text-center">
-      <img src="../assets/images/ystad-beach.jpg" class="d-block w-100" alt="...">
-<div class="carousel-caption d-md-block">
-   <h3>Discover Skåne</h3>
-    <h4>Plan your perfect trip to Southern Sweden</h4>
-   <p>Are you are looking to get back to nature, to enjoy a family beach break, or hoping to soak up some world class culture? Sweden's southern-most county has something for everyone.
-         Find out below about some of our favourite places to visit, and see them marked
-        on the map. Don't forget to get in touch with us to suggest more places of interest.</p> 
-  </div>
-</div>
-<div>
-  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-</div> 
--->
-
-    
-      <!-- This section copied from CI 'Whiskey Drop' walkthrough -->
-      <!--  
-    <div class="container-fluid overflow-hidden">
-      <div class="callout-container-fluid overflow-hidden">
-        <div class="row">
-          <div class="col-12 callout-column">
-            <section class="callout jumbotron text-center">
-              <h2 class="jumbotron-header text-uppercase"><strong>Discover Skåne</strong></h2> 
-            </section> 
-          </div>
-        </div>
-      </div>
-    </div> 
--->
-      <!--
-      <div class = "row">
-      <div class = "col-12">
-        <a>
-          <img
-            class="img-fluid hero-image"
-            src="assets/images/lake_cropped.jpg"
-            alt="Reflections in a lake in southern Sweden"
-          />
-        </a>
-      </div>
-      </div>
--->
+ 
       <section class="intro-text">
         <div class="row">
           <div class="col-12 text-center header">
@@ -198,12 +137,6 @@
     </div>
 
       <!--Lakes and Forests Cards-->
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-header" id="lakes-and-forests">
-            Lakes and Forests
-          </h2>
-        </div>
         <div class="card-deck-container-fluid overflow-hidden">
           <div class="row">
             <div class="col-md">
@@ -267,7 +200,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
 
 <div class="pimg3">
         <div class="ptext">
@@ -278,12 +211,6 @@
     </div>
 
       <!--Beautiful Beaches Cards-->
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-header" id="beautiful-beaches">
-            Beautiful Beaches
-          </h2>
-        </div>
         <div class="card-deck-container-fluid overflow-hidden">
           <div class="row">
             <div class="col-md">
@@ -347,7 +274,6 @@
             </div>
           </div>
         </div>
-      </div>
 
 <div class="pimg4">
         <div class="ptext">
@@ -358,10 +284,6 @@
     </div>
 
       <!--City and Culture Cards-->
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-header" id="city-and-culture">City and Culture</h2>
-        </div>
         <div class="card-deck-container-fluid overflow-hidden">
           <div class="row">
             <div class="col-md">
@@ -425,8 +347,7 @@
             </div>
           </div>
         </div>
-      </div>
-
+      
       <footer class="container-fluid" id="footer">
         <div class="row justify-content-center">
           <div class="col-12">
