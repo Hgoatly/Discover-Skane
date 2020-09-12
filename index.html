@@ -33,16 +33,18 @@
         </div>
    
         <div class="ptext" id="enter-link" onclick="hideLandingPage()">
-            <span class="border enter">
+        <!--    <span class="border enter">
                 Enter
             </span>
-            
+            -->
+
+            <button type="button" class="btn btn-danger">Enter</button>
         </div>
         </div>
     </div>
      
     <div id="main-content" onclick="displayMainContent()">
-    <!--navbar-->
+    <!--navbar copied from https://getbootstrap.com/docs/4.5/components/navbar/-->
       <div class="navbar-container-fluid overflow-hidden">
         <nav class="navbar navbar-expand-lg navbar-dark bg-custom navbar-fixed-top">
         <!--    <a class="navbar-brand" href="#">Discover Skåne</a> -->
@@ -116,7 +118,7 @@
         </div>
       </section>
 
-      <div class="pimg2">
+      <div class="pimg2" id="lakes-and-forests">
         <div class="ptext">
             <span class="border">
                 Lakes and Forests
@@ -190,7 +192,7 @@
         </div>
       
 
-<div class="pimg3">
+<div class="pimg3" id="beautiful-beaches">
         <div class="ptext">
             <span class="border">
                 Beautiful Beaches
@@ -263,7 +265,7 @@
           </div>
         </div>
 
-<div class="pimg4">
+<div class="pimg4" id="city-and-culture">
         <div class="ptext">
             <span class="border">
                 City and Culture

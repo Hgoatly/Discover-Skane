@@ -104,12 +104,14 @@ html, body {
    position: relative;
    }
 
+
 #enter-link{
     top:75%;
 }
-.enter {
+/*
+.enter{
     font-family: 'Oswald', cursive;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 8rem;
 }
 
@@ -117,7 +119,14 @@ html, body {
     color:black;
     text-decoration: none;
 }
+*/
+.btn-danger{
+    color:#d8b54d;
+}
 
+.btn-danger:hover{
+    color:#fff;
+}
 .col-12 {
     padding: 0px;
 }
