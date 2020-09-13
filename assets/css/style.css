@@ -1,7 +1,8 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
+    color:#4f4646; 
 } 
 .navbar-container-fluid{
     position: relative; 
@@ -161,17 +162,12 @@ html, body {
 .card-header{
     font-size: 1.25rem;
     background-color: #fff;
-    color: #4f4646;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .card-img-top {
     height:20rem;
-}
-
-.card-text {
-    color: #4f4646;
 }
 
 #footer {
