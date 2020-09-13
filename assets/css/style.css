@@ -171,14 +171,14 @@ html, body {
     margin-bottom: 2rem;
 }
 
-/*---------City and Culture---------*/
-
-.section-header {
-    font-family: 'Oswald';
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+/*---------Cards---------*/
+.card-header{
+    font-size: 1.25rem;
+    background-color: #fff;
+    color: #4f4646;
+    font-weight: 500;
+    line-height: 1.2;
 }
-
 .card-deck {
     margin-left: 15px;
     margin-right: 15px;
