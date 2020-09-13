@@ -78,7 +78,6 @@ html, body {
 }
 
 .ptext .border{
-  /*  background-color: #111; */
     color: #fff;
     padding: 20px;
     background-color: #4f4646;
@@ -109,6 +108,7 @@ html, body {
 
 .btn{
     border-radius: 0rem;
+    border-color: #fff;
 }
 .btn-danger{
     color:#d8b54d;
