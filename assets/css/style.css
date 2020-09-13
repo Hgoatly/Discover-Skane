@@ -7,7 +7,6 @@ html, body {
     position: relative; 
     width: 100%;
     z-index:10;  
-  /*  background: transparent; */
 }
 
 .navbar {
@@ -104,22 +103,10 @@ html, body {
    position: relative;
    }
 
-
 #enter-link{
     top:75%;
 }
-/*
-.enter{
-    font-family: 'Oswald', cursive;
-    font-size: 15px;
-    margin-top: 8rem;
-}
 
-.enter:hover {
-    color:black;
-    text-decoration: none;
-}
-*/
 .btn{
     border-radius: 0rem;
 }
@@ -141,18 +128,6 @@ html, body {
     border: 0;
 }
 
-.jumbotron {
-    background-color: transparent;
-    padding: 0;
-}
-/*
-.jumbotron-header {
-    color: #8c5151; 
-   color: #105960;
-    font-family: 'Oswald';
-    font-size: 6rem; 
-}
-*/
 .intro-text {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -172,13 +147,6 @@ html, body {
 }
 
 /*---------Cards---------*/
-.card-header{
-    font-size: 1.25rem;
-    background-color: #fff;
-    color: #4f4646;
-    font-weight: 500;
-    line-height: 1.2;
-}
 .card-deck {
     margin-left: 15px;
     margin-right: 15px;
@@ -190,8 +158,20 @@ html, body {
     width: 28rem;
 }
 
+.card-header{
+    font-size: 1.25rem;
+    background-color: #fff;
+    color: #4f4646;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .card-img-top {
     height:20rem;
+}
+
+.card-text {
+    color: #4f4646;
 }
 
 #footer {
