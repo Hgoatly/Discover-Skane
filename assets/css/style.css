@@ -120,6 +120,9 @@ html, body {
     text-decoration: none;
 }
 */
+.btn{
+    border-radius: 0rem;
+}
 .btn-danger{
     color:#d8b54d;
 }
