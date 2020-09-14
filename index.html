@@ -86,7 +86,8 @@
         </nav>
       </div>  
 
-<!-- This Section copied from https://github.com/Eventyret/simple-parallax/blob/master/index.html -->
+<!-- This Section copied from an example shared on Slackspace by Eventyret Mentor:
+ https://github.com/Eventyret/simple-parallax/blob/master/index.html -->
     <div class="pimg1">
         <div class="ptext">
             <span class="border">
@@ -366,11 +367,19 @@
           </div>
         </div>
         </div>
-      
+        <div class="continer-fluid">
+        <div class="col-12">
+        <div class="row">
+        <div id="map">
+        </div>
+        </div>
+        </div>
+        </div>
       <footer class="container-fluid" id="footer">
         <div class="row justify-content-center">
           <div class="col-12">
-            <ul class="list-inline social-links">
+          <span>Site designed by Helen Goatly</span>
+        <!--    <ul class="list-inline social-links">
               <li class="list-inline-item">
                 <a
                   target="_blank"
@@ -395,12 +404,26 @@
                   <span class="sr-only">Instagram</span>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </footer>
     </div>
-
+    <script>
+      function initMap() {
+          var map = new google.maps.Map(document.getElementById("map"), {
+              zoom: 3,
+              center: {
+                  lat: 46.619261,
+                  lng: -33.134766
+              }
+          });
+      }
+    </script>
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIV0mO5G4ooybJoAsu_IjfsJgd_v2YTIs&callback=initMap">
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
