@@ -190,11 +190,14 @@ html, body {
         padding-right: 2rem;
     }
     .card-deck {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
     .card-deck .card {
         border: 0rem;
         margin: 0rem;
+    }
+    .ptext {
+        letter-spacing: 4px;
     }
 }
