@@ -17,7 +17,6 @@ html, body {
     background: #4f4646;
     }
 
-
 .navbar-brand {
     font-family: 'Oswald', cursive;
     font-size: 3rem;
@@ -35,7 +34,7 @@ html, body {
 
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
-.pimg1, .pimg2, .pimg3, .pimg4{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     position: relative;
     opacity: 1;
     background-position: center;
@@ -63,6 +62,11 @@ html, body {
 
 .pimg4{
     background-image:url('../images/sofiero.jpg');
+    min-height: 400px;
+}
+
+.pimg5{
+    background-image:url('../images/road.jpg');
     min-height: 400px;
 }
 
@@ -182,9 +186,9 @@ html, body {
 }
 
 #map {
-    min-height: 100vh;
-    min-width: 100vw;
-    align-items:center;
+    min-height: 90vh;
+    min-width: 95vw;
+    margin: 30px;
     }
 
 @media only screen and (max-width: 700px) {
