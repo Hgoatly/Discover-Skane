@@ -57,4 +57,13 @@ function initMap() {
 
       var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-      } 
+      
+      var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+        } 
+

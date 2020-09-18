@@ -142,7 +142,16 @@
                     src="assets/images/lake-with-jetty.jpg"
                     class="card-img-top"
                     alt="..."
+                    id="lakes"
                   />
+                   <div class="continer-fluid">
+        <div class="col-12">
+        <div class="row justify-content-center"> 
+        <div id="lake-map" class="card-maps">
+        </div>
+        </div>
+        </div>
+        </div> 
                   <div class="card-body">
                     <p class="card-text">
                       Even in the middle of the countryside, you are never far away from the water in Skåne. 
@@ -151,7 +160,7 @@
                       ours are lake Immeln, Hjälmsjön and Hammarsjön.
                     </p>
                     <p class="card-text">
-                      <small class="text-muted">View on map</small>
+                      <a class="text-muted" onclick="showMap(); hideMap()">View on map</a>
                     </p>
                   </div>
                 </div>
