@@ -11,23 +11,35 @@ let lakeMap = document.getElementById("lake-map")
 let lakes = document.getElementById("lakes");
 lakeMap.style.display = "none";
 
-
 function showMap() {
-/*    a.style.display = "none";
-    z.style.display = "block";
-}
 
-function hideMap() {
-    a.style.display = "block";
-    z.style.display = "none";
-}
-*/
+    let mapButtons = document.getElementsByClassName("map-buttons");
+    let hideMapButtons = document.getElementsByClassName("hide-map-buttons");
+
 
 if (lakeMap.style.display === "none") {
     lakeMap.style.display = "block";
     lakes.style.display = "none";
+/*    mapButtons.style.display = "none";
+    hideMapButtons.style.display = "block"; */
+    mapButtons[0].innerHTML = "Hide Map"; 
 } else {
     lakeMap.style.display = "none";
     lakes.style.display = "block";
+ /*   mapButtons.style.display = "block";
+    hideMapButtons.style.display = "none"; */
+    mapButtons[0].innerHTML = "Show on Map";
 }
 }
+/*
+let mapButtons = document.getElementsByClassName("map-buttons");
+let hideMapButtons = document.getElementsByClassName("hide-map-buttons");
+
+function hideMapButtons() {
+    if (mapButtons.style.display === "none") {
+        hideMapButtons.style.display = "block";
+    } else {
+        hideMapButtons.style.display = "none";
+    }
+}
+*/

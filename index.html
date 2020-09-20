@@ -27,27 +27,29 @@
     <div class="container-fluid overflow-hidden" id="landing-page">
       <div class="callout-container-fluid overflow-hidden">
         <div class="ptext" id="main-heading">
-            <span class="border">
-                Discover Skåne
-            </span>
+          <span class="border">
+            Discover Skåne
+          </span>
         </div>
-   
+
         <div class="ptext" id="enter-link" onclick="hideLandingPage()">
-        <!--    <span class="border enter">
+          <!--    <span class="border enter">
                 Enter
             </span>
             -->
 
-            <button type="button" class="btn btn-danger">Enter</button>
+          <button type="button" class="btn btn-danger">Enter</button>
         </div>
-        </div>
+      </div>
     </div>
-     
+
     <div id="main-content" onclick="displayMainContent()">
-    <!--navbar copied from https://getbootstrap.com/docs/4.5/components/navbar/-->
+      <!--navbar copied from https://getbootstrap.com/docs/4.5/components/navbar/-->
       <div class="navbar-container-fluid overflow-hidden">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom navbar-fixed-top">
-        <!--    <a class="navbar-brand" href="#">Discover Skåne</a> -->
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-custom navbar-fixed-top"
+        >
+          <!--    <a class="navbar-brand" href="#">Discover Skåne</a> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -84,19 +86,18 @@
             </div>
           </div>
         </nav>
-      </div>  
+      </div>
 
-<!-- This Section copied from an example shared on Slackspace by Eventyret Mentor:
+      <!-- This Section copied from an example shared on Slackspace by Eventyret Mentor:
  https://github.com/Eventyret/simple-parallax/blob/master/index.html -->
-    <div class="pimg1">
+      <div class="pimg1">
         <div class="ptext">
-            <span class="border">
-                Discover Skåne
-            </span>
+          <span class="border">
+            Discover Skåne
+          </span>
         </div>
-    </div>
+      </div>
 
- 
       <section class="intro-text">
         <div class="row">
           <div class="col-12 text-center header">
@@ -121,53 +122,54 @@
 
       <div class="pimg2" id="lakes-and-forests">
         <div class="ptext">
-            <span class="border">
-                Lakes and Forests
-            </span>
+          <span class="border">
+            Lakes and Forests
+          </span>
         </div>
-    </div>
+      </div>
 
       <!--Lakes and Forests Cards-->
-        <div class="card-deck-container-fluid overflow-hidden">
-          <div class="row">
-            <div class="col-md">
-              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-              <div class="card-deck text-center">
+      <div class="card-deck-container-fluid overflow-hidden">
+        <div class="row">
+          <div class="col-md">
+            <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+            <div class="card-deck text-center">
               <div class="row justify-content-center">
                 <div class="card">
-                <div class="card-header">
-                Lakes
-                </div>
+                  <div class="card-header">
+                    Lakes
+                  </div>
                   <img
                     src="assets/images/lake-with-jetty.jpg"
                     class="card-img-top"
                     alt="..."
                     id="lakes"
                   />
-                   <div class="continer-fluid">
-        <div class="col-12">
-        <div class="row justify-content-center"> 
-        <div id="lake-map" class="card-maps">
-        </div>
-        </div>
-        </div>
-        </div> 
+                  <div class="continer-fluid">
+                    <div class="col-12">
+                      <div class="row justify-content-center">
+                        <div id="lake-map" class="card-maps"></div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="card-body">
                     <p class="card-text">
-                      Even in the middle of the countryside, you are never far away from the water in Skåne. 
-                      From the serene and unspoilt lakes that are deep in the forest, to those with beaches, 
-                      watersports and angling, there really is something for everyone to enjoy. Three favourites of
-                      ours are lake Immeln, Hjälmsjön and Hammarsjön.
+                      Even in the middle of the countryside, you are never far
+                      away from the water in Skåne. From the serene and unspoilt
+                      lakes that are deep in the forest, to those with beaches,
+                      watersports and angling, there really is something for
+                      everyone to enjoy. Three favourites of ours are lake
+                      Immeln, Hjälmsjön and Hammarsjön.
                     </p>
                     <p class="card-text">
-                      <a class="text-muted" onclick="showMap(); hideMap()">View on map</a>
+                      <button class="text-muted btn map-buttons" onclick="showMap()">View on Map</button>
                     </p>
                   </div>
                 </div>
                 <div class="card d-sm-none d-lg-block">
-                <div class="card-header">
-                National Parks
-                </div>
+                  <div class="card-header">
+                    National Parks
+                  </div>
                   <img
                     src="assets/images/soderasen.jpg"
                     class="card-img-top"
@@ -175,10 +177,12 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      The National Parks of Skåne are famous for their unspoilt beauty. 
-                      The Sö‎deråsen and Stenshuvud National Parks are two of the most well known, and are 
-                      perfect for hiking, as well as relaxing. They offer a real opportunity 
-                      for visitors to get back to nature, and to 'switch off' from their busy lives.
+                      The National Parks of Skåne are famous for their unspoilt
+                      beauty. The Sö‎deråsen and Stenshuvud National Parks are
+                      two of the most well known, and are perfect for hiking, as
+                      well as relaxing. They offer a real opportunity for
+                      visitors to get back to nature, and to 'switch off' from
+                      their busy lives.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">View on map</small>
@@ -186,9 +190,9 @@
                   </div>
                 </div>
                 <div class="card">
-                <div class="card-header">
-                Forests
-                </div>
+                  <div class="card-header">
+                    Forests
+                  </div>
                   <img
                     src="assets/images/forest-with-sun.jpg"
                     class="card-img-top"
@@ -196,10 +200,12 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Skåne is famous for its lush beech forests, as well as its pine forests. 
-                      With wild mushrooms and blueberries in abundance, why not spend some time foraging
-                      whilst enjoying the beauty of nature. Skrylle, Häckeberga, and Fulltofta Nature Reserves are among
-                      the perfect places to get away from it all. 
+                      Skåne is famous for its lush beech forests, as well as its
+                      pine forests. With wild mushrooms and blueberries in
+                      abundance, why not spend some time foraging whilst
+                      enjoying the beauty of nature. Skrylle, Häckeberga, and
+                      Fulltofta Nature Reserves are among the perfect places to
+                      get away from it all.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">View on map.</small>
@@ -212,25 +218,25 @@
         </div>
       </div>
 
-<div class="pimg3" id="beautiful-beaches">
+      <div class="pimg3" id="beautiful-beaches">
         <div class="ptext">
-            <span class="border">
-                Beautiful Beaches
-            </span>
+          <span class="border">
+            Beautiful Beaches
+          </span>
         </div>
-    </div>
+      </div>
 
       <!--Beautiful Beaches Cards-->
-        <div class="card-deck-container-fluid overflow-hidden">
-          <div class="row">
-            <div class="col-md">
-              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-              <div class="card-deck text-center">
+      <div class="card-deck-container-fluid overflow-hidden">
+        <div class="row">
+          <div class="col-md">
+            <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+            <div class="card-deck text-center">
               <div class="row justify-content-center">
                 <div class="card">
-                <div class="card-header">
-                East Coast
-                </div>
+                  <div class="card-header">
+                    East Coast
+                  </div>
                   <img
                     src="assets/images/stenshuvud1.jpg"
                     class="card-img-top"
@@ -238,9 +244,10 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Many of the finest beaches on the East Coast of Skåne are in the region of 
-                      Österlen, which is famous for its unspoilt beauty. Kivik, Knäbäckshusen and 
-                      Yngsjö all have beautiful beaches that are worth a visit. 
+                      Many of the finest beaches on the East Coast of Skåne are
+                      in the region of Österlen, which is famous for its
+                      unspoilt beauty. Kivik, Knäbäckshusen and Yngsjö all have
+                      beautiful beaches that are worth a visit.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">Last updated 3 mins ago</small>
@@ -248,9 +255,9 @@
                   </div>
                 </div>
                 <div class="card">
-                <div class="card-header">
-                West Coast
-                </div>
+                  <div class="card-header">
+                    West Coast
+                  </div>
                   <img
                     src="assets/images/falsterbo.jpg"
                     class="card-img-top"
@@ -258,10 +265,12 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Most of the beaches on the West Coast of Skåne are situated within a reasonable 
-                      driving distance of the cities of Malmö‎ and Helsingborg. This makes them perfect 
-                      for anyone hoping to combine their beach holiday with a visit to the city. Our 
-                      recommendations include Falsterbo, Farhultsbaden and Lomma norra badplats.
+                      Most of the beaches on the West Coast of Skåne are
+                      situated within a reasonable driving distance of the
+                      cities of Malmö‎ and Helsingborg. This makes them perfect
+                      for anyone hoping to combine their beach holiday with a
+                      visit to the city. Our recommendations include Falsterbo,
+                      Farhultsbaden and Lomma norra badplats.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">Show on map</small>
@@ -269,9 +278,9 @@
                   </div>
                 </div>
                 <div class="card d-sm-none d-lg-block">
-                <div class="card-header">
-                South Coast
-                </div>
+                  <div class="card-header">
+                    South Coast
+                  </div>
                   <img
                     src="assets/images/malarhusen.jpg"
                     class="card-img-top"
@@ -279,9 +288,10 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                     The south coast of Skåne is home to the rocky beach at Smygehuk - 
-                     which is at the southern-most point of Sweden. Other notable south-coast beaches 
-                     include the sandy beaches of Sandhammaren and Ystad Havsbad.
+                      The south coast of Skåne is home to the rocky beach at
+                      Smygehuk - which is at the southern-most point of Sweden.
+                      Other notable south-coast beaches include the sandy
+                      beaches of Sandhammaren and Ystad Havsbad.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">Show on map</small>
@@ -292,27 +302,27 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
-<div class="pimg4" id="city-and-culture">
+      <div class="pimg4" id="city-and-culture">
         <div class="ptext">
-            <span class="border">
-                City and Culture
-            </span>
+          <span class="border">
+            City and Culture
+          </span>
         </div>
-    </div>
+      </div>
 
       <!--City and Culture Cards-->
-        <div class="card-deck-container-fluid overflow-hidden">
-          <div class="row">
-            <div class="col-md">
-              <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
-              <div class="card-deck text-center">
+      <div class="card-deck-container-fluid overflow-hidden">
+        <div class="row">
+          <div class="col-md">
+            <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+            <div class="card-deck text-center">
               <div class="row justify-content-center">
                 <div class="card malmo-card">
-                <div class="card-header">
-                Malmö
-                </div>
+                  <div class="card-header">
+                    Malmö
+                  </div>
                   <img
                     src="assets/images/malmo1.jpg"
                     class="card-img-top"
@@ -320,10 +330,11 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Malmö is Sweden's third city, and is linked to Denmark by the world famous Öresunds bridge. 
-                      It has a rich and diverse cultural heritage, and its many attractions include the Malmö Opera and
-                      Concert houses, Malmö Castle, and the Disgusting Food Museum.
-                      
+                      Malmö is Sweden's third city, and is linked to Denmark by
+                      the world famous Öresunds bridge. It has a rich and
+                      diverse cultural heritage, and its many attractions
+                      include the Malmö Opera and Concert houses, Malmö Castle,
+                      and the Disgusting Food Museum.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">View on map</small>
@@ -331,9 +342,9 @@
                   </div>
                 </div>
                 <div class="card">
-                <div class="card-header">
-                Helsingborg
-                </div>
+                  <div class="card-header">
+                    Helsingborg
+                  </div>
                   <img
                     src="assets/images/helsingborg.jpg"
                     class="card-img-top"
@@ -341,10 +352,12 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                      Helsingborg is situated on the west coast of Skåne, where the Öresund is at its narrowest.
-                      Denmark is clearly visible across the water. 
-                      Although smaller than Malmö‎, it still has a thriving cultural scene. Dunkers Culture House, 
-                      Helsingborg's Concert House and Sofiero Castle are just a few of the many places to visit here.
+                      Helsingborg is situated on the west coast of Skåne, where
+                      the Öresund is at its narrowest. Denmark is clearly
+                      visible across the water. Although smaller than Malmö‎, it
+                      still has a thriving cultural scene. Dunkers Culture
+                      House, Helsingborg's Concert House and Sofiero Castle are
+                      just a few of the many places to visit here.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">View on map</small>
@@ -352,9 +365,9 @@
                   </div>
                 </div>
                 <div class="card d-sm-none d-lg-block">
-                <div class="card-header">
-                Lund
-                </div>
+                  <div class="card-header">
+                    Lund
+                  </div>
                   <img
                     src="assets/images/lund.jpg"
                     class="card-img-top"
@@ -362,9 +375,11 @@
                   />
                   <div class="card-body">
                     <p class="card-text">
-                     Home to the famous Lutheren Cathedral, Lund is thought to be the oldest city in modern-day Sweden.
-                     A vibrant student city, with cobbled streets, there is plenty to see and do. In addition to the cathedral, 
-                     Kulturen - an outdoor museum, and the Lund planetarium are not to be missed. 
+                      Home to the famous Lutheren Cathedral, Lund is thought to
+                      be the oldest city in modern-day Sweden. A vibrant student
+                      city, with cobbled streets, there is plenty to see and do.
+                      In addition to the cathedral, Kulturen - an outdoor
+                      museum, and the Lund planetarium are not to be missed.
                     </p>
                     <p class="card-text">
                       <small class="text-muted">View on map</small>
@@ -375,37 +390,38 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
-    <div class="pimg5" id="map-header">
+      <div class="pimg5" id="map-header">
         <div class="ptext">
-            <span class="border">
-                Map
-            </span>
+          <span class="border">
+            Map
+          </span>
         </div>
-    </div>
+      </div>
 
-        <div class="continer-fluid">
+      <div class="continer-fluid">
         <div class="col-12">
-        <div class="row justify-content-center">
-        <div id="map">
+          <div class="row justify-content-center">
+            <div id="map"></div>
+          </div>
         </div>
-        </div>
-        </div>
-        </div>
+      </div>
+
       <footer class="container-fluid" id="footer">
         <div class="row justify-content-center">
           <div class="col-12">
-          <span>Site designed by Helen Goatly</span>
+            <span>Site designed by Helen Goatly</span>
           </div>
         </div>
       </footer>
     </div>
-    
+
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-    <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIV0mO5G4ooybJoAsu_IjfsJgd_v2YTIs&callback=initMap">
-    </script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIV0mO5G4ooybJoAsu_IjfsJgd_v2YTIs&callback=initMap"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

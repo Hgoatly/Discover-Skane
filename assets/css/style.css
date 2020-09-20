@@ -112,11 +112,13 @@ html, body {
 }
 
 .btn{
-    border-radius: 0rem;
-    border-color: #fff;
+/*    border-radius: 0rem;
+    border-color: #fff; */
 }
 .btn-danger{
     color:#d8b54d;
+     border-radius: 0rem;
+    border-color: #fff;
 }
 
 .btn-danger:hover{
@@ -185,7 +187,7 @@ html, body {
   padding-top: 1rem;
 }
 
-#map, {
+#map {
     min-height: 90vh;
     min-width: 95vw;
     margin: 30px;
