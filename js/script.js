@@ -14,7 +14,7 @@ lakeMap.style.display = "none";
 function showMap() {
 
     let mapButtons = document.getElementsByClassName("map-buttons");
-    let hideMapButtons = document.getElementsByClassName("hide-map-buttons");
+ /*   let hideMapButtons = document.getElementsByClassName("hide-map-buttons"); */
 
 
 if (lakeMap.style.display === "none") {
@@ -28,18 +28,40 @@ if (lakeMap.style.display === "none") {
     lakes.style.display = "block";
  /*   mapButtons.style.display = "block";
     hideMapButtons.style.display = "none"; */
-    mapButtons[0].innerHTML = "Show on Map";
+    mapButtons[0].innerHTML = "View on Map";
 }
 }
-/*
-let mapButtons = document.getElementsByClassName("map-buttons");
-let hideMapButtons = document.getElementsByClassName("hide-map-buttons");
 
-function hideMapButtons() {
-    if (mapButtons.style.display === "none") {
-        hideMapButtons.style.display = "block";
+let nationalParksMap = document.getElementById("national-parks-map");
+let nationalParks = document.getElementById("national-parks");
+nationalParksMap.style.display = "none";
+
+function showNationalParksMap() {
+
+    if (nationalParksMap.style.display === "none") {
+        nationalParksMap.style.display = "block";
+        nationalParks.style.display = "none";
+        mapButtons[0].innerHTML = "Hide Map"
     } else {
-        hideMapButtons.style.display = "none";
+        nationalParksMap.style.display = "none";
+        nationalParks.style.display = "block";
+        mapButtons[0].innerHTML = "View on Map";
     }
 }
-*/
+
+let forestsMap = document.getElementById("forests-map");
+let forests = document.getElementById("forests");
+forestsMap.style.display = "none";
+
+function showForestsMap() {
+
+    if (forestsMap.style.display === "none") {
+        forestsMap.style.display = "block";
+        forests.style.display = "none";
+        mapButtons[0].innerHTML = "Hide Map"
+    } else {
+        forestsMap.style.display = "none";
+        forests.style.display = "block";
+        mapButtons[0].innerHTML = "View on Map";
+    }
+}
