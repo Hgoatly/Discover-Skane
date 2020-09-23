@@ -85,14 +85,30 @@ function showMap() {
 */
 
 $(document).ready(function(){
+
     $("#maps-button-1").click(function(){
-        $(".card-front").toggle();
-        $(".card-back").toggle();
-       
+        $("#card-front-1").toggle();
+        $("#card-back-1").toggle();
+        
+        })
+
+    $("#maps-button-2").click(function(){
+        $("#card-front-2").toggle();
+        $("#card-back-2").toggle();
+        
+        })
+
+    $("#maps-button-3").click(function(){
+        $("#card-front-3").toggle();
+        $("#card-back-3").toggle();
+        })
+
+    $("#maps-button-4").click(function(){
+        $("#card-front-4").toggle();
+        $("#card-back-4").toggle();
     })
 
-    $(".map-buttons").click(function(){
-        $(".map-buttons").text("Hide Map");
-        
-    })
+     $(".map-buttons").click(function(){
+         $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
+     })   
 });

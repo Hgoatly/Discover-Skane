@@ -29,6 +29,14 @@ function initMap() {
               }
           });
 
+          var eastCoastMap = new google.maps.Map(document.getElementById("east-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
       var locations = [

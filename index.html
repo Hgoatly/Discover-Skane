@@ -133,8 +133,9 @@
       <div class="card-deck-container-fluid overflow-hidden">
         <div class="row">
           <div class="col-md">
-            <!-- This Section copied from: https://getbootstrap.com/docs/4.5/components/card/ -->
+            <!-- This Section inspired by: https://getbootstrap.com/docs/4.5/components/card/ -->
             
+            <!--Lakes Card and Map-->
             <div class="card-deck text-center">
               <div class="row justify-content-center">
                 <div class="card">
@@ -142,7 +143,7 @@
                     Lakes
                   </div>
                   
-                  <div class="card-front">
+                  <div id="card-front-1">
                   <img
                     src="assets/images/lake-with-jetty.jpg"
                     class="card-img-top card-front toggle-content is-visible"
@@ -150,7 +151,7 @@
                     id="lakes"
                   />
                   </div>
-                  <div class="card-back">
+                  <div id="card-back-1">
                   <div class="continer-fluid">
                     <div class="col-12">
                       <div class="row justify-content-center">
@@ -168,27 +169,32 @@
                       everyone to enjoy. Three favourites of ours are lake
                       Immeln, Hjälmsjön and Hammarsjön.
                     </p>
-                    <p class="card-text">
-                      <button class="text-muted btn map-buttons" id="maps-button-1" onclick="showMap()">View on Map</button>
-                    </p>
+                    <div class="row justify-content-center">
+                      <button class="text-muted btn map-buttons" id="maps-button-1">Show on Map</button>
+                   </div>
                   </div>
                 </div>
+
                 <div class="card d-sm-none d-lg-block">
                   <div class="card-header">
                     National Parks
                   </div>
+                  <div id="card-front-2">
                   <img
                     src="assets/images/soderasen.jpg"
                     class="card-img-top"
                     alt="..."
                     id="national-parks"
                     />
+                    </div>
+                   <div id="card-back-2">
                    <div class="continer-fluid">
                     <div class="col-12">
                       <div class="row justify-content-center">
                         <div class="card-maps" id="national-parks-map"></div>
                       </div>
                     </div>
+                  </div>
                   </div>
                   <div class="card-body">
                     <p class="card-text">
@@ -199,27 +205,33 @@
                       visitors to get back to nature, and to 'switch off' from
                       their busy lives.
                     </p>
-                    <p class="card-text">
-                      <button class="text-muted btn map-buttons" onclick="showNationalParksMap()">View on map</button>
-                    </p>
+                    <div class="row justify-content-center">
+                      <button class="text-muted btn map-buttons" id="maps-button-2">Show on map</button>
+                    </div>
                   </div>
                 </div>
+
                 <div class="card">
                   <div class="card-header">
                     Forests
                   </div>
+                  <div id="card-front-3">
                   <img
                     src="assets/images/forest-with-sun.jpg"
                     class="card-img-top"
                     alt="..."
                     id="forests"
                   />
+                  </div>
+                  <div id="card-back-3">
                   <div class="continer-fluid">
                     <div class="col-12">
                       <div class="row justify-content-center">
-                        <div class="card-maps" id="forests-map"></div>
+                        <div class="card-maps" id="forests-map">
+                        </div>
                       </div>
                     </div>
+                  </div>
                   </div>
                   <div class="card-body">
                     <p class="card-text">
@@ -230,9 +242,9 @@
                       Fulltofta Nature Reserves are among the perfect places to
                       get away from it all.
                     </p>
-                    <p class="card-text">
-                      <button class="text-muted btn map-buttons" onclick="showForestsMap()">View on map.</button>
-                    </p>
+                    <div class="row justify-content-center">
+                      <button class="text-muted btn map-buttons" id="maps-button-3">Show on map.</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -260,11 +272,23 @@
                   <div class="card-header">
                     East Coast
                   </div>
+                  <div id="card-front-4">
                   <img
                     src="assets/images/stenshuvud1.jpg"
                     class="card-img-top"
                     alt="..."
                   />
+                  </div>
+                  <div id="card-back-4">
+                  <div class="continer-fluid">
+                    <div class="col-12">
+                      <div class="row justify-content-center">
+                        <div class="card-maps" id="east-coast-map">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
                   <div class="card-body">
                     <p class="card-text">
                       Many of the finest beaches on the East Coast of Skåne are
@@ -272,9 +296,9 @@
                       unspoilt beauty. Kivik, Knäbäckshusen and Yngsjö all have
                       beautiful beaches that are worth a visit.
                     </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
+                    <div class="row justify-content-center">
+                      <button class="text-muted btn map-buttons" id="maps-button-4">Show on Map</button>
+                    </div>
                   </div>
                 </div>
                 <div class="card">

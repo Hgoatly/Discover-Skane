@@ -190,11 +190,21 @@ html, body {
     height: 20rem;
  }
 
- .card-front {
+ #card-front-1, #card-front-2, #card-front-3,
+ #card-front-4 {
      display: block;
  }
 
-.card-back {
+#card-back-1, #card-back-2, #card-back-3,
+#card-back-4 {
+    display: none;
+}
+
+.map-buttons {
+    display: block;
+}
+
+.map-buttons-hide-map {
     display: none;
 }
 #footer {
