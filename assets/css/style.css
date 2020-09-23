@@ -176,17 +176,6 @@ html, body {
     height:20rem;
 }
 
-#footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:  #4f4646;
-  color: white;
-  text-align: center;
-  padding-top: 1rem;
-}
-
 #map {
     min-height: 90vh;
     min-width: 95vw;
@@ -199,7 +188,24 @@ html, body {
     vertical-align: middle;
     border-style: none;
     height: 20rem;
-   
+ }
+
+ .card-front {
+     display: block;
+ }
+
+.card-back {
+    display: none;
+}
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #4f4646;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 @media only screen and (max-width: 700px) {
