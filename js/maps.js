@@ -37,6 +37,45 @@ function initMap() {
               }
           });
 
+          var westCoastMap = new google.maps.Map(document.getElementById("west-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+           var southtCoastMap = new google.maps.Map(document.getElementById("south-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+          var malmoMap = new google.maps.Map(document.getElementById("malmo-map"), {
+              zoom: 13,
+              center: {
+                  lat: 55.6050,
+                  lng: 13.0038
+              }
+          });
+
+          var helsingborgMap = new google.maps.Map(document.getElementById("helsingborg-map"), {
+              zoom: 13,
+              center: {
+                  lat: 56.0465,
+                  lng: 12.6945
+              }
+          });
+
+          var lundMap = new google.maps.Map(document.getElementById("lund-map"), {
+              zoom: 13,
+              center: {
+                  lat: 55.7047,
+                  lng: 13.1910
+              }
+          });
       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
       var locations = [

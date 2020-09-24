@@ -108,6 +108,31 @@ $(document).ready(function(){
         $("#card-back-4").toggle();
     })
 
+     $("#maps-button-5").click(function(){
+        $("#card-front-5").toggle();
+        $("#card-back-5").toggle();
+    })
+
+     $("#maps-button-6").click(function(){
+        $("#card-front-6").toggle();
+        $("#card-back-6").toggle();
+    })
+
+     $("#maps-button-7").click(function(){
+        $("#card-front-7").toggle();
+        $("#card-back-7").toggle();
+    })
+
+    $("#maps-button-8").click(function(){
+        $("#card-front-8").toggle();
+        $("#card-back-8").toggle();
+    })
+
+    $("#maps-button-9").click(function(){
+        $("#card-front-9").toggle();
+        $("#card-back-9").toggle();
+    })
+
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })   

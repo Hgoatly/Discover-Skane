@@ -191,12 +191,14 @@ html, body {
  }
 
  #card-front-1, #card-front-2, #card-front-3,
- #card-front-4 {
+ #card-front-4, #card-front-5, #card-front-6,
+ #card-front-7, #card-front-8, #card-front-9 {
      display: block;
  }
 
 #card-back-1, #card-back-2, #card-back-3,
-#card-back-4 {
+#card-back-4, #card-back-5, #card-back-6,
+#card-back-7, #card-back-8, #card-back-9 {
     display: none;
 }
 
