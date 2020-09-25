@@ -119,6 +119,11 @@ function initMap() {
           {lat: 55.6996, lng: 13.1879}
         ];
 
+        var lakeLocations = locations.slice(0,3);
+        var nationalParksLocations = locations.slice(3,6);
+        var forestLocations = locations.slice(6,9);
+        var eastCoastLocations = locations.slice(9,12);
+
         var markers = locations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
@@ -126,21 +131,28 @@ function initMap() {
             });
         });
 
-        var lakeMarkers = locations.map(function(location, i) {
+        var lakeMarkers = lakeLocations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
             });
         });
 
-        var nationalParksMarkers = locations.map(function(location, i) {
+        var nationalParksMarkers = nationalParksLocations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
             });
         });
 
-        var forestsMarkers = locations.map(function(location, i) {
+        var forestsMarkers = forestLocations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+        var eastCoastMarkers = eastCoastLocations.map(function(location, i) {
             return new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
@@ -158,5 +170,9 @@ function initMap() {
 
         var forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+
+        var markerCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+
     
 }
