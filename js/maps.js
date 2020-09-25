@@ -120,9 +120,10 @@ function initMap() {
         ];
 
         var lakeLocations = locations.slice(0,3);
-        var nationalParksLocations = locations.slice(3,6);
-        var forestLocations = locations.slice(6,9);
-        var eastCoastLocations = locations.slice(9,12);
+        var nationalParksLocations = locations.slice(3,5);
+        var forestLocations = locations.slice(5,8);
+        var eastCoastLocations = locations.slice(8,11);
+        var westCoastLocations = locations.slice(11,14);
 
         var markers = locations.map(function(location, i) {
             return new google.maps.Marker({
@@ -159,6 +160,13 @@ function initMap() {
             });
         });
 
+         var westCoastMarkers = westCoastLocations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+        
       var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
 
@@ -172,6 +180,9 @@ function initMap() {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
 
         var markerCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+        
+        var markerCluster = new MarkerClusterer(westCoastMap, westCoastMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
 
     
