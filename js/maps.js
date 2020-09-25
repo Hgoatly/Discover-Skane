@@ -1,18 +1,21 @@
 function initMap() {
-          var map = new google.maps.Map(document.getElementById("map"), {
+       
+    var map = new google.maps.Map(document.getElementById("map"), {
               zoom: 8.15,
               center: {
                   lat: 56.0406,
                   lng: 13.6780
               }
           });
-      var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
+
+    var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
                   lng: 13.6780
               }
-          });
+           });
+         
      var nationalParksMap = new google.maps.Map(document.getElementById("national-parks-map"), {
               zoom: 7.5,
               center: {
@@ -123,8 +126,37 @@ function initMap() {
             });
         });
 
-      var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-        } 
-    
+        var lakeMarkers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
 
+        var nationalParksMarkers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+        var forestsMarkers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+      var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+
+        var lakeCluster = new MarkerClusterer(lakeMap, lakeMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+
+        var nationalParksCluster = new MarkerClusterer(nationalParksMap, nationalParksMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+
+        var forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+    
+}
