@@ -111,10 +111,6 @@ html, body {
     top:75%;
 }
 
-.btn{
-/*    border-radius: 0rem;
-    border-color: #fff; */
-}
 .btn-danger{
     color:#d8b54d;
      border-radius: 0rem;
@@ -208,6 +204,10 @@ html, body {
 
 .map-buttons-hide-map {
     display: none;
+}
+
+.info-header {
+    font-weight: 500;
 }
 #footer {
   position: relative;
