@@ -93,7 +93,7 @@ function topFunction() {
 //End of copied code.
 
 function changeButtonColor() {
-
+    document.getElementsByClassName("map-Buttons").style.backgroundColor = "#4f4646";
 }
 
 //Toggle card pictures and maps to be shown and hidden.

@@ -166,6 +166,8 @@ html, body {
     background-color: #fff;
     font-weight: 700;
     line-height: 1.2;
+    font-family: 'Oswald';
+    letter-spacing: 4px;
 }
 
 .card-img-top {
@@ -200,6 +202,7 @@ html, body {
 
 .map-buttons {
     display: block;
+    font-family: 'Oswald', sans-serif;
 }
 
 .map-buttons-hide-map {
@@ -208,16 +211,27 @@ html, body {
 
 .top-button {
     background-color: #fff;
+    color: #4f4646;
+    font-family: 'Oswald', sans-serif; 
     margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
   }
-.top-button:hover {
+  
+.map-buttons:hover,.top-button:hover {
     background-color: #4f4646;
     color: #fff; 
 }
 .info-header {
     font-weight: 500;
+    color: red;
+    text-decoration: none;
 }
 
+.info-header:hover{
+    color: yellow;
+    text-decoration: none;
+}
 #footer {
   position: relative;
   left: 0;
