@@ -206,9 +206,18 @@ html, body {
     display: none;
 }
 
+.top-button {
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+.top-button:hover {
+    background-color: #4f4646;
+    color: #fff; 
+}
 .info-header {
     font-weight: 500;
 }
+
 #footer {
   position: relative;
   left: 0;

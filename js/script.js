@@ -1,10 +1,11 @@
-let y = document.getElementById("main-content");
-y.style.display = "none";
+//Hides Landing Page once 'enter' button is clicked
+let mainContent = document.getElementById("main-content");
+mainContent.style.display = "none";
 
 function hideLandingPage() {
- let x = document.getElementById("landing-page");
- x.style.display = "none";
- y.style.display = "block";
+ let landingPage = document.getElementById("landing-page");
+ landingPage.style.display = "none";
+ mainContent.style.display = "block";
 }
 /*
 let lakeMap = document.getElementById("lake-map")
@@ -83,7 +84,19 @@ function showMap() {
   this.classList.toggle("hide");
 }
 */
+//Function for scroll to top buttons copied from 'w3Schools' website: 
+//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+//End of copied code.
 
+function changeButtonColor() {
+
+}
+
+//Toggle card pictures and maps to be shown and hidden.
 $(document).ready(function(){
 
     $("#maps-button-1").click(function(){
@@ -95,7 +108,7 @@ $(document).ready(function(){
     $("#maps-button-2").click(function(){
         $("#card-front-2").toggle();
         $("#card-back-2").toggle();
-        
+
         })
 
     $("#maps-button-3").click(function(){
