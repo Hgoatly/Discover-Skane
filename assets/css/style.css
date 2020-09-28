@@ -210,8 +210,8 @@ html, body {
 }
 
 .top-button {
-    background-color: #fff;
-    color: #4f4646;
+    background-color:#4f4646;
+    color: #fff;
     font-family: 'Oswald', sans-serif; 
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -219,8 +219,8 @@ html, body {
   }
   
 .map-buttons:hover,.top-button:hover {
-    background-color: #4f4646;
-    color: #fff; 
+    background-color:#fff;
+    color:  #4f4646; 
 }
 .info-header {
     font-weight: 500;
