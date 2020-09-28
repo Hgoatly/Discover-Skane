@@ -159,21 +159,27 @@ html, body {
 }
 .card {
     width: 28rem;
+    border-radius: 0rem;
 }
 
 .card-header{
     font-size: 1.25rem;
     background-color:#4f4646;
     color: #fff;
-   /* font-weight: 700; */
     text-transform: uppercase;
     line-height: 1.2;
     font-family: 'Oswald';
     letter-spacing: 4px;
+    border-radius: 0rem;
+}
+
+.card-header:first-child{
+    border-radius: 0rem;
 }
 
 .card-img-top {
     height:20rem;
+    border-radius: 0rem;
 }
 
 #map {
@@ -188,6 +194,7 @@ html, body {
     vertical-align: middle;
     border-style: none;
     height: 20rem;
+    border-radius: 0rem;
  }
 
  #card-front-1, #card-front-2, #card-front-3,
