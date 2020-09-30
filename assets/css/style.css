@@ -219,7 +219,7 @@ html, body {
     display: none;
 }
 
-.top-button {
+.top-button .send-button {
     background-color:#4f4646;
     color: #fff;
     font-family: 'Oswald', sans-serif; 

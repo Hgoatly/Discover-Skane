@@ -22,6 +22,15 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Discover Skåne</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_4qm5XOihPETG4jb0qW5UN");
+
+   })();
+</script>
   </head>
 
   <body>
@@ -75,7 +84,7 @@
               >
               <a class="nav-link" href="#city-and-culture">City and Culture</a>
               <a class="nav-link" href="#map-header">Map</a>
-              <a class="nav-link" href="#city-and-culture">Contact</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a>
               <a class="nav-link" href="#">
                 <img
                   src="assets/images/sweden-flag.png"
@@ -89,6 +98,37 @@
         </nav>
       </div>
 
+<!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      <!--Form example copied from the CI Resume project-->
+        <div class="center-form">
+                <form onsubmit = "return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" value="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne?" required></textarea>
+                <button type="submit" class="btn top-button center-block">Submit</button>
+                </form>
+            </div>
+      </div>
+      <!--End of copied code-->
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
       <!-- This Section copied from an example shared on Slackspace by Eventyret Mentor:
  https://github.com/Eventyret/simple-parallax/blob/master/index.html -->
       <div class="pimg1" id="discover-skane">
@@ -562,5 +602,6 @@
     ></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/sendemail.js"></script>
   </body>
 </html>

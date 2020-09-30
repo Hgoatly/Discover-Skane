@@ -150,3 +150,20 @@ $(document).ready(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })   
 });
+
+function sendMail(contactForm) {
+    emailjs.send("outlook", "find_my_coffee", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "cafe_signup": contactForm.cafeinfo.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS!", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        });
+        return false;
+        
+}

@@ -154,7 +154,7 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(lakeMarker, 'click', function(evt) {
+            google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, lakeMarker);
             })
