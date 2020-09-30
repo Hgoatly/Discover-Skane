@@ -219,20 +219,27 @@ html, body {
     display: none;
 }
 
-.top-button .send-button {
+.top-button,.form-button {
     background-color:#4f4646;
     color: #fff;
     font-family: 'Oswald', sans-serif; 
     margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     letter-spacing: 4px;
     border-radius: 0rem; 
   }
   
-.map-buttons:hover,.top-button:hover {
+.map-buttons:hover,.top-button:hover,.form-button:hover {
     background-color:#fff;
     color:  #4f4646; 
 }
+
+#submit-button {
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 .info-header {
     font-weight: 500;
     color: red;

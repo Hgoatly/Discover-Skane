@@ -102,8 +102,10 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+           <div class="modal-header">
+      
+        <h5 class="col-12 modal-title text-center" id="exampleModalLabel">Contact Us</h5>
+        
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -115,17 +117,21 @@
                 <form onsubmit = "return sendMail(this);">
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                 <input type="text" value="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                <textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne?" required></textarea>
-                <button type="submit" class="btn top-button center-block">Submit</button>
+                <textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne" required></textarea>
+                <div class="row">
+                <div class="col-12 text-center">
+                <button type="submit" class="btn form-button center-block" id="submit-button">Tell Us</button>
+                </div>
+                </div>
                 </form>
             </div>
       </div>
       <!--End of copied code-->
 
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <!--  <div class="modal-footer">
+        <button type="button" class="btn form-button" data-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-primary">Save changes</button> 
+      </div> -->
     </div>
   </div>
 </div>
