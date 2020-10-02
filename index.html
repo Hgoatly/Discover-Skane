@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Discover Skåne</title>
     <script type="text/javascript"
@@ -560,7 +561,16 @@
           </span>
         </div>
       </div>
-
+ <div class="row">
+      <div class="col-12 text-center">
+      <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search the Map"
+    />
+    </div>
+    </div>
       <div class="continer-fluid">
         <div class="col-12">
           <div class="row justify-content-center">
@@ -568,6 +578,7 @@
           </div>
         </div>
       </div>
+     
 <div class="row justify-content-center">
                       <button class="btn top-button border" onclick="topFunction()">Top of Page</button>
                    </div>
@@ -582,10 +593,17 @@
     </div>
 
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-    <script
+ <!--   <script
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIV0mO5G4ooybJoAsu_IjfsJgd_v2YTIs&callback=initMap"
-    ></script>
+    ></script> -->
+
+    
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> 
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIV0mO5G4ooybJoAsu_IjfsJgd_v2YTIs&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script> 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

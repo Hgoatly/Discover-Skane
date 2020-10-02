@@ -2,7 +2,7 @@
 //Code for how Info Windows can be used in conjunction with Marker Clusters found in an answer on 'Stack Overflow':
 //https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow.
 
-function initMap() {
+function initAutocomplete() {
        
     var map = new google.maps.Map(document.getElementById("map"), {
               zoom: 8.15,
@@ -11,7 +11,63 @@ function initMap() {
                   lng: 13.6780
               }
           });
+/*
+           var input = document.getElementById("pac-input");
+  var searchBox = new google.maps.places.SearchBox(input);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  // Bias the SearchBox results towards current map's viewport.
+  map.addListener("bounds_changed", () => {
+    searchBox.setBounds(map.getBounds());
+  });
+  let markers = [];
+  // Listen for the event fired when the user selects a prediction and retrieve
+  // more details for that place.
+  searchBox.addListener("places_changed", () => {
+    const places = searchBox.getPlaces();
 
+    if (places.length == 0) {
+      return;
+    }
+    // Clear out the old markers.
+    markers.forEach((marker) => {
+      marker.setMap(null);
+    });
+    markers = [];
+    // For each place, get the icon, name and location.
+    const bounds = new google.maps.LatLngBounds();
+    places.forEach((place) => {
+      if (!place.geometry) {
+        console.log("Returned place contains no geometry");
+        return;
+      }
+      const icon = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25),
+      };
+      // Create a marker for each place.
+      markers.push(
+        new google.maps.Marker({
+          map,
+          icon,
+          title: place.name,
+          position: place.geometry.location,
+        })
+      );
+
+      if (place.geometry.viewport) {
+        // Only geocodes have viewport.
+        bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
+      }
+    });
+    map.fitBounds(bounds);
+  });
+            
+*/
     var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
               zoom: 7.5,
               center: {
@@ -145,7 +201,7 @@ function initMap() {
             google.maps.event.addListener(marker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, marker);
-            })
+            });
             return marker;
             });
 
@@ -157,7 +213,7 @@ function initMap() {
             google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, lakeMarker);
-            })
+            });
             return lakeMarker;
             });
         
@@ -167,10 +223,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(nationalParksMarker, 'click', function(evt) {
+            google.maps.event.addListener(nationalParksMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, nationalParksMarker);
-            })
+            });
             return nationalParksMarker;
         });
 
@@ -179,10 +235,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(forestMarker, 'click', function(evt) {
+            google.maps.event.addListener(forestMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, forestMarker);
-            })
+            });
             return forestMarker;
         });
 
@@ -191,10 +247,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(eastCoastMarker, 'click', function(evt) {
+            google.maps.event.addListener(eastCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, eastCoastMarker);
-            })
+            });
             return eastCoastMarker;
         });
 
@@ -203,10 +259,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(westCoastMarker, 'click', function(evt) {
+            google.maps.event.addListener(westCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, westCoastMarker);
-            })
+            });
             return westCoastMarker;
         });
 
@@ -215,10 +271,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(southCoastMarker, 'click', function(evt) {
+            google.maps.event.addListener(southCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, southCoastMarker);
-            })
+            });
             return southCoastMarker;
         });
 
@@ -227,10 +283,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(malmoMarker, 'click', function(evt) {
+            google.maps.event.addListener(malmoMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, malmoMarker);
-            })
+            });
             return malmoMarker;
         });
         
@@ -239,10 +295,10 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(helsingborgMarker, 'click', function(evt) {
+            google.maps.event.addListener(helsingborgMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, helsingborgMarker);
-            })
+            });
             return helsingborgMarker;
         });
 
@@ -251,41 +307,93 @@ function initMap() {
                 position: location,
                 label: labels[i % labels.length]
             });
-            google.maps.event.addListener(lundMarker, 'click', function(evt) {
+            google.maps.event.addListener(lundMarker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, lundMarker);
-            })
+            });
             return lundMarker;
         });
 
-      var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+       markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var lakeCluster = new MarkerClusterer(lakeMap, lakeMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         lakeCluster = new MarkerClusterer(lakeMap, lakeMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var nationalParksCluster = new MarkerClusterer(nationalParksMap, nationalParksMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         nationalParksCluster = new MarkerClusterer(nationalParksMap, nationalParksMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var markerCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         eastCoastCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         
-        var markerCluster = new MarkerClusterer(westCoastMap, westCoastMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         westCoastCluster = new MarkerClusterer(westCoastMap, westCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         
-        var markerCluster = new MarkerClusterer(southCoastMap, southCoastMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         southCoastCluster = new MarkerClusterer(southCoastMap, southCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var markerCluster = new MarkerClusterer(malmoMap, malmoMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         malmoCluster = new MarkerClusterer(malmoMap, malmoMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var markerCluster = new MarkerClusterer(helsingborgMap, helsingborgMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
+         helsingborgCluster = new MarkerClusterer(helsingborgMap, helsingborgMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-        var markerCluster = new MarkerClusterer(lundMap, lundMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})    
+         lundCluster = new MarkerClusterer(lundMap, lundMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});   
+
+            const input = document.getElementById("pac-input");
+  var searchBox = new google.maps.places.SearchBox(input);
+ /* map.controls[google.maps.ControlPosition.TOP_LEFT].push(input); */
+  // Bias the SearchBox results towards current map's viewport.
+  map.addListener("bounds_changed", () => {
+    searchBox.setBounds(map.getBounds());
+  });
+  
+  let searchMarkers = [];
+  // Listen for the event fired when the user selects a prediction and retrieve
+  // more details for that place.
+  searchBox.addListener("places_changed", () => {
+    var places = searchBox.getPlaces();
+    if (places.length == 0) {
+      return;
+    }
+     searchMarkers.forEach((marker) => {
+      marker.setMap(null);
+    });
+    markers = [];
+    const bounds = new google.maps.LatLngBounds();
+    places.forEach((place) => {
+      if (!place.geometry) {
+        console.log("Returned place contains no geometry");
+        return;
+      }
+
+      var icon = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25),
+      }; 
+       markers.push(
+        new google.maps.Marker({
+          map,
+          icon,
+          title: place.name,
+          position: place.geometry.location,
+        })
+      );
+      if (place.geometry.viewport) {
+           bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
+      }
+    });
+    map.fitBounds(bounds);
+  });
+
         }
 /*google.maps.event.addDomListener(window, "load", initMap); */
