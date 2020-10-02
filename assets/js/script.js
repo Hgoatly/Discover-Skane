@@ -90,12 +90,14 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-//End of copied code.
 
+
+//End of copied code.
+/*
 function changeButtonColor() {
     document.getElementsByClassName("map-Buttons").style.backgroundColor = "#4f4646";
 }
-
+*/
 //Toggle card pictures and maps to be shown and hidden.
 $(document).ready(function(){
 
@@ -148,7 +150,8 @@ $(document).ready(function(){
 
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
-     })   
+     }) 
+     
 });
 
 function sendMail(contactForm) {

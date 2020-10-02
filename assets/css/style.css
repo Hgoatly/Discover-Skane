@@ -235,19 +235,19 @@ html, body {
 }
 
 #submit-button {
-    text-transform: none;
+    text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
 .info-header {
     font-weight: 500;
-    color: red;
+    color: #dc3545;
     text-decoration: none;
 }
 
 .info-header:hover{
-    color: yellow;
+    color: #d8b54d;
     text-decoration: none;
 }
 #footer {
@@ -255,10 +255,12 @@ html, body {
   left: 0;
   bottom: 0;
   width: 100%;
+  min-height: 5rem;
   background-color:  #4f4646;
   color: white;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem; 
+  font-family: 'oswald';
 }
 
 @media only screen and (max-width: 700px) {
@@ -273,6 +275,7 @@ html, body {
     .card-deck {
         margin-left: 0rem;
         margin-right: 0rem;
+        margin-top: 0rem;
     }
     .card-deck .card {
         border: 0rem;
