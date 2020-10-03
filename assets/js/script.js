@@ -7,100 +7,19 @@ function hideLandingPage() {
  landingPage.style.display = "none";
  mainContent.style.display = "block";
 }
-/*
-let lakeMap = document.getElementById("lake-map")
-let lakes = document.getElementById("lakes");
-lakeMap.style.display = "none";
 
-function showMap() {
-
-    let mapButtons = document.getElementsByClassName("map-buttons");
- /*   let hideMapButtons = document.getElementsByClassName("hide-map-buttons"); */
-
-/*
-if (lakeMap.style.display === "none") {
-    lakeMap.style.display = "block";
-    lakes.style.display = "none";
-/*    mapButtons.style.display = "none";
-    hideMapButtons.style.display = "block"; 
-    mapButtons[0].innerHTML = "Hide Map"; */
-/*
-} else {
-    lakeMap.style.display = "none";
-    lakes.style.display = "block";
- /*   mapButtons.style.display = "block";
-    hideMapButtons.style.display = "none"; */
-  /*  mapButtons[0].innerHTML = "View on Map";
-}
-}
-
-let nationalParksMap = document.getElementById("national-parks-map");
-let nationalParks = document.getElementById("national-parks");
-nationalParksMap.style.display = "none";
-
-function showNationalParksMap() {
-
-    if (nationalParksMap.style.display === "none") {
-        nationalParksMap.style.display = "block";
-        nationalParks.style.display = "none";
-        mapButtons[0].innerHTML = "Hide Map"
-    } else {
-        nationalParksMap.style.display = "none";
-        nationalParks.style.display = "block";
-        mapButtons[0].innerHTML = "View on Map";
-    }
-}
-
-let forestsMap = document.getElementById("forests-map");
-let forests = document.getElementById("forests");
-forestsMap.style.display = "none";
-
-function showForestsMap() {
-
-    if (forestsMap.style.display === "none") {
-        forestsMap.style.display = "block";
-        forests.style.display = "none";
-        mapButtons[0].innerHTML = "Hide Map"
-    } else {
-        forestsMap.style.display = "none";
-        forests.style.display = "block";
-        mapButtons[0].innerHTML = "View on Map";
-    }
-}
-
-*/
-/*
-const cards = document.querySelectorAll(".cards-single");
-
-function flipCard() {
-  this.classList.toggle("flip");
-}
-cards.forEach((card) => card.addEventListener("click", flipCard)); 
-*/
-/*
-const cardFront = document.querySelectorAll(".card-front")
-
-function showMap() {
-  this.classList.toggle("hide");
-}
-*/
 //Function for scroll to top buttons copied from 'w3Schools' website: 
 //https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-
 //End of copied code.
-/*
-function changeButtonColor() {
-    document.getElementsByClassName("map-Buttons").style.backgroundColor = "#4f4646";
-}
-*/
-//Toggle card pictures and maps to be shown and hidden.
+
+
 $(document).ready(function(){
 
+//Toggle card pictures and maps to be shown and hidden.
     $("#maps-button-1").click(function(){
         $("#card-front-1").toggle();
         $("#card-back-1").toggle();
@@ -148,11 +67,12 @@ $(document).ready(function(){
         $("#card-back-9").toggle();
     })
 
+//Toggles text on map buttons
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
-     }) 
+     })
      
-});
+}),
 
 function sendMail(contactForm) {
     emailjs.send("outlook", "find_my_coffee", {
@@ -168,5 +88,5 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         });
         return false;
-        
-}
+         }
+

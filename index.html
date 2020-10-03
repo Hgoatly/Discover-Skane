@@ -81,6 +81,7 @@
               <a class="nav-link" href="#city-and-culture">City and Culture</a>
               <a class="nav-link" href="#map-header">Map</a>
               <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#bookingModal">Book</a>
               <a class="nav-link" href="#">
                 <img
                   src="assets/images/sweden-flag.png"
@@ -93,7 +94,45 @@
           </div>
         </nav>
       </div>
+<!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/ -->
+ <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+           <div class="modal-header">
+      
+        <h5 class="modal-title" id="bookingModalLabel">Book Your Trip</h5> 
 
+       
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<!--Code for Booking.com API from Booking.com Partner Centre: https://spadmin.booking.com/pc/product_search_box_v2.html?ses=5115080f9ca38db3dfe85e3cae130dca&partner_id=859302&product_type=nsb -->
+      <ins class="bookingaff" id="booking" data-aid="2080385" data-target_aid="2080385" data-prod="nsb" data-width="100%" data-height="auto" data-lang="en" data-df_num_properties="3">
+    <!-- Anything inside will go away once widget is loaded. -->
+        <a href="//www.booking.com?aid=2080385">Booking.com</a>
+</ins>
+<script type="text/javascript">
+    (function(d, sc, u) {
+      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = u + '?v=' + (+new Date());
+      p.parentNode.insertBefore(s,p);
+      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+</script>
+        <!--End of code copied from Booking.com Partner Centre-->
+      </div>
+    <!--  <div class="modal-footer">
+        <button type="button" class="btn form-button" data-dismiss="modal">Close</button>
+    <!--   <button type="button" class="btn btn-primary">Save changes</button> 
+      </div> -->
+    </div> 
+  </div>
+</div> 
+   
 <!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/-->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog">
