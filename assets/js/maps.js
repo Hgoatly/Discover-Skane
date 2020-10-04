@@ -12,7 +12,7 @@ function initAutocomplete() {
               }
           });
 
-    var lakeMap = new google.maps.Map(document.getElementsByClass("lake-map"), {
+    var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
