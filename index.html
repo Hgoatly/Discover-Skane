@@ -94,16 +94,13 @@
           </div>
         </nav>
       </div>
+      
 <!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/ -->
- <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+ <div class="modal" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
            <div class="modal-header">
-      
-        <h5 class="modal-title" id="bookingModalLabel">Book Your Trip</h5> 
-
-       
-        
+              <h5 class="modal-title" id="bookingModalLabel">Book Your Trip</h5> 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -132,7 +129,7 @@
     </div> 
   </div>
 </div> 
-   
+
 <!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/-->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -151,7 +148,7 @@
         <div class="center-form">
                 <form onsubmit = "return sendMail(this);">
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                <input type="text" value="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <input type="text" value="Email address" class="form-control" id="emailaddress" placeholder="Email" required/>
                 <textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne" required></textarea>
                 <div class="row">
                 <div class="col-12 text-center">
