@@ -67,10 +67,18 @@ $(document).ready(function(){
         $("#card-back-9").toggle();
     })
 
+    $("#accordian-maps-button-1").click(function(){
+        $("#accordian-card-front-1").toggle();
+        $("#accordian-card-back-1").toggle();
+        
+        })
+
 //Toggles text on map buttons
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })
+
+
      
 }),
 
