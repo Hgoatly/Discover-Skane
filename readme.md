@@ -2,7 +2,8 @@
 Discover Skåne is a tourist site showcasing the different types of holidays available in the county of Skåne, in Sweden.
 The site has two main objectives.
 1. To provide information about the types of holiday activites available in Skåne for people who have already booked holidays there.
-2. To showcase the different holiday activities available in Skåne to people who are looking to choose a holiday destination.
+2. To showcase the different holiday activities available in Skåne to people who are looking to choose a holiday destination, 
+in order for them to be able to make a hotel booking through the site.
 
 ##UX
 ###User Stories:

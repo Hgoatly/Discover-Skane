@@ -85,6 +85,7 @@ $(document).ready(function(){
      })
 }),
 
+//Enables emails to be sent from contact form. Copied from CI Resume project.
 function sendMail(contactForm) {
     emailjs.send("outlook", "find_my_coffee", {
         "from_name": contactForm.name.value,
