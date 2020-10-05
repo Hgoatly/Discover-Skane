@@ -72,14 +72,17 @@ $(document).ready(function(){
         $("#accordian-card-back-1").toggle();
         
         })
+    
+    $("#accordian-maps-button-2").click(function(){
+        $("#accordian-card-front-2").toggle();
+        $("#accordian-card-back-2").toggle();
+        
+        })
 
 //Toggles text on map buttons
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })
-
-
-     
 }),
 
 function sendMail(contactForm) {

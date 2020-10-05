@@ -333,9 +333,10 @@
           </div>
         </div>
       </div>
-
-<div class="row justify-content-center d-sm-block d-md-none">
+<!--Accordian to contain cards for smaller screens. Code from: https://getbootstrap.com/docs/4.0/components/collapse/-->
+<div class="row justify-content-center d-sm-block d-md-none accordians">
 <div id="accordion">
+<div class="row justify-content-center">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
@@ -351,7 +352,7 @@
                     src="assets/images/lake-with-jetty.jpg"
                     class="card-img-top card-front toggle-content is-visible"
                     alt="lake with a long jetty"
-                    id="lake-map"
+                    id="accordian-lakes"
                   />
                   </div>
                   <div id="accordian-card-back-1">
@@ -379,6 +380,8 @@
       </div>
     </div>
   </div>
+  </div>
+
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
@@ -388,8 +391,36 @@
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div id="accordian-card-front-2">
+                  <img
+                    src="assets/images/soderasen.jpg"
+                    class="card-img-top"
+                    alt="view of Söderåsens national park"
+                    id="accordian-national-parks"
+                    />
+                    </div>
+                    <div id="accordian-card-back-2">
+                  <div class="continer-fluid">
+                    <div class="col-12">
+                      <div class="row justify-content-center">
+                        <div id="accordian-national-parks-map" class="card-maps card-back">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <p class="card-text">
+                      The National Parks of Skåne are famous for their unspoilt
+                      beauty. The Sö‎deråsen and Stenshuvud National Parks are
+                      two of the most well known, and are perfect for hiking, as
+                      well as relaxing. They offer a real opportunity for
+                      visitors to get back to nature, and to 'switch off' from
+                      their busy lives.
+                    </p>
+                    <div class="row justify-content-center">
+                      <button class="btn map-buttons" id="accordian-maps-button-2">Show on map</button>
+                    </div>
       </div>
     </div>
   </div>
@@ -402,8 +433,36 @@
       </h5>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+    <div id="accordian-card-front-3">
+                  <img
+                    src="assets/images/forest-with-sun.jpg"
+                    class="card-img-top"
+                    alt="pine forest with sunbeams breaking through the trees"
+                    id="accordian-forests"
+                  />
+                  </div>
+                  <div id="accordian-card-back-3">
+                  <div class="continer-fluid">
+                    <div class="col-12">
+                      <div class="row justify-content-center">
+                        <div class="card-maps" id="accordian-forests-map">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+       <p class="card-text">
+                      Even in the middle of the countryside, you are never far
+                      away from the water in Skåne. From the serene and unspoilt
+                      lakes that are deep in the forest, to those with beaches,
+                      watersports and angling, there really is something for
+                      everyone to enjoy. Three favourites of ours are lake
+                      Immeln, Hjälmsjön and Hammarsjön.
+                    </p>
+                    <div class="row justify-content-center">
+                      <button class="btn map-buttons" id="accordian-maps-button-3">Show on Map</button>
+                   </div>
       </div>
     </div>
   </div>

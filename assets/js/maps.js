@@ -19,6 +19,14 @@ function initAutocomplete() {
                   lng: 13.6780
               }
            });
+
+    var accordianLakeMap = new google.maps.Map(document.getElementById("accordian-lake-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+           });
          
      var nationalParksMap = new google.maps.Map(document.getElementById("national-parks-map"), {
               zoom: 7.5,

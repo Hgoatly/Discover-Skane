@@ -28,13 +28,16 @@ html, body {
     font-size: 1.2rem;
     text-transform: uppercase;
 }
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover nav-link:focus {
     color:#fff;
 }
 
+.modal-dialog {
+    margin-top: 4rem;
+}
 .modal-open {
     overflow: hidden;
-    padding-right: 0 !important;
+    padding-right: 0 !important; 
 }
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
@@ -205,14 +208,16 @@ html, body {
  #card-front-1, #card-front-2, #card-front-3,
  #card-front-4, #card-front-5, #card-front-6,
  #card-front-7, #card-front-8, #card-front-9,
- #accordian-card-front-1 {
+ #accordian-card-front-1, #accordian-card-front-2,
+ #accordian-card-front-3 {
      display: block;
  }
 
 #card-back-1, #card-back-2, #card-back-3,
 #card-back-4, #card-back-5, #card-back-6,
 #card-back-7, #card-back-8, #card-back-9,
-#accordian-card-back-1 {
+#accordian-card-back-1, #accordian-card-back-2,
+#accordian-card-back-3 {
     display: none;
 }
 
@@ -227,9 +232,17 @@ html, body {
 }
 
 .accordians {
-    margin-top: 1rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.btn-link{
+    color:#fff;
+}
+
+.btn-link:hover {
+    color: #fff;
+}
 .top-button,.form-button {
     background-color:#4f4646;
     color: #fff;
