@@ -79,6 +79,47 @@ $(document).ready(function(){
         
         })
 
+     $("#accordion-maps-button-3").click(function(){
+        $("#accordion-card-front-3").toggle();
+        $("#accordion-card-back-3").toggle();
+        
+        })
+
+     $("#accordion-maps-button-4").click(function(){
+        $("#accordion-card-front-4").toggle();
+        $("#accordion-card-back-4").toggle();
+        
+        })
+
+     $("#accordion-maps-button-5").click(function(){
+        $("#accordion-card-front-5").toggle();
+        $("#accordion-card-back-5").toggle();
+        
+        })
+
+     $("#accordion-maps-button-6").click(function(){
+        $("#accordion-card-front-6").toggle();
+        $("#accordion-card-back-6").toggle();
+        
+        })
+
+    $("#accordion-maps-button-7").click(function(){
+        $("#accordion-card-front-7").toggle();
+        $("#accordion-card-back-7").toggle();
+        
+        })
+
+    $("#accordion-maps-button-8").click(function(){
+        $("#accordion-card-front-8").toggle();
+        $("#accordion-card-back-8").toggle();
+        
+        })
+
+    $("#accordion-maps-button-9").click(function(){
+        $("#accordion-card-front-9").toggle();
+        $("#accordion-card-back-9").toggle();
+        
+        })
 //Toggles text on map buttons
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');

@@ -505,10 +505,6 @@ function initAutocomplete() {
          var  accordionLundCluster = new MarkerClusterer(accordionLundMap, accordionLundMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-
-
-
-
 //Google Maps Search Box as instructed on Google Maps API Documentation. 
             const input = document.getElementById("pac-input");
   var searchBox = new google.maps.places.SearchBox(input);
