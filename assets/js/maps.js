@@ -36,7 +36,23 @@ function initAutocomplete() {
               }
           });
 
+      var accordianNationalParksMap = new google.maps.Map(document.getElementById("accordian-national-parks-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });   
+          
      var forestsMap = new google.maps.Map(document.getElementById("forests-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+     var accordianForestsMap = new google.maps.Map(document.getElementById("accordian-forests-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
@@ -52,6 +68,14 @@ function initAutocomplete() {
               }
           });
 
+          var accordianEastCoastMap = new google.maps.Map(document.getElementById("accordian-east-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
           var westCoastMap = new google.maps.Map(document.getElementById("west-coast-map"), {
               zoom: 7.5,
               center: {
@@ -60,7 +84,15 @@ function initAutocomplete() {
               }
           });
 
-           var southCoastMap = new google.maps.Map(document.getElementById("south-coast-map"), {
+          var accordianWestCoastMap = new google.maps.Map(document.getElementById("accordian-west-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+           var accordianSouthCoastMap = new google.maps.Map(document.getElementById("accordian-south-coast-map"), {
               zoom: 7.5,
               center: {
                   lat: 55.6348,
@@ -68,7 +100,7 @@ function initAutocomplete() {
               }
           });
 
-          var malmoMap = new google.maps.Map(document.getElementById("malmo-map"), {
+          var accordianMalmoMap = new google.maps.Map(document.getElementById("accordian-malmo-map"), {
               zoom: 13,
               center: {
                   lat: 55.6050,
@@ -76,7 +108,7 @@ function initAutocomplete() {
               }
           });
 
-          var helsingborgMap = new google.maps.Map(document.getElementById("helsingborg-map"), {
+          var accordianHelsingborgMap = new google.maps.Map(document.getElementById("accordian-helsingborg-map"), {
               zoom: 13,
               center: {
                   lat: 56.0465,
@@ -84,7 +116,7 @@ function initAutocomplete() {
               }
           });
 
-          var lundMap = new google.maps.Map(document.getElementById("lund-map"), {
+          var accordianLundMap = new google.maps.Map(document.getElementById("accordian-lund-map"), {
               zoom: 13,
               center: {
                   lat: 55.7047,
