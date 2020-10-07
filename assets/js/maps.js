@@ -12,6 +12,7 @@ function initAutocomplete() {
               }
           });
 
+//card maps
     var lakeMap = new google.maps.Map(document.getElementById("lake-map"), {
               zoom: 7.5,
               center: {
@@ -19,30 +20,14 @@ function initAutocomplete() {
                   lng: 13.6780
               }
            });
-
-    var accordianLakeMap = new google.maps.Map(document.getElementById("accordian-lake-map"), {
-              zoom: 7.5,
-              center: {
-                  lat: 56.0406,
-                  lng: 13.6780
-              }
-           });
-         
+          
      var nationalParksMap = new google.maps.Map(document.getElementById("national-parks-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
                   lng: 13.6780
               }
-          });
-
-      var accordianNationalParksMap = new google.maps.Map(document.getElementById("accordian-national-parks-map"), {
-              zoom: 7.5,
-              center: {
-                  lat: 56.0406,
-                  lng: 13.6780
-              }
-          });   
+          });  
           
      var forestsMap = new google.maps.Map(document.getElementById("forests-map"), {
               zoom: 7.5,
@@ -52,7 +37,7 @@ function initAutocomplete() {
               }
           });
 
-     var accordianForestsMap = new google.maps.Map(document.getElementById("accordian-forests-map"), {
+        var eastCoastMap = new google.maps.Map(document.getElementById("east-coast-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
@@ -60,7 +45,7 @@ function initAutocomplete() {
               }
           });
 
-          var eastCoastMap = new google.maps.Map(document.getElementById("east-coast-map"), {
+         var westCoastMap = new google.maps.Map(document.getElementById("west-coast-map"), {
               zoom: 7.5,
               center: {
                   lat: 56.0406,
@@ -68,31 +53,7 @@ function initAutocomplete() {
               }
           });
 
-          var accordianEastCoastMap = new google.maps.Map(document.getElementById("accordian-east-coast-map"), {
-              zoom: 7.5,
-              center: {
-                  lat: 56.0406,
-                  lng: 13.6780
-              }
-          });
-
-          var westCoastMap = new google.maps.Map(document.getElementById("west-coast-map"), {
-              zoom: 7.5,
-              center: {
-                  lat: 56.0406,
-                  lng: 13.6780
-              }
-          });
-
-          var accordianWestCoastMap = new google.maps.Map(document.getElementById("accordian-west-coast-map"), {
-              zoom: 7.5,
-              center: {
-                  lat: 56.0406,
-                  lng: 13.6780
-              }
-          });
-
-           var accordianSouthCoastMap = new google.maps.Map(document.getElementById("accordian-south-coast-map"), {
+         var southCoastMap = new google.maps.Map(document.getElementById("south-coast-map"), {
               zoom: 7.5,
               center: {
                   lat: 55.6348,
@@ -100,7 +61,7 @@ function initAutocomplete() {
               }
           });
 
-          var accordianMalmoMap = new google.maps.Map(document.getElementById("accordian-malmo-map"), {
+         var malmoMap = new google.maps.Map(document.getElementById("malmo-map"), {
               zoom: 13,
               center: {
                   lat: 55.6050,
@@ -108,7 +69,7 @@ function initAutocomplete() {
               }
           });
 
-          var accordianHelsingborgMap = new google.maps.Map(document.getElementById("accordian-helsingborg-map"), {
+          var helsingborgMap = new google.maps.Map(document.getElementById("helsingborg-map"), {
               zoom: 13,
               center: {
                   lat: 56.0465,
@@ -116,13 +77,86 @@ function initAutocomplete() {
               }
           });
 
-          var accordianLundMap = new google.maps.Map(document.getElementById("accordian-lund-map"), {
+          var lundMap = new google.maps.Map(document.getElementById("lund-map"), {
               zoom: 13,
               center: {
                   lat: 55.7047,
                   lng: 13.1910
               }
           });
+
+//Accordion maps
+    var accordionLakeMap = new google.maps.Map(document.getElementById("accordion-lake-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+           });
+
+    var accordionNationalParksMap = new google.maps.Map(document.getElementById("accordion-national-parks-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+    var accordionForestsMap = new google.maps.Map(document.getElementById("accordion-forests-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+     var accordionEastCoastMap = new google.maps.Map(document.getElementById("accordion-east-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+     var accordionWestCoastMap = new google.maps.Map(document.getElementById("accordion-west-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 56.0406,
+                  lng: 13.6780
+              }
+          });
+
+       var accordionSouthCoastMap = new google.maps.Map(document.getElementById("accordion-south-coast-map"), {
+              zoom: 7.5,
+              center: {
+                  lat: 55.6348,
+                  lng: 13.7034
+              }
+          });
+
+           var accordionMalmoMap = new google.maps.Map(document.getElementById("accordion-malmo-map"), {
+              zoom: 13,
+              center: {
+                  lat: 55.6050,
+                  lng: 13.0038
+              }
+          });
+
+          var accordionHelsingborgMap = new google.maps.Map(document.getElementById("accordion-helsingborg-map"), {
+              zoom: 13,
+              center: {
+                  lat: 56.0465,
+                  lng: 12.6945
+              }
+          });
+
+        var accordionLundMap = new google.maps.Map(document.getElementById("accordion-lund-map"), {
+              zoom: 13,
+              center: {
+                  lat: 55.7047,
+                  lng: 13.1910
+              }
+          });        
 
       var infoWin = new google.maps.InfoWindow();
 
@@ -201,7 +235,6 @@ function initAutocomplete() {
             return lakeMarker;
             });
         
-
         var nationalParksMarkers = nationalParksLocations.map(function(location, i) {
             var nationalParksMarker = new google.maps.Marker({
                 position: location,
@@ -298,6 +331,125 @@ function initAutocomplete() {
             return lundMarker;
         });
 
+        var accordionLakeLocations = locations.slice(0,3);
+        var accordionNationalParksLocations = locations.slice(3,5);
+        var accordionForestLocations = locations.slice(5,8);
+        var accordionEastCoastLocations = locations.slice(8,11);
+        var accordionWestCoastLocations = locations.slice(11,14);
+        var accordionSouthCoastLocations = locations.slice(14,17);
+        var accordionMalmoLocations = locations.slice(18,22);
+        var accordionHelsingborgLocations = locations.slice(23,27);
+        var accordionLundLocations = locations.slice(27,31);
+
+        var accordionLakeMarkers = accordionLakeLocations.map(function(location, i) {
+            var accordionLakeMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionLakeMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionLakeMarker);
+            });
+            return accordionLakeMarker;
+            });
+
+            var accordionNationalParksMarkers = accordionNationalParksLocations.map(function(location, i) {
+            var accordiaonNationalParksMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionNationalParksMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionNationalParksMarker);
+            });
+            return accordionNationalParksMarker;
+        });
+
+        var accordionForestsMarkers = accordionForestLocations.map(function(location, i) {
+            var accordionForestMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionForestMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionForestMarker);
+            });
+            return accordionForestMarker;
+        });
+
+         var accordionEastCoastMarkers = accordionEastCoastLocations.map(function(location, i) {
+            var accordionEastCoastMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionEastCoastMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionEastCoastMarker);
+            });
+            return accordionEastCoastMarker;
+        });
+
+        var accordionWestCoastMarkers = accordionWestCoastLocations.map(function(location, i) {
+            var accordionWestCoastMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionWestCoastMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionWestCoastMarker);
+            });
+            return accordionWestCoastMarker;
+        });
+
+        var accordionSouthCoastMarkers = accordionSouthCoastLocations.map(function(location, i) {
+            var accordionSouthCoastMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionSouthCoastMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionSouthCoastMarker);
+            });
+            return accordionSouthCoastMarker;
+        });
+
+        var accordionMalmoMarkers = accordionMalmoLocations.map(function(location, i) {
+            var accordionMalmoMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionMalmoMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionMalmoMarker);
+            });
+            return accordionMalmoMarker;
+        });
+
+        var accordionHelsingborgMarkers = accordionHelsingborgLocations.map(function(location, i) {
+            var accordionHelsingborgMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionHelsingborgMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionHelsingborgMarker);
+            });
+            return accordionHelsingborgMarker;
+        });
+
+        var accordionLundMarkers = accordionLundLocations.map(function(location, i) {
+            var accordionMalmoMarker = new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+            google.maps.event.addListener(accordionMalmoMarker, 'click', function() {
+            infoWin.setContent(location.info);
+            infoWin.open(map, accordionMalmoMarker);
+            });
+            return accordionMalmoMarker;
+        });
+
+//Marker clusters
        markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
@@ -326,7 +478,36 @@ function initAutocomplete() {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
          lundCluster = new MarkerClusterer(lundMap, lundMarkers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});   
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+            
+//Marker clusters for maps in accordion elements
+       var  accordianLakeCluster = new MarkerClusterer(accordionLakeMap, accordionLakeMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+         var  accordionNationalParksCluster = new MarkerClusterer(accordionNationalParksMap, accordionNationalParksMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+         
+        var  accordionForestsCluster = new MarkerClusterer(accordionForestsMap, accordionForestsMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        
+        var  accordionEastCoastCluster = new MarkerClusterer(accordionEastCoastMap, accordionEastCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+         
+         var  accordionSouthCoastCluster = new MarkerClusterer(accordionSouthCoastMap, accordionSouthCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+         var  accordionMalmoCluster = new MarkerClusterer(accordionMalmoMap, accordionMalmoMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+         var  accordionHelsingborgCluster = new MarkerClusterer(accordionHelsingborgMap, accordionHelsingborgMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        
+         var  accordionLundCluster = new MarkerClusterer(accordionLundMap, accordionLundMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+
+
+
 
 //Google Maps Search Box as instructed on Google Maps API Documentation. 
             const input = document.getElementById("pac-input");

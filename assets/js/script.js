@@ -67,15 +67,15 @@ $(document).ready(function(){
         $("#card-back-9").toggle();
     })
 
-    $("#accordian-maps-button-1").click(function(){
-        $("#accordian-card-front-1").toggle();
-        $("#accordian-card-back-1").toggle();
+    $("#accordion-maps-button-1").click(function(){
+        $("#accordion-card-front-1").toggle();
+        $("#accordion-card-back-1").toggle();
         
         })
     
-    $("#accordian-maps-button-2").click(function(){
-        $("#accordian-card-front-2").toggle();
-        $("#accordian-card-back-2").toggle();
+    $("#accordion-maps-button-2").click(function(){
+        $("#accordion-card-front-2").toggle();
+        $("#accordion-card-back-2").toggle();
         
         })
 
