@@ -375,15 +375,22 @@ input {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .btn-link {
+        margin-left: 1.5rem;
+    }
     .card-deck {
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         margin-top: 0rem;
     }
     .card-deck .card {
-        border: 0rem;
-        margin: 0rem;
+        border: 2rem;
+        margin: 2rem;
     }
+    .card-text {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    } 
     .ptext {
         letter-spacing: 4px;
     }
