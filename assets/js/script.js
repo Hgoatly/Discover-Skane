@@ -124,7 +124,8 @@ $(document).ready(function(){
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })
-}),
+})/*,
+
 
 //Enables emails to be sent from contact form. Copied from CI Resume project.
 function sendMail(contactForm) {
@@ -142,4 +143,4 @@ function sendMail(contactForm) {
         });
         return false;
          }
-
+*/

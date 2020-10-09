@@ -354,7 +354,7 @@ function initAutocomplete() {
             });
 
             var accordionNationalParksMarkers = accordionNationalParksLocations.map(function(location, i) {
-            var accordiaonNationalParksMarker = new google.maps.Marker({
+            var accordionNationalParksMarker = new google.maps.Marker({
                 position: location,
                 label: labels[i % labels.length]
             });

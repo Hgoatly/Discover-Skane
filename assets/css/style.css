@@ -146,6 +146,16 @@ html, body {
     margin-right: 6rem;
 }
 
+#swedish-flag, #intro-heading, 
+#intro {
+    display:block;
+}
+
+#uk-flag, #intro-heading-swedish, 
+#intro-swedish {
+    display:none;
+}
+
 .main-heading {
     font-family: 'Oswald';
     padding-top: 2rem;

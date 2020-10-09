@@ -65,12 +65,20 @@
 						<a class="nav-link" href="#map-header">Map</a>
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#bookingModal">Book</a>
 						<a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#" id="swedish">
 							<img
                   src="assets/images/sweden-flag.png"
                   width="40"
                   height="40"
                   alt="Swedish Flag"
+                  id="swedish-flag"
+                />
+                <img
+                  src="assets/images/uk-flag.png"
+                  width="40"
+                  height="40"
+                  alt="Swedish Flag"
+                  id="uk-flag"
                 />
               </a>
 					</div>
@@ -157,14 +165,17 @@
 		<section class="intro-text">
 			<div class="row">
 				<div class="col-12 text-center header">
-					<h1 class="main-heading">
+					<h1 class="main-heading" id="intro-heading">
 						Plan your perfect trip to Southern Sweden
+					</h1>
+                    <h1 class="main-heading" id="intro-heading-swedish">
+						Planera din perfekta resa till södra Sverige
 					</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12 text-center intro-paragraph">
-					<p>
+					<p id="intro">
 						Are you are looking to get back to nature? How about a family beach
 						break? Perhaps you are hoping to soak up some world class culture? Skåne - Sweden's
 						southern-most county has something for everyone. Find out below
@@ -172,6 +183,14 @@
 						on the map. Don't forget to get in touch with us to suggest more
 						places of interest.
 					</p>
+                    <p id="intro-swedish">
+                        Längtar Du dig tillbaka till naturen? Kanske en lockar en dag på 
+                        stranden med familjen, eller känner Du för att uppleva kultur i 
+                        världsklass? Skåne, Sveriges sydligaste landskap har något för alla. 
+                        Se nedan för att hitta några av våra favoritställen att besöka och 
+                        se dem markerade på kartan. Glöm inte att kontakta oss med tips om 
+                        andra ställen som kanske är just Din favoritplats.
+                    </p>
 				</div>
 			</div>
 		</section>
@@ -217,7 +236,7 @@
 										</div>
 									</div>
 									<div class="card-body">
-										<p class="card-text">
+										<p class="card-text" id="lakes-card-text">
 											Even in the middle of the countryside, you are never far
 											away from the water in Skåne. From the serene and unspoilt
 											lakes that are deep in the forest, to those with beaches,
@@ -1110,6 +1129,7 @@
 														<script src="assets/js/script.js"></script>
 														<script src="assets/js/maps.js"></script>
 														<script src="assets/js/sendemail.js"></script>
+                                                        <script src="assets/js/swedish.js"></script>
 </body>
 
 </html>
