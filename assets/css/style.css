@@ -145,26 +145,13 @@ html, body {
     margin-left: 6rem;
     margin-right: 6rem;
 }
+
 .english-content {
     display: block;
 }
 
 .swedish-content {
     display: none;
-}
-
-#swedish-flag, #intro-heading, 
-#intro, #lakes-card-text,
-#national-parks-card-text, #forests-card,
-#east-coast-card, #west-coast-card {
-    display:block;
-}
-
-#uk-flag, #intro-heading-swedish, 
-#intro-swedish, #lakes-card-text-swedish,
-#national-parks-card-text-swedish, #forests-card-swedish,
-#east-coast-card-swedish, #west-coast-card-swedish {
-    display:none;
 }
 
 .main-heading {
@@ -254,8 +241,10 @@ html, body {
     border-radius: 0rem;
 }
 
-.map-buttons-hide-map {
-    display: none;
+
+.map-buttons-swedish {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 0rem;
 }
 
 .accordians {

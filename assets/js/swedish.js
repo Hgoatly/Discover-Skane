@@ -5,7 +5,9 @@ $(document).ready(function(){
         $("#swedish-flag").toggle();
         $("#uk-flag").toggle();
         $(".english-content").toggle();
-        $(".swedish-content").toggle();    
+        $(".swedish-content").toggle(); 
+       /* $("#maps-button-1-swedish").html('Se på karta'); */  
         })
+        
 
 })
