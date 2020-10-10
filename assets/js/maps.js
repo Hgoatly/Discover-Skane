@@ -492,6 +492,9 @@ function initAutocomplete() {
         
         var  accordionEastCoastCluster = new MarkerClusterer(accordionEastCoastMap, accordionEastCoastMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        
+        var  accordionWestCoastCluster = new MarkerClusterer(accordionWestCoastMap, accordionWestCoastMarkers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
          
          var  accordionSouthCoastCluster = new MarkerClusterer(accordionSouthCoastMap, accordionSouthCoastMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
