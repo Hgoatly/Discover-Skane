@@ -96,6 +96,11 @@ html, body {
 }
 /* End of copied code */
 
+/*
+.english-heading {
+    display: inline;
+}
+*/
 .img-fluid {
     padding-top: 5.1rem;s
 }
@@ -160,6 +165,13 @@ html, body {
     margin-right: 0rem;
 }
 
+.english-heading {
+    display: inline;
+}
+
+.swedish-heading {
+    display: none;
+}
 .intro-paragraph {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -240,7 +252,6 @@ html, body {
     font-family: 'Oswald', sans-serif;
     border-radius: 0rem;
 }
-
 
 .map-buttons-swedish {
     font-family: 'Oswald', sans-serif;

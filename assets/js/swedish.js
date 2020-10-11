@@ -5,7 +5,10 @@ $(document).ready(function(){
         $("#swedish-flag").toggle();
         $("#uk-flag").toggle();
         $(".english-content").toggle();
-        $(".swedish-content").toggle(); 
+        $(".swedish-content").toggle();
+        $(".english-heading").toggle();
+        $(".swedish-heading").toggle();
+     
     })
         //Toggle card pictures and maps to be shown and hidden.
     $("#maps-button-1-swedish").click(function(){
