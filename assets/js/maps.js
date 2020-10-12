@@ -162,26 +162,37 @@ function initAutocomplete() {
       
       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 
+      const  lakesIcon =
+           { url: "assets/images/lake-icon.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+      
+      const forestsIcon = { url: "assets/images/pine-tree-icon.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+        
+      const beachesIcon = { url: "assets/images/beach.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+      
+
       var locations = [
           //Lakes and Forests coordinates
-          {lat: 56.2679, lng: 14.3251, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/lake-immeln' target='_blank'>Lake Immeln</a>"},
-          {lat: 56.2267, lng: 13.2833, info: "<a class='info-header' href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Hjälmsjön</a>"},
-          {lat: 55.9833, lng: 14.2167, info: "<a class='info-header' href='https://sv.wikipedia.org/wiki/Hammarsj%C3%B6n' target='_blank'>Hammarsjön</a>"},
-          {lat: 56.0166, lng: 13.2166, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a>"},
-          {lat: 55.6562, lng: 14.2687, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a>"},
-          {lat: 55.6926, lng: 13.3600, info: "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a>"},
-          {lat: 55.5803, lng: 13.4284, info: "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a>"},
-          {lat: 55.8785, lng: 13.6208, info: "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a>"},
+          {lat: 56.2679, lng: 14.3251, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/lake-immeln' target='_blank'>Lake Immeln</a>", type: lakesIcon},
+          {lat: 56.2267, lng: 13.2833, info: "<a class='info-header' href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Hjälmsjön</a>", type: lakesIcon},
+          {lat: 55.9833, lng: 14.2167, info: "<a class='info-header' href='https://sv.wikipedia.org/wiki/Hammarsj%C3%B6n' target='_blank'>Hammarsjön</a>", type: lakesIcon},
+          {lat: 56.0166, lng: 13.2166, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a>", type: forestsIcon},
+          {lat: 55.6562, lng: 14.2687, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a>", type: forestsIcon},
+          {lat: 55.6926, lng: 13.3600, info: "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a>", type: forestsIcon},
+          {lat: 55.5803, lng: 13.4284, info: "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a>", type: forestsIcon},
+          {lat: 55.8785, lng: 13.6208, info: "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a>", type: forestsIcon},
           //Beach coordinates
-          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>"},
-          {lat: 55.6420, lng: 14.2616, info: "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a>"},
-          {lat: 55.8812, lng: 14.2282, info: "<a class='info-header' href='https://yngsjo.weebly.com/english.html' target='_blank'>Yngsjö</a>"},
-          {lat: 55.3971, lng: 12.8415, info: "<a class='info-header' href='http://vellinge.com/en/towns/falsterbo' target='_blank'>Falsterbo</a>"},
-          {lat: 56.2234, lng: 12.7103, info: "<a class='info-header' href='https://www.hoganas.se/Invanare/upplev/hemester-i-kullabygden/salta-bad/farhultsbaden/?_t_id=3QWvsJzxjgGH4V6QB7qJqA%3d%3d&_t_q=farhultsbaden&_t_tags=language%3asv%2csiteid%3aa23bdda3-3b1d-4830-a634-c32f5a865af6&_t_ip=192.168.48.128&_t_hit.id=Hoganas_Publik_Models_Pages_Page/_6d43a5bb-fd09-4b9e-a826-950e8d2274ac_sv&_t_hit.pos=3' target='_blank'>Farhultsbaden</a>"},
-          {lat: 55.6782, lng: 13.0588, info: "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/lomma-norra-badplats-sandy-beach-in-lomma' target='_blank'>Lomma Norra Badplats</a>"},
-          {lat: 55.3385, lng: 13.3598, info: "<a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Smygehuk</a>"},
-          {lat: 55.3867, lng: 14.1932, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a>"},
-          {lat: 55.4250, lng: 13.8491, info: "<a class='info-header' href='https://www.ystad.se/fritid/havsbad/' target='_blank'>Ystad Sandskog</a>"},
+          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>", type: beachesIcon},
+          {lat: 55.6420, lng: 14.2616, info: "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a>", type: beachesIcon},
+          {lat: 55.8812, lng: 14.2282, info: "<a class='info-header' href='https://yngsjo.weebly.com/english.html' target='_blank'>Yngsjö</a>", type: beachesIcon},
+          {lat: 55.3971, lng: 12.8415, info: "<a class='info-header' href='http://vellinge.com/en/towns/falsterbo' target='_blank'>Falsterbo</a>", type: beachesIcon},
+          {lat: 56.2234, lng: 12.7103, info: "<a class='info-header' href='https://www.hoganas.se/Invanare/upplev/hemester-i-kullabygden/salta-bad/farhultsbaden/?_t_id=3QWvsJzxjgGH4V6QB7qJqA%3d%3d&_t_q=farhultsbaden&_t_tags=language%3asv%2csiteid%3aa23bdda3-3b1d-4830-a634-c32f5a865af6&_t_ip=192.168.48.128&_t_hit.id=Hoganas_Publik_Models_Pages_Page/_6d43a5bb-fd09-4b9e-a826-950e8d2274ac_sv&_t_hit.pos=3' target='_blank'>Farhultsbaden</a>", type: beachesIcon},
+          {lat: 55.6782, lng: 13.0588, info: "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/lomma-norra-badplats-sandy-beach-in-lomma' target='_blank'>Lomma Norra Badplats</a>", type: beachesIcon},
+          {lat: 55.3385, lng: 13.3598, info: "<a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Smygehuk</a>", type: beachesIcon},
+          {lat: 55.3867, lng: 14.1932, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a>", type: beachesIcon},
+          {lat: 55.4250, lng: 13.8491, info: "<a class='info-header' href='https://www.ystad.se/fritid/havsbad/' target='_blank'>Ystad Sandskog</a>", type: beachesIcon},
           //Malmo coordinates
           {lat: 55.6050, lng: 13.0038, info: "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a>"},
           {lat: 55.5964, lng: 12.9963, info: "<a class='info-header' href='https://www.malmoopera.se/in-english'>Malmö Opera</a>"},
@@ -209,13 +220,15 @@ function initAutocomplete() {
         var malmoLocations = locations.slice(18,22);
         var helsingborgLocations = locations.slice(23,27);
         var lundLocations = locations.slice(27,31);
-
+        
         var markers = locations.map(function(location, i) {
             var marker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length],
+              /*  label: labels[i % labels.length],  */
+                icon: locations[i % locations.length].type
             });
         
+            
             google.maps.event.addListener(marker, 'click', function() {
             infoWin.setContent(location.info);
             infoWin.open(map, marker);
@@ -229,6 +242,7 @@ function initAutocomplete() {
              /*   label: labels[i % labels.length] 
              icon: { url: "assets/images/002-lake-1.png",
                     scaledSize: new google.maps.Size(32, 32)} */ 
+                icon: locations[i % locations.length].type
             });
             google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -240,10 +254,10 @@ function initAutocomplete() {
         var nationalParksMarkers = nationalParksLocations.map(function(location, i) {
             var nationalParksMarker = new google.maps.Marker({
                 position: location,
-            /*    label: labels[i % labels.length] */
+            /*    label: labels[i % labels.length] 
             icon: { url: "assets/images/003-pine-tree.png",
-                    scaledSize: new google.maps.Size(32, 32)}
-               
+                    scaledSize: new google.maps.Size(32, 32)} */
+            icon: locations[i % locations.length].type               
             });
             google.maps.event.addListener(nationalParksMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -255,9 +269,10 @@ function initAutocomplete() {
         var forestsMarkers = forestLocations.map(function(location, i) {
             var forestMarker = new google.maps.Marker({
                 position: location,
-              /*  label: labels[i % labels.length] */
+              /*  label: labels[i % labels.length] 
             icon: { url: "assets/images/003-pine-tree.png",
-                    scaledSize: new google.maps.Size(32, 32)}
+                    scaledSize: new google.maps.Size(32, 32)} */
+                    icon: locations[i % locations.length].type
             });
             google.maps.event.addListener(forestMarker, 'click', function() {
             infoWin.setContent(location.info);
