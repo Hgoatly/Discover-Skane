@@ -160,34 +160,20 @@ function initAutocomplete() {
 
       var infoWin = new google.maps.InfoWindow();
       
-      var iconBase = "http://kml4earth.appspot.com/icons.html#shapes"
-      icons = {
-          lake: {
-            icon: iconBase + 'water.png'
-          },
-          forest: {
-            icon: iconBase + 'parks.png'
-          },
-          beach: {
-            icon: iconBase + 'swimming.png'
-          }
-        };
-
-
-      var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 
       var locations = [
           //Lakes and Forests coordinates
           {lat: 56.2679, lng: 14.3251, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/lake-immeln' target='_blank'>Lake Immeln</a>"},
           {lat: 56.2267, lng: 13.2833, info: "<a class='info-header' href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Hjälmsjön</a>"},
-          {lat: 55.9833, lng:14.2167, info:  "<a class='info-header' href='https://sv.wikipedia.org/wiki/Hammarsj%C3%B6n' target='_blank'>Hammarsjön</a>"},
+          {lat: 55.9833, lng: 14.2167, info: "<a class='info-header' href='https://sv.wikipedia.org/wiki/Hammarsj%C3%B6n' target='_blank'>Hammarsjön</a>"},
           {lat: 56.0166, lng: 13.2166, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a>"},
           {lat: 55.6562, lng: 14.2687, info: "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a>"},
           {lat: 55.6926, lng: 13.3600, info: "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a>"},
           {lat: 55.5803, lng: 13.4284, info: "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a>"},
           {lat: 55.8785, lng: 13.6208, info: "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a>"},
           //Beach coordinates
-          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>", iconImage:"assets/images/beach.png" },
+          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>"},
           {lat: 55.6420, lng: 14.2616, info: "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a>"},
           {lat: 55.8812, lng: 14.2282, info: "<a class='info-header' href='https://yngsjo.weebly.com/english.html' target='_blank'>Yngsjö</a>"},
           {lat: 55.3971, lng: 12.8415, info: "<a class='info-header' href='http://vellinge.com/en/towns/falsterbo' target='_blank'>Falsterbo</a>"},
@@ -240,9 +226,9 @@ function initAutocomplete() {
         var lakeMarkers = lakeLocations.map(function(location, i) {
             var lakeMarker = new google.maps.Marker({
                 position: location,
-             /*   label: labels[i % labels.length] */
-             icon: { url: "assets/images/001-lake.png",
-                    scaledSize: new google.maps.Size(32, 32)}
+             /*   label: labels[i % labels.length] 
+             icon: { url: "assets/images/002-lake-1.png",
+                    scaledSize: new google.maps.Size(32, 32)} */ 
             });
             google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -254,7 +240,10 @@ function initAutocomplete() {
         var nationalParksMarkers = nationalParksLocations.map(function(location, i) {
             var nationalParksMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+            /*    label: labels[i % labels.length] */
+            icon: { url: "assets/images/003-pine-tree.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+               
             });
             google.maps.event.addListener(nationalParksMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -266,7 +255,9 @@ function initAutocomplete() {
         var forestsMarkers = forestLocations.map(function(location, i) {
             var forestMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+              /*  label: labels[i % labels.length] */
+            icon: { url: "assets/images/003-pine-tree.png",
+                    scaledSize: new google.maps.Size(32, 32)}
             });
             google.maps.event.addListener(forestMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -278,8 +269,9 @@ function initAutocomplete() {
         var eastCoastMarkers = eastCoastLocations.map(function(location, i) {
             var eastCoastMarker = new google.maps.Marker({
                 position: location,
-               /* label: labels[i % labels.length] */
-               icon: "assets/images/beach.png"
+               /* label: labels[i % labels.length] 
+               icon: { url: "assets/images/beach.png",
+                    scaledSize: new google.maps.Size(64, 64)} */
             });
             google.maps.event.addListener(eastCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -291,7 +283,9 @@ function initAutocomplete() {
          var westCoastMarkers = westCoastLocations.map(function(location, i) {
             var westCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+               /* label: labels[i % labels.length] */
+               icon: { url: "assets/images/beach.png",
+                    scaledSize: new google.maps.Size(64, 64)}
             });
             google.maps.event.addListener(westCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -303,7 +297,9 @@ function initAutocomplete() {
         var southCoastMarkers = southCoastLocations.map(function(location, i) {
             var southCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+             /*   label: labels[i % labels.length] */
+             icon: { url: "assets/images/beach.png",
+                    scaledSize: new google.maps.Size(64, 64)}
             });
             google.maps.event.addListener(southCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -315,7 +311,9 @@ function initAutocomplete() {
          var malmoMarkers = malmoLocations.map(function(location, i) {
             var malmoMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+             /*   label: labels[i % labels.length] */
+             icon: { url: "assets/images/005-museum.png",
+                    scaledSize: new google.maps.Size(32, 32)}
             });
             google.maps.event.addListener(malmoMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -327,7 +325,9 @@ function initAutocomplete() {
          var helsingborgMarkers = helsingborgLocations.map(function(location, i) {
             var helsingborgMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+              /*  label: labels[i % labels.length] */
+              icon: { url: "assets/images/005-museum.png",
+                    scaledSize: new google.maps.Size(32, 32)}
             });
             google.maps.event.addListener(helsingborgMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -339,7 +339,9 @@ function initAutocomplete() {
          var lundMarkers = lundLocations.map(function(location, i) {
             var lundMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+             /*   label: labels[i % labels.length] */
+             icon: { url: "assets/images/005-museum.png",
+                    scaledSize: new google.maps.Size(32, 32)} 
             });
             google.maps.event.addListener(lundMarker, 'click', function() {
             infoWin.setContent(location.info);
