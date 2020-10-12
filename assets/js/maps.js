@@ -159,6 +159,20 @@ function initAutocomplete() {
           });        
 
       var infoWin = new google.maps.InfoWindow();
+      
+      var iconBase = "http://kml4earth.appspot.com/icons.html#shapes"
+      icons = {
+          lake: {
+            icon: iconBase + 'water.png'
+          },
+          forest: {
+            icon: iconBase + 'parks.png'
+          },
+          beach: {
+            icon: iconBase + 'swimming.png'
+          }
+        };
+
 
       var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -173,7 +187,7 @@ function initAutocomplete() {
           {lat: 55.5803, lng: 13.4284, info: "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a>"},
           {lat: 55.8785, lng: 13.6208, info: "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a>"},
           //Beach coordinates
-          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>"},
+          {lat: 55.6850, lng: 14.2266, info: "<a class='info-header' href='https://www.kiviksturism.se/en/' target='_blank'>Kivik</a>", iconImage:"assets/images/beach.png" },
           {lat: 55.6420, lng: 14.2616, info: "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a>"},
           {lat: 55.8812, lng: 14.2282, info: "<a class='info-header' href='https://yngsjo.weebly.com/english.html' target='_blank'>Yngsjö</a>"},
           {lat: 55.3971, lng: 12.8415, info: "<a class='info-header' href='http://vellinge.com/en/towns/falsterbo' target='_blank'>Falsterbo</a>"},
@@ -226,7 +240,9 @@ function initAutocomplete() {
         var lakeMarkers = lakeLocations.map(function(location, i) {
             var lakeMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+             /*   label: labels[i % labels.length] */
+             icon: { url: "assets/images/001-lake.png",
+                    scaledSize: new google.maps.Size(32, 32)}
             });
             google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -262,7 +278,8 @@ function initAutocomplete() {
         var eastCoastMarkers = eastCoastLocations.map(function(location, i) {
             var eastCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+               /* label: labels[i % labels.length] */
+               icon: "assets/images/beach.png"
             });
             google.maps.event.addListener(eastCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
