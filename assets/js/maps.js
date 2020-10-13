@@ -160,7 +160,7 @@ function initAutocomplete() {
 
       var infoWin = new google.maps.InfoWindow();
       
-      var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+    /*  var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; */ 
 
       const  lakesIcon =
            { url: "assets/images/lake-icon.png",
@@ -172,6 +172,22 @@ function initAutocomplete() {
       const beachesIcon = { url: "assets/images/beach.png",
                     scaledSize: new google.maps.Size(32, 32)}
       
+      const museumsIcon = { url: "assets/images/museum.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+        
+      const theatresIcon = { url: "assets/images/theatre.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+
+      const churchIcon = { url: "assets/images/church.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+
+      const planetariumIcon = { url: "assets/images/telescope.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+
+      const citiesIcon = { url: "assets/images/map-marker.png",
+                    scaledSize: new google.maps.Size(32, 32)}
+      
+
 
       var locations = [
           //Lakes and Forests coordinates
@@ -194,21 +210,21 @@ function initAutocomplete() {
           {lat: 55.3867, lng: 14.1932, info: "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a>", type: beachesIcon},
           {lat: 55.4250, lng: 13.8491, info: "<a class='info-header' href='https://www.ystad.se/fritid/havsbad/' target='_blank'>Ystad Sandskog</a>", type: beachesIcon},
           //Malmo coordinates
-          {lat: 55.6050, lng: 13.0038, info: "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a>"},
-          {lat: 55.5964, lng: 12.9963, info: "<a class='info-header' href='https://www.malmoopera.se/in-english'>Malmö Opera</a>"},
-          {lat:55.6077, lng: 12.9936, info: "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a>"},
-          {lat: 55.6048, lng: 12.9876, info: "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Malmö Castle</a>"},
-          {lat: 55.6074489, lng: 13.0075645, info: "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a>"},
+          {lat: 55.6050, lng: 13.0038, info: "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a>", type: citiesIcon},
+          {lat: 55.5964, lng: 12.9963, info: "<a class='info-header' href='https://www.malmoopera.se/in-english'>Malmö Opera</a>", type: theatresIcon},
+          {lat:55.6077, lng: 12.9936, info: "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a>", type: theatresIcon},
+          {lat: 55.6048, lng: 12.9876, info: "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Malmö Castle</a>", type: museumsIcon},
+          {lat: 55.6074489, lng: 13.0075645, info: "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a>", type: museumsIcon},
           //Helsingborg coordinates
-          {lat: 56.0465, lng: 12.6945, info: "<a class='info-header' href='https://visithelsingborg.com/?lang=en' target='_blank'>Helsingborg</a>"},
-          {lat: 56.0478, lng: 12.6891, info: "<a class='info-header' href='https://dunkerskulturhus.se/' target='_blank'>Dunkers Culture House</a>"},
-          {lat: 56.0498, lng: 12.6893, info: "<a class='info-header'href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Concert House</a>"},
-          {lat: 56.0839, lng: 12.6596, info: "<a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero Castle</a>"},
+          {lat: 56.0465, lng: 12.6945, info: "<a class='info-header' href='https://visithelsingborg.com/?lang=en' target='_blank'>Helsingborg</a>", type: citiesIcon},
+          {lat: 56.0478, lng: 12.6891, info: "<a class='info-header' href='https://dunkerskulturhus.se/' target='_blank'>Dunkers Culture House</a>", type: theatresIcon},
+          {lat: 56.0498, lng: 12.6893, info: "<a class='info-header'href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Concert House</a>", type: theatresIcon},
+          {lat: 56.0839, lng: 12.6596, info: "<a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero Castle</a>", type: museumsIcon},
           //Lund coordinates
-          {lat: 55.70587, lng: 13.1932, info: "<a class='info-header' href='https://www.lund.se/en/#/' target='_blank'>Lund</a>"},
-          {lat: 55.7041, lng: 13.1937, info: "<a class='info-header' href='https://lundsdomkyrka.se/english/' target='_blank'>Lutheren Cathedral</a>"},
-          {lat: 55.7046, lng: 13.1965, info: "<a class='info-header' href='kulturen.com'>Kulturen</a>"},
-          {lat: 55.6996, lng: 13.1879, info: "<a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Lund Planetarium</a>"}
+          {lat: 55.70587, lng: 13.1932, info: "<a class='info-header' href='https://www.lund.se/en/#/' target='_blank'>Lund</a>", type: citiesIcon},
+          {lat: 55.7041, lng: 13.1937, info: "<a class='info-header' href='https://lundsdomkyrka.se/english/' target='_blank'>Lutheren Cathedral</a>", type: churchIcon},
+          {lat: 55.7046, lng: 13.1965, info: "<a class='info-header' href='kulturen.com'>Kulturen</a>", type: museumsIcon},
+          {lat: 55.6996, lng: 13.1879, info: "<a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Lund Planetarium</a>", type: planetariumIcon}
         ];
      
         var lakeLocations = locations.slice(0,3);
@@ -300,8 +316,7 @@ function initAutocomplete() {
             var westCoastMarker = new google.maps.Marker({
                 position: location,
                /* label: labels[i % labels.length] */
-               icon: { url: "assets/images/beach.png",
-                    scaledSize: new google.maps.Size(64, 64)}
+               icon: westCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(westCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -314,8 +329,7 @@ function initAutocomplete() {
             var southCoastMarker = new google.maps.Marker({
                 position: location,
              /*   label: labels[i % labels.length] */
-             icon: { url: "assets/images/beach.png",
-                    scaledSize: new google.maps.Size(64, 64)}
+             icon: southCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(southCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -327,9 +341,10 @@ function initAutocomplete() {
          var malmoMarkers = malmoLocations.map(function(location, i) {
             var malmoMarker = new google.maps.Marker({
                 position: location,
-             /*   label: labels[i % labels.length] */
+             /*   label: labels[i % labels.length] 
              icon: { url: "assets/images/005-museum.png",
-                    scaledSize: new google.maps.Size(32, 32)}
+                    scaledSize: new google.maps.Size(32, 32)} */
+                    icon: malmoLocations[i % locations.length].type
             });
             google.maps.event.addListener(malmoMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -342,8 +357,7 @@ function initAutocomplete() {
             var helsingborgMarker = new google.maps.Marker({
                 position: location,
               /*  label: labels[i % labels.length] */
-              icon: { url: "assets/images/005-museum.png",
-                    scaledSize: new google.maps.Size(32, 32)}
+              icon: helsingborgLocations[i % locations.length].type
             });
             google.maps.event.addListener(helsingborgMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -356,8 +370,7 @@ function initAutocomplete() {
             var lundMarker = new google.maps.Marker({
                 position: location,
              /*   label: labels[i % labels.length] */
-             icon: { url: "assets/images/005-museum.png",
-                    scaledSize: new google.maps.Size(32, 32)} 
+             icon: lundLocations[i % locations.length].type
             });
             google.maps.event.addListener(lundMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -379,7 +392,8 @@ function initAutocomplete() {
         var accordionLakeMarkers = accordionLakeLocations.map(function(location, i) {
             var accordionLakeMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                /*label: labels[i % labels.length] */
+                icon: accordionLakeLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionLakeMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -391,7 +405,7 @@ function initAutocomplete() {
             var accordionNationalParksMarkers = accordionNationalParksLocations.map(function(location, i) {
             var accordionNationalParksMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionNationalParksLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionNationalParksMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -403,7 +417,7 @@ function initAutocomplete() {
         var accordionForestsMarkers = accordionForestLocations.map(function(location, i) {
             var accordionForestMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionForestLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionForestMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -415,7 +429,7 @@ function initAutocomplete() {
          var accordionEastCoastMarkers = accordionEastCoastLocations.map(function(location, i) {
             var accordionEastCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionEastCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionEastCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -427,7 +441,7 @@ function initAutocomplete() {
         var accordionWestCoastMarkers = accordionWestCoastLocations.map(function(location, i) {
             var accordionWestCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionWestCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionWestCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -439,7 +453,7 @@ function initAutocomplete() {
         var accordionSouthCoastMarkers = accordionSouthCoastLocations.map(function(location, i) {
             var accordionSouthCoastMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionSouthCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionSouthCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -451,7 +465,7 @@ function initAutocomplete() {
         var accordionMalmoMarkers = accordionMalmoLocations.map(function(location, i) {
             var accordionMalmoMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionMalmoLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionMalmoMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -463,7 +477,7 @@ function initAutocomplete() {
         var accordionHelsingborgMarkers = accordionHelsingborgLocations.map(function(location, i) {
             var accordionHelsingborgMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionHelsingborgLocations[i % locations.length].type
             });
             google.maps.event.addListener(accordionHelsingborgMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -473,15 +487,15 @@ function initAutocomplete() {
         });
 
         var accordionLundMarkers = accordionLundLocations.map(function(location, i) {
-            var accordionMalmoMarker = new google.maps.Marker({
+            var accordionLundMarker = new google.maps.Marker({
                 position: location,
-                label: labels[i % labels.length]
+                icon: accordionLundLocations[i % locations.length].type
             });
-            google.maps.event.addListener(accordionMalmoMarker, 'click', function() {
+            google.maps.event.addListener(accordionLundMarker, 'click', function() {
             infoWin.setContent(location.info);
-            infoWin.open(map, accordionMalmoMarker);
+            infoWin.open(map, accordionLundMarker);
             });
-            return accordionMalmoMarker;
+            return accordionLundMarker;
         });
 
 //Marker clusters
@@ -516,7 +530,7 @@ function initAutocomplete() {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
             
 //Marker clusters for maps in accordion elements
-       var  accordianLakeCluster = new MarkerClusterer(accordionLakeMap, accordionLakeMarkers,
+       var  accordionLakeCluster = new MarkerClusterer(accordionLakeMap, accordionLakeMarkers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
          var  accordionNationalParksCluster = new MarkerClusterer(accordionNationalParksMap, accordionNationalParksMarkers,
