@@ -242,7 +242,7 @@ function initAutocomplete() {
              /*   label: labels[i % labels.length] 
              icon: { url: "assets/images/002-lake-1.png",
                     scaledSize: new google.maps.Size(32, 32)} */ 
-                icon: locations[i % locations.length].type
+                icon: lakeLocations[i % locations.length].type
             });
             google.maps.event.addListener(lakeMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -257,7 +257,7 @@ function initAutocomplete() {
             /*    label: labels[i % labels.length] 
             icon: { url: "assets/images/003-pine-tree.png",
                     scaledSize: new google.maps.Size(32, 32)} */
-            icon: locations[i % locations.length].type               
+            icon: nationalParksLocations[i % locations.length].type               
             });
             google.maps.event.addListener(nationalParksMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -272,7 +272,7 @@ function initAutocomplete() {
               /*  label: labels[i % labels.length] 
             icon: { url: "assets/images/003-pine-tree.png",
                     scaledSize: new google.maps.Size(32, 32)} */
-                    icon: locations[i % locations.length].type
+                    icon: forestLocations[i % locations.length].type
             });
             google.maps.event.addListener(forestMarker, 'click', function() {
             infoWin.setContent(location.info);
@@ -287,6 +287,7 @@ function initAutocomplete() {
                /* label: labels[i % labels.length] 
                icon: { url: "assets/images/beach.png",
                     scaledSize: new google.maps.Size(64, 64)} */
+                     icon: eastCoastLocations[i % locations.length].type
             });
             google.maps.event.addListener(eastCoastMarker, 'click', function() {
             infoWin.setContent(location.info);
