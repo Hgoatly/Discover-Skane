@@ -7,7 +7,7 @@ html, body {
 .navbar-container-fluid{
     position: relative; 
     width: 100%;
-    z-index:10;  
+  /*  z-index:10;  */
 }
 
 .navbar {
@@ -32,6 +32,9 @@ html, body {
     color:#fff;
 }
 
+#swedish, #english {
+    padding-top: 0rem;
+}
 .modal-dialog {
     margin-top: 4rem;
 }
