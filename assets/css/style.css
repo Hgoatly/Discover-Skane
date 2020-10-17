@@ -44,7 +44,7 @@ html, body {
 } 
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
     position: relative;
     opacity: 1;
     background-position: center;
@@ -77,6 +77,11 @@ html, body {
 
 .pimg5{
     background-image:url('../images/road.jpg');
+    min-height: 400px;
+}
+
+.pimg6{
+    background-image:url('../images/hotel-room.jpg');
     min-height: 400px;
 }
 
@@ -367,7 +372,10 @@ input {
 
 */
 
-
+#deal-finder {
+    width: 95vw;
+    margin-top: 1rem;
+}
 
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{

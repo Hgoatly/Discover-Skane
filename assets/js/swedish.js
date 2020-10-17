@@ -1,3 +1,7 @@
+if (window.localStorage) {
+    var swedishLang = document.getElementById("swedish")
+}
+
 $(document).ready(function(){
 
 //Toggle between Swedish and English language when the relevant flag is clicked.
