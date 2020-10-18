@@ -104,16 +104,11 @@ html, body {
 }
 /* End of copied code */
 
-/*
-.english-heading {
-    display: inline;
-}
-*/
 .img-fluid {
-    padding-top: 5.1rem;s
+    padding-top: 5.1rem;
 }
 
-.callout-container-fluid{
+.callout-container-fluid {
     height: 100vh;
     width: 100%;
     background: url("../images/oresund.jpg") no-repeat center center fixed; 
@@ -180,7 +175,8 @@ html, body {
 .swedish-heading {
     display: none;
 }
-.intro-paragraph {
+.intro-paragraph, .map-paragraph, 
+.contact-us-paragraph {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -295,8 +291,8 @@ html, body {
 
 #submit-button {
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .accordian-card {
@@ -314,7 +310,7 @@ html, body {
 }
 
 input {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 #footer {
   position: relative;
@@ -375,8 +371,13 @@ input {
 #deal-finder {
     width: 95vw;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
+.center-form {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
         height: 100vh;
