@@ -1,5 +1,9 @@
 if (window.localStorage) {
-    var swedishLang = document.getElementById("swedish")
+    var swedishLang = document.getElementById("swedish");
+    swedishLang.value = localStorage.getItem("swedish");
+    swedishLang.addEventListener("input", function() {
+        localStorage.setItem("swedish", swedishLang.value);
+    }, false);
 }
 
 $(document).ready(function(){
@@ -111,3 +115,4 @@ $(document).ready(function(){
      })  
 
 })
+
