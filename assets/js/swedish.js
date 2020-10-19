@@ -1,22 +1,25 @@
-if (window.localStorage) {
-    var swedishLang = document.getElementById("swedish");
-    swedishLang.value = localStorage.getItem("swedish");
-    swedishLang.addEventListener("input", function() {
-        localStorage.setItem("swedish", swedishLang.value);
+/*if (window.localStorage) {
+    var swedishLang = document.getElementById("swedish-flag");
+    var englishLang = document.getElementById("english-flag");
+    swedishLang.value = localStorage.getItem("swedish-flag");
+    englishLang.value = localStorage.getItem("english-flag");
+
+    language.addEventListener("click", function() {
+        localStorage.setItem("language", swedishLang.value);
+        localStorage.setItem("language", englishLang.value);
     }, false);
-}
+} */
 
 $(document).ready(function(){
 
 //Toggle between Swedish and English language when the relevant flag is clicked.
     $("#swedish").click(function(){
-        $("#swedish-flag").toggle();
-        $("#uk-flag").toggle();
         $(".english-content").toggle();
         $(".swedish-content").toggle();
         $(".english-heading").toggle();
-        $(".swedish-heading").toggle();
-     
+        $(".swedish-heading").toggle();   
+        localStorage.setItem("english-content").toggle();
+        localStorage.setItem("swedish-content").toggle(); 
     })
         //Toggle card pictures and maps to be shown and hidden.
     $("#maps-button-1-swedish").click(function(){
