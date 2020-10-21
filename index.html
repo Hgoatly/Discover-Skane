@@ -83,22 +83,22 @@
                             <span class="sr-only english-content">Contact</span></a>
                         <a lang="sv" class="nav-link swedish-content" href="#contact">Kontakt
                             <span class="sr-only swedish-content">Kontakt</span></a>
-						<a class="nav-link" href="#" id="swedish">
+						<a class="nav-link" href="#" id="flag" onclick="setSwedish();setEnglish();">
 							<img
                   src="assets/images/001-sweden.png"
                   width="40"
                   height="40"
                   alt="Swedish Flag"
+                  id="swedish-flag"
                   class="english-content"
-                  onclick=""
                 />
                 <img
                   src="assets/images/002-united-kingdom.png"
                   width="40"
                   height="40"
                   alt="British Flag"
+                  id="british-flag"
                   class="swedish-content"
-                  onclick=""
                 />
               </a>
 					</div>
@@ -106,71 +106,6 @@
 			</nav>
 		</div>
 
-		<!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/ -->
-	<!--	<div class="modal" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="bookingModalLabel">Book Your Trip</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-					</div>
-					<div class="modal-body">
-						<!--Code for Booking.com API from Booking.com Partner Centre: https://spadmin.booking.com/pc/product_search_box_v2.html?ses=5115080f9ca38db3dfe85e3cae130dca&partner_id=859302&product_type=nsb -->
-		<!--				<ins class="bookingaff" id="booking" data-aid="2080385" data-target_aid="2080385"
-							data-prod="nsb" data-width="100%" data-height="auto" data-lang="en"
-							data-df_num_properties="3">
-							<!-- Anything inside will go away once widget is loaded. -->
-			<!--				<a href="//www.booking.com?aid=2080385">Booking.com</a>
-						</ins>
-						<script type="text/javascript">
-							(function(d, sc, u) {
-      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = u + '?v=' + (+new Date());
-      p.parentNode.insertBefore(s,p);
-      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
-						</script>
-						<!--End of code copied from Booking.com Partner Centre-->
-			<!--		</div>
-				</div>
-			</div>
-		</div>
-
-	<!-- Modal copied from: https://getbootstrap.com/docs/4.5/components/modal/-->
-	<!--	<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-
-						<h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
-
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-					</div>
-					<div class="modal-body">
-
-						<!--Form example copied from the CI Resume project-->
-		<!--				<div class="center-form">
-							<form onsubmit="return sendMail(this);">
-								<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-								<input type="text" value="Email address" class="form-control" id="emailaddress" placeholder="Email" required/>
-								<textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne" required></textarea>
-								<div class="row">
-									<div class="col-12 text-center">
-										<button type="submit" class="btn form-button center-block" id="submit-button">Tell Us</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div> 
-					<!--End of copied code-->
-			<!--	</div>
-			</div>
-		</div>
 		<!-- This Section copied and adapted from an example shared on Slackspace by Eventyret Mentor:
             https://github.com/Eventyret/simple-parallax/blob/master/index.html -->
 		<div class="pimg1" id="discover-skane">
@@ -1314,23 +1249,8 @@
           </span>
 												</div>
 										</div>
-                                        <!--Code for Booking.com API from Booking.com Partner Centre: https://spadmin.booking.com/pc/product_search_box_v2.html?ses=5115080f9ca38db3dfe85e3cae130dca&partner_id=859302&product_type=nsb --> 
-					<!--	<ins class="bookingaff" id="booking" data-aid="2080385" data-target_aid="2080385"
-							data-prod="nsb" data-width="100%" data-height="auto" data-lang="en"
-							data-df_num_properties="3">
-							<!-- Anything inside will go away once widget is loaded. -->
-						<!--	<a href="//www.booking.com?aid=2080385">Booking.com</a>
-						</ins>
-						<script type="text/javascript">
-							(function(d, sc, u) {
-      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = u + '?v=' + (+new Date());
-      p.parentNode.insertBefore(s,p);
-      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
-						</script>
-					<!--	End of code copied from Booking.com Partner Centre-->
+                                       
+					
 
                     <section class="intro-text">
                             
@@ -1386,7 +1306,7 @@
       })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
 </script> -->
 
-                                                            <div class="pimg6" id="contact">
+                                                            <div class="pimg7" id="contact">
 												<div class="ptext">
 													<span class="border english-heading">
             Contact

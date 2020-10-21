@@ -32,7 +32,7 @@ html, body {
     color:#fff;
 }
 
-#swedish, #english {
+#flag {
     padding-top: 0rem;
 }
 .modal-dialog {
@@ -44,7 +44,7 @@ html, body {
 } 
 /* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
     position: relative;
     opacity: 1;
     background-position: center;
@@ -82,6 +82,11 @@ html, body {
 
 .pimg6{
     background-image:url('../images/hotel-room.jpg');
+    min-height: 400px;
+}
+
+.pimg7{
+    background-image:url('../images/old-telephone.jpg');
     min-height: 400px;
 }
 

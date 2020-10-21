@@ -1,27 +1,66 @@
-/*if (window.localStorage) {
-    var swedishLang = document.getElementById("swedish-flag");
-    var englishLang = document.getElementById("english-flag");
-    swedishLang.value = localStorage.getItem("swedish-flag");
-    englishLang.value = localStorage.getItem("english-flag");
+/*if (window.localStorage != "null") {
+    var swedishLang = document.getElementsByClassName("swedish-content");
+    var englishLang = document.getElementsByClassName("english-content");
+    swedishLang = localStorage.getItem("language");
+    englishLang = localStorage.getItem("language");
 
-    language.addEventListener("click", function() {
-        localStorage.setItem("language", swedishLang.value);
-        localStorage.setItem("language", englishLang.value);
+    flag.addEventListener("click", function() {
+        localStorage.setItem("language", "swedishLang");
+        localStorage.setItem("language", "englishLang");
     }, false);
-} */
+} 
+/*
+let englishLang = document.getElementsByClassName("english-content");
+let swedishLang = document.getElementsByClassName("swedish-content");
+let swedishFlag = document.getElementById("swedish-flag");
+let britishFlag = document.getElementById("british-flag");
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  swedishFlag.addEventListener("click", function() {
+      localStorage.setItem("language", "swedishLang");
+  })
+ swedishFlag.addEventListener("click", function() {
+  localStorage.setItem("language", "englishLang");
+ })
+  // Retrieve
+  document.getElementsByClassName("english-content").innerHTML = localStorage.getItem("language");
+  document.getElementsByClassName("swedish-content").innerHTML = localStorage.getItem("language");
+  
+
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+*/
+const swedish = document.querySelectorAll(".swedish-content");
+const english = document.querySelectorAll(".english-content");
+
+ function setSwedish() {
+             currentLanguage = localStorage.getItem("language") 
+            localStorage.setItem("language", "swedish");
+        }
+
+        function setEnglish() {
+           
+             currentLanguage = sessionStorage.getItem("language");
+            localStorage.setItem("language", "english");
+            
+        }
+
+
+    
 
 $(document).ready(function(){
 
 //Toggle between Swedish and English language when the relevant flag is clicked.
-    $("#swedish").click(function(){
+    $("#flag").click(function(){
         $(".english-content").toggle();
         $(".swedish-content").toggle();
         $(".english-heading").toggle();
         $(".swedish-heading").toggle();   
-        localStorage.setItem("english-content").toggle();
-        localStorage.setItem("swedish-content").toggle(); 
     })
-        //Toggle card pictures and maps to be shown and hidden.
+
+    //Toggle card pictures and maps to be shown and hidden.
     $("#maps-button-1-swedish").click(function(){
         $("#card-front-1").toggle();
         $("#card-back-1").toggle(); 
