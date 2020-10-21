@@ -35,11 +35,11 @@
           </span>
 			</div>
 <!--Button Hides Landing Page and Displays Main Content-->
-			<div class="ptext" id="enter-link" onclick="hideLandingPage()">
+			<div class="ptext" id="enter-link" onclick="hideLandingPage()"> 
 				<button type="button" class="btn btn-danger">Enter</button>
 			</div>
 		</div>
-	</div>
+	</div> 
 <!--Main Content Section-->
 	<div id="main-content">
 		<!--navbar copied from https://getbootstrap.com/docs/4.5/components/navbar/-->
@@ -83,22 +83,24 @@
                             <span class="sr-only english-content">Contact</span></a>
                         <a lang="sv" class="nav-link swedish-content" href="#contact">Kontakt
                             <span class="sr-only swedish-content">Kontakt</span></a>
-						<a class="nav-link" href="#" id="flag" onclick="setSwedish();setEnglish();">
+						<a class="nav-link" href="#" id="flag">
 							<img
                   src="assets/images/001-sweden.png"
                   width="40"
                   height="40"
                   alt="Swedish Flag"
-                  id="swedish-flag"
                   class="english-content"
-                />
+                  role="button"
+                  onclick="setSwedish()"
+                /> 
                 <img
                   src="assets/images/002-united-kingdom.png"
                   width="40"
                   height="40"
                   alt="British Flag"
-                  id="british-flag"
                   class="swedish-content"
+                  role="button"
+                  onclick="setEnglish()"
                 />
               </a>
 					</div>

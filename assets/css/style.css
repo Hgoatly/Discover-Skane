@@ -4,6 +4,24 @@ html, body {
     background-color: #f5f5f5;
     color:#4f4646; 
 } 
+
+.callout-container-fluid {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/oresund.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Roboto', cursive;
+   position: relative;
+   }
+
+/*--------------------------Navbar----------------------------*/
+
 .navbar-container-fluid{
     position: relative; 
     width: 100%;
@@ -35,14 +53,9 @@ html, body {
 #flag {
     padding-top: 0rem;
 }
-.modal-dialog {
-    margin-top: 4rem;
-}
-.modal-open {
-    overflow: hidden;
-    padding-right: 0 !important; 
-} 
-/* This section copied from: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
+
+/*-----------------------Parallax--------------------*/
+/* This section copied and adapted from an example on Slack: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
     position: relative;
@@ -52,12 +65,13 @@ html, body {
     background-repeat: no-repeat;
 
     /* Setting it fixed created parallax */
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .pimg1{
     background-image:url('../images/sunset-fields.jpg');
     min-height: 100vh;
+    min-width: 100vw;
 }
 
 .pimg2{
@@ -78,16 +92,19 @@ html, body {
 .pimg5{
     background-image:url('../images/road.jpg');
     min-height: 400px;
+    min-width: 100vw;
 }
 
 .pimg6{
     background-image:url('../images/hotel-room.jpg');
     min-height: 400px;
+    min-width: 100vw;
 }
 
 .pimg7{
     background-image:url('../images/old-telephone.jpg');
     min-height: 400px;
+    min-width: 100vw;
 }
 
 .ptext{
@@ -109,25 +126,6 @@ html, body {
 }
 /* End of copied code */
 
-.img-fluid {
-    padding-top: 5.1rem;
-}
-
-.callout-container-fluid {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/oresund.jpg") no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-family: 'Roboto', cursive;
-   position: relative;
-   }
-
 #enter-link{
     top:75%;
 }
@@ -141,9 +139,7 @@ html, body {
 .btn-danger:hover{
     color:#fff;
 }
-.col-12 {
-    padding: 0px;
-}
+
 .container-fluid{
     margin-right: 0;
     margin-left: 0;
@@ -329,49 +325,6 @@ input {
   padding-top: 2rem; 
   font-family: 'oswald';
 }
-/*
-.pac-card {
-  margin: 10px 10px 0 0;
-  border-radius: 2px 0 0 2px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  outline: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
-  background-color: #fff;
-  font-family: Roboto;
-} */
-
-/*
-#pac-container {
-  padding-bottom: 12px;
-  margin-right: 12px;
-}
-
-.pac-controls {
-  display: inline-block;
-  padding: 5px 11px;
-}
-
-.pac-controls label {
-  font-family: Roboto;
-  font-size: 13px;
-  font-weight: 300;
-}
-*/
-/*
-#pac-input {
-  background-color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-  margin-left: 12px;
-  margin-bottom: 3rem;
-  padding: 0 11px 0 13px;
-  text-overflow: ellipsis;
-  width: 400px;
-}
-
-*/
 
 #deal-finder {
     width: 95vw;

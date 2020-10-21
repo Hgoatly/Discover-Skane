@@ -33,7 +33,7 @@ if (typeof(Storage) !== "undefined") {
 }
 */
 const swedish = document.querySelectorAll(".swedish-content");
-const english = document.querySelectorAll(".english-content");
+const english = document.querySelectorAll(".english-content"); 
 
  function setSwedish() {
              currentLanguage = localStorage.getItem("language") 
@@ -45,21 +45,17 @@ const english = document.querySelectorAll(".english-content");
              currentLanguage = sessionStorage.getItem("language");
             localStorage.setItem("language", "english");
             
-        }
-
-
-    
-
+        } 
+  
 $(document).ready(function(){
 
 //Toggle between Swedish and English language when the relevant flag is clicked.
     $("#flag").click(function(){
         $(".english-content").toggle();
-        $(".swedish-content").toggle();
         $(".english-heading").toggle();
+        $(".swedish-content").toggle();
         $(".swedish-heading").toggle();   
-    })
-
+})
     //Toggle card pictures and maps to be shown and hidden.
     $("#maps-button-1-swedish").click(function(){
         $("#card-front-1").toggle();
