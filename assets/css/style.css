@@ -65,7 +65,7 @@ html, body {
     background-repeat: no-repeat;
 
     /* Setting it fixed created parallax */
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .pimg1{
@@ -364,4 +364,18 @@ input {
     .ptext {
         letter-spacing: 4px;
     }
+}
+
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Setting it fixed created parallax */
+    background-attachment: scroll;
+} 
 }

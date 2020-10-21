@@ -16,7 +16,6 @@ function topFunction() {
 }
 //End of copied code.
 
-
 $(document).ready(function(){
 
 //Toggle card pictures and maps to be shown and hidden.
