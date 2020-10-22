@@ -8,7 +8,7 @@ html, body {
 .callout-container-fluid {
     height: 100vh;
     width: 100%;
-    background: url("../images/oresund.jpg") no-repeat center center fixed; 
+    background: url("../images/bridge-resized.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -69,18 +69,18 @@ html, body {
 }
 
 .pimg1{
-    background-image:url('../images/sunset-fields.jpg');
+    background-image:url('../images/sunset-fields-resized.jpg');
     min-height: 100vh;
     min-width: 100vw;
 }
 
 .pimg2{
-    background-image:url('../images/sunlit-forest.jpg');
+    background-image:url('../images/sunlit-forest-resized.jpg');
     min-height: 400px;
 }
 
 .pimg3{
-    background-image:url('../images/ystad-beach.jpg');
+    background-image:url('../images/ystad-beach-resized.jpg');
     min-height: 400px;
 }
 
@@ -90,7 +90,7 @@ html, body {
 }
 
 .pimg5{
-    background-image:url('../images/road.jpg');
+    background-image:url('../images/road-resized.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
