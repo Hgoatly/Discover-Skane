@@ -85,7 +85,7 @@ html, body {
 }
 
 .pimg4{
-    background-image:url('../images/sofiero.jpg');
+    background-image:url('../images/castle.jpg');
     min-height: 400px;
 }
 
@@ -96,7 +96,7 @@ html, body {
 }
 
 .pimg6{
-    background-image:url('../images/hotel-room.jpg');
+    background-image:url('../images/hotel.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
@@ -336,6 +336,8 @@ input {
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
+/*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
         height: 100vh;
@@ -366,16 +368,14 @@ input {
     }
 }
 
+/*-- Parallax effect disabled for ios devices. Copied from: https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices */
 @supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
     position: relative;
     opacity: 1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-    /* Setting it fixed created parallax */
     background-attachment: scroll;
 } 
 }
