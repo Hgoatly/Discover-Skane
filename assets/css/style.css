@@ -50,12 +50,15 @@ html, body {
     color:#fff;
 }
 
+.navbar-toggler {
+    margin-bottom: .5rem;
+}
 #flag {
     padding-top: 0rem;
 }
 
 /*-----------------------Parallax--------------------*/
-/* This section copied and adapted from an example on Slack: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
+/* This section copied and adapted from an example posted on CI Slack: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
     position: relative;
@@ -378,4 +381,8 @@ input {
     background-repeat: no-repeat;
     background-attachment: scroll;
 } 
+    .map-buttons:hover,.top-button:hover,.form-button:hover {
+    background-color: #4f4646;
+    color: #fff;
+}
 }
