@@ -492,11 +492,18 @@ function initAutocomplete() {
     google.maps.event.addListener(lakeMarker, "click", function () {
     /*  infoWin.setContent(location.info); */
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
+    //  infoWin.setContent(siteLang === "swedish" ? location.infoSwe : location.infoEng);
       infoWin.open(map, lakeMarker);
     });
     return lakeMarker;
-   })
+    })
 
+    var flag = document.getElementById("flag");
+    flag.addEventListener("click", closeInfoWindow);
+    function closeInfoWindow() {
+        infoWin.close();
+    }; 
+    
   var nationalParksMarkers = nationalParksLocations.map(function (location, i) {
     var nationalParksMarker = new google.maps.Marker({
       position: location,
