@@ -255,30 +255,38 @@ function initAutocomplete() {
     {
       lat: 56.2267,
       lng: 13.2833,
-      info:
+      infoEng:
         "<a class='info-header' href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Hjälmsjön</a><p>Hjälmsjön is widely known by canoeists and rowers for its mirror-shiny water. Here you will also find perch, bream, pike, pikeperch, roach and trout. The responsible fisheries conservation association is Hjälmsjön / Pinnån's fisheries conservation area. The association also sells fishing licenses in Abborrasjön and Prästsjön.</p><p>Attribution: <a href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Örkelljunga Kommun</a></p>",
-      type: lakesIcon,
+      infoSwe: 
+        "<a class='info-header' href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Hjälmsjön</a><p>Hjälmsjön är vida känd av kanotister och roddare för sitt spegelblanka vatten. Här hittar du också abborre, brax, gädda, gös, mört och öring.Ansvarig fiskevårdsförening är Hjälmsjöns/Pinnåns fiskevårdsområde. Föreningen säljer också fiskekort i Abborrasjön och Prästsjön.</p><p>Attribution: <a href='https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html' target='_blank'>Örkelljunga Kommun</a></p>",
+        type: lakesIcon,
     },
     {
       lat: 55.9833,
       lng: 14.2167,
-      info:
-        "<a class='info-header' href='https://sv.wikipedia.org/wiki/Hammarsj%C3%B6n' target='_blank'>Hammarsjön</a><p>Hammarsjön, which is located directly south of Kristianstad, is Vattenriket's largest lake. It is eight kilometers long and four kilometers wide. The landscape is flat, and the lake is very shallow. During the summer, the average depth is only 0.7 meters.</p><p>Attribution: <a href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
+      infoEng:
+        "<a class='info-header' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Hammarsjön</a><p>Hammarsjön, which is located directly south of Kristianstad, is Vattenriket's largest lake. It is eight kilometers long and four kilometers wide. The landscape is flat, and the lake is very shallow. During the summer, the average depth is only 0.7 meters.</p><p>Attribution: <a href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Hammarsjön</a><p>Hammarsjön, som ligger direkt söder om Kristianstad, är Vattenrikets största sjö. Den är åtta kilometer lång och fyra kilometer bred. Landskapet är flackt, och sjön är mycket grund. Under sommaren är medeldjupet bara 0,7 meter.</p><p>Attribution: <a href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
       type: lakesIcon,
     },
     {
       lat: 56.0166,
       lng: 13.2166,
-      info:
-        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a><p>Deep valleys, impressive talus slopes and lush deciduous forests Just east of Helsingborg you encounter ridges covered with beech forests, dramatic valleys and flowing streams. The view of the Skåne countryside is breathtaking. The area, which is dominated by beech forests, is one of the largest uninterrupted expanses of protected deciduous forests in northern Europe.</p><p>Attribution: <a href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>National Parks of Sweden</a></p>",
-      type: forestsIcon,
-    },
+      infoEng:
+        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a><p>Deep valleys, impressive talus slopes and lush deciduous forests. Just east of Helsingborg you encounter ridges covered with beech forests, dramatic valleys and flowing streams. The view of the Skåne countryside is breathtaking. The area, which is dominated by beech forests, is one of the largest uninterrupted expanses of protected deciduous forests in northern Europe.</p><p>Attribution: <a href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>National Parks of Sweden</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>Sö‎deråsen</a><p>Djupa dalar, imponerande rasbranter och lummiga lövskogar. Strax öster om Helsingborg möts du av bokskogsklädda åsar, dramatiska dalar och strömmande vattendrag. Utsikten över det skånska landskapet är hänförande. Området, som domineras av bokskogar, är också en av de största sammanhängande naturskyddade ädellövskogarna i Nordeuropa.</p><p>Attribution: <a href='http://www.nationalparksofsweden.se/choose-park---list/soderasen-national-park/' target='_blank'>National Parks of Sweden</a></p>",
+        type: forestsIcon,
+      },
     {
       lat: 55.6562,
       lng: 14.2687,
-      info:
-        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a>",
-      type: forestsIcon,
+      infoEng:
+        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a><p>A bit of magic in Österlen. Coastal hills, lush deciduous forests, pastoral heaths and beautiful beaches unite to form a magnificent landscape in the part of Skåne known as Österlen. The national park has the exotic character of more southerly climes and great biodiversity that is worth preserving and visiting.</p><p>Attribution: <a href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='http://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud</a><p>En bit magi på Österlen. Kustberg, lummiga ädellövskogar, pastorala hedar och vackra stränder förenas i ett storslaget landskap på Skånska Österlen. Nationalparken har en sydlig exotisk karaktär och stor biologisk mångfald värd att bevara och besöka. Om Stenshuvuds nationalpark.</p><p>Attribution: <a href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
+        type: forestsIcon,
     },
     {
       lat: 55.6926,
@@ -490,27 +498,19 @@ function initAutocomplete() {
     });
     
     google.maps.event.addListener(lakeMarker, "click", function () {
-    /*  infoWin.setContent(location.info); */
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
-    //  infoWin.setContent(siteLang === "swedish" ? location.infoSwe : location.infoEng);
       infoWin.open(map, lakeMarker);
     });
     return lakeMarker;
     })
-
-    var flag = document.getElementById("flag");
-    flag.addEventListener("click", closeInfoWindow);
-    function closeInfoWindow() {
-        infoWin.close();
-    }; 
-    
+  
   var nationalParksMarkers = nationalParksLocations.map(function (location, i) {
     var nationalParksMarker = new google.maps.Marker({
       position: location,
       icon: nationalParksLocations[i % locations.length].type,
     });
     google.maps.event.addListener(nationalParksMarker, "click", function () {
-      infoWin.setContent(location.info);
+     infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, nationalParksMarker);
     });
     return nationalParksMarker;
@@ -757,6 +757,13 @@ function initAutocomplete() {
     });
     return accordionLundMarker;
   });
+
+//Close InfoWindows that are open when site language is changed.
+var flag = document.getElementById("flag");
+    flag.addEventListener("click", closeInfoWindow);
+    function closeInfoWindow() {
+        infoWin.close();
+    }; 
 
   //Marker clusters
   markerCluster = new MarkerClusterer(map, markers, {
