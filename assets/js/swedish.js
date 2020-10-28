@@ -1,24 +1,29 @@
-const swedish = document.querySelectorAll(".swedish-content");
-const english = document.querySelectorAll(".english-content");
-
+//Save language selection to local storage.
+const swedish = document.querySelectorAll(".swedish-content, .swedish-heading");
+const english = document.querySelectorAll(".english-content, .english-heading");
+let siteLang = "english";
 function setSwedish() {
   currentLanguage = localStorage.getItem("language");
   localStorage.setItem("language", "swedish");
+  siteLang = "swedish";
 }
 
 function setEnglish() {
-  currentLanguage = sessionStorage.getItem("language");
+  currentLanguage = localStorage.getItem("language");
   localStorage.setItem("language", "english");
+  siteLang = "english";
 }
 
+ 
 $(document).ready(function () {
   //Toggle between Swedish and English language when the relevant flag is clicked.
-  $("#flag").click(function () {
+  $("#flag").click(function () { 
     $(".english-content").toggle();
     $(".english-heading").toggle();
     $(".swedish-content").toggle();
-    $(".swedish-heading").toggle();
-  });
+    $(".swedish-heading").toggle();  
+   });
+   
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
     $("#card-front-1").toggle();
@@ -110,8 +115,9 @@ $(document).ready(function () {
     $("#accordion-card-back-9").toggle();
   });
 
-  //Toggles text on map buttons
+  //Toggle text on map buttons
   $(".map-buttons-swedish").click(function () {
     $(this).text($(this).text() == "Dölj Karta" ? "Se på karta" : "Dölj Karta");
   });
 });
+

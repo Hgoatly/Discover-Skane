@@ -22,7 +22,6 @@ $(document).ready(function(){
     $("#maps-button-1").click(function(){
         $("#card-front-1").toggle();
         $("#card-back-1").toggle();
-        
         })
 
     $("#maps-button-2").click(function(){
@@ -123,23 +122,6 @@ $(document).ready(function(){
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
      })
-})/*,
+})
 
 
-//Enables emails to be sent from contact form. Copied from CI Resume project.
-function sendMail(contactForm) {
-    emailjs.send("outlook", "find_my_coffee", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "cafe_signup": contactForm.cafeinfo.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS!", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        });
-        return false;
-         }
-*/
