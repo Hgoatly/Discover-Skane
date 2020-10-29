@@ -291,8 +291,10 @@ function initAutocomplete() {
     {
       lat: 55.6926,
       lng: 13.36,
-      info:
-        "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a>",
+      infoEng:
+        "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a><p>The nature reserve Skrylle is 565 ha in size. It stretches from Dalby in the south to the quarry north of Skryllegården. To the west, Rögle dams form the boundary, while the adjacent nature reserve Måryd and the old parish boundary are the eastern neighbor of the area. The nature reserve is owned by the municipality of Lund and the Skånska Landskap Foundation. It was purchased to create an outdoor area but also to benefit plants and animals in the area. Lund Municipality's technical administration is a nature conservation manager, ie the County Administrative Board's task is to manage the area.</p><p>Attribution: <a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a><p>Naturreservatet Skrylle är 565 ha stort. Det sträcker sig från Dalby i söder till stenbrottet norr om Skryllegården. I väster utgör Rögle dammar gräns medan det angränsande naturreservatet Måryd och den gamla sockengränsen är områdets östra granne. Naturreservatet ägs av Lunds kommun och Stiftelsen Skånska Landskap. Det köptes in för att skapa ett friluftsområde men även för att gynna växter och djur i området. Lunds kommuns tekniska förvaltning är naturvårdsförvaltare dvs har Länsstyrelsens uppdrag att sköta området.</p></p><p>Attribution: <a class='info-header' href='https://skrylle.se/' target='_blank'>Skrylle</a></p>",
       type: forestsIcon,
     },
     {
@@ -485,7 +487,8 @@ function initAutocomplete() {
     });
 
     google.maps.event.addListener(marker, "click", function () {
-      infoWin.setContent(location.info); 
+     /* infoWin.setContent(location.info); */
+     infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, marker);
     });
     return marker;
@@ -522,7 +525,7 @@ function initAutocomplete() {
       icon: forestLocations[i % locations.length].type,
     });
     google.maps.event.addListener(forestMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, forestMarker);
     });
     return forestMarker;
