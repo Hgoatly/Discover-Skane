@@ -300,15 +300,19 @@ function initAutocomplete() {
     {
       lat: 55.5803,
       lng: 13.4284,
-      info:
-        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a>",
+      infoEng:
+        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a><p>In Häckeberga's nature conservation area, there are wetlands, pastures and some of the country's most important beech forests. The high age of the trees has created an eldorado for endangered species.</p><p>Attribution: <a href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga naturvårdsområde</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga</a><p>I Häckebergas naturvårdsområde finns våtmarker, betesmarker och några av landets viktigaste bokskogar. Trädens höga ålder har skapat ett eldorado för hotade arter.</p><p>Attribution: <a href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html' target='_blank'>Häckeberga naturvårdsområde</a></p>",
       type: forestsIcon,
     },
     {
       lat: 55.8785,
       lng: 13.6208,
-      info:
-        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a>",
+      infoEng:
+        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p>Fulltofta walking area is a hiking paradise in the middle of Skåne. There is the Fulltofta Nature Center with an exhibition about nature, conference rooms, dining and activities. The Skånska Landskap Foundation offers fourteen different marked hiking trails for short and long hikes. The landscape is varied with deep forests, open clearings and pastures, wide fields with mighty oaks, small and large ponds and several small streams.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta>Skånska Landskap</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p lang='sv'>Fulltofta strövområde är ett vandringsparadis mitt i Skåne. Där finns Fulltofta Naturcentrum med utställning om naturen, konferenslokal, servering och aktiviteter. Stiftelsen Skånska Landskap erbjuder fjorton olika markerade vandringsleder för korta och långa vandringar. Landskapet är omväxlande med djupa skogar, öppna gläntor och hagmarker, vida fälader med mäktiga ekar, små och stora dammar och flera små bäckar.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta>Skånska Landskap</a></p>",
       type: forestsIcon,
     },
     //Beach coordinates
@@ -320,11 +324,13 @@ function initAutocomplete() {
       type: beachesIcon,
     },
     {
-      lat: 55.642,
-      lng: 14.2616,
-      info:
-        "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a>",
-      type: beachesIcon,
+      lat: 55.642334,
+      lng: 14.277357,
+      infoEng:
+        "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a><p>The beach at Knäbäckshusen is one of the most beautiful in Skåne - and for that sake the whole Sweden - stretching from Lilla Vik in the north to Stenshuvud in the south. The beach is “protected” on the land-side by a large sand dune, with pine trees stretching like palm trees towards the sea.</p><p>Attribution: <a href='http://www.knabackshusen.se/index-en.html'>Knäbäckshusen.se</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen</a><p lang='sv'>Knäbäckshusens strand är bland de vackraste stränder i Skåne. Sandstranden sträcker sig från Lilla Vik till Stenshuvud och skyddas av en hög strandbank där träden sträcker sig likt palmer ut mot vattnet.</p><p>Attribution: <a href='http://www.knabackshusen.se/index-en.html'>Knäbäckshusen.se</a></p>",
+        type: beachesIcon,
     },
     {
       lat: 55.8812,
@@ -537,7 +543,7 @@ function initAutocomplete() {
       icon: eastCoastLocations[i % locations.length].type,
     });
     google.maps.event.addListener(eastCoastMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, eastCoastMarker);
     });
     return eastCoastMarker;
