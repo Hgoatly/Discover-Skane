@@ -55,6 +55,7 @@ html, body {
 }
 #flag {
     padding-top: 0rem;
+    float: right;
 }
 
 /*-----------------------Parallax--------------------*/
