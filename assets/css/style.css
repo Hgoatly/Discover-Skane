@@ -106,7 +106,7 @@ html, body {
 }
 
 .pimg7{
-    background-image:url('../images/old-telephone-compressed.jpg');
+    background-image:url('../images/computer.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
@@ -289,7 +289,7 @@ html, body {
     border-radius: 0rem; 
   }
   
-.map-buttons:hover,.top-button:hover,.form-button:hover {
+.top-button:hover,.form-button:hover {
     background-color:#fff;
     color:  #4f4646; 
 }
@@ -306,11 +306,21 @@ html, body {
 .info-header {
     font-weight: 500;
     color: #dc3545;
-    text-decoration: none;
+    font-size: 1rem;
 }
 
 .info-header:hover{
     color: #d8b54d;
+}
+
+.info-link {
+    font-weight: 500;
+    color: #d8b54d;
+    text-decoration: none;
+}
+
+.info-link:hover {
+    color:  #dc3545;
     text-decoration: none;
 }
 
