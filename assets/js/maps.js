@@ -310,9 +310,9 @@ function initAutocomplete() {
       lat: 55.8785,
       lng: 13.6208,
       infoEng:
-        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p>Fulltofta walking area is a hiking paradise in the middle of Skåne. There is the Fulltofta Nature Center with an exhibition about nature, conference rooms, dining and activities. The Skånska Landskap Foundation offers fourteen different marked hiking trails for short and long hikes. The landscape is varied with deep forests, open clearings and pastures, wide fields with mighty oaks, small and large ponds and several small streams.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta>Skånska Landskap</a></p>",
+        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p>Fulltofta walking area is a hiking paradise in the middle of Skåne. There is the Fulltofta Nature Center with an exhibition about nature, conference rooms, dining and activities. The Skånska Landskap Foundation offers fourteen different marked hiking trails for short and long hikes. The landscape is varied with deep forests, open clearings and pastures, wide fields with mighty oaks, small and large ponds and several small streams.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Skånska Landskap</a></p>",
       infoSwe: 
-        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p lang='sv'>Fulltofta strövområde är ett vandringsparadis mitt i Skåne. Där finns Fulltofta Naturcentrum med utställning om naturen, konferenslokal, servering och aktiviteter. Stiftelsen Skånska Landskap erbjuder fjorton olika markerade vandringsleder för korta och långa vandringar. Landskapet är omväxlande med djupa skogar, öppna gläntor och hagmarker, vida fälader med mäktiga ekar, små och stora dammar och flera små bäckar.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta>Skånska Landskap</a></p>",
+        "<a class='info-header' href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Fulltofta</a><p lang='sv'>Fulltofta strövområde är ett vandringsparadis mitt i Skåne. Där finns Fulltofta Naturcentrum med utställning om naturen, konferenslokal, servering och aktiviteter. Stiftelsen Skånska Landskap erbjuder fjorton olika markerade vandringsleder för korta och långa vandringar. Landskapet är omväxlande med djupa skogar, öppna gläntor och hagmarker, vida fälader med mäktiga ekar, små och stora dammar och flera små bäckar.</p><p>attribution: <a href='https://www.skanskalandskap.se/strovomraden/fulltofta' target='_blank'>Skånska Landskap</a></p>",
       type: forestsIcon,
     },
     //Beach coordinates
@@ -411,18 +411,18 @@ function initAutocomplete() {
       lat: 55.5964,
       lng: 12.9963,
       infoEng:
-        "<a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a><p>When in the Öresund region, be sure to visit beautiful Malmö Opera, the best place to go for a great night out. Malmö Opera presents the whole range of music theatre with main emphasis on opera and musical. We perform the great opera classics, musicals, contemporary musical drama, concerts and dance, always meeting the highest international standards of quality. </p><p Attribution: ><a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a></p>",
+        "<a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a><p>When in the Öresund region, be sure to visit beautiful Malmö Opera, the best place to go for a great night out. Malmö Opera presents the whole range of music theatre with main emphasis on opera and musical. We perform the great opera classics, musicals, contemporary musical drama, concerts and dance, always meeting the highest international standards of quality. </p><p> Attribution: <a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a></p>",
       infoSwe:
-         "<a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a><p lang='sv'>När du är i Öresundsregionen, var noga med att besöka vackra Malmö Opera, det bästa stället att åka på för en fantastisk utekväll.Malmö Opera presenterar hela utbudet av musikteater med tonvikt på opera och musikal. Vi utför de stora operaklassikerna, musikaler, samtida musikdrama, konserter och dans, och uppfyller alltid de högsta internationella kvalitetsstandarderna.</p><p Attribution: ><a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a></p>",
+         "<a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a><p lang='sv'>När du är i Öresundsregionen, var noga med att besöka vackra Malmö Opera, det bästa stället att åka på för en fantastisk utekväll.Malmö Opera presenterar hela utbudet av musikteater med tonvikt på opera och musikal. Vi utför de stora operaklassikerna, musikaler, samtida musikdrama, konserter och dans, och uppfyller alltid de högsta internationella kvalitetsstandarderna.</p><p>Attribution: <a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a></p>",
       type: theatresIcon,
     },
     {
       lat: 55.6077,
       lng: 12.9936,
       infoEng:
-        "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a><p>Since its opening in August 2015, Malmö Live Concert Hall has been THE place for music, culture and entertainment in Malmö. With over ninety musicians from different parts of the world, together with innovative and well-developed concert and cultural activities, Malmö Live Concert Hall is a forum for cross-border meetings through music.</p><p>Attribution: <a class='info-header' href='https://malmolive.se/en' target='_blank>Malmö Live Konserthus</a></p>",
+        "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a><p>Since its opening in August 2015, Malmö Live Concert Hall has been THE place for music, culture and entertainment in Malmö. With over ninety musicians from different parts of the world, together with innovative and well-developed concert and cultural activities, Malmö Live Concert Hall is a forum for cross-border meetings through music.</p><p>Attribution: <a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Live Konserthus</a></p>",
       infoSwe:
-        "<a class='info-header' href='https://malmolive.se' target='_blank'>Malmö Concert Hall</a><p lang='sv'>Malmö Live Konserthus är sedan augusti 2015 mötesplatsen för musik, kultur och nöjesliv i Malmö. Med ett nittiotal musiker från olika delar av världen, tillsammans med en utvecklad konsert- och kulturverksamhet är Malmö Live Konserthus en plats att mötas gränsöverskridande genom musiken.</p><p>Attribution: <a class='info-header' href='https://malmolive.se' target='_blank>Malmö Live Konserthus</a></p>",
+        "<a class='info-header' href='https://malmolive.se' target='_blank'>Malmö Concert Hall</a><p lang='sv'>Malmö Live Konserthus är sedan augusti 2015 mötesplatsen för musik, kultur och nöjesliv i Malmö. Med ett nittiotal musiker från olika delar av världen, tillsammans med en utvecklad konsert- och kulturverksamhet är Malmö Live Konserthus en plats att mötas gränsöverskridande genom musiken.</p><p>Attribution: <a class='info-header' href='https://malmolive.se' target='_blank'>Malmö Live Konserthus</a></p>",
         type: theatresIcon,
     },
     {
@@ -438,67 +438,84 @@ function initAutocomplete() {
       lat: 55.6074489,
       lng: 13.0075645,
       infoEng:
-        "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p> Disgusting Food Museum invites visitors to explore the world of food and challenge their notions of what is and what isn’t edible. Could changing our ideas of disgust help us embrace the environmentally sustainable foods of the future? The exhibit has 80 of the world’s most disgusting foods. Adventurous visitors will appreciate the opportunity to smell and taste some of these notorious foods.</p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'></a></p>",
+        "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p> Disgusting Food Museum invites visitors to explore the world of food and challenge their notions of what is and what isn’t edible. Could changing our ideas of disgust help us embrace the environmentally sustainable foods of the future? The exhibit has 80 of the world’s most disgusting foods. Adventurous visitors will appreciate the opportunity to smell and taste some of these notorious foods.</p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a></p>",
       infoSwe: 
-       "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p>Disgusting Food Museum ger besökaren en möjlighet att utforska mat från hela världen och ändra sin uppfattning om vad som är ätbart och oätbart. Kan vi börja äta miljömässigt hållbar mat i framtiden genom att utmana vår uppfattning av äckel? Utställningen har 80 av världens äckligaste maträtter. Äventyrliga besökare kommer uppskatta möjligheten att lukta och smaka några av dessa beryktade maträtter. </p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'></a></p>",
+       "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p>Disgusting Food Museum ger besökaren en möjlighet att utforska mat från hela världen och ändra sin uppfattning om vad som är ätbart och oätbart. Kan vi börja äta miljömässigt hållbar mat i framtiden genom att utmana vår uppfattning av äckel? Utställningen har 80 av världens äckligaste maträtter. Äventyrliga besökare kommer uppskatta möjligheten att lukta och smaka några av dessa beryktade maträtter. </p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a></p>",
       type: museumsIcon,
     },
     //Helsingborg coordinates
     {
       lat: 56.0465,
       lng: 12.6945,
-      info:
-        "<a class='info-header' href='https://visithelsingborg.com/?lang=en' target='_blank'>Helsingborg</a>",
-      type: citiesIcon,
+      infoEng:
+        "<a class='info-header' href='https://www.tripadvisor.co.uk/Tourism-g189836-Helsingborg_Skane_County-Vacations.html' target='_blank'>Helsingborg</a><pHelsingborg is southern Sweden’s city by the sea, where wonderful beaches, attractions, shopping and nature are all just moments away. Enjoy the gardens of Sofiero and Fredriksal, climb the stairs to the top of the tower Kärnan, then dip your toes in the sea… later, explore fascinating exhibitions at Dunkers Culture Hall, indulge in the unique offerings of the local stores, and savour cuisines from around the world in Helsingborg’s vast selection of restaurants.></p><p>Attribution: <a class='info-header' href='https://www.tripadvisor.co.uk/Tourism-g189836-Helsingborg_Skane_County-Vacations.html' target='_blank'>Tripadvisor</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://www.tripadvisor.co.uk/Tourism-g189836-Helsingborg_Skane_County-Vacations.html' target='_blank'>Helsingborg</a><p lang='sv'>Helsingborg är södra Sveriges stad vid havet, där underbara stränder, attraktioner, shopping och natur ligger bara några ögonblick bort. Njut av trädgårdarna i Sofiero och Fredriksal, klättra uppför trappan till toppen av tornet Kärnan, doppa sedan tårna i havet ... senare, utforska fascinerande utställningar i Dunkers Culture Hall, njut av de lokala butikernas unika erbjudanden och njut av köket från hela världen i Helsingborgs stora utbud av restauranger.</p><p>Attribution: <a class='info-header' href='https://www.tripadvisor.co.uk/Tourism-g189836-Helsingborg_Skane_County-Vacations.html' target='_blank'>Tripadvisor</a></p>",
+        type: citiesIcon,
     },
     {
       lat: 56.0478,
       lng: 12.6891,
-      info:
-        "<a class='info-header' href='https://dunkerskulturhus.se/' target='_blank'>Dunkers Culture House</a>",
+      infoEng:
+        "<a class='info-header' href='https://dunkerskulturhus.se/om-dunkers-kulturhus/' target='_blank'>Dunkers Culture House</a><p>Dunkers kulturhus is a meeting place for Helsingborgers and an attractive destination for art and culture enthusiasts in the Öresund region and Sweden. Dunkers kulturhus' activities touch, change and put your thoughts into circulation. Here, culture is in focus, which means that you can experience both history and contemporary art, performing arts of various kinds, conversations and debates about big and small. With us, you can take part in various artistic expressions and genres in our exhibition halls and Helsingborg's cultural heritage and history in our local history exhibitions.</p><p>Arttribution: <a class='info-header' href='https://dunkerskulturhus.se/om-dunkers-kulturhus/' target='_blank'>Dunkers kulturhus</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://dunkerskulturhus.se/om-dunkers-kulturhus/' target='_blank'>Dunkers Culture House</a><p lang='sv'>Dunkers kulturhus är en mötesplats för helsingborgare och ett attraktivt besöksmål för konst- och kulturintresserade i Öresundsregionen och Sverige. Dunkers kulturhus verksamhet berör, förändrar och sätter dina tankar i omlopp. Här är kultur i fokus vilket innebär att du kan uppleva både historik och samtida konst, scenkonst av olika slag, samtal och debatt om stort och smått. Hos oss kan du ta del av olika konstnärliga uttryck och genrer i våra utställningshallar och Helsingborgs kulturarv och historia i våra lokalhistoriska utställningar.</p><p>Arttribution: <a class='info-header' href='https://dunkerskulturhus.se/om-dunkers-kulturhus/' target='_blank'>Dunkers kulturhus</a></p>",
       type: theatresIcon,
     },
     {
       lat: 56.0498,
       lng: 12.6893,
-      info:
-        "<a class='info-header'href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Concert House</a>",
-      type: theatresIcon,
+      infoEng:
+        "<a class='info-header'href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Konserthus</a><p>Home to the Helsingborg Symphony Orchestra, 'Helsingborg Concert Hall was inaugurated on November 12, 1932. The same year Helsingborg celebrated triumphs with its new concert hall designed by architect Sven Markelius. Today, Helsingborgs Konserthus, still known for its beautiful lines, beautiful mahogany walls and perfect acoustics, is famous far beyond the country's borders.'</p><p>Attribution: <a href='https://www.helsingborgskonserthus.se/'>Helsingborg Konserthus</a></p>",
+      infoSwe:  
+        "<a class='info-header'href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Konserthus</a><p>Helsingborgs Konserthus är Helsingborg Symfoniorkesters hemmaplan 'Helsingborgs Konserthus invigdes den 12 november 1932. Samma år firade Helsingborg triumfer med sitt nya konserthus ritat av arkitekten Sven Markelius. I dag är Helsingborgs Konserthus, fortfarande omtalat för sina vackra linjer, tjusiga mahognyväggar och perfekta akustik, berömt långt utanför landsgränsen.</p><p>Attribution: <a href='https://www.helsingborgskonserthus.se/'>Helsingborg Konserthus</a></p>",
+        type: theatresIcon,
     },
     {
       lat: 56.0839,
       lng: 12.6596,
-      info:
-        "<a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero Castle</a>",
-      type: museumsIcon,
+      infoEng:
+        "<a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero Castle</a><p>With its beautiful park, fascinating history and magnificent palace, Sofiero is a world-class destination. Sofiero has a beautiful location just north of Helsingborg and is an old royal summer residence with magnificent views of the strait Öresund. Sofiero has something for everyone. In addition to the beautiful park and gardens, there are interesting exhibitions, shops and an acclaimed restaurant. There’s always something new to discover at Sofiero!</p><p>Attribution: <a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero Castle</a><p lang='sv'>Med sin vackra park, unika historia och pampiga slott är Sofiero ett besöksmål i världsklass. Sofiero, som ligger strax norr om Helsingborg, är ett gammalt kungligt sommarresidens med magnifik utsikt över Öresund. Här kan du besöka slottet och gå på de knarrande golven precis som kungaparet en gång gjorde. Ta del av inspirerande utställningar, vår färgsprakande trädgård och alla gröna rum med gott om plats för hela familjen. Upptäck Sofiero slott och slottsträdgård du också!</p>Attribution: <p><a class='info-header' href='https://sofiero.se/en/' target='_blank'>Sofiero</a></p>",
+        type: museumsIcon,
     },
     //Lund coordinates
     {
       lat: 55.70587,
       lng: 13.1932,
-      info:
-        "<a class='info-header' href='https://www.lund.se/en/#/' target='_blank'>Lund</a>",
-      type: citiesIcon,
+      infoEng:
+        "<a class='info-header' href='https://visitlund.se/en/' target='_blank'>Lund</a><p>Lund is a charming city that combines ancient with modern. It is said that you can spend your whole life here without finding all the quiet little corners and beautiful buildings. Enjoy the museums, buzzing market squares, shops, department stores, cafés and restaurants that are just a stone’s throw away. In the surroundings of Lund there are delightful hiking trails, castles and other interesting sights that you should not miss - Welcome! </p><p>Attribution: <a class='info-header' href='https://visitlund.se/en/' target='_blank'>Visit Lund</a></p>",
+      infoSwe:
+      "<a class='info-header' href='https://visitlund.se/en/' target='_blank'>Lund</a><p lang='sv'>Lund är en charmig och levande stad full av kontraster. Bland kullerstenar och korsvirkeshus samsas den medeltida stadskärnan med moderna byggnader och innovationsmiljöer. Anknytningarna till universitetet är många och det stora antalet studenter sätter en tydlig prägel på staden. Välkommen att utforska Lund!</p><p>Attribution: <a class='info-header' href='https://visitlund.se/en/' target='_blank'>Visit Lund</a></p>", 
+        type: citiesIcon,
     },
     {
       lat: 55.7041,
       lng: 13.1937,
-      info:
-        "<a class='info-header' href='https://lundsdomkyrka.se/english/' target='_blank'>Lutheren Cathedral</a>",
-      type: churchIcon,
+      infoEng:
+        "<a class='info-header' href='https://lundsdomkyrka.se/rundtur/byggnaden/' target='_blank'>Lutheren Cathedral</a><p>Lund Cathedral is the Nordic region's foremost Romanesque cathedral and has stood in central Lund since 1145. Before that, there was a smaller church on the same site. There was probably also an older stave church on the site. The building material is sandstone taken mainly from a quarry in Höör, just over 40 km away. Donatus is mentioned as the Cathedral's first architect and as his stonemason Regnerus.</p><p>Attribution: <a class='info-header' href='https://lundsdomkyrka.se/rundtur/byggnaden/' target='_blank'>Svenska Kyrkan</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://lundsdomkyrka.se/rundtur/byggnaden/' target='_blank'>Lutheren Cathedral</a><p lang='sv'>Lunds domkyrka är Nordens främsta romanska katedral och har stått i centrala Lund sedan 1145. Dessförinnan fanns en mindre kyrka på samma plats. Troligen fanns det även en äldre stavkyrka på platsen. Byggnadsmaterialet är sandsten hämtad främst från ett stenbrott i Höör, dryga fyra mil bort. Som Domkyrkans förste arkitekt omnämns Donatus och som hans stenmästare Regnerus.</p><p>Attribution: <a class='info-header' href='https://lundsdomkyrka.se/rundtur/byggnaden/' target='_blank'>Svenska Kyrkan</a></p>",
+        type: churchIcon,
     },
     {
       lat: 55.7046,
       lng: 13.1965,
-      info: "<a class='info-header' href='kulturen.com'>Kulturen</a>",
-      type: museumsIcon,
+      infoEng:
+       "<a class='info-header' href='https://www.kulturen.com/welcome-kulturens-museums//' target='_blank'>Kulturen</a><p>Kulturen in Lund is both an indoor and an open-air museum that features an extensive collection of historic buildings and beautiful gardens spanning two adjoining sites in the heart of Lund. Step right into the buildings to experience life as it was in former times in either the town or countryside, from the Middle Ages up until the 1930s. </p><p>Attribution: <a class='info-header' href='https://www.kulturen.com/welcome-kulturens-museums/' target='_blank'>Kulturen</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://www.kulturen.com/vara-besoksmal/' target='_blank'>Kulturen</a><p>Kulturen i Lund är ett museum som sträcker sig över två kvarter i centrala Lund, fyllda med kulturhistoriska hus och trädgårdsmiljöer som du kan besöka. Stig in i husen och upplev livet i staden och på landet, från medeltiden och fram till 1930-talet.</p><p>Attribution: <a class='info-header' href='https://www.kulturen.com/vara-besoksmal/' target='_blank'>Kulturen</a></p>",
+       type: museumsIcon,
     },
     {
       lat: 55.6996,
       lng: 13.1879,
-      info:
-        "<a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Lund Planetarium</a>",
-      type: planetariumIcon,
+      infoEng:
+        "<a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Lund Planetarium</a><p>Following a donation from Carl Springer, Lund Observatory started a planetarium in 1978.  For a long time the Lund Univsersity planetarium was placed at Lund Observatory, and was at the time equipped with an optomechanical GOTO projector.  But in 2010 the planetarium moved and now it is located at Vattenhallen  Science Center, open to booked visitors and to the public year round. </p><p>Attribution: <a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Vattenhallen Science Center</a></p>",
+      infoSwe:
+        "<a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Lund Planetarium</a><p>lanetariet har funnits i Lund i över 40 år, först som en del av Lunds Observatorium nere i Stadsparken, sen flyttade den med Institutionen för astronomi upp till Sölvegatan 27. Sedan 2010 hittar du Planetariet inne i Vattenhallen Science Centers stora experimenthall. </p><p>Attribution: <a class='info-header' href='http://www.vattenhallen.lth.se/english/the-planetarium/' target='_blank'>Vattenhallen Science Center</a></p>",
+        type: planetariumIcon,
     },
   ];
 
@@ -616,7 +633,7 @@ function initAutocomplete() {
       icon: helsingborgLocations[i % locations.length].type,
     });
     google.maps.event.addListener(helsingborgMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, helsingborgMarker);
     });
     return helsingborgMarker;
@@ -628,7 +645,7 @@ function initAutocomplete() {
       icon: lundLocations[i % locations.length].type,
     });
     google.maps.event.addListener(lundMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, lundMarker);
     });
     return lundMarker;
@@ -650,7 +667,7 @@ function initAutocomplete() {
       icon: accordionLakeLocations[i % locations.length].type,
     });
     google.maps.event.addListener(accordionLakeMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, accordionLakeMarker);
     });
     return accordionLakeMarker;
@@ -666,7 +683,7 @@ function initAutocomplete() {
         accordionNationalParksMarker,
         "click",
         function () {
-          infoWin.setContent(location.info);
+          infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
           infoWin.open(map, accordionNationalParksMarker);
         }
       );
@@ -683,7 +700,7 @@ function initAutocomplete() {
       icon: accordionForestLocations[i % locations.length].type,
     });
     google.maps.event.addListener(accordionForestMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, accordionForestMarker);
     });
     return accordionForestMarker;
@@ -701,7 +718,7 @@ function initAutocomplete() {
       accordionEastCoastMarker,
       "click",
       function () {
-        infoWin.setContent(location.info);
+        infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
         infoWin.open(map, accordionEastCoastMarker);
       }
     );
@@ -720,7 +737,7 @@ function initAutocomplete() {
       accordionWestCoastMarker,
       "click",
       function () {
-        infoWin.setContent(location.info);
+        infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
         infoWin.open(map, accordionWestCoastMarker);
       }
     );
@@ -739,7 +756,7 @@ function initAutocomplete() {
       accordionSouthCoastMarker,
       "click",
       function () {
-        infoWin.setContent(location.info);
+        infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
         infoWin.open(map, accordionSouthCoastMarker);
       }
     );
@@ -755,7 +772,7 @@ function initAutocomplete() {
       icon: accordionMalmoLocations[i % locations.length].type,
     });
     google.maps.event.addListener(accordionMalmoMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, accordionMalmoMarker);
     });
     return accordionMalmoMarker;
@@ -773,7 +790,7 @@ function initAutocomplete() {
       accordionHelsingborgMarker,
       "click",
       function () {
-        infoWin.setContent(location.info);
+        infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
         infoWin.open(map, accordionHelsingborgMarker);
       }
     );
@@ -786,7 +803,7 @@ function initAutocomplete() {
       icon: accordionLundLocations[i % locations.length].type,
     });
     google.maps.event.addListener(accordionLundMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, accordionLundMarker);
     });
     return accordionLundMarker;
