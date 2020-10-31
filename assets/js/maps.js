@@ -391,8 +391,10 @@ function initAutocomplete() {
     {
       lat: 55.425,
       lng: 13.8491,
-      info:
-        "<a class='info-header' href='https://www.ystad.se/fritid/havsbad/' target='_blank'>Ystad Sandskog</a>",
+      infoEng:
+        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Ystad Sandskog</a><p>The nature reserve Ystad's sand forest is located immediately east of Ystad. The long narrow reserve stretches almost 4 km along the sea south of the coastal road. Farthest to the east, Nybroån has its outlet. The sandy beach is well visited for swimming and sun during the summer months but is also frequently used as a walking area. The south coast trail passes through Ystad sand forest, a cycle path that begins at Österlen and ends in northwestern Skåne on its way along the coast of Skåne.</p><p>Attribution: <a  class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Länsstyrelsen Skåne</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Ystad Sandskog</a><p>Naturreservatet Ystads sandskog ligger omedelbart öster om Ystad. Det långsmala reservatet sträcker sig nästan 4 km längs med havet söder om kustvägen. Längst i öster har Nybroån sitt utlopp. Sandstranden är välbesökt för bad och sol under sommarmånaderna men används också flitigt som strövområde. Sydkustleden passerar genom Ystad sandskog, en cykelled som börjar på Österlen och slutar i nordvästra Skåne på sin väg utmed Skånes kust.</p><p>Attribution: <a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Länsstyrelsen Skåne</a></p>",
       type: beachesIcon,
     },
     //Malmo coordinates
