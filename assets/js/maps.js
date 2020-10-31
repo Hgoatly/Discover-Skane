@@ -373,16 +373,20 @@ function initAutocomplete() {
     {
       lat: 55.3385,
       lng: 13.3598,
-      info:
-        "<a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Smygehuk</a>",
-      type: beachesIcon,
+      infoEng:
+        "<a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Smygehuk</a><p>Enjoy the sun, breeze and salty sea splashes against your cheek. Experience the feeling of freedom when you gaze out towards the unbroken horizon. Pay a visit in autumn when blazing sunsets take your breath away. Or see how the winter magic takes over and transforms parts of Smygehuk to an artwork of ice and snow. Follow the seasons on the southern tip of Sweden. Well worth a visit year round!</p><p>Attribution: <a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Visit Trelleborg</a></p>",
+      infoSwe: 
+        "<a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Smygehuk</a><p lang='sv'>Njut av solen, brisen och salta havsstänk mot kinden. Upplev känslan av frihet när du tittar ut mot den obrutna horisonten. Besök på hösten när flammande solnedgångar tar andan från dig. Eller se hur vintermagiken tar över och förvandlar delar av Smygehuk till ett konstverk av is och snö. Följ årstiderna på södra spetsen av Sverige. Väl värt ett besök året runt!</p><p>Attribution: <a class='info-header' href='https://www.visittrelleborg.se/en/smygehuk/' target='_blank'>Visit Trelleborg</a></p>",
+        type: beachesIcon,
     },
     {
       lat: 55.3867,
       lng: 14.1932,
-      info:
-        "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a>",
-      type: beachesIcon,
+      infoEng:
+        "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a><p>The silky white sands of Sandhammaren match the best beaches of the Caribbean. It’s been voted as Sweden’s best beach several times. Slouch around on white, powdery sand, take a dip in the sea, or enjoy a beach walk that goes for miles.</p><p>Attribution: <a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Visit Skåne</a></p>",
+      infSwe:
+         "<a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Sandhammaren</a><p lang='sv'>Sandhammarens silkeslena vita sand har gjort att stranden utnämnts till Sveriges bästa flera gånger om. Koppla av, bada i havet eller promenera längs den flera kilometer långa stranden.</p><p>Attribution: <a class='info-header' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Visit Skåne</a></p>",
+        type: beachesIcon,
     },
     {
       lat: 55.425,
