@@ -394,43 +394,53 @@ function initAutocomplete() {
       infoEng:
         "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Ystad Sandskog</a><p>The nature reserve Ystad's sand forest is located immediately east of Ystad. The long narrow reserve stretches almost 4 km along the sea south of the coastal road. Farthest to the east, Nybroån has its outlet. The sandy beach is well visited for swimming and sun during the summer months but is also frequently used as a walking area. The south coast trail passes through Ystad sand forest, a cycle path that begins at Österlen and ends in northwestern Skåne on its way along the coast of Skåne.</p><p>Attribution: <a  class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Länsstyrelsen Skåne</a></p>",
       infoSwe:
-        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Ystad Sandskog</a><p>Naturreservatet Ystads sandskog ligger omedelbart öster om Ystad. Det långsmala reservatet sträcker sig nästan 4 km längs med havet söder om kustvägen. Längst i öster har Nybroån sitt utlopp. Sandstranden är välbesökt för bad och sol under sommarmånaderna men används också flitigt som strövområde. Sydkustleden passerar genom Ystad sandskog, en cykelled som börjar på Österlen och slutar i nordvästra Skåne på sin väg utmed Skånes kust.</p><p>Attribution: <a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Länsstyrelsen Skåne</a></p>",
+        "<a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Ystad Sandskog</a><p lang='sv'>Naturreservatet Ystads sandskog ligger omedelbart öster om Ystad. Det långsmala reservatet sträcker sig nästan 4 km längs med havet söder om kustvägen. Längst i öster har Nybroån sitt utlopp. Sandstranden är välbesökt för bad och sol under sommarmånaderna men används också flitigt som strövområde. Sydkustleden passerar genom Ystad sandskog, en cykelled som börjar på Österlen och slutar i nordvästra Skåne på sin väg utmed Skånes kust.</p><p>Attribution: <a class='info-header' href='https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html' target='_blank'>Länsstyrelsen Skåne</a></p>",
       type: beachesIcon,
     },
     //Malmo coordinates
     {
       lat: 55.605,
       lng: 13.0038,
-      info:
-        "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a>",
-      type: citiesIcon,
+      infoEng:
+        "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a><p>Malmö – in the far south of Sweden, just across the Öresund strait from Copenhagen in Denmark – is the third largest city in the country after Stockholm and Gothenburg. A swirl of diversity, a mishmash of old and new, Malmö is one of the most eclectic cities in Scandinavia. Spiraling skyscrapers loom above bustling centuries-old squares, and unassuming brick facades house a treasure of modern artistic creations. This incredible city will capture your heart and leave you wanting more.</p><p>Attribution: <a href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Visit Skåne</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Malmö</a><p lang='sv'>Malmö - längst söder om Sverige, tvärs över Öresundsundet från Köpenhamn i Danmark - är den tredje största staden i landet efter Stockholm och Göteborg. En virvel av mångfald, en mishmash av gammalt och nytt, Malmö är en av de mest eklektiska städerna i Skandinavien. Spiralskyskrapor väver över livliga århundraden gamla torg, och anspråkslösa tegelfasader rymmer en skatt av moderna konstnärliga skapelser. Den här otroliga staden kommer att fånga ditt hjärta och låta dig vilja ha mer.</p><p><a href='https://visitsweden.com/where-to-go/southern-sweden/malmo/' target='_blank'>Visit Skåne</a></p>",
+        type: citiesIcon,
     },
     {
       lat: 55.5964,
       lng: 12.9963,
-      info:
-        "<a class='info-header' href='https://www.malmoopera.se/in-english'>Malmö Opera</a>",
+      infoEng:
+        "<a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a><p>When in the Öresund region, be sure to visit beautiful Malmö Opera, the best place to go for a great night out. Malmö Opera presents the whole range of music theatre with main emphasis on opera and musical. We perform the great opera classics, musicals, contemporary musical drama, concerts and dance, always meeting the highest international standards of quality. </p><p Attribution: ><a class='info-header' href='https://www.malmoopera.se/in-english' target='blank'>Malmö Opera</a></p>",
+      infoSwe:
+         "<a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a><p lang='sv'>När du är i Öresundsregionen, var noga med att besöka vackra Malmö Opera, det bästa stället att åka på för en fantastisk utekväll.Malmö Opera presenterar hela utbudet av musikteater med tonvikt på opera och musikal. Vi utför de stora operaklassikerna, musikaler, samtida musikdrama, konserter och dans, och uppfyller alltid de högsta internationella kvalitetsstandarderna.</p><p Attribution: ><a class='info-header' href='https://www.malmoopera.se' target='blank'>Malmö Opera</a></p>",
       type: theatresIcon,
     },
     {
       lat: 55.6077,
       lng: 12.9936,
-      info:
-        "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a>",
-      type: theatresIcon,
+      infoEng:
+        "<a class='info-header' href='https://malmolive.se/en' target='_blank'>Malmö Concert Hall</a><p>Since its opening in August 2015, Malmö Live Concert Hall has been THE place for music, culture and entertainment in Malmö. With over ninety musicians from different parts of the world, together with innovative and well-developed concert and cultural activities, Malmö Live Concert Hall is a forum for cross-border meetings through music.</p><p>Attribution: <a class='info-header' href='https://malmolive.se/en' target='_blank>Malmö Live Konserthus</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://malmolive.se' target='_blank'>Malmö Concert Hall</a><p lang='sv'>Malmö Live Konserthus är sedan augusti 2015 mötesplatsen för musik, kultur och nöjesliv i Malmö. Med ett nittiotal musiker från olika delar av världen, tillsammans med en utvecklad konsert- och kulturverksamhet är Malmö Live Konserthus en plats att mötas gränsöverskridande genom musiken.</p><p>Attribution: <a class='info-header' href='https://malmolive.se' target='_blank>Malmö Live Konserthus</a></p>",
+        type: theatresIcon,
     },
     {
       lat: 55.6048,
       lng: 12.9876,
-      info:
-        "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Malmö Castle</a>",
-      type: museumsIcon,
+      infoEng:
+        "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Malmö Castle</a><p>Malmöhus Castle was built from 1537 to 1542 on the ruins of a old fort and is the oldest preserved Renaissance castle in Scandinavia. Today the former fortress in Malmö is a part of Malmö museums and hosts the Malmö art museum and the natural history museum of Malmö.</p><p>Attribution: <a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Guidebook Sweden</a></p>",
+      infoSwe:
+        "<a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Malmö Castle</a><p lang='sv'>Malmöhus slott byggdes från 1537 till 1542 på ruinerna av ett gammalt fort och är det äldsta bevarade renässansslottet i Skandinavien. Idag är den tidigare fästningen i Malmö en del av Malmö museum och är värd för Malmö konstmuseum och Malmö naturhistoriska museum.</p><p>Attribution: <a class='info-header' href='https://www.guidebook-sweden.com/en/guidebook/destination/malmoehus-slott-castle-in-malmoe' target='_blank'>Guidebook Sweden</a></p>",
+        type: museumsIcon,
     },
     {
       lat: 55.6074489,
       lng: 13.0075645,
-      info:
-        "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a>",
+      infoEng:
+        "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p> Disgusting Food Museum invites visitors to explore the world of food and challenge their notions of what is and what isn’t edible. Could changing our ideas of disgust help us embrace the environmentally sustainable foods of the future? The exhibit has 80 of the world’s most disgusting foods. Adventurous visitors will appreciate the opportunity to smell and taste some of these notorious foods.</p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'></a></p>",
+      infoSwe: 
+       "<a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'>Disgusting Food Museum</a><p>Disgusting Food Museum ger besökaren en möjlighet att utforska mat från hela världen och ändra sin uppfattning om vad som är ätbart och oätbart. Kan vi börja äta miljömässigt hållbar mat i framtiden genom att utmana vår uppfattning av äckel? Utställningen har 80 av världens äckligaste maträtter. Äventyrliga besökare kommer uppskatta möjligheten att lukta och smaka några av dessa beryktade maträtter. </p><p>Attribution: <a class='info-header' href='https://disgustingfoodmuseum.com/' target='_blank'></a></p>",
       type: museumsIcon,
     },
     //Helsingborg coordinates
@@ -509,7 +519,6 @@ function initAutocomplete() {
     });
 
     google.maps.event.addListener(marker, "click", function () {
-     /* infoWin.setContent(location.info); */
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, marker);
     });
@@ -583,7 +592,7 @@ function initAutocomplete() {
       icon: southCoastLocations[i % locations.length].type,
     });
     google.maps.event.addListener(southCoastMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, southCoastMarker);
     });
     return southCoastMarker;
@@ -595,7 +604,7 @@ function initAutocomplete() {
       icon: malmoLocations[i % locations.length].type,
     });
     google.maps.event.addListener(malmoMarker, "click", function () {
-      infoWin.setContent(location.info);
+      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, malmoMarker);
     });
     return malmoMarker;
