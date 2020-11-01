@@ -392,7 +392,7 @@ input {
     background-repeat: no-repeat;
     background-attachment: scroll;
 } 
-    .map-buttons:hover,.top-button:hover,.form-button:hover {
+    .top-button:hover,.form-button:hover {
     background-color: #4f4646;
     color: #fff;
 }
