@@ -1,12 +1,19 @@
-#Discover Skåne
-Discover Skåne is a tourist site showcasing the different types of holidays available in the county of Skåne, in Sweden.
+<div align="center">
+    <img src="assets/images/discover-skane-logo.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/responsive-screenshot.jpg" alt="Responsive images of the Discover Skåne website.">
+    
+**A tourist website that showcases the region of Skåne in Southern Sweden**
+</div>
+
+# **Discover Skåne**
+Discover Skåne is a tourist site showcasing the different types of holidays available in the county of Skåne, in Southern Sweden.
 The site has two main objectives.
 1. To provide information about the types of holiday activites available in Skåne for people who have already booked holidays there.
 2. To showcase the different holiday activities available in Skåne to people who are looking to choose a holiday destination, 
 in order for them to be able to make a hotel booking through the site.
 
-##UX
-###User Stories:
+## UX
+### User Stories:
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
 2. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go swimming.
 3. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests, so that I can enjoy getting back to nature.
