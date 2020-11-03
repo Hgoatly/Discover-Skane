@@ -10,8 +10,8 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/)
 
 # **Table of Contents:**
 
-- [Site Owner's Goals](#site-owner's-goals)
-- [User Experience (UX)](#user-experience--ux-)
+- [Site Owner Goals](#site-owner-goals)
+- [User Experience (UX)](#user-experience--(ux)-)
   - [User stories](#user-stories)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
