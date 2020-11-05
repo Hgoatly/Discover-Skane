@@ -8,7 +8,7 @@ html, body {
 .callout-container-fluid {
     height: 100vh;
     width: 100%;
-    background: url("../images/bridge1.jpg") no-repeat center center fixed; 
+    background: url("../images/landing-page.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -25,7 +25,6 @@ html, body {
 .navbar-container-fluid{
     position: relative; 
     width: 100%;
-  /*  z-index:10;  */
 }
 
 .navbar {
@@ -73,7 +72,7 @@ html, body {
 }
 
 .pimg1{
-    background-image:url('../images/sunset-fields-resized.jpg');
+    background-image:url('../images/hero-image.jpg');
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -106,7 +105,7 @@ html, body {
 }
 
 .pimg7{
-    background-image:url('../images/computer.jpg');
+    background-image:url('../images/contact.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
@@ -355,6 +354,7 @@ input {
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
         height: 100vh;
+         background: url("../images/landing-page-mobile.jpg") no-repeat center center fixed; 
     }
     .intro-text {
         margin: 0rem;
@@ -379,6 +379,33 @@ input {
     } 
     .ptext {
         letter-spacing: 4px;
+    }
+
+    .pimg1 {
+         background: url("../images/hero-image-mobile.jpg") no-repeat center center fixed;
+    }
+
+    .pimg2 {
+         background: url("../images/sunlit-forest-mobile.jpg") no-repeat center center fixed;
+    }
+
+.pimg3 {
+         background: url("../images/ystad-beach-mobile.jpg") no-repeat center center fixed;
+    }
+
+.pimg4 {
+    background: url("../images/castle-mobile.jpg") no-repeat center center fixed;
+    }
+
+    .pimg5 {
+       background: url("../images/road-mobile.jpg") no-repeat center center fixed; 
+    }
+
+    .pimg6 {
+       background: url("../images/hotel-mobile.jpg") no-repeat center center fixed; 
+    }
+    .pimg7 {
+         background: url("../images/contact-mobile.jpg") no-repeat center center fixed;
     }
 }
 
