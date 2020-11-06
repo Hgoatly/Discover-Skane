@@ -11,7 +11,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
 # **Table of Contents:**
 
 - [Site Owner Goals](#site-owner-goals)
-- [User Experience (UX)](#user-experience--(ux)-)
+- [User Experience (UX)](#user-experience-(ux))
   - [User stories](#user-stories)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
@@ -21,7 +21,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
 ## Site Owner's Goals:
 
 Discover Skåne is a tourist site showcasing the different types of holidays available in the county of Skåne, in Southern Sweden.
-The site has two main objectives.
+It is primarily an informative website. The site has two main objectives.
 
 1. To provide information about the types of holiday activites available in Skåne for people who have already booked holidays there.
 
@@ -32,6 +32,34 @@ It uses Google Maps API to pinpoint places of interest within the county, Bookin
 API in order to add interactivity to the site. 
 
 The site can be viewed in both the English and Swedish languages.
+
+The site is based on a one page layout with six distinct sections, plus an additional 'landing page'.
+The first three sections are mainly informative, with interactivity provided by map elements. They are based around the different types of holiday that one can take in the Swedish county of Skåne
+
+The sections are as follows:
+1. Lakes and Forests.
+2. Beautiful Beaches.
+3. City and Culture. 
+
+Each of these three sections has three card elements with a picture on the front, and a map on the back. The text below talks about recommended places, 
+which are then marked on the map with a custom marker. When clicked, an infowindow appears, which displays the name of the location, some information about
+the location, and the attribution - which is also a link to an external site from where the text for the infowindow was sourced, and where the site visitor can 
+can learn more about the destination. 
+
+The next section is the map section - which is both informative and interactive.
+On the map, all of the markers from the 'Lakes and Forests', 'Beautiful Beaches' and 'City and Culture' sections are displayed, along with their infowindows.
+As the map covers a larger area, and is less localised there are also additional markers for the cities of 'Malmö', 'Helsingborg' and 'Lund'. 
+Additionally, there is a 'search box' where the user can search the map for additional places of interest.
+
+The final two sections are mainly interactive. They are as follows:
+
+1. Book.
+2. Contact.
+
+The 'Book' section uses the [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API,
+so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay.
+
+The 'contact' section encourages the user to contact the site owner via a contact form with their suggestions for places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
 
 ## User Experience (UX):
 ### User Stories:
@@ -50,6 +78,9 @@ The site can be viewed in both the English and Swedish languages.
 ### Returning Visitor Goals: 
 - To find out if any new content has been added for subsequent visits to Skåne.
 - To contact the site owner to let them know about any places to visit in Skåne that they would like to recommend.
+
+### Frequent Visitor Goals: 
+
 
 # Deployment:
 
