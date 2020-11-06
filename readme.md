@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="assets/images/discover-skane-logo.jpg" alt="Discover Skåne logo">
-    <img src="assets/images/responsive-screenshot.jpg" alt="Responsive images of the Discover Skåne website.">
+    <img src="assets/images/readme-images/discover-skane-logo.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/responsive-screenshot.jpg" alt="Responsive images of the Discover Skåne website.">
     
 **A tourist website that showcases the region of Skåne in Southern Sweden**
 
 Built using [GitHub Pages](https://pages.github.com/).
-Click here to [Discover Skåne](https://hgoatly.github.io/MS2/)
+Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
 </div>
 
 # **Table of Contents:**
@@ -16,6 +16,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
     - [Frequent Visitor Goals](#frequent-visitor-goals)
+-[Deployment](#Deployment)
 
 ## Site Owner's Goals:
 
@@ -49,3 +50,25 @@ The site can be viewed in both the English and Swedish languages.
 ### Returning Visitor Goals: 
 - To find out if any new content has been added for subsequent visits to Skåne.
 - To contact the site owner to let them know about any places to visit in Skåne that they would like to recommend.
+
+# Deployment:
+
+### Github Pages:
+Discover Skåne was written in [Gitpod](https://www.gitpod.io/), and pushed to [Github](https://github.com/) for version control.
+The repository was named 'Discover Skane' rather than 'Discover Skåne' as the letter 'å' was not a valid character, and 'Discover Sk-ne' 
+was suggested instead.
+<img src="assets/images/readme-images/discover-sk-ne-image.jpg" alt="Screenshot showing suggested repository name of 'Discover Sk-ne'">
+It was deployed to [GitHub Pages](https://pages.github.com/) by following this process:
+
+1. Log in to [Github](https://github.com/).
+2. Locate the 'Discover Skane' repository.
+3. Click on the 'Settings' option on the menu: 
+<img src="assets/images/readme-images/inkeddiscover-skane-menu-screenshot.jpg" alt="Screenshot showing suggested repository name of 'Discover Sk-ne'">
+
+4. Scroll down the 'Settings' page until the 'Github Pages' section is located.
+5. Under 'Source', on the drop-down menu, select 'Branch: master' instead of 'Branch: none'.
+<img src="assets/images/readme-images/github-pages-screenshot.jpg" alt="Screenshot showing Github Pages section of Github 'Settings' page with site successfully deployed.">
+
+6. Selection will be saved, and page automatically refreshed. 
+7. To access the deployed site, click on the following link in the Github Pages section of the 'Settings' page:
+(https://hgoatly.github.io/Discover-Skane/)
