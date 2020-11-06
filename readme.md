@@ -16,7 +16,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
     - [Frequent Visitor Goals](#frequent-visitor-goals)
--[Deployment](#Deployment)
+- [Deployment](#deployment)
 
 ## Site Owner's Goals:
 
@@ -71,4 +71,31 @@ It was deployed to [GitHub Pages](https://pages.github.com/) by following this p
 
 6. Selection will be saved, and page automatically refreshed. 
 7. To access the deployed site, click on the following link in the Github Pages section of the 'Settings' page:
-(https://hgoatly.github.io/Discover-Skane/)
+[Discover Skåne](https://hgoatly.github.io/Discover-Skane/)
+
+### Forking the Repository:
+
+By forking the repository, the repository can be copied. Changes can then be made to it without affecting the original repository.
+In order to do this, please take the following steps:
+
+1. Log into Github, and select the [Discover Skane](https://hgoatly.github.io/Discover-Skane/) repository.
+2. In the top right hand corner of the page, click on the 'fork' button.
+<img src="assets/images/readme-images/inkedfork-repository-image.jpg" alt="Screenshot showing Github Pages menu with 'fork' option highlighted.">
+
+3. This will create a copy of the original repository in your own account.
+
+### Making a Local Clone:
+
+The code can be run locally by taking the following steps:
+
+1. Log into Github, and select the [Discover Skane](https://hgoatly.github.io/Discover-Skane/) repository.
+2. Click on the 'code' button (circled in red below).
+<img src="assets/images/readme-images/inkedclone-repository-image.jpg" alt="Screenshot showing Github Pages menu with 'code' option highlighted.">
+
+3. A dropdown will appear. 
+4. On the top left hand side, HTTPS should already be selected. If it is not, please select it. 
+5. Copy the link in the box underneath.
+
+If you would like to use the code in Github, you can save it directly to Github Desktop by clicking on 'Open With Github Desktop'.
+If you would prefer to download a zip file to be edited locally on your computer, please click on 'Download Zip. This will download 
+a zip file directly to your computer to be used in your own code editor. 
