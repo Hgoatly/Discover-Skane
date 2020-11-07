@@ -60,9 +60,8 @@ html, body {
 /*-----------------------Parallax--------------------*/
 /* This section copied and adapted from an example posted on CI Slack: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+.section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{
     position: relative;
-    opacity: 1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,58 +70,57 @@ html, body {
     background-attachment: fixed;
 }
 
-.pimg1{
+.section-image1{
     background-image:url('../images/hero-image.jpg');
     min-height: 100vh;
     min-width: 100vw;
 }
 
-.pimg2{
+.section-image2{
     background-image:url('../images/sunlit-forest-resized.jpg');
     min-height: 400px;
 }
 
-.pimg3{
+.section-image3{
     background-image:url('../images/ystad-beach-resized.jpg');
     min-height: 400px;
 }
 
-.pimg4{
+.section-image4{
     background-image:url('../images/castle1.jpg');
     min-height: 400px;
 }
 
-.pimg5{
+.section-image5{
     background-image:url('../images/road-resized.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
 
-.pimg6{
+.section-image6{
     background-image:url('../images/hotel.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
 
-.pimg7{
+.section-image7{
     background-image:url('../images/contact.jpg');
     min-height: 400px;
     min-width: 100vw;
 }
 
-.ptext{
+.section-text{
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    color:#000;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-family: 'oswald'
 }
 
-.ptext .border{
+.section-text .border{
     color: #fff;
     padding: 20px;
     background-color: #4f4646;
@@ -174,10 +172,12 @@ html, body {
 
 .english-heading {
     display: inline;
+    font-family: 'Oswald', sans-serif;
 }
 
 .swedish-heading {
     display: none;
+    font-family: 'Oswald', sans-serif;
 }
 .intro-paragraph, .map-paragraph, 
 .contact-us-paragraph {
@@ -185,6 +185,9 @@ html, body {
     margin-bottom: 2rem;
 }
 
+p {
+    font-family: 'roboto', sans-serif;
+}
 /*---------Cards---------*/
 .card-deck {
     margin-left: 15px;
@@ -352,10 +355,10 @@ input {
 
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
-    .callout-container-fluid{
+/*    .callout-container-fluid{
         height: 100vh;
          background: url("../images/landing-page-mobile.jpg") no-repeat center center fixed; 
-    }
+    } */
     .intro-text {
         margin: 0rem;
         padding-left: 2rem;
@@ -377,41 +380,43 @@ input {
         margin-right: 1.5rem;
         margin-left: 1.5rem;
     } 
-    .ptext {
+    .section-text {
         letter-spacing: 4px;
     }
 
-    .pimg1 {
+    /*.section-image1 {
          background: url("../images/hero-image-mobile.jpg") no-repeat center center fixed;
-    }
+         min-height: 100vh;
+    min-width: 100vw;
+    } 
 
-    .pimg2 {
+    .section-image2 {
          background: url("../images/sunlit-forest-mobile.jpg") no-repeat center center fixed;
     }
 
-.pimg3 {
+    .section-image3 {
          background: url("../images/ystad-beach-mobile.jpg") no-repeat center center fixed;
     }
 
-.pimg4 {
+    .section-image4 {
     background: url("../images/castle-mobile.jpg") no-repeat center center fixed;
     }
 
-    .pimg5 {
+    .section-image5 {
        background: url("../images/road-mobile.jpg") no-repeat center center fixed; 
     }
 
-    .pimg6 {
+    .section-image6 {
        background: url("../images/hotel-mobile.jpg") no-repeat center center fixed; 
     }
-    .pimg7 {
+    .section-image7 {
          background: url("../images/contact-mobile.jpg") no-repeat center center fixed;
-    }
+    } */
 }
 
 /*-- Parallax effect disabled for ios devices. Copied from: https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices */
 @supports (-webkit-touch-callout: none) {
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+  .section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{
     position: relative;
     opacity: 1;
     background-position: center;
