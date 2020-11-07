@@ -128,7 +128,7 @@ sections:
     - A picutre of a road in Skåne was chosen for the 'Map' section.
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
-sections respectively, as they are descriptive images that represent the purpose of their respective sections well.
+sections respectively, as they are descriptive images that represent the content of their respective sections well.
 
 
     
