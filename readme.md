@@ -16,7 +16,9 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
     - [Frequent Visitor Goals](#frequent-visitor-goals)
-  -[Design](#Design)
+  - [Design](#Design)
+    - [Colours Used](#colours-used)
+    - [Typography](#typography) 
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 
@@ -109,7 +111,27 @@ logo, to create a colour theme for the site.
 - Site Background: The colour #f5f5f5 (off-white) was chosen as the background colour for the whole site. This is because it fits well with the general colour theme of the site, but also provides a subtle, yet distinct, contrast with 
 the card elements, which have a background colour of #fff (white). 
 
+### Typography: 
+- 'Oswald' was chosen as the font for all of the Section Titles, with a fallback of 'cursive' - in case the 'Oswald' font fails to load. 
+It was chosen as it it both bold and stylish - whilst able to be easily read.
+- 'Roboto' was chosen as the font for the rest of the text, with a fallback of 'sans-serif' in case the 'Roboto font doesn't load. Roboto is 
+clean and easy to read, which makes it an appropriate font for the text.
 
+### Imagery: 
+- Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
+image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge. 
+- Other appropriate images were chosen to represent different 
+sections:
+    - A picture of a pine forest was chosen for the 'Lakes and Forests' section.
+    - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
+    - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
+    - A picutre of a road in Skåne was chosen for the 'Map' section.
+- The images of the hotel room, and of hands on a computer were not pictures that were taken 
+in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
+sections respectively, as they are descriptive images that represent the purpose of their respective sections well.
+
+
+    
 
 ## Deployment:
 

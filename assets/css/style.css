@@ -16,7 +16,7 @@ html, body {
    display: flex;
    align-items: center;
    justify-content: center;
-   font-family: 'Roboto', cursive;
+   font-family: 'Roboto', sans-serif;
    position: relative;
    }
 
@@ -41,7 +41,7 @@ html, body {
 
 .navbar-dark .navbar-nav .nav-link {
     color:#fff;
-    font-family: 'Oswald';
+    font-family: 'Oswald', cursive;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -117,7 +117,7 @@ html, body {
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
-    font-family: 'oswald'
+    font-family: 'oswald', cursive;
 }
 
 .section-text .border{
@@ -165,19 +165,19 @@ html, body {
 }
 
 .main-heading {
-    font-family: 'Oswald';
+    font-family: 'Oswald', cursive;
     padding-top: 2rem;
     margin-right: 0rem;
 }
 
 .english-heading {
     display: inline;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', cursive;
 }
 
 .swedish-heading {
     display: none;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', cursive;
 }
 .intro-paragraph, .map-paragraph, 
 .contact-us-paragraph {
@@ -207,7 +207,7 @@ p {
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2;
-    font-family: 'Oswald';
+    font-family: 'Oswald', cursive;
     letter-spacing: 4px;
     border-radius: 0rem;
 }
@@ -260,12 +260,12 @@ p {
 
 .map-buttons {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', cursive;
     border-radius: 0rem;
 }
 
 .map-buttons-swedish {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', cursive;
     border-radius: 0rem;
 }
 
@@ -284,7 +284,7 @@ p {
 .top-button,.form-button {
     background-color:#4f4646;
     color: #fff;
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', cursive; 
     margin-bottom: 30px;
     text-transform: uppercase; 
     letter-spacing: 4px;
@@ -339,7 +339,7 @@ input {
   color: white;
   text-align: center;
   padding-top: 2rem; 
-  font-family: 'oswald';
+  font-family: 'oswald', cursive;
 }
 
 #deal-finder {
