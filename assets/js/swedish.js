@@ -12,17 +12,8 @@ function setEnglish() {
   currentLanguage = localStorage.getItem("language");
   localStorage.setItem("language", "english");
   siteLang = "english";
-  
-
- /* if (infowindow.getMap) {
-  infoWindow.set("closed", true);
-  } */
-//  infoWindow.set("closed", true);
 }
 
-/*  function closeInfoWindow() {
-        infoWindow.set("closed", true);
-    }; */
 $(document).ready(function () {
   //Toggle between Swedish and English language when the relevant flag is clicked.
   $("#flag").click(function () { 

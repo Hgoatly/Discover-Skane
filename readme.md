@@ -148,15 +148,22 @@ of the site have a fixed navbar and footer, with a 'scroll to top' button at the
 navbar to be easily accessed from wherever you are on the page.
 
 ### Mobile Design Features: 
-- The navbar is collapsed, and accessed by clicking on the 'hamburger' icon in the top right hand corner.
+- The navbar is collapsed, and accessed by clicking on the 'hamburger' icon in the top left hand corner.
 - The images have been reduced in size, so that they are appropriate for a mobile screen, and so that they load quickly.
-- All of the card elements have been collapsed into 'accordions', in order to provide better UX.
+- All of the card elements have been collapsed into 'accordions', whereby each collapsed element needs to be clicked on in 
+order to be viewed. Only one card is visible at a time, as multiple cards next to each other would have been inappropriate for 
+the screen size. The decision to collapse the card elements was made to provide better UX, as otherwise the site visitor would 
+have to scroll past too much content, and it would have been poor UX.
 - The parallax feature has been disabled on ios devices, as the following CSS is not supported by ios: "background-attachment: fixed;". 
 A media query was used to detect the ios operating system, and to set: "background-attchment: scroll;".
 
 ### Tablet Design Features:
-- Devices with screen widths larger than 991 pixels 
+- The tablet design was designed for screens no wider than 991 pixels. On screens wider than this, the desktop version will be used.
+- Like on the mobile version, the navbar is collapsed, and accessed by the 'hamburger' icon in the top left hand corner.
+- There are only two card elements displayed in each section, rather than three, as the images looked squashed when there were three of them.
+- Like on the mobile version, the parallax feature has been disabled on tablets running ios, because ios does not support: "background-attachment: fixed;".
 
+### Desktop Design Features:
 ## Deployment:
 
 ### Github Pages:
