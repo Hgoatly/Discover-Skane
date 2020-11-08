@@ -134,15 +134,28 @@ sections respectively, as they are descriptive images that represent the content
 - The Bootstrap framework was used throughout the site to add responsiveness and facilitate mobile-first design.
 
 ### Wireframes: 
-- The final Wireframes for this project can be viewed [here](assets/wireframes/discover-skane.pdf).
+- The final Wireframes for this project can be viewed <a href="assets/wireframes/discover-skane.pdf" target="_blank">Here</a>
 - Original Wireframes can be seen here. 
 - The decision was made to change the orignal design from having a carousel of images to having a single image because of 
 accessability concerns. 
 - The decision not to have the 'Book' and 'Contact' sections in modals, and in their own sections on the main page, was 
 taken on the advice of my mentor. The final design works better as now the modals do not break up the flow of the page.
 
+## Features: 
+'Discover Skåne' is built to be resonsive, on the principles of mobile-first design. The Bootstrap Grid System has helped 
+facilitate this. With this in mind, there are some differences between the Mobile, Tablet and Desktop versions. All versions 
+of the site have a fixed navbar and footer, with a 'scroll to top' button at the bottom of each section, which allows for the 
+navbar to be easily accessed from wherever you are on the page.
 
-    
+### Mobile Design Features: 
+- The navbar is collapsed, and accessed by clicking on the 'hamburger' icon in the top right hand corner.
+- The images have been reduced in size, so that they are appropriate for a mobile screen, and so that they load quickly.
+- All of the card elements have been collapsed into 'accordions', in order to provide better UX.
+- The parallax feature has been disabled on ios devices, as the following CSS is not supported by ios: "background-attachment: fixed;". 
+A media query was used to detect the ios operating system, and to set: "background-attchment: scroll;".
+
+### Tablet Design Features:
+- Devices with screen widths larger than 991 pixels 
 
 ## Deployment:
 
