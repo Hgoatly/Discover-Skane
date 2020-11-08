@@ -130,6 +130,17 @@ sections:
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
 sections respectively, as they are descriptive images that represent the content of their respective sections well.
 
+### Layout: 
+- The Bootstrap framework was used throughout the site to add responsiveness and facilitate mobile-first design.
+
+### Wireframes: 
+- The final Wireframes for this project can be viewed [here](assets/wireframes/discover-skane.pdf).
+- Original Wireframes can be seen here. 
+- The decision was made to change the orignal design from having a carousel of images to having a single image because of 
+accessability concerns. 
+- The decision not to have the 'Book' and 'Contact' sections in modals, and in their own sections on the main page, was 
+taken on the advice of my mentor. The final design works better as now the modals do not break up the flow of the page.
+
 
     
 
