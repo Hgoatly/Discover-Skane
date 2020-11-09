@@ -77,7 +77,11 @@ The 'contact' section encourages the user to contact the site owner via a contac
 5. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
 6. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 7. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
-8. I want to know what kind of cultural activities there are in the cities in Skåne, so that I know whether to book a city break there.
+8. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
+9. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
+10. I want to find some hotel deals, so that I can book my holiday in Skåne.
+11. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
+12. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
 ### First Time Visitor Goals:
 - To find out what the county of Skåne has to offer as a holiday destination.
@@ -148,22 +152,42 @@ of the site have a fixed navbar and footer, with a 'scroll to top' button at the
 navbar to be easily accessed from wherever you are on the page.
 
 ### Mobile Design Features: 
-- The navbar is collapsed, and accessed by clicking on the 'hamburger' icon in the top left hand corner.
+The main features of the mobile version of the 'Discover Skåne' website are detailed below:
+- The navbar has been collapsed, and is accessed by clicking on the 'hamburger' icon in the top left hand corner.
 - The images have been reduced in size, so that they are appropriate for a mobile screen, and so that they load quickly.
 - All of the card elements have been collapsed into 'accordions', whereby each collapsed element needs to be clicked on in 
 order to be viewed. Only one card is visible at a time, as multiple cards next to each other would have been inappropriate for 
 the screen size. The decision to collapse the card elements was made to provide better UX, as otherwise the site visitor would 
 have to scroll past too much content, and it would have been poor UX.
-- The parallax feature has been disabled on ios devices, as the following CSS is not supported by ios: "background-attachment: fixed;". 
-A media query was used to detect the ios operating system, and to set: "background-attchment: scroll;".
+- A pseudo parallax feature has been added to the page in order to make it visually appealing. It is a pseudo parallax rather than a 
+true parallax, as the background images are static, rather than moving at a different speed from the content that scrolls past it. It
+has, however, been disabled on iOS devices, as the following CSS is not supported by ios: "background-attachment: fixed;". 
+A media query was used to detect the iOS operating system, and to set: "background-attchment: scroll;" in this case.
 
 ### Tablet Design Features:
-- The tablet design was designed for screens no wider than 991 pixels. On screens wider than this, the desktop version will be used.
-- Like on the mobile version, the navbar is collapsed, and accessed by the 'hamburger' icon in the top left hand corner.
-- There are only two card elements displayed in each section, rather than three, as the images looked squashed when there were three of them.
-- Like on the mobile version, the parallax feature has been disabled on tablets running ios, because ios does not support: "background-attachment: fixed;".
+The tablet design was designed for screens no wider than 991 pixels, and has the same features as the mobile version, except those 
+detailed below. On screens wider than 991 pixels, the desktop version will be used.
+- In the first three sections, are only two card elements displayed rather than three, as the images looked squashed when there were three of them. Rather than 
+being collapsed into an accordion, they are displayed next to each other as this is more visually appealing.
+- Like on the mobile version, the parallax feature has been disabled on tablets running iOS, because iOS does not support: "background-attachment: fixed;".
 
 ### Desktop Design Features:
+The desktop design was designed for screens wider than 991 pixels, and has some of the same features as the mobile and tablet versions.The differences are detailed below:
+- The fixed navbar is not collapsed, and spans the width of the page.
+- Each of the first three 'informative' sections contains a Bootstrap card-deck. Each card-deck displays three cards next to one another in a way that 
+is designed to be visually appealing. None of the content is collapsed.
+- The images are an appropriate size for the screen size.
+
+### How the Features Relate to the User Stories:
+1. User Stories 1, 2 and 8 are concerned with finding a lake. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map with custom markers. 
+The same lakes are also displayed on the main map in the 'Map' section of the page.
+2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
+The same forests are displayed on the main map in the 'Map' section.
+3. User Stories 4 and 6 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
+maps with custom markers.
+4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
+and displays them on a series of maps with custom markers.
+
 ## Deployment:
 
 ### Github Pages:
