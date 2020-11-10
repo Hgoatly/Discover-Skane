@@ -64,7 +64,8 @@ The final two sections are mainly interactive. They are as follows:
 2. Contact.
 
 The 'Book' section uses the [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API,
-so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay.
+so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay. Out of the available booking.com APIs, it was decided that the 'Deal Fider' API was the most appropriate
+as it is the only one that features images, that can also have the search area spcifies as Skåne. 
 
 The 'contact' section encourages the user to contact the site owner via a contact form with their suggestions for places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
 
@@ -115,6 +116,7 @@ logo, to create a colour theme for the site.
 - Site Background: The colour #f5f5f5 (off-white) was chosen as the background colour for the whole site. This is because it fits well with the general colour theme of the site, but also provides a subtle, yet distinct, contrast with 
 the card elements, which have a background colour of #fff (white). 
 
+- Infowindows: The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
 ### Typography: 
 - 'Oswald' was chosen as the font for all of the Section Titles, with a fallback of 'cursive' - in case the 'Oswald' font fails to load. 
 It was chosen as it it both bold and stylish - whilst able to be easily read.
@@ -187,7 +189,10 @@ The same forests are displayed on the main map in the 'Map' section.
 maps with custom markers.
 4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
 and displays them on a series of maps with custom markers.
-
+5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay.
+6. User Story 11 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
+7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
+user to be able to contact the site owner.  
 ## Deployment:
 
 ### Github Pages:
