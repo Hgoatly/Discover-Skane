@@ -98,8 +98,9 @@ The 'contact' section encourages the user to contact the site owner via a contac
 ### Design: 
 - Landing Page: The idea of the 'Discover Skåne' landing page is to invite the site visitor to enter the main site. The hero image is 
 a picture of the famous Öresunds Bridge, that connects the Swedish county of Skåne to Denmark. Superimposed on the image is the site logo 
-and an 'Enter' button, that invites the user to click on it and enter the site - which is a metaphor for how they would 'Discover Skåne' by crossing the bridge physically.
-
+and an 'Enter' button, that invites the user to click on it and enter the site - which is a visual metaphor for how they would 'Discover Skåne' by crossing the bridge physically.
+- Main content: Once the 'Enter' button has been clicked, the page disappears, and the user is taken to the main content.
+- The 'Main Content' page 
 #### Colours Used:
 - Site Logo and Section Titles: The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
@@ -126,8 +127,8 @@ clean and easy to read, which makes it an appropriate font for the text.
 ### Imagery: 
 - Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
 image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge. 
-- Other appropriate images were chosen to represent different 
-sections:
+- Other appropriate images were chosen to represent different sections:
+    - A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
     - A picture of a pine forest was chosen for the 'Lakes and Forests' section.
     - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
     - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
