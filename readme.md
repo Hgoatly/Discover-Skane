@@ -100,7 +100,13 @@ The 'contact' section encourages the user to contact the site owner via a contac
 a picture of the famous Öresunds Bridge, that connects the Swedish county of Skåne to Denmark. Superimposed on the image is the site logo 
 and an 'Enter' button, that invites the user to click on it and enter the site - which is a visual metaphor for how they would 'Discover Skåne' by crossing the bridge physically.
 - Main content: Once the 'Enter' button has been clicked, the page disappears, and the user is taken to the main content.
-- The 'Main Content' page 
+- The 'Main Content' page has a fixed navbar at the top of the page. The decision was made not to display the logo on the navbar for two reasons. 
+Firstly, the logo is clearly displayed on further down the page, and secondly, as the page is one page with different sections, there is no need to have
+a logo element that navigates back to the home page. All of the sections of the page are listed, as well as a flag icon - which toggles the language of the content 
+from English to Swedish.
+- Below the navbar, the hero image is found, upon which the 'Discover Skåne' logo in superimposed. 
+- The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
+
 #### Colours Used:
 - Site Logo and Section Titles: The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
@@ -182,6 +188,7 @@ is designed to be visually appealing. None of the content is collapsed.
 - The images are an appropriate size for the screen size.
 
 ### How the Features Relate to the User Stories:
+
 1. User Stories 1, 2 and 8 are concerned with finding a lake. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map with custom markers. 
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
@@ -193,7 +200,31 @@ and displays them on a series of maps with custom markers.
 5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay.
 6. User Story 11 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
 7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
-user to be able to contact the site owner.  
+user to be able to contact the site owner. 
+
+## Technologies Used: 
+
+### Languages Used: 
+
+1. HTML5
+2. CSS3
+3. Javascript
+
+### Frameworks, Libraries and Other Programs Used:
+
+1. [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
+2. [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
+throughout the site.
+3. [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'.
+4. [Gitpod](https://gitpod.io/workspaces/) and [Github](https://github.com/). All code was written in Gitpod, and pushed to Github for storage and version control.  
+5. [Balsamiq](https://balsamiq.com/) was used to create wireframes for the project.
+6. [Shutterstock](https://www.shutterstock.com/) was used to download images for the site.
+7. [Unsplash](https://unsplash.com/) was used to download images for the site.
+8. [Pixabay](https://pixabay.com/) was used to download images for the site.
+9. [Flaticon](https://www.flaticon.com/) was used to download the map icons.
+10. [Favicon.cc]( https://www.favicon.cc/?action=icon&file_id=793468) was used to generate the favicon - which is the Skåne flag. 
+
+
 ## Deployment:
 
 ### Github Pages:
