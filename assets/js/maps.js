@@ -320,18 +320,18 @@ function initAutocomplete() {
       lat: 55.936628,
       lng: 14.320004,
       infoEng:
-        "<h3 class='info-header'>Täppet</h3><p>The beach is located in Ahus and consists of a several hundred meters long and sandy beach. At the seaside there is a 150 meter long pier. According to measurements in recent years, bathing water quality is excellent. There are several roads to the beach. In the area there are a toilet, kiosk, outdoor swimming pool, hotel, restaurant and beacharena. Security equipment is located on the beach.</p><p>Attribution: <a class='info-link' href='https://www.tripadvisor.co.uk/Attraction_Review-g1026473-d12435121-Reviews-Tappet_havsbad-Ahus_Skane_County.html'>Tripadvisor</a></p>",
+        "<h3 class='info-header'>Täppet</h3><p>The beach is located in Ahus and consists of a several hundred meters long and sandy beach. At the seaside there is a 150 meter long pier. According to measurements in recent years, bathing water quality is excellent. There are several roads to the beach. In the area there are a toilet, kiosk, outdoor swimming pool, hotel, restaurant and beacharena. Security equipment is located on the beach.</p><p>Attribution: <a class='info-link' href='https://www.tripadvisor.co.uk/Attraction_Review-g1026473-d12435121-Reviews-Tappet_havsbad-Ahus_Skane_County.html' target='_blank'>Tripadvisor</a></p>",
       infoSwe: 
-        "<h3 class='info-header'>Täppet</h3><p lang='sv'>Stranden ligger i Ahus och består av en flera hundra meter lång och sandstrand. Vid havet finns en 150 meter lång pir. Enligt de senaste årens mätningar är badvattenkvaliteten utmärkt. Det finns flera vägar till stranden. I området finns toalett, kiosk, utomhuspool, hotell, restaurang och beacharena. Säkerhetsutrustning finns på stranden.</p><p>Attribution: <a class='info-link' href='https://www.tripadvisor.co.uk/Attraction_Review-g1026473-d12435121-Reviews-Tappet_havsbad-Ahus_Skane_County.html'>Tripadvisor</a></p>",
+        "<h3 class='info-header'>Täppet</h3><p lang='sv'>Stranden ligger i Ahus och består av en flera hundra meter lång och sandstrand. Vid havet finns en 150 meter lång pir. Enligt de senaste årens mätningar är badvattenkvaliteten utmärkt. Det finns flera vägar till stranden. I området finns toalett, kiosk, utomhuspool, hotell, restaurang och beacharena. Säkerhetsutrustning finns på stranden.</p><p>Attribution: <a class='info-link' href='https://www.tripadvisor.co.uk/Attraction_Review-g1026473-d12435121-Reviews-Tappet_havsbad-Ahus_Skane_County.html' target='_blank'>Tripadvisor</a></p>",
         type: beachesIcon,
     },
     {
       lat: 55.642334,
       lng: 14.277357,
       infoEng:
-        "<h3 class='info-header'>Knäbäckshusen</h3><p>The beach at Knäbäckshusen is one of the most beautiful in Skåne - and for that sake the whole Sweden - stretching from Lilla Vik in the north to Stenshuvud in the south. The beach is “protected” on the land-side by a large sand dune, with pine trees stretching like palm trees towards the sea.</p><p>Attribution: <a class='info-link' href='http://www.knabackshusen.se/index-en.html'>Knäbäckshusen.se</a></p>",
+        "<h3 class='info-header'>Knäbäckshusen</h3><p>The beach at Knäbäckshusen is one of the most beautiful in Skåne - and for that sake the whole Sweden - stretching from Lilla Vik in the north to Stenshuvud in the south. The beach is “protected” on the land-side by a large sand dune, with pine trees stretching like palm trees towards the sea.</p><p>Attribution: <a class='info-link' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen.se</a></p>",
       infoSwe: 
-        "<h3 class='info-header'>Knäbäckshusen</h3><p lang='sv'>Knäbäckshusens strand är bland de vackraste stränder i Skåne. Sandstranden sträcker sig från Lilla Vik till Stenshuvud och skyddas av en hög strandbank där träden sträcker sig likt palmer ut mot vattnet.</p><p>Attribution: <a class='info-link' href='http://www.knabackshusen.se/index-en.html'>Knäbäckshusen.se</a></p>",
+        "<h3 class='info-header'>Knäbäckshusen</h3><p lang='sv'>Knäbäckshusens strand är bland de vackraste stränder i Skåne. Sandstranden sträcker sig från Lilla Vik till Stenshuvud och skyddas av en hög strandbank där träden sträcker sig likt palmer ut mot vattnet.</p><p>Attribution: <a class='info-link' href='http://www.knabackshusen.se/index-en.html' target='_blank'>Knäbäckshusen.se</a></p>",
         type: beachesIcon,
     },
     {
