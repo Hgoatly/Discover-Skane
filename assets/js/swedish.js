@@ -21,7 +21,6 @@ $(document).ready(function () {
     $(".english-heading").toggle();
     $(".swedish-content").toggle();
     $(".swedish-heading").toggle();
-      
    });
    
   //Toggle card pictures and maps to be shown and hidden.
@@ -118,6 +117,6 @@ $(document).ready(function () {
   //Toggle text on map buttons
   $(".map-buttons-swedish").click(function () {
     $(this).text($(this).text() == "Dölj Karta" ? "Se på karta" : "Dölj Karta");
-  });
+  }); 
 });
 

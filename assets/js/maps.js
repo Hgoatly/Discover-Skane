@@ -466,9 +466,9 @@ function initAutocomplete() {
       lat: 56.0498,
       lng: 12.6893,
       infoEng:
-        "<h3 class='info-header'>Helsingborg Konserthus</h3><p>Home to the Helsingborg Symphony Orchestra, 'Helsingborg Concert Hall was inaugurated on November 12, 1932. The same year Helsingborg celebrated triumphs with its new concert hall designed by architect Sven Markelius. Today, Helsingborgs Konserthus, still known for its beautiful lines, beautiful mahogany walls and perfect acoustics, is famous far beyond the country's borders.'</p><p>Attribution: <a class='info-link' href='https://www.helsingborgskonserthus.se/'>Helsingborg Konserthus</a></p>",
+        "<h3 class='info-header'>Helsingborg Konserthus</h3><p>Home to the Helsingborg Symphony Orchestra, 'Helsingborg Concert Hall was inaugurated on November 12, 1932. The same year Helsingborg celebrated triumphs with its new concert hall designed by architect Sven Markelius. Today, Helsingborgs Konserthus, still known for its beautiful lines, beautiful mahogany walls and perfect acoustics, is famous far beyond the country's borders.'</p><p>Attribution: <a class='info-link' href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Konserthus</a></p>",
       infoSwe:  
-        "<h3 class='info-header'>Helsingborg Konserthus</h3><p>Helsingborgs Konserthus är Helsingborg Symfoniorkesters hemmaplan 'Helsingborgs Konserthus invigdes den 12 november 1932. Samma år firade Helsingborg triumfer med sitt nya konserthus ritat av arkitekten Sven Markelius. I dag är Helsingborgs Konserthus, fortfarande omtalat för sina vackra linjer, tjusiga mahognyväggar och perfekta akustik, berömt långt utanför landsgränsen.</p><p>Attribution: <a class='info-link' href='https://www.helsingborgskonserthus.se/'>Helsingborg Konserthus</a></p>",
+        "<h3 class='info-header'>Helsingborg Konserthus</h3><p>Helsingborgs Konserthus är Helsingborg Symfoniorkesters hemmaplan 'Helsingborgs Konserthus invigdes den 12 november 1932. Samma år firade Helsingborg triumfer med sitt nya konserthus ritat av arkitekten Sven Markelius. I dag är Helsingborgs Konserthus, fortfarande omtalat för sina vackra linjer, tjusiga mahognyväggar och perfekta akustik, berömt långt utanför landsgränsen.</p><p>Attribution: <a class='info-link' href='https://www.helsingborgskonserthus.se/' target='_blank'>Helsingborg Konserthus</a></p>",
         type: theatresIcon,
     },
     {
@@ -814,6 +814,7 @@ var flag = document.getElementById("flag");
     flag.addEventListener("click", closeInfoWindow);
     function closeInfoWindow() {
         infoWin.close();
+        document.getElementsByClassName("card-front").style.visiblity = "visible";
     }; 
 
   //Marker clusters
