@@ -56,7 +56,7 @@ The next section is the map section - which is both informative and interactive.
 On the map, all of the markers from the 'Lakes and Forests', 'Beautiful Beaches' and 'City and Culture' sections are displayed, along with their infowindows.
 As the map covers a larger area, and is less localised there are also additional custom markers for the cities of 'Malmö', 'Helsingborg' and 'Lund', with infowindows that display information in the 
 same format as the other custom markers. 
-Additionally, there is a 'search box' where the user can search the map for additional places of interest. 
+Additionally, there is a 'search box' where the user can search the map for additional places of interest that are not already listed on the site. 
 
 The final two sections are mainly interactive. They are as follows:
 
@@ -85,17 +85,24 @@ The 'contact' section encourages the user to contact the site owner via a contac
 12. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
 ### First Time Visitor Goals:
-- To find out what the county of Skåne has to offer as a holiday destination.
+
+- To easily find out the main purpose of the site. 
+- To easily find out what the county of Skåne has to offer as a holiday destination.
+- To easily navigate around the site to find relevant content.
+- To easily be able to find points of interest on a map. 
 
 ### Returning Visitor Goals: 
+
 - To find out if any new content has been added for subsequent visits to Skåne.
 - To contact the site owner to let them know about any places to visit in Skåne that they would like to recommend.
 
 ### Frequent Visitor Goals: 
+
 - To find out whether any new content has been added for subsequent visits to Skåne.
 - To find out about different holiday options from those that the site visitor has already experienced.
 
 ### Design: 
+
 - Landing Page: The idea of the 'Discover Skåne' landing page is to invite the site visitor to enter the main site. The hero image is 
 a picture of the famous Öresunds Bridge, that connects the Swedish county of Skåne to Denmark. Superimposed on the image is the site logo 
 and an 'Enter' button, that invites the user to click on it and enter the site - which is a visual metaphor for how they would 'Discover Skåne' by crossing the bridge physically.
@@ -108,6 +115,7 @@ from English to Swedish.
 - The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
 
 #### Colours Used:
+
 - Site Logo and Section Titles: The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
 
@@ -124,13 +132,16 @@ logo, to create a colour theme for the site.
 the card elements, which have a background colour of #fff (white). 
 
 - Infowindows: The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
-### Typography: 
+
+### Typography:
+
 - 'Oswald' was chosen as the font for all of the Section Titles, with a fallback of 'cursive' - in case the 'Oswald' font fails to load. 
 It was chosen as it it both bold and stylish - whilst able to be easily read.
 - 'Roboto' was chosen as the font for the rest of the text, with a fallback of 'sans-serif' in case the 'Roboto font doesn't load. Roboto is 
 clean and easy to read, which makes it an appropriate font for the text.
 
-### Imagery: 
+### Imagery:
+
 - Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
 image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge. 
 - Other appropriate images were chosen to represent different sections:
@@ -144,9 +155,12 @@ in Skåne, but were more metaphorical in nature, and chosen to represent the 'Bo
 sections respectively, as they are descriptive images that represent the content of their respective sections well.
 
 ### Layout: 
-- The Bootstrap framework was used throughout the site to add responsiveness and facilitate mobile-first design.
+
+- The Bootstrap framework was used throughout the site to add responsiveness and to help facilitate mobile-first design.
+- The website is designed around a one page layout, so that site visitors can easily find the information they are looking for in one place.
 
 ### Wireframes: 
+
 - The final Wireframes for this project can be viewed <a href="assets/wireframes/discover-skane.pdf" target="_blank">Here</a>
 - Original Wireframes can be seen here. 
 - The decision was made to change the orignal design from having a carousel of images to having a single image because of 
@@ -155,6 +169,7 @@ accessability concerns.
 taken on the advice of my mentor. The final design works better as now the modals do not break up the flow of the page.
 
 ## Features: 
+
 'Discover Skåne' is built to be resonsive, on the principles of mobile-first design. The Bootstrap Grid System has helped 
 facilitate this. With this in mind, there are some differences between the Mobile, Tablet and Desktop versions. All versions 
 of the site have a fixed navbar and footer, with a 'scroll to top' button at the bottom of each section, which allows for the 
@@ -202,6 +217,12 @@ and displays them on a series of maps with custom markers.
 7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
 user to be able to contact the site owner. 
 
+### Future Features: 
+
+1. SkåneTrafiken open source API: SkåneTrafiken, is the public transport provider for the Skåne. This would allow site visitors to be able to easily plan journeys around Skåne by public transport.
+It was not possible to add it at this stage, as it requires proficiency in XML in order to be implemented - which is something I do not have yet.
+2. Weather Forecast: I would like to have a section displaying the weather forecast for the region. Like the SkåneTrafiken API, most of the weather forecast APIs that I found required proficiency in XML.
+
 ## Technologies Used: 
 
 ### Languages Used: 
@@ -210,7 +231,7 @@ user to be able to contact the site owner.
 2. CSS3
 3. Javascript
 
-### Frameworks, Libraries and Other Programs Used:
+### Frameworks, Libraries and Other Sources Used:
 
 1. [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
 2. [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
@@ -221,8 +242,18 @@ throughout the site.
 6. [Shutterstock](https://www.shutterstock.com/) was used to download images for the site.
 7. [Unsplash](https://unsplash.com/) was used to download images for the site.
 8. [Pixabay](https://pixabay.com/) was used to download images for the site.
+9. [Pexels](https://www.pexels.com/) was used to download images for the site.
 9. [Flaticon](https://www.flaticon.com/) was used to download the map icons.
 10. [Favicon.cc]( https://www.favicon.cc/?action=icon&file_id=793468) was used to generate the favicon - which is the Skåne flag. 
+11. [Am-I-Responsive](http://ami.responsivedesign.is/) was used to check how the site looked on a variety of screen sizes.
+
+### Application Programming Interfaces Used (APIs):
+
+1. [Google-Maps](https://developers.google.com/maps/documentation/javascript/overview) Javascript API was used extensively throughout the site to display recommended places to visit on several maps.
+2. [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API (deal finder) was 
+used so that site visitors can find somewhere to stay in Skåne for when they visit. This is a commision based API, so when a booking is made throught the 'Discover Skåne' site, the
+site owner is paid a small fee. 
+3. [EmailJS](https://www.emailjs.com/) was used to facilitate the sending of emails to the site owner through the contact form.
 
 
 ## Deployment:
