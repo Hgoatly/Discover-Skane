@@ -285,7 +285,7 @@ function initAutocomplete() {
       infoEng:
         "<h3 class='info-header'>Stenshuvud</h3><p>A bit of magic in Österlen. Coastal hills, lush deciduous forests, pastoral heaths and beautiful beaches unite to form a magnificent landscape in the part of Skåne known as Österlen. The national park has the exotic character of more southerly climes and great biodiversity that is worth preserving and visiting.</p><p>Attribution: <a class='info-link' href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
       infoSwe: 
-        "<h3 class='info-header'</h3><p lang='sv'>En bit magi på Österlen. Kustberg, lummiga ädellövskogar, pastorala hedar och vackra stränder förenas i ett storslaget landskap på Skånska Österlen. Nationalparken har en sydlig exotisk karaktär och stor biologisk mångfald värd att bevara och besöka. Om Stenshuvuds nationalpark.</p><p>Attribution: <a class='info-link' href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
+        "<h3 class='info-header'>Stenshuvud</h3><p lang='sv'>En bit magi på Österlen. Kustberg, lummiga ädellövskogar, pastorala hedar och vackra stränder förenas i ett storslaget landskap på Skånska Österlen. Nationalparken har en sydlig exotisk karaktär och stor biologisk mångfald värd att bevara och besöka. Om Stenshuvuds nationalpark.</p><p>Attribution: <a class='info-link' href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
         type: forestsIcon,
     },
     {
