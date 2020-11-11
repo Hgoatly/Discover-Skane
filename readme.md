@@ -19,8 +19,23 @@ Click here to [Discover Skåne](https://hgoatly.github.io/MS2/).
   - [Design](#Design)
     - [Colours Used](#colours-used)
     - [Typography](#typography) 
+    - [Imagery](#imagery)
+    - [Layout](#layout)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Mobile-Design-Features](#mobile-design-features)
+    - [Tablet-Design-Features](#tablet-design-features)
+    - [Desktop-Design-Features](#desktop-design-features)
+    - [How-The-Features-Relate-To-The-User-Stories](#how-the-features-relate-to-the-user-stories)
+    - [Future-Features](#future-features)
 - [Technologies Used](#technologies-used)
+  - [Languages-Used](#languages-used)
+  - [Frameworks,-Libraries-and-Other-Sources-Used](#frameworks,-libraries-and-other-sources-used)
+  - [Application-Programming-Interfaces-Used-(APIs)](#application-programming-interfaces-used-(APIs))
 - [Deployment](#deployment)
+  - [Github-Pages](#github-pages)
+  - [Forking-The-Repository](#forking-the-repository)
+  - [Making-A-Local-Clone](#making-a-local-clone)
 
 ## Site Owner's Goals:
 
@@ -70,6 +85,7 @@ as it is the only one that features images, that can also have the search area s
 The 'contact' section encourages the user to contact the site owner via a contact form with their suggestions for places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
 
 ## User Experience (UX):
+
 ### User Stories:
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
 2. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go swimming.
@@ -103,35 +119,39 @@ The 'contact' section encourages the user to contact the site owner via a contac
 
 ### Design: 
 
-- Landing Page: The idea of the 'Discover Skåne' landing page is to invite the site visitor to enter the main site. The hero image is 
+- **Landing Page:** The idea of the 'Discover Skåne' landing page is to invite the site visitor to enter the main site. The hero image is 
 a picture of the famous Öresunds Bridge, that connects the Swedish county of Skåne to Denmark. Superimposed on the image is the site logo 
 and an 'Enter' button, that invites the user to click on it and enter the site - which is a visual metaphor for how they would 'Discover Skåne' by crossing the bridge physically.
-- Main content: Once the 'Enter' button has been clicked, the page disappears, and the user is taken to the main content.
+
+- **Main content:** Once the 'Enter' button has been clicked, the page disappears, and the user is taken to the main content.
+
 - The 'Main Content' page has a fixed navbar at the top of the page. The decision was made not to display the logo on the navbar for two reasons. 
 Firstly, the logo is clearly displayed on further down the page, and secondly, as the page is one page with different sections, there is no need to have
-a logo element that navigates back to the home page. All of the sections of the page are listed, as well as a flag icon - which toggles the language of the content 
+a logo element that navigates back to the home page. All of the sections of the page are listed as links on the navbar, as well as a flag icon - which toggles the language of the content 
 from English to Swedish.
+
 - Below the navbar, the hero image is found, upon which the 'Discover Skåne' logo in superimposed. 
+
 - The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
 
 #### Colours Used:
 
-- Site Logo and Section Titles: The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
+- **Site Logo and Section Titles:** The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
 
-- Enter Button: The Skåne flag is a yellow cross on a red background. #dc3545 (red) was chosen for the background of the enter button, and #d8b54d (yellow) was chosen
+- **Enter Button:** The Skåne flag is a yellow cross on a red background. #dc3545 (red) was chosen for the background of the enter button, and #d8b54d (yellow) was chosen
 for the text. This is to represent the Skåne flag. On a desktop, when the button is hovered over, the text colour changes to white. This is a metaphor for crossing the
 bridge into Skåne, as the Danish flag is a white cross on a red background. It is representative of what the picture suggests: that you are leaving Denmark to enter Skåne.
 
-- Navbar and Footer, Card Headers and 'Top of Page' Button: The background colour of each of these elements is #4f4646, and the text colour is #fff. It was deliberately decided that they should be the same colours as on the 
+- **Navbar and Footer, Card Headers and 'Top of Page' Button:** The background colour of each of these elements is #4f4646, and the text colour is #fff. It was deliberately decided that they should be the same colours as on the 
 logo, to create a colour theme for the site.
 
-- Cards: #fff was chosen as the background for the card elements, in order to make a good contrast with the text, for which the colour #4f4646 was chosen as it fits well with the general colour theme of the site.
+- **Cards:** #fff was chosen as the background for the card elements, in order to make a good contrast with the text, for which the colour #4f4646 was chosen as it fits well with the general colour theme of the site.
 
-- Site Background: The colour #f5f5f5 (off-white) was chosen as the background colour for the whole site. This is because it fits well with the general colour theme of the site, but also provides a subtle, yet distinct, contrast with 
+- **Site Background:** The colour #f5f5f5 (off-white) was chosen as the background colour for the whole site. This is because it fits well with the general colour theme of the site, but also provides a subtle, yet distinct, contrast with 
 the card elements, which have a background colour of #fff (white). 
 
-- Infowindows: The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
+- **Infowindows:** The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
 
 ### Typography:
 
@@ -144,12 +164,14 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 - Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
 image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge. 
+
 - Other appropriate images were chosen to represent different sections:
     - A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
     - A picture of a pine forest was chosen for the 'Lakes and Forests' section.
     - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
     - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
     - A picutre of a road in Skåne was chosen for the 'Map' section.
+
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
 sections respectively, as they are descriptive images that represent the content of their respective sections well.
@@ -176,30 +198,42 @@ of the site have a fixed navbar and footer, with a 'scroll to top' button at the
 navbar to be easily accessed from wherever you are on the page.
 
 ### Mobile Design Features: 
+
 The main features of the mobile version of the 'Discover Skåne' website are detailed below:
+
 - The navbar has been collapsed, and is accessed by clicking on the 'hamburger' icon in the top left hand corner.
+
 - The images have been reduced in size, so that they are appropriate for a mobile screen, and so that they load quickly.
+
 - All of the card elements have been collapsed into 'accordions', whereby each collapsed element needs to be clicked on in 
 order to be viewed. Only one card is visible at a time, as multiple cards next to each other would have been inappropriate for 
 the screen size. The decision to collapse the card elements was made to provide better UX, as otherwise the site visitor would 
 have to scroll past too much content, and it would have been poor UX.
+
 - A pseudo parallax feature has been added to the page in order to make it visually appealing. It is a pseudo parallax rather than a 
 true parallax, as the background images are static, rather than moving at a different speed from the content that scrolls past it. It
 has, however, been disabled on iOS devices, as the following CSS is not supported by ios: "background-attachment: fixed;". 
 A media query was used to detect the iOS operating system, and to set: "background-attchment: scroll;" in this case.
 
 ### Tablet Design Features:
+
 The tablet design was designed for screens no wider than 991 pixels, and has the same features as the mobile version, except those 
 detailed below. On screens wider than 991 pixels, the desktop version will be used.
+
 - In the first three sections, are only two card elements displayed rather than three, as the images looked squashed when there were three of them. Rather than 
 being collapsed into an accordion, they are displayed next to each other as this is more visually appealing.
+
 - Like on the mobile version, the parallax feature has been disabled on tablets running iOS, because iOS does not support: "background-attachment: fixed;".
 
 ### Desktop Design Features:
+
 The desktop design was designed for screens wider than 991 pixels, and has some of the same features as the mobile and tablet versions.The differences are detailed below:
+
 - The fixed navbar is not collapsed, and spans the width of the page.
+
 - Each of the first three 'informative' sections contains a Bootstrap card-deck. Each card-deck displays three cards next to one another in a way that 
 is designed to be visually appealing. None of the content is collapsed.
+
 - The images are an appropriate size for the screen size.
 
 ### How the Features Relate to the User Stories:
@@ -246,6 +280,7 @@ throughout the site.
 9. [Flaticon](https://www.flaticon.com/) was used to download the map icons.
 10. [Favicon.cc]( https://www.favicon.cc/?action=icon&file_id=793468) was used to generate the favicon - which is the Skåne flag. 
 11. [Am-I-Responsive](http://ami.responsivedesign.is/) was used to check how the site looked on a variety of screen sizes.
+12. [Google-Translate](https://translate.google.co.uk/) was used for the infowindows when the site the content came from didn't have an English or Swedish translation of its own.
 
 ### Application Programming Interfaces Used (APIs):
 
