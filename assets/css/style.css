@@ -430,3 +430,11 @@ input {
     color: #fff;
 }
 }
+
+/* Detect Internet Explorer 10+ */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .card-deck .card {
+    display: block;
+  }
+}
