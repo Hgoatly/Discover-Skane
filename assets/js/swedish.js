@@ -23,6 +23,9 @@ $(document).ready(function () {
     $(".swedish-heading").toggle();
    });
    
+   $("#swedish-flag").click(function(){
+       $("#fullname").attr('placeholder', 'Namn');
+   })
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
     $("#card-front-1").toggle();
