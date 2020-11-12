@@ -814,7 +814,6 @@ var flag = document.getElementById("flag");
     flag.addEventListener("click", closeInfoWindow);
     function closeInfoWindow() {
         infoWin.close();
-        document.getElementsByClassName("card-front").style.visiblity = "visible";
     }; 
 
   //Marker clusters for each map
