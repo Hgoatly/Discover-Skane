@@ -355,10 +355,10 @@ input {
 
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
-/*    .callout-container-fluid{
+    .callout-container-fluid{
         height: 100vh;
          background: url("../images/landing-page-mobile.jpg") no-repeat center center fixed; 
-    } */
+    } 
     .intro-text {
         margin: 0rem;
         padding-left: 2rem;
@@ -384,7 +384,7 @@ input {
         letter-spacing: 4px;
     }
 
-    /*.section-image1 {
+    .section-image1 {
          background: url("../images/hero-image-mobile.jpg") no-repeat center center fixed;
          min-height: 100vh;
     min-width: 100vw;
@@ -409,6 +409,7 @@ input {
     .section-image6 {
        background: url("../images/hotel-mobile.jpg") no-repeat center center fixed; 
     }
+    /*
     .section-image7 {
          background: url("../images/contact-mobile.jpg") no-repeat center center fixed;
     } */
