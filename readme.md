@@ -290,6 +290,11 @@ used so that site visitors can find somewhere to stay in Skåne for when they vi
 site owner is paid a small fee. 
 3. [EmailJS](https://www.emailjs.com/) was used to facilitate the sending of emails to the site owner through the contact form.
 
+## Testing:
+
+Information about tests carried out can be found in a separate testing.md file.
+
+### Known Bugs and Fixes:
 
 ## Deployment:
 

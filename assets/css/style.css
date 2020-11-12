@@ -296,7 +296,7 @@ p {
     color:  #4f4646; 
 }
 
-#submit-button {
+#submit-button #submit-button-swedish{
     text-transform: uppercase;
     margin-top: 1rem;
     margin-bottom: 1rem;

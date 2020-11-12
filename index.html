@@ -1331,12 +1331,13 @@
                                                               <!--Form example copied from the CI Resume project-->
 						<div class="center-form">
 							<form id="contact-form" onsubmit="return sendMail(this);">
-								<input type="text" name="name" class="form-control english-content" id="fullname" placeholder="Name" required/>
+								<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
 								<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
 								<textarea rows="5" name="suggestions" class="form-control" id="suggestions" placeholder="Your favourite places in Skåne" required></textarea>
 								<div class="row">
 									<div class="col-12 text-center">
-										<button type="submit" class="btn form-button center-block" id="submit-button">Submit</button>
+										<button type="submit" class="btn form-button center-block english-content" id="submit-button">Submit</button>
+                                        <button type="submit" class="btn form-button center-block swedish-content" id="submit-button-swedish">Skicka</button>
 									</div>
 								</div>
 							</form>

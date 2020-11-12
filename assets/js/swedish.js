@@ -26,6 +26,10 @@ $(document).ready(function () {
    $("#swedish-flag").click(function(){
        $("#fullname").attr('placeholder', 'Namn');
    })
+
+   $("#british-flag").click(function(){
+       $("#fullname").attr('placeholder', 'Name');
+   })
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
     $("#card-front-1").toggle();

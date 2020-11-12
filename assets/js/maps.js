@@ -817,7 +817,7 @@ var flag = document.getElementById("flag");
         document.getElementsByClassName("card-front").style.visiblity = "visible";
     }; 
 
-  //Marker clusters
+  //Marker clusters for each map
   markerCluster = new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
