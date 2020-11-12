@@ -223,8 +223,8 @@ p {
 
 #map {
     min-height: 85vh;
-    min-width: 95vw;
-    margin: 30px;
+    min-width: 95vw; 
+    margin-bottom: 30px;
     }
 
 .card-maps {
@@ -346,6 +346,7 @@ input {
     width: 95vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 .center-form {
@@ -409,10 +410,10 @@ input {
     .section-image6 {
        background: url("../images/hotel-mobile.jpg") no-repeat center center fixed; 
     }
-    /*
+    
     .section-image7 {
          background: url("../images/contact-mobile.jpg") no-repeat center center fixed;
-    } */
+    } 
 }
 
 /*-- Parallax effect disabled for ios devices. Copied from: https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices */
@@ -437,4 +438,14 @@ input {
     .card-deck .card {
     display: block;
   }
+}
+
+@media only screen and (min-width: 1600px) {
+    #deal-finder, #contact-form {
+    margin-left: 8rem;
+    margin-right: 8rem; 
+    }
+    #map {
+        min-width: 85vw;
+    } 
 }
