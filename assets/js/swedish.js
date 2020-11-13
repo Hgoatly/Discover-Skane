@@ -25,11 +25,14 @@ $(document).ready(function () {
    
    $("#swedish-flag").click(function(){
        $("#fullname").attr('placeholder', 'Namn');
+       $("#pac-input").attr('placeholder', 'Sök på Karta')
    })
 
    $("#british-flag").click(function(){
        $("#fullname").attr('placeholder', 'Name');
+       $("#pac-input").attr('placeholder', 'Search the Map')
    })
+
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
     $("#card-front-1").toggle();

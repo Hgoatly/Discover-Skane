@@ -430,12 +430,6 @@ input {
 
 /* Detect Internet Explorer 10+ */
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .card-deck .card {
-    display: block;
-  }
-}
-
 @media only screen and (min-width: 1600px) {
     #deal-finder, #contact-form {
     margin-left: 8rem;
