@@ -1,7 +1,8 @@
 //Save language selection to local storage.
 const swedish = document.querySelectorAll(".swedish-content, .swedish-heading");
 const english = document.querySelectorAll(".english-content, .english-heading");
-let siteLang = "english";
+let siteLang = "english"; 
+
 function setSwedish() {
   currentLanguage = localStorage.getItem("language");
   localStorage.setItem("language", "swedish");
@@ -9,10 +10,11 @@ function setSwedish() {
 }
 
 function setEnglish() {
-  currentLanguage = localStorage.getItem("language");
-  localStorage.setItem("language", "english");
-  siteLang = "english";
+currentLanguage = localStorage.getItem("language");
+localStorage.setItem("language", "english");
+siteLang = "english";
 }
+
 
 $(document).ready(function () {
   //Toggle between Swedish and English language when the relevant flag is clicked.
@@ -22,7 +24,7 @@ $(document).ready(function () {
     $(".swedish-content").toggle();
     $(".swedish-heading").toggle();
    });
-   
+
    $("#swedish-flag").click(function(){
        $("#fullname").attr('placeholder', 'Namn');
        $("#pac-input").attr('placeholder', 'Sök på Karta')
@@ -30,7 +32,7 @@ $(document).ready(function () {
 
    $("#british-flag").click(function(){
        $("#fullname").attr('placeholder', 'Name');
-       $("#pac-input").attr('placeholder', 'Search the Map')
+       $("#pac-input").attr('placeholder', 'Search the Map');
    })
 
   //Toggle card pictures and maps to be shown and hidden.
