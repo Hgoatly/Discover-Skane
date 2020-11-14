@@ -271,7 +271,7 @@ It was not possible to add it at this stage, as it requires proficiency in XML i
 1. [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
 2. [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
 throughout the site.
-3. [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'.
+3. [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'. It is also used to enable Bootstrap.
 4. [Gitpod](https://gitpod.io/workspaces/) and [Github](https://github.com/). All code was written in Gitpod, and pushed to Github for storage and version control.  
 5. [Balsamiq](https://balsamiq.com/) was used to create wireframes for the project.
 6. [Shutterstock](https://www.shutterstock.com/) was used to download images for the site.

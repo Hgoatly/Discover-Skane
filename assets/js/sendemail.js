@@ -5,18 +5,22 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "my_recommendations": contactForm.suggestions.value
     })
+
+    
      .then(
         function(response) {
             console.log("SUCCESS", response);
-            alert("Thank you. Your email has been sent.");
+            alert("Thank you. Your email has been sent. We'll get back to you as son as we can!");
             document.getElementById("contact-form").reset();
         },
         function(error) {
             console.log("FAILED", error);
-            alert("Sorry, there has been an error. Your email has not been sent");
+            alert("Sorry, there has been an error. Your email has not been sent.");
         },
          
     );
+        
     return false;  // To block from loading a new page
  
 }
+

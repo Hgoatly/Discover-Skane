@@ -22,106 +22,97 @@ $(document).ready(function(){
     $("#maps-button-1").click(function(){
         $("#card-front-1").toggle();
         $("#card-back-1").toggle();
-        })
+        });
 
     $("#maps-button-2").click(function(){
         $("#card-front-2").toggle();
         $("#card-back-2").toggle();
-
-        })
+        });
 
     $("#maps-button-3").click(function(){
         $("#card-front-3").toggle();
         $("#card-back-3").toggle();
-        })
+        });
 
     $("#maps-button-4").click(function(){
         $("#card-front-4").toggle();
         $("#card-back-4").toggle();
-    })
+    });
 
      $("#maps-button-5").click(function(){
         $("#card-front-5").toggle();
         $("#card-back-5").toggle();
-    })
+    });
 
      $("#maps-button-6").click(function(){
         $("#card-front-6").toggle();
         $("#card-back-6").toggle();
-    })
+    });
 
      $("#maps-button-7").click(function(){
         $("#card-front-7").toggle();
         $("#card-back-7").toggle();
-    })
+    });
 
     $("#maps-button-8").click(function(){
         $("#card-front-8").toggle();
         $("#card-back-8").toggle();
-    })
+    });
 
     $("#maps-button-9").click(function(){
         $("#card-front-9").toggle();
         $("#card-back-9").toggle();
-    })
+    });
 
     $("#accordion-maps-button-1").click(function(){
         $("#accordion-card-front-1").toggle();
         $("#accordion-card-back-1").toggle();
-        
-        })
+     });
     
     $("#accordion-maps-button-2").click(function(){
         $("#accordion-card-front-2").toggle();
         $("#accordion-card-back-2").toggle();
-        
-        })
+        });
 
      $("#accordion-maps-button-3").click(function(){
         $("#accordion-card-front-3").toggle();
         $("#accordion-card-back-3").toggle();
-        
-        })
+        });
 
      $("#accordion-maps-button-4").click(function(){
         $("#accordion-card-front-4").toggle();
         $("#accordion-card-back-4").toggle();
-        
-        })
+        });
 
      $("#accordion-maps-button-5").click(function(){
         $("#accordion-card-front-5").toggle();
         $("#accordion-card-back-5").toggle();
-        
-        })
+        });
 
      $("#accordion-maps-button-6").click(function(){
         $("#accordion-card-front-6").toggle();
         $("#accordion-card-back-6").toggle();
-        
-        })
+        });
 
     $("#accordion-maps-button-7").click(function(){
         $("#accordion-card-front-7").toggle();
         $("#accordion-card-back-7").toggle();
-        
-        })
+        });
 
     $("#accordion-maps-button-8").click(function(){
         $("#accordion-card-front-8").toggle();
         $("#accordion-card-back-8").toggle();
-        
-        })
+        });
 
     $("#accordion-maps-button-9").click(function(){
         $("#accordion-card-front-9").toggle();
         $("#accordion-card-back-9").toggle();
-        
-        })
+        });
+
 //Toggles text on map buttons
      $(".map-buttons").click(function(){
          $(this).text($(this).text() == 'Hide Map' ? 'Show on Map' : 'Hide Map');
-     })
-})
+     });
+});
 
 

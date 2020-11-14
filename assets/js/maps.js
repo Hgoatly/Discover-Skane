@@ -553,7 +553,7 @@ function initAutocomplete() {
       infoWin.open(map, lakeMarker);
     });
     return lakeMarker;
-    })
+    });
   
   var nationalParksMarkers = nationalParksLocations.map(function (location, i) {
     var nationalParksMarker = new google.maps.Marker({
@@ -814,7 +814,7 @@ var flag = document.getElementById("flag");
     flag.addEventListener("click", closeInfoWindow);
     function closeInfoWindow() {
         infoWin.close();
-    }; 
+    }
 
   //Marker clusters for each map
   markerCluster = new MarkerClusterer(map, markers, {

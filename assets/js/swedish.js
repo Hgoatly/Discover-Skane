@@ -29,13 +29,13 @@ $(document).ready(function () {
        $("#pac-input").attr('placeholder', 'Sök på Karta');
        $("#fullname").attr('placeholder', 'Namn');
        $("#suggestions").attr('placeholder', 'Dina rekommendationer');
-   })
+   });
 
    $("#british-flag").click(function(){
        $("#pac-input").attr('placeholder', 'Search the Map');
        $("#fullname").attr('placeholder', 'Name');
        $("#suggestions").attr('placeholder', 'Your recommendations');
-    })
+    });
 
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
