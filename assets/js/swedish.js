@@ -26,14 +26,16 @@ $(document).ready(function () {
    });
 
    $("#swedish-flag").click(function(){
+       $("#pac-input").attr('placeholder', 'Sök på Karta');
        $("#fullname").attr('placeholder', 'Namn');
-       $("#pac-input").attr('placeholder', 'Sök på Karta')
+       $("#suggestions").attr('placeholder', 'Dina rekommendationer');
    })
 
    $("#british-flag").click(function(){
-       $("#fullname").attr('placeholder', 'Name');
        $("#pac-input").attr('placeholder', 'Search the Map');
-   })
+       $("#fullname").attr('placeholder', 'Name');
+       $("#suggestions").attr('placeholder', 'Your recommendations');
+    })
 
   //Toggle card pictures and maps to be shown and hidden.
   $("#maps-button-1-swedish").click(function () {
@@ -130,5 +132,6 @@ $(document).ready(function () {
   $(".map-buttons-swedish").click(function () {
     $(this).text($(this).text() == "Dölj Karta" ? "Se på karta" : "Dölj Karta");
   }); 
+  
 });
 

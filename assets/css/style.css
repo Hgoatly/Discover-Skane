@@ -415,6 +415,14 @@ input {
     } 
 }
 
+@media only screen and (max-width: 374px) {
+     .section-text {
+        letter-spacing: 1px;
+    }
+     .card-header {
+         margin-left: 2rem;
+     }
+}
 /*-- Parallax effect disabled for ios devices. Copied from: https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices */
 @supports (-webkit-touch-callout: none) {
   .section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{

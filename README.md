@@ -31,7 +31,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
 - [Technologies Used](#technologies-used)
   - [Languages-Used](#languages-used)
   - [Frameworks,-Libraries-and-Other-Sources-Used](#frameworks,-libraries-and-other-sources-used)
-  - [Application-Programming-Interfaces-Used-(APIs)](#application-programming-interfaces-used-(APIs)
+  - [Application-Programming-Interfaces-Used-(APIs)](#application-programming-interfaces-used-(APIs))
 - [Testing](#testing)
 - [Deployment](#deployment)
   - [Github-Pages](#github-pages)
