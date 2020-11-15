@@ -369,6 +369,7 @@ input {
    font-family: 'Roboto', sans-serif;
    position: absolute;
    overflow: hidden;
+   margin-right: 0px;
 }
 
 #error-text{
@@ -383,6 +384,8 @@ input {
     color:  #dc3545;
     font-weight: 700;
     margin-left: 15px;
+    margin-right: 0px;
+    padding-right: 15px;
 }
 
 #error-link {
@@ -391,6 +394,8 @@ input {
     text-decoration: none;
     font-size: 1.5rem;
     top: 75%;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 #error-link:hover {
