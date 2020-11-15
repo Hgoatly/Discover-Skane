@@ -108,6 +108,7 @@ html, body {
     min-height: 400px;
     min-width: 100vw;
 }
+/*--------------------------------------------------------------------------------*/
 
 .section-text{
     position: absolute;
@@ -353,6 +354,13 @@ input {
 #suggestions {
       margin-bottom: 1rem;
 }
+
+.error-page-image {
+    height: 100vh;
+    width: 100%;
+    background: url("../assets/images/no-entry.png") no-repeat center center fixed; 
+}
+
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
