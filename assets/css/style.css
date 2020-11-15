@@ -370,7 +370,7 @@ input {
    position: absolute;
 }
 
-.error-text{
+#error-text{
     position: absolute;
     top: 50%;
     width: 100%;
@@ -381,22 +381,22 @@ input {
     font-family: 'oswald', cursive;
     color:  #dc3545;
     font-weight: 700;
+    margin-left: 15px;
 }
 
-.error-link {
-    font-weight: 500;
+#error-link {
+    font-weight: 700;
     color: #d8b54d;
     text-decoration: none;
+    font-size: 1.5rem;
+    top: 75%
 }
 
-.error-link:hover {
+#error-link:hover {
     color:  #dc3545;
     text-decoration: none;
 }
-#no-entry {
-    max-width: 20vh;
-    max-height: 20vh;
-}
+
 
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
