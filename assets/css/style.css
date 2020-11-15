@@ -358,7 +358,7 @@ input {
 .error-page-image {
     height: 100vh;
     width: 100%;
-    background: url("../images/landing-page.jpg") no-repeat center center fixed; 
+    background: url("../images/london.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -370,7 +370,7 @@ input {
    position: absolute;
 }
 
-.section-text{
+.error-text{
     position: absolute;
     top: 50%;
     width: 100%;
@@ -379,9 +379,20 @@ input {
     letter-spacing: 8px;
     text-transform: uppercase;
     font-family: 'oswald', cursive;
+    color:  #dc3545;
+    font-weight: 700;
 }
 
+.error-link {
+    font-weight: 500;
+    color: #d8b54d;
+    text-decoration: none;
+}
 
+.error-link:hover {
+    color:  #dc3545;
+    text-decoration: none;
+}
 #no-entry {
     max-width: 20vh;
     max-height: 20vh;
