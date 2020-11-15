@@ -384,7 +384,7 @@ input {
     color:  #dc3545;
     font-weight: 700;
     margin-left: 15px;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
 #error-link {
@@ -393,7 +393,7 @@ input {
     text-decoration: none;
     font-size: 1.5rem;
     top: 75%;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
 #error-link:hover {
