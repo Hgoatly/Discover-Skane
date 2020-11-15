@@ -368,6 +368,7 @@ input {
    justify-content: center;
    font-family: 'Roboto', sans-serif;
    position: absolute;
+   overflow: hidden;
 }
 
 #error-text{
