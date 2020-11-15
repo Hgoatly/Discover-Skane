@@ -396,10 +396,15 @@ input {
 }
 
 #error-link:hover {
-    color:  #dc3545;
+    color:  #fff;
     text-decoration: none;
 }
 
+.error-page-border {
+    color:  #d8b54d;
+    padding: 20px;
+    background-color: #dc3545;
+}
 
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
