@@ -1,4 +1,17 @@
 //Save language selection to local storage.
+function getSiteLang() {
+      currentLanguage = localStorage.getItem("language");
+      return siteLang;
+      
+}
+window.onload = function() {
+    getSiteLang() 
+    if(siteLang === "english") {
+          setEnglish();
+      } else if (siteLang === "swedish") {
+        setSwedish();
+      }
+}
 const swedish = document.querySelectorAll(".swedish-content, .swedish-heading");
 const english = document.querySelectorAll(".english-content, .english-heading");
 let siteLang = "english"; 
@@ -14,6 +27,7 @@ currentLanguage = localStorage.getItem("language");
 localStorage.setItem("language", "english");
 siteLang = "english";
 }
+
 
 
 $(document).ready(function () {

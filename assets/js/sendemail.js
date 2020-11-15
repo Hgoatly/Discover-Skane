@@ -10,13 +10,13 @@ function sendMail(contactForm) {
      .then(
         function(response) {
             console.log("SUCCESS", response);
-            alert("Thank you. Your email has been sent. We'll get back to you as son as we can!");
+            alert("Thank you. Your email has been sent. We'll get back to you as soon as we can!");
             document.getElementById("contact-form").reset();
         },
         function(error) {
             console.log("FAILED", error);
             alert("Sorry, there has been an error. Your email has not been sent.");
-        },
+        }
          
     );
         

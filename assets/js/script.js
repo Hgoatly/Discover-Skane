@@ -1,20 +1,21 @@
 //Hides Landing Page once 'enter' button is clicked
-let mainContent = document.getElementById("main-content");
-mainContent.style.display = "none";
 
-function hideLandingPage() {
- let landingPage = document.getElementById("landing-page");
- landingPage.style.display = "none";
- mainContent.style.display = "block";
-}
+document.getElementById("main-content").style.display = "none";
+document.getElementById("enter-link").addEventListener("click", function() {
+document.getElementById("landing-page").style.display = "none";
+document.getElementById("main-content").style.display = "block";
+
+});
 
 //Function for scroll to top buttons copied from 'w3Schools' website: 
-//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
+
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+} 
 //End of copied code.
+
 
 $(document).ready(function(){
 
