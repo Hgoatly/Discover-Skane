@@ -358,7 +358,33 @@ input {
 .error-page-image {
     height: 100vh;
     width: 100%;
-    background: url("../assets/images/no-entry.png") no-repeat center center fixed; 
+    background: url("../images/landing-page.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Roboto', sans-serif;
+   position: absolute;
+}
+
+.section-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'oswald', cursive;
+}
+
+
+#no-entry {
+    max-width: 20vh;
+    max-height: 20vh;
 }
 
 /*---- Media Queries-----*/
