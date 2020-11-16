@@ -247,16 +247,24 @@ is designed to be visually appealing. None of the content is collapsed.
 with custom markers. Each custom marker has an infowindow that displays more information about each lake.
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
-<div>
+<div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the 'Lakes' card">
     <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the 'Lakes' map">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of one the Lakes map infowindows">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of one of the Lakes map infowindows">
 </div>
 
 2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
+Each custom marker has an infowindow that displays more information about the forest, and a link that takes the user to an external site that can be visited to find out more about the destination.
 The same forests are displayed on the main map in the 'Map' section.
+
+<div align="center">
+    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the 'National Parks' card">
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card">
+    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the 'National Parks' map">
+    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map">
+</div>
 3. User Stories 4 and 6 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
 maps with custom markers.
 4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
