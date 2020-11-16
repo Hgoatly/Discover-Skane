@@ -261,18 +261,45 @@ The same forests are displayed on the main map in the 'Map' section.
 
 <div align="center">
     <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the 'National Parks' card">
-    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card">
     <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the 'National Parks' map">
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card">
     <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map">
 </div>
 3. User Stories 4 and 6 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
-maps with custom markers.
+maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
+
+<div align="center">
+    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards">
+    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' cards maps">
+</div>
+
 4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
-and displays them on a series of maps with custom markers.
-5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay.
+and displays them on a series of maps with custom markers. Usually, the custom markers display as marker clusters on these maps. In these images, the zoom level of the maps has been changed so that
+some of the custom markers are visible.
+
+<div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards">
+    <img src="assets/images/readme-images/city-and-culture-maps-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps">
+</div>
+
+5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
+
+<div align="center">
+    <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder">
+</div>
+
 6. User Story 11 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
+
+<div align="center">
+    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map">
+</div>
+
 7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
 user to be able to contact the site owner. 
+
+<div align="center">
+    <img src="assets/images/readme-images/contact-screenshot.jpg" alt="Screenshot of the contact form">
+</div>
 
 ### Interactive Features:
 
