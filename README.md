@@ -88,6 +88,9 @@ The 'contact' section encourages the user to contact the site owner via a contac
 ## User Experience (UX):
 
 ### User Stories:
+
+To find out how the features relate to the User Stories, jump to [How-The-Features-Relate-To-The-User-Stories](#how-the-features-relate-to-the-user-stories).
+
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
 2. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go canoeing.
 3. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests, so that I can enjoy getting back to nature.
@@ -126,14 +129,14 @@ and an 'Enter' button, that invites the user to click on it and enter the site -
 
 - **Main content:** Once the 'Enter' button has been clicked, the page disappears, and the user is taken to the main content.
 
-- The 'Main Content' page has a fixed navbar at the top of the page. The decision was made not to display the logo on the navbar for two reasons. 
+- **Navbar:** The 'Main Content' page has a fixed navbar at the top of the page. The decision was made not to display the logo on the navbar for two reasons. 
 Firstly, the logo is clearly displayed on further down the page, and secondly, as the page is one page with different sections, there is no need to have
 a logo element that navigates back to the home page. All of the sections of the page are listed as links on the navbar, as well as a flag icon - which toggles the language of the content 
 from English to Swedish.
 
-- Below the navbar, the hero image is found, upon which the 'Discover Skåne' logo in superimposed. 
+- **Hero Image:** Below the navbar, the hero image is found, upon which the 'Discover Skåne' logo in superimposed. 
 
-- The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
+- **Six Main Sections:** The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
 
 #### Colours Used:
 
@@ -241,8 +244,16 @@ is designed to be visually appealing. None of the content is collapsed.
 ### How the Features Relate to the User Stories:
 
 1. User Stories 1, 2 and 8 are concerned with finding a lake to suit their specific purposes. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map 
-with custom markers. The same lakes are also displayed on the main map in the 'Map' section of the page.
+with custom markers. Each custom marker has an infowindow that displays more information about each lake.
+The same lakes are also displayed on the main map in the 'Map' section of the page.
 
+<div>
+    <img src="assets/images/readme-images/lakes-cards-screenshot.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Discover Skåne logo">
+</div>
 
 2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
 The same forests are displayed on the main map in the 'Map' section.
@@ -257,22 +268,22 @@ user to be able to contact the site owner.
 
 ### Interactive Features:
 
-1. **Map Elements** The main interactivity on this site is through the map elements that use the Google Maps API. Each of the first three sections of the page has 3 card elements, which when the text 'show map' is clicked, reveal a map. 
+- **Map Elements** The main interactivity on this site is through the map elements that use the Google Maps API. Each of the first three sections of the page has 3 card elements, which when the text 'show map' is clicked, reveal a map. 
 Each map displays a custom marker for each recommendation. Once clicked, the marker displays a custom infowindow with information about that particular place, 
 and a link to an external site from where the text was obtained. In each case, the external site has more information about the destination marked on the map. 
-2. **Main Map** Below the first three sections of the page, there is a larger map, on which all of the recommended places to visit are displayed. Like on the smaller maps, each destination has its own custom 
+- **Main Map** Below the first three sections of the page, there is a larger map, on which all of the recommended places to visit are displayed. Like on the smaller maps, each destination has its own custom 
 marker which reveals the same custom infowindow when clicked as on the smaller maps.
-3. **Book** The interactive 'book' section features the 'Booking.com' affiliate partner program API (deal finder). It displays a number of hotel deals, so that once the user has decided what sort of holiday they would like to choose,
+- **Book** The interactive 'book' section features the 'Booking.com' affiliate partner program API (deal finder). It displays a number of hotel deals, so that once the user has decided what sort of holiday they would like to choose,
 they are able to click straight through to find those deals on the [Booking.com](https://www.booking.com/) website and book their stay.
-4. **Contact** The contact form provides interactivity as it allows the user to contact the site owner in order to make suggestions about what else should be featured on the site.
-5. **Language Selection** The site can be viewed in either English or Swedish. The language can be selection can be chosen by clicking either the Swedish or British flag on the navbar.
+- **Contact** The contact form provides interactivity as it allows the user to contact the site owner in order to make suggestions about what else should be featured on the site.
+- **Language Selection** The site can be viewed in either English or Swedish. The language can be selection can be chosen by clicking either the Swedish or British flag on the navbar.
 
 ### Future Features: 
 
-1. **SkåneTrafiken open source API**: SkåneTrafiken, is the public transport provider for the Skåne. This would allow site visitors to be able to easily plan journeys around Skåne by public transport.
+- **SkåneTrafiken open source API**: SkåneTrafiken, is the public transport provider for the Skåne. This would allow site visitors to be able to easily plan journeys around Skåne by public transport.
 It was not possible to add it at this stage, as it requires proficiency in XML in order to be implemented - which is something I do not have yet.
-2. **Weather Forecast**: I would like to have a section displaying the weather forecast for the region. Like the SkåneTrafiken API, most of the weather forecast APIs that I found required proficiency in XML.
-3. **Google translate API**: The Google Translate API would allow site visitors to view the site in any language. This is a feature that will be implemented in future. 
+- **Weather Forecast**: I would like to have a section displaying the weather forecast for the region. Like the SkåneTrafiken API, most of the weather forecast APIs that I found required proficiency in XML.
+- **Google translate API**: The Google Translate API would allow site visitors to view the site in any language. This is a feature that will be implemented in future. 
 
 ## Technologies Used: 
 
@@ -284,31 +295,31 @@ It was not possible to add it at this stage, as it requires proficiency in XML i
 
 ### Frameworks, Libraries and Other Sources Used:
 
-1. [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
-2. [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
+- [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
+- [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
 throughout the site.
-3. [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'. It is also used to enable Bootstrap.
-4. [Gitpod](https://gitpod.io/workspaces/) and [Github](https://github.com/). All code was written in Gitpod, and pushed to Github for storage and version control.  
-5. [Balsamiq](https://balsamiq.com/) was used to create wireframes for the project.
-6. [Shutterstock](https://www.shutterstock.com/) was used to download images for the site.
-7. [Unsplash](https://unsplash.com/) was used to download images for the site.
-8. [Pixabay](https://pixabay.com/) was used to download images for the site.
-9. [Pexels](https://www.pexels.com/) was used to download images for the site.
-9. [Flaticon](https://www.flaticon.com/) was used to download the map icons.
-10. [Favicon.cc]( https://www.favicon.cc/?action=icon&file_id=793468) was used to generate the favicon - which is the Skåne flag. 
-11. [Am-I-Responsive](http://ami.responsivedesign.is/) was used to check how the site looked on a variety of screen sizes.
-12. [Google-Translate](https://translate.google.co.uk/) was used for the infowindows when the site the content came from didn't have an English or Swedish translation of its own.
-13. [CompressImage.touler](https://compressimage.toolur.com/) was used to crompress and resize the image files to a more appropriate size for the site, and in order to 
+- [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'. It is also used to enable Bootstrap.
+- [Gitpod](https://gitpod.io/workspaces/) and [Github](https://github.com/). All code was written in Gitpod, and pushed to Github for storage and version control.  
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes for the project.
+- [Shutterstock](https://www.shutterstock.com/) was used to download images for the site.
+- [Unsplash](https://unsplash.com/) was used to download images for the site.
+- [Pixabay](https://pixabay.com/) was used to download images for the site.
+- [Pexels](https://www.pexels.com/) was used to download images for the site.
+- [Flaticon](https://www.flaticon.com/) was used to download the map icons.
+- [Favicon.cc]( https://www.favicon.cc/?action=icon&file_id=793468) was used to generate the favicon - which is the Skåne flag. 
+- [Am-I-Responsive](http://ami.responsivedesign.is/) was used to check how the site looked on a variety of screen sizes.
+- [Google-Translate](https://translate.google.co.uk/) was used for the infowindows when the site the content came from didn't have an English or Swedish translation of its own.
+- [CompressImage.touler](https://compressimage.toolur.com/) was used to crompress and resize the image files to a more appropriate size for the site, and in order to 
 speed up their load time.
-14. [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
+- [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
 
 ### Application Programming Interfaces Used (APIs):
 
-1. [Google-Maps](https://developers.google.com/maps/documentation/javascript/overview) Javascript API was used extensively throughout the site to display recommended places to visit on several maps.
-2. [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API (deal finder) was 
+- [Google-Maps](https://developers.google.com/maps/documentation/javascript/overview) Javascript API was used extensively throughout the site to display recommended places to visit on several maps.
+- [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API (deal finder) was 
 used so that site visitors can find somewhere to stay in Skåne for when they visit. This is a commision based API, so when a booking is made throught the 'Discover Skåne' site, the
 site owner is paid a small fee. 
-3. [EmailJS](https://www.emailjs.com/) was used to facilitate the sending of emails to the site owner through the contact form.
+- [EmailJS](https://www.emailjs.com/) was used to facilitate the sending of emails to the site owner through the contact form.
 
 ## Testing:
 
