@@ -1,5 +1,5 @@
 //Google Maps and Marker Cluster code as instructed on CI 'Resume' walkthrough, and on Google Maps documentation.
-//Code for how Info Windows can be used in conjunction with Marker Clusters found in an answer on 'Stack Overflow':
+//Help with code for how Info Windows can be used in conjunction with Marker Clusters found in an answer on 'Stack Overflow':
 //https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow.
 
 function initAutocomplete() {
@@ -536,6 +536,7 @@ function initAutocomplete() {
     });
 
     google.maps.event.addListener(marker, "click", function () {
+    //The following code was helpfully suggested on Stack Overflow: (siteLang === "english" ? location.infoEng : location.infoSwe);
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, marker);
     });
