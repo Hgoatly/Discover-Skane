@@ -248,11 +248,11 @@ with custom markers. Each custom marker has an infowindow that displays more inf
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
 <div>
-    <img src="assets/images/readme-images/lakes-cards-screenshot.jpg" alt="Discover Skåne logo">
-    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Discover Skåne logo">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Discover Skåne logo">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Discover Skåne logo">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Discover Skåne logo">
+    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the 'Lakes' card">
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the 'Lakes' map">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of one the Lakes map infowindows">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows">
 </div>
 
 2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
