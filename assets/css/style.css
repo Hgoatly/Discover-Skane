@@ -383,25 +383,22 @@ input {
     font-family: 'oswald', cursive;
     color:  #fff;
     margin-left: 15px;
-    padding-right: 45px;
+    padding-right: 30px;
 }
 
-#error-link {
+#error-link, #error-link-sm {
     font-weight: 700;
     color: #d8b54d;
     text-decoration: none;
     font-size: 1.5rem;
     top: 75%;
-    padding-right: 45px;
+    padding-right: 30px;
 }
 
-#error-link:hover {
+#error-link:hover, #error-link-sm:hover {
     color: #dc3545;
     text-decoration: none;
 }
-
-
-
 
 /*---- Media Queries-----*/
 @media only screen and (max-width: 700px) {
