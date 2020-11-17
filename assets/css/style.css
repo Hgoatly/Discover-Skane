@@ -393,6 +393,7 @@ input {
     font-size: 1.5rem;
     top: 75%;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 #error-link:hover, #error-link-sm:hover {

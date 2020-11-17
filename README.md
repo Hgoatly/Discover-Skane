@@ -138,6 +138,8 @@ from English to Swedish.
 
 - **Six Main Sections:** The six sections found below the hero image are as detailed in the 'Site Owners Goals' section.
 
+- **404 Error Page:** A custom 404 error page has been designed in order to help the user find their way back to the site in the event of a 404 error.
+
 #### Colours Used:
 
 - **Site Logo and Section Titles:** The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
@@ -179,6 +181,11 @@ image was chosen as a visual metaphor for entering Skåne via the famous Öresun
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
 sections respectively, as they are descriptive images that represent the content of their respective sections well.
+
+- The 404 Error page features an image of Tower Bridge in London. It is a visual metaphor to let the user know that they are definitely in the wrong place. 
+By featuring completely the wrong bridge, the idea is to keep the page lighthearted, but in the same style as the Landing Page. Sabina Plimmer on [LCN.com](https://www.lcn.com/blog/beginners-guide-custom-404-pages/)
+states: 'Try to keep it light-hearted. Remember, one of the primary reasons why we’re creating a custom 404 page is to replace the blunt and annoying “page cannot be displayed” 
+message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive. 
 
 ### Layout: 
 
