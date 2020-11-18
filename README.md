@@ -37,6 +37,8 @@ Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
   - [Github-Pages](#github-pages)
   - [Forking-The-Repository](#forking-the-repository)
   - [Making-A-Local-Clone](#making-a-local-clone)
+- [Credits](#credits)
+- [Version-Control](#version-control)
 
 ## Site Owner's Goals:
 
@@ -146,7 +148,8 @@ from English to Swedish.
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
 
 - **Enter Button:** The Skåne flag is a yellow cross on a red background. #dc3545 (red) was chosen for the background of the enter button, and #d8b54d (yellow) was chosen
-for the text. This is to represent the Skåne flag. On a desktop, when the button is hovered over, the text colour changes to white. This is a metaphor for crossing the
+for the text. This is to represent the Skåne flag.  Whilst, this yellow is perhaps not as bright as the colour on the Skåne flag, it was chosen because text written in a 
+brighter yellow was more difficult to read against the background colours used on the site. On a desktop, when the button is hovered over, the text colour changes to white. This is a metaphor for crossing the
 bridge into Skåne, as the Danish flag is a white cross on a red background. It is representative of what the picture suggests: that you are leaving Denmark to enter Skåne.
 
 - **Navbar and Footer, Card Headers and 'Top of Page' Button:** The background colour of each of these elements is #4f4646, and the text colour is #fff. It was deliberately decided that they should be the same colours as on the 
@@ -159,6 +162,9 @@ the card elements, which have a background colour of #fff (white).
 
 - **Infowindows:** The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
 
+- **404-Error-Page** As for the Site Logo and section titles, the colour #4f4646 was used as the background colour for the error text. Below this, the colour #d8b54d was used for the link. On hover, this changes to #dc3545 on hover. The colours 
+were chosen in order to match the Skåne flag. 
+
 ### Typography:
 
 - 'Oswald' was chosen as the font for all of the Section Titles, with a fallback of 'cursive' - in case the 'Oswald' font fails to load. 
@@ -169,11 +175,20 @@ clean and easy to read, which makes it an appropriate font for the text.
 ### Imagery:
 
 - Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
-image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge. 
+image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge.  
+
+<div align="center">
+    <img src="assets/images/landing-page.jpg" alt="Discover Skåne logo">
+</div><br>
 
 - Other appropriate images were chosen to represent different sections:
     - A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
-    - A picture of a pine forest was chosen for the 'Lakes and Forests' section.
+    
+    <div align="center">
+    <img src="assets/images/hero-image.jpg" alt="Discover Skåne logo">
+</div><br>
+
+    - A picture of a pine forest was chosen for the 'Lakes and Forests' section header.
     - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
     - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
     - A picutre of a road in Skåne was chosen for the 'Map' section.
@@ -185,8 +200,11 @@ sections respectively, as they are descriptive images that represent the content
 - The 404 Error page features an image of Tower Bridge in London. It is a visual metaphor to let the user know that they are definitely in the wrong place. 
 By featuring completely the wrong bridge, the idea is to keep the page lighthearted, but in the same style as the Landing Page. Sabina Plimmer on [LCN.com](https://www.lcn.com/blog/beginners-guide-custom-404-pages/)
 states: 'Try to keep it light-hearted. Remember, one of the primary reasons why we’re creating a custom 404 page is to replace the blunt and annoying “page cannot be displayed” 
-message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive. 
+message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive.   
 
+<div align="center">
+    <img src="assets/images/readme-images/error-page.jpg" alt="Discover Skåne error page">
+</div>
 ### Layout: 
 
 - The Bootstrap framework was used throughout the site to add responsiveness and to help facilitate mobile-first design.
@@ -255,11 +273,11 @@ with custom markers. Each custom marker has an infowindow that displays more inf
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
 <div align="center">
-    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the 'Lakes' card">
-    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the 'Lakes' map">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of one the Lakes map infowindows">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of one of the Lakes map infowindows">
+    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the 'Lakes' card"><br>
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the 'Lakes' map"><br>
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of one the Lakes map infowindows"><br>
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows"><br>
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of one of the Lakes map infowindows"><br>
 </div>
 
 2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
@@ -267,17 +285,17 @@ Each custom marker has an infowindow that displays more information about the fo
 The same forests are displayed on the main map in the 'Map' section.
 
 <div align="center">
-    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the 'National Parks' card">
-    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the 'National Parks' map">
-    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card">
-    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map">
+    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the 'National Parks' card"><br>
+    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the 'National Parks' map"><br>
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card"><br>
+    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map"><br>
 </div>
 3. User Stories 4 and 6 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
 maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
 
 <div align="center">
-    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards">
-    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' cards maps">
+    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards"><br>
+    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' cards maps"><br>
 </div>
 
 4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
@@ -285,27 +303,27 @@ and displays them on a series of maps with custom markers. Usually, the custom m
 some of the custom markers are visible.
 
 <div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards">
-    <img src="assets/images/readme-images/city-and-culture-maps-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps">
+    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards"><br>
+    <img src="assets/images/readme-images/city-and-culture-maps-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps"><br>
 </div>
 
 5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
 
 <div align="center">
-    <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder">
+    <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder"><br>
 </div>
 
 6. User Story 11 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
 
 <div align="center">
-    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map">
+    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map"><br>
 </div>
 
 7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
 user to be able to contact the site owner. 
 
 <div align="center">
-    <img src="assets/images/readme-images/contact-screenshot.jpg" alt="Screenshot of the contact form">
+    <img src="assets/images/readme-images/contact-screenshot.jpg" alt="Screenshot of the contact form"><br>
 </div>
 
 ### Interactive Features:
@@ -369,6 +387,38 @@ Information about tests carried out can be found in a separate [testing.md](test
 
 ### Known Bugs and Fixes:
 
+- **Parallax:** The developer wanted to create a modern one-page layout for the site, and has chosen to create a pseudo-parallax to this effect. 
+In order for this to work, in the CSS file, the header images must be set to ``background-attachement: fixed;``. This is not
+supported on iOS, and the images would not render correctly. An example of the 'Beautiful Beaches' picture is below:
+
+<div align="center">
+    <img src="assets/images/readme-images/broken-parallax.jpg" alt="Screenshot of the parallax images not rendering correctly">
+</div>
+
+- The solution was to change create a media query that finds devices running iOS, and to within that media query change the background-attachment to scroll instead in this case.
+
+        ```@supports (-webkit-touch-callout: none) {
+        .section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{
+        position: relative;
+        opacity: 1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        } 
+        }```
+
+- **Bi-lingual-Infowindows:** As Discover Skåne is a bi-lingual site, it was important to make sure that the infowindows on the maps
+showed content in both languages. Initially, when an infowindow was opened, and then the language was changed, the language of the 
+content of the infowindow remained unchanged. When the window was closed and re-opened, or if another window was opened,
+it would show the new language though. This problem was solved by getting the flag button to close all open infowindows as well as changing 
+the language when clicked.
+
+- **Show-Map/Hide-Map Buttons:** Currently if one of the card maps is already open, and the language of the site is changed by clicking the flag, 
+the text of the 'Show Map'/Hide Map' buttons defaults to 'Show Map'. This means that even if the map is already visible, the button will say 'Show Map'. 
+This has not been dealt with yet due to time constraints, but will be fixed in future releases. 
+
+
 ## Deployment:
 
 ### Github Pages:
@@ -417,3 +467,60 @@ The code can be run locally by taking the following steps:
 If you would like to use the code in Github, you can save it directly to Github Desktop by clicking on 'Open With Github Desktop'.
 If you would prefer to download a zip file to be edited locally on your computer, please click on 'Download Zip. This will download 
 a zip file directly to your computer to be used in your own code editor. 
+
+## Credits:
+
+### Code:
+
+-**Code Institute Course:** 
+ - The Code Institute lectures and code for the Google Maps API was referenced extensively in this project.
+ - The Code Institute lectures and code for the contact form and Email.js API was used and adapted in this project. 
+
+- **Code Institute Slack Channels:** The parallax effect was copied and adapted from code posted on CI Slack as an example by Simen Daehlin (Eventyret Mentor):
+  https://github.com/Eventyret/simple-parallax/blob/master/index.html.
+
+- **Bootstrap-4:** Bootstrap 4 was referenced for the the Navbar, Card Decks (including cards), buttons, and accordions included in the site. Code for these elements 
+has been copied from the Bootstrap 4 documentation, and adapted by the developer.
+
+- **W3 Schools:** W3 Schools was referenced for the 'Top of Page' (scroll to top) button.
+
+- **Stack Overflow:** Stack Overflow was referenced for the implementation of infowindows on the map elements, and for changing the language of the infowindow content. 
+
+- **Booking.com Partner Centre:** Code from the Booking.com Partner Centre API was copied and pasted (as required) from their website in order to provide functionality for the 
+'Deal Finder' API.
+
+### Content: 
+
+- Content for the infowindows was provided from the following external sites. Where there was no translation available on the site, Google Translate was used to translate the text;
+  - [Örkelljunga-Kommun](https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html)
+  - [Visit-Skåne]https://visitskane.com/outdoors-adventure/lake-immeln
+  - [Vattenriket](https://vattenriket.kristianstad.se/hammarsjon/)
+  - [National-Parks-Of-Sweden](https://www.nationalparksofsweden.se)
+  - [Häckeberga-naturvårdsområde](https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html)
+  - [Skrylle](https://skrylle.se/)
+  - [Skånska-Landskap](https://www.skanskalandskap.se/strovomraden/fulltofta)
+  - [Knäbäckshusen](http://www.knabackshusen.se/index-en.html)
+  - [Yngsjö](https://yngsjo.weebly.com/english.html)
+  - [Tripadvisor](https://www.tripadvisor.co.uk/Attraction_Review-g1026473-d12435121-Reviews-Tappet_havsbad-Ahus_Skane_County.html)
+  - [Guidebook Sweden](https://www.guidebook-sweden.com/en/guidebook/destination/farhultsbaden-beach-in-farhult-near-jonstorp)
+  - [Vellinge](http://vellinge.com/en/towns/falsterbo)
+  - [Visit Trelleborg](https://www.visittrelleborg.se/en/smygehuk/)
+  - [Lansstyrelsen-Skåne](https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/ystad/ystads-sandskog.html)
+  - [Disgusting-Food-Museum](https://disgustingfoodmuseum.com/)
+  - [Malmö-Opera](https://www.malmoopera.se/in-english)
+  - [Malmö-Live-Concert-Hall](https://malmolive.se/en)
+  - [Sofiero](https://sofiero.se/en/)
+  - [Helsingborg-Konserthus](https://www.helsingborgskonserthus.se/)
+  - [Dunkers-Culture-House](https://dunkerskulturhus.se/om-dunkers-kulturhus/)
+  - [Kulturen](https://www.kulturen.com/welcome-kulturens-museums/)
+  - [Svenska-Kyrkan](https://lundsdomkyrka.se/rundtur/byggnaden/)
+  - [Vattenhallen-Science-Center](http://www.vattenhallen.lth.se/english/the-planetarium/)
+
+
+- All other content was written by the developer, and translated by my Swedish husband: Ola Olsson.
+
+## Version Control:
+
+- Throughout the development process, regular commits have been made in Gitpod, which have been pushed to the Discover Skåne Github repository.
+At the beginning of the project, my commits were not made using the imperative tense. Thanks to feedback from my mentor Can Sücüllü, and from my MS1 project, 
+this has been rectified, and the later commits are written using the imperative tense. Any that are not are in error.

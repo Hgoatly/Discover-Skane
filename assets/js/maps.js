@@ -283,9 +283,9 @@ function initAutocomplete() {
       lat: 55.6562,
       lng: 14.2687,
       infoEng:
-        "<h3 class='info-header'>Stenshuvud</h3><p>A bit of magic in Österlen. Coastal hills, lush deciduous forests, pastoral heaths and beautiful beaches unite to form a magnificent landscape in the part of Skåne known as Österlen. The national park has the exotic character of more southerly climes and great biodiversity that is worth preserving and visiting.</p><p>Attribution: <a class='info-link' href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
+        "<h3 class='info-header'>Stenshuvud</h3><p>A bit of magic in Österlen. Coastal hills, lush deciduous forests, pastoral heaths and beautiful beaches unite to form a magnificent landscape in the part of Skåne known as Österlen. The national park has the exotic character of more southerly climes and great biodiversity that is worth preserving and visiting.</p><p>Attribution: <a class='info-link' href='https://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud National Park</a></p>",
       infoSwe: 
-        "<h3 class='info-header'>Stenshuvud</h3><p lang='sv'>En bit magi på Österlen. Kustberg, lummiga ädellövskogar, pastorala hedar och vackra stränder förenas i ett storslaget landskap på Skånska Österlen. Nationalparken har en sydlig exotisk karaktär och stor biologisk mångfald värd att bevara och besöka. Om Stenshuvuds nationalpark.</p><p>Attribution: <a class='info-link' href='https://www.sverigesnationalparker.se/park/stenshuvuds-nationalpark/' target='_blank'>Stenshuvud National Park</a></p>",
+        "<h3 class='info-header'>Stenshuvud</h3><p lang='sv'>En bit magi på Österlen. Kustberg, lummiga ädellövskogar, pastorala hedar och vackra stränder förenas i ett storslaget landskap på Skånska Österlen. Nationalparken har en sydlig exotisk karaktär och stor biologisk mångfald värd att bevara och besöka. Om Stenshuvuds nationalpark.</p><p>Attribution: <a class='info-link' href='https://www.nationalparksofsweden.se/choose-park---list/stenshuvud-national-park/' target='_blank'>Stenshuvud National Park</a></p>",
         type: forestsIcon,
     },
     {
@@ -536,9 +536,10 @@ function initAutocomplete() {
     });
 
     google.maps.event.addListener(marker, "click", function () {
-    //The following code was helpfully suggested on Stack Overflow: (siteLang === "english" ? location.infoEng : location.infoSwe);
+    //The following code was helpfully suggested on Stack Overflow:
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
-      infoWin.open(map, marker);
+     //End of copied code.
+     infoWin.open(map, marker);
     });
     return marker;
   });
@@ -819,17 +820,17 @@ var flag = document.getElementById("flag");
 
   //Marker clusters for each map
 
- markerCluster = new MarkerClusterer(map, markers, {
+var markerCluster = new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  lakeCluster = new MarkerClusterer(lakeMap, lakeMarkers, {
+var lakeCluster = new MarkerClusterer(lakeMap, lakeMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  nationalParksCluster = new MarkerClusterer(
+var nationalParksCluster = new MarkerClusterer(
     nationalParksMap,
     nationalParksMarkers,
     {
@@ -838,43 +839,43 @@ var flag = document.getElementById("flag");
     }
   );
 
-  forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers, {
+var forestsCluster = new MarkerClusterer(forestsMap, forestsMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  eastCoastCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers, {
+var eastCoastCluster = new MarkerClusterer(eastCoastMap, eastCoastMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  westCoastCluster = new MarkerClusterer(westCoastMap, westCoastMarkers, {
+var westCoastCluster = new MarkerClusterer(westCoastMap, westCoastMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  southCoastCluster = new MarkerClusterer(southCoastMap, southCoastMarkers, {
+var southCoastCluster = new MarkerClusterer(southCoastMap, southCoastMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  malmoCluster = new MarkerClusterer(malmoMap, malmoMarkers, {
+var malmoCluster = new MarkerClusterer(malmoMap, malmoMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  helsingborgCluster = new MarkerClusterer(helsingborgMap, helsingborgMarkers, {
+var helsingborgCluster = new MarkerClusterer(helsingborgMap, helsingborgMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
-  lundCluster = new MarkerClusterer(lundMap, lundMarkers, {
+var lundCluster = new MarkerClusterer(lundMap, lundMarkers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 
   //Marker clusters for maps in accordion elements
-  accordionLakeCluster = new MarkerClusterer(
+var accordionLakeCluster = new MarkerClusterer(
     accordionLakeMap,
     accordionLakeMarkers,
     {
@@ -883,7 +884,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionNationalParksCluster = new MarkerClusterer(
+var accordionNationalParksCluster = new MarkerClusterer(
     accordionNationalParksMap,
     accordionNationalParksMarkers,
     {
@@ -892,7 +893,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionForestsCluster = new MarkerClusterer(
+var accordionForestsCluster = new MarkerClusterer(
     accordionForestsMap,
     accordionForestsMarkers,
     {
@@ -901,7 +902,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionEastCoastCluster = new MarkerClusterer(
+var accordionEastCoastCluster = new MarkerClusterer(
     accordionEastCoastMap,
     accordionEastCoastMarkers,
     {
@@ -910,7 +911,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionWestCoastCluster = new MarkerClusterer(
+var accordionWestCoastCluster = new MarkerClusterer(
     accordionWestCoastMap,
     accordionWestCoastMarkers,
     {
@@ -919,7 +920,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionSouthCoastCluster = new MarkerClusterer(
+var accordionSouthCoastCluster = new MarkerClusterer(
     accordionSouthCoastMap,
     accordionSouthCoastMarkers,
     {
@@ -928,7 +929,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionMalmoCluster = new MarkerClusterer(
+var accordionMalmoCluster = new MarkerClusterer(
     accordionMalmoMap,
     accordionMalmoMarkers,
     {
@@ -937,7 +938,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionHelsingborgCluster = new MarkerClusterer(
+var accordionHelsingborgCluster = new MarkerClusterer(
     accordionHelsingborgMap,
     accordionHelsingborgMarkers,
     {
@@ -946,7 +947,7 @@ var flag = document.getElementById("flag");
     }
   );
 
-  accordionLundCluster = new MarkerClusterer(
+var accordionLundCluster = new MarkerClusterer(
     accordionLundMap,
     accordionLundMarkers,
     {

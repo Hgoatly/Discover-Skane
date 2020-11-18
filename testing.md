@@ -26,8 +26,9 @@ There were, however, some warnings. These were to do with the code used to cross
 
 ### JSHint:
 
-- JSHint was used to test the validity of the Javascript code in the project.
+- JSHint was used to test the validity of the Javascript code in the project, and it passed with no errors or warnings. 
+  - When the **maps.js** file was tested, the following was noted
 
 ## Manual Testing:
 
-- Manual testing was carried out across a variety of browsers. The results are detailed below: 
+- Manual testing was carried out across a variety of browsers. The results are detailed here: 
