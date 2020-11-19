@@ -372,6 +372,7 @@ throughout the site.
 - [CompressImage.touler](https://compressimage.toolur.com/) was used to crompress and resize the image files to a more appropriate size for the site, and in order to 
 speed up their load time.
 - [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
+- [Microsoft-Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) was used for displaying the manual tests undertaken.
 
 ### Application Programming Interfaces Used (APIs):
 
@@ -492,6 +493,7 @@ has been copied from the Bootstrap 4 documentation, and adapted by the developer
 ### Content: 
 
 - Content for the infowindows was provided from the following external sites. Where there was no translation available on the site, Google Translate was used to translate the text;
+  
   - [Örkelljunga-Kommun](https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html)
   - [Visit-Skåne]https://visitskane.com/outdoors-adventure/lake-immeln
   - [Vattenriket](https://vattenriket.kristianstad.se/hammarsjon/)
@@ -518,6 +520,16 @@ has been copied from the Bootstrap 4 documentation, and adapted by the developer
 
 
 - All other content was written by the developer, and translated by my Swedish husband: Ola Olsson.
+
+### Media:
+
+Images on the website are from the following sources:
+
+- **Landing Page, Hero Image, Lakes and Forests and Beautiful Beaches Header Images, East Coast and South Coast Beaches Images** 
+from [Shutterstock](https://www.shutterstock.com/home).
+- **City and Culture Header Image, Lakes, National Parks, Forests, Malmö, Helsingborg and Lund cards and Book Header Image** 
+from [Pixabay](https://pixabay.com/).  
+- **Contact and East Coast Beaches Images** from [Unsplash](https://unsplash.com/).
 
 ## Version Control:
 
