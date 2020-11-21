@@ -495,7 +495,7 @@ has been copied from the Bootstrap 4 documentation, and adapted by the developer
 - Content for the infowindows was provided from the following external sites. Where there was no translation available on the site, Google Translate was used to translate the text;
   
   - [Örkelljunga-Kommun](https://www.orkelljunga.se/16/uppleva-och-gora/se-och-gora/fiske/hjalmsjon-pinnan.html)
-  - [Visit-Skåne]https://visitskane.com/outdoors-adventure/lake-immeln
+  - [Visit-Skåne](https://visitskane.com/outdoors-adventure/lake-immeln)
   - [Vattenriket](https://vattenriket.kristianstad.se/hammarsjon/)
   - [National-Parks-Of-Sweden](https://www.nationalparksofsweden.se)
   - [Häckeberga-naturvårdsområde](https://www.lansstyrelsen.se/skane/besoksmal/naturreservat/lund-svedala/hackeberga-naturvardsomrade.html)

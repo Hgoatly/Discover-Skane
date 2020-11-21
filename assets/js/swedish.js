@@ -1,5 +1,5 @@
 //Save language selection to local storage.
-function getSiteLang() {
+/*function getSiteLang() {
       currentLanguage = localStorage.getItem("language");
       return siteLang;
       
@@ -11,7 +11,7 @@ window.onload = function() {
       } else if (siteLang === "swedish") {
         setSwedish();
       }
-}
+}*/
 const swedish = document.querySelectorAll(".swedish-content, .swedish-heading");
 const english = document.querySelectorAll(".english-content, .english-heading");
 let siteLang = "english"; 
@@ -37,6 +37,27 @@ $(document).ready(function () {
     $(".english-heading").toggle();
     $(".swedish-content").toggle();
     $(".swedish-heading").toggle();
+
+    //Resets the cards so that they show pictures rather than maps when the flag is clicked in case the language 
+    //is changed once a map is already visible. This ensures that the 'Show/Hide Map' text aligns with the correct content.
+    $("#card-front-1").show();
+    $("#card-back-1").hide();
+    $("#card-front-2").show();
+    $("#card-back-2").hide();
+    $("#card-front-3").show();
+    $("#card-back-3").hide();
+    $("#card-front-4").show();
+    $("#card-back-4").hide();
+    $("#card-front-5").show();
+    $("#card-back-5").hide();
+    $("#card-front-6").show();
+    $("#card-back-6").hide();
+    $("#card-front-7").show();
+    $("#card-back-7").hide();
+    $("#card-front-8").show();
+    $("#card-back-8").hide();
+    $("#card-front-9").show();
+    $("#card-back-9").hide();
    });
 
    $("#swedish-flag").click(function(){
