@@ -33,6 +33,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
   - [Frameworks,-Libraries-and-Other-Sources-Used](#frameworks,-libraries-and-other-sources-used)
   - [Application-Programming-Interfaces-Used-(APIs)](#application-programming-interfaces-used-(APIs))
 - [Testing](#testing)
+  - [Known-Bugs-and-Fixes](#known-bugs-and-fixes)
 - [Deployment](#deployment)
   - [Github-Pages](#github-pages)
   - [Forking-The-Repository](#forking-the-repository)
@@ -189,13 +190,44 @@ image was chosen as a visual metaphor for entering Skåne via the famous Öresun
 </div><br>
 
     - A picture of a pine forest was chosen for the 'Lakes and Forests' section header.
+    
+ <div align="center">
+    <img src="assets/images/sunlit-forest-resized.jpg" alt="Discover Skåne logo">
+</div><br>   
+
     - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
+
+ <div align="center">
+    <img src="assets/images/ystad-beach-resized.jpg" alt="Discover Skåne logo">
+</div><br>
+
     - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
+
+ <div align="center">
+    <img src="assets/images/castle1.jpg" alt="Discover Skåne logo">
+</div><br>
+
     - A picutre of a road in Skåne was chosen for the 'Map' section.
+
+ <div align="center">
+    <img src="assets/images/road-resized.jpg" alt="Discover Skåne logo">
+</div><br>
 
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
 sections respectively, as they are descriptive images that represent the content of their respective sections well.
+
+- 'Book' Header Image:
+
+ <div align="center">
+    <img src="assets/images/hotel.jpg" alt="Discover Skåne logo">
+</div><br>
+
+- 'Contact' Header Image:
+
+ <div align="center">
+    <img src="assets/images/contact.jpg" alt="Discover Skåne logo">
+</div><br>
 
 - The 404 Error page features an image of Tower Bridge in London. It is a visual metaphor to let the user know that they are definitely in the wrong place. 
 By featuring completely the wrong bridge, the idea is to keep the page lighthearted, but in the same style as the Landing Page. Sabina Plimmer on [LCN.com](https://www.lcn.com/blog/beginners-guide-custom-404-pages/)
@@ -205,6 +237,7 @@ message with something which is less likely to chase away visitors.' This is wha
 <div align="center">
     <img src="assets/images/readme-images/error-page.jpg" alt="Discover Skåne error page">
 </div>
+
 ### Layout: 
 
 - The Bootstrap framework was used throughout the site to add responsiveness and to help facilitate mobile-first design.
@@ -415,9 +448,9 @@ content of the infowindow remained unchanged. When the window was closed and re-
 it would show the new language though. This problem was solved by getting the flag button to close all open infowindows as well as changing 
 the language when clicked.
 
-- **Show-Map/Hide-Map Buttons:** Currently if one of the card maps is already open, and the language of the site is changed by clicking the flag, 
-the text of the 'Show Map'/Hide Map' buttons defaults to 'Show Map'. This means that even if the map is already visible, the button will say 'Show Map'. 
-This has not been dealt with yet due to time constraints, but will be fixed in future releases. 
+- **Show-Map/Hide-Map Buttons:** If one of the card maps was already open, and the language of the site was changed by clicking the flag, 
+the text of the 'Show Map'/Hide Map' buttons defaulted to 'Show Map'. This means that even if the map is already visible, the button will say 'Show Map'. 
+This issue was solved by using the JQuery hide() and show() effects to make sure that the map was hidden, and the picture was displayed whan the flag was clicked.
 
 
 ## Deployment:
