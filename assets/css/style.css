@@ -386,7 +386,7 @@ input {
     padding-right: 30px;
 }
 
-#error-link, #error-link-sm {
+#error-link, #error-link-sm, #error-link-swe, #error-link-sm-swe {
     font-weight: 700;
     color: #d8b54d;
     text-decoration: none;
@@ -396,7 +396,7 @@ input {
     padding-left: 30px;
 }
 
-#error-link:hover, #error-link-sm:hover {
+#error-link:hover, #error-link-sm:hover, #error-link-swe:hover, #error-link-sm-swe:hover {
     color: #dc3545;
     text-decoration: none;
 }

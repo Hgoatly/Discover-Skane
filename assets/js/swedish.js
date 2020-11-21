@@ -11,7 +11,9 @@ window.onload = function() {
       } else if (siteLang === "swedish") {
         setSwedish();
       }
-}*/
+}
+*/
+
 const swedish = document.querySelectorAll(".swedish-content, .swedish-heading");
 const english = document.querySelectorAll(".english-content, .english-heading");
 let siteLang = "english"; 
@@ -27,7 +29,6 @@ currentLanguage = localStorage.getItem("language");
 localStorage.setItem("language", "english");
 siteLang = "english";
 }
-
 
 
 $(document).ready(function () {
