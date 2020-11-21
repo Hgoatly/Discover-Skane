@@ -59,6 +59,24 @@ $(document).ready(function () {
     $("#card-back-8").hide();
     $("#card-front-9").show();
     $("#card-back-9").hide();
+    $("#accordion-card-front-1").show();
+    $("#accordion-card-back-1").hide();
+    $("#accordion-card-front-2").show();
+    $("#accordion-card-back-2").hide();
+    $("#accordion-card-front-3").show();
+    $("#accordion-card-back-3").hide();
+    $("#accordion-card-front-4").show();
+    $("#accordion-card-back-4").hide();
+    $("#accordion-card-front-5").show();
+    $("#accordion-card-back-5").hide();
+    $("#accordion-card-front-6").show();
+    $("#accordion-card-back-6").hide();
+    $("#accordion-card-front-7").show();
+    $("#accordion-card-back-7").hide();
+    $("#accordion-card-front-8").show();
+    $("#accordion-card-back-8").hide();
+    $("#accordion-card-front-9").show();
+    $("#accordion-card-back-9").hide();
    });
 
    $("#swedish-flag").click(function(){
