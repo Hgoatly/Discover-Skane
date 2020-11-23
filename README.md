@@ -406,6 +406,7 @@ throughout the site.
 speed up their load time.
 - [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
 - [Microsoft-Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) was used for displaying the manual tests undertaken.
+- [Dirty-Markup](https://www.10bestdesign.com/dirtymarkup/) was used to beautify the code.
 
 ### Application Programming Interfaces Used (APIs):
 
