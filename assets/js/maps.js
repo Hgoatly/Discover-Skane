@@ -83,7 +83,7 @@ function initAutocomplete() {
   var helsingborgMap = new google.maps.Map(
     document.getElementById("helsingborg-map"),
     {
-      zoom: 13,
+      zoom: 10,
       center: {
         lat: 56.0465,
         lng: 12.6945,
