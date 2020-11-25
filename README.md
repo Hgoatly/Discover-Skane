@@ -60,6 +60,7 @@ The site is based on a one page layout with six distinct sections, plus an addit
 The first three sections are mainly informative, with interactivity provided by map elements. They are based around the different types of holiday that one can take in the Swedish county of Skåne.
 
 The sections are as follows:
+
 1. Lakes and Forests.
 2. Beautiful Beaches.
 3. City and Culture. 
@@ -96,16 +97,17 @@ To find out how the features relate to the User Stories, jump to [How-The-Featur
 
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
 2. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go canoeing.
-3. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests, so that I can enjoy getting back to nature.
-4. I have booked a holiday to Skåne, and I want to find out where there are some beaches, so that I can enjoy a seaside break.
-5. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
-6. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
-7. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
-8. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
-9. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
-10. I want to find some hotel deals, so that I can book my holiday in Skåne.
-11. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
-12. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
+3. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can enjoy the landscape and see some waterfoul.
+4. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests and National Parks, so that I can enjoy getting back to nature.
+5. I have booked a holiday to Skåne, and I want to find out where there are some beaches, so that I can enjoy a seaside break.
+6. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
+7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
+8. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
+9. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
+10. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
+11. I want to find some hotel deals, so that I can book my holiday in Skåne.
+12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
+13. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
 ### First Time Visitor Goals:
 
@@ -301,7 +303,7 @@ is designed to be visually appealing. None of the content is collapsed.
 
 ### How the Features Relate to the User Stories:
 
-1. User Stories 1, 2 and 8 are concerned with finding a lake to suit their specific purposes. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map 
+1. User Stories 1, 2, 3 and 9 are concerned with finding a lake to suit their specific purposes. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map 
 with custom markers. Each custom marker has an infowindow that displays more information about each lake.
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
@@ -313,7 +315,7 @@ The same lakes are also displayed on the main map in the 'Map' section of the pa
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of one of the Lakes map infowindows"><br>
 </div>
 
-2. User Stories 3 and 7 are concerned with finding a forest. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
+2. User Stories 4 and 8 are concerned with finding a forest or National Park. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
 Each custom marker has an infowindow that displays more information about the forest, and a link that takes the user to an external site that can be visited to find out more about the destination.
 The same forests are displayed on the main map in the 'Map' section.
 
@@ -323,7 +325,8 @@ The same forests are displayed on the main map in the 'Map' section.
     <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card"><br>
     <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map"><br>
 </div>
-3. User Stories 4 and 6 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
+
+3. User Stories 5 and 7 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
 maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
 
 <div align="center">
@@ -331,7 +334,7 @@ maps with custom markers. The same markers are displayed on the main map section
     <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' cards maps"><br>
 </div>
 
-4. User Stories 5 and 9 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
+4. User Stories 6 and 10 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
 and displays them on a series of maps with custom markers. Usually, the custom markers display as marker clusters on these maps. In these images, the zoom level of the maps has been changed so that
 some of the custom markers are visible.
 
@@ -340,19 +343,19 @@ some of the custom markers are visible.
     <img src="assets/images/readme-images/city-and-culture-maps-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps"><br>
 </div>
 
-5. User Story 10 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
+5. User Story 11 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
 
 <div align="center">
     <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder"><br>
 </div>
 
-6. User Story 11 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
+6. User Story 12 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
 
 <div align="center">
     <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map"><br>
 </div>
 
-7. User Story 12 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
+7. User Story 13 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
 user to be able to contact the site owner. 
 
 <div align="center">

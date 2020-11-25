@@ -265,9 +265,9 @@ function initAutocomplete() {
       lat: 55.9833,
       lng: 14.2167,
       infoEng:
-        "<h3 class='info-header'>Hammarsjön</h3><p>Hammarsjön, which is located directly south of Kristianstad, is Vattenriket's largest lake. It is eight kilometers long and four kilometers wide. The landscape is flat, and the lake is very shallow. During the summer, the average depth is only 0.7 meters.</p><p>Attribution: <a class='info-link' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
+        "<h3 class='info-header'>Hammarsjön</h3><p>Hammarsjön, which is located directly south of Kristianstad, is Vattenriket's largest lake. It is eight kilometers long and four kilometers wide. The landscape is flat, and the lake is very shallow. During the summer, the average depth is only 0.7 meters.The lake also has a rich vegetation. Here are large reed belts, but also rare species such as sea urchins. The vegetation forms a habitat for many birds, such as the reed warbler and the brown marsh hawk.</p><p>Attribution: <a class='info-link' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
       infoSwe: 
-        "<h3 class='info-header'>Hammarsjön</h3><p lang='sv'>Hammarsjön, som ligger direkt söder om Kristianstad, är Vattenrikets största sjö. Den är åtta kilometer lång och fyra kilometer bred. Landskapet är flackt, och sjön är mycket grund. Under sommaren är medeldjupet bara 0,7 meter.</p><p>Attribution: <a class='info-link' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
+        "<h3 class='info-header'>Hammarsjön</h3><p lang='sv'>Hammarsjön, som ligger direkt söder om Kristianstad, är Vattenrikets största sjö. Den är åtta kilometer lång och fyra kilometer bred. Landskapet är flackt, och sjön är mycket grund. Under sommaren är medeldjupet bara 0,7 meter. Sjön har också en rik växtlighet. Här finns stora vassbälten, men också sällsynta arter som sjönajas. Vegetationen bildar livsmiljö åt många fåglar, till exempel rördrommen och den bruna kärrhöken.</p><p>Attribution: <a class='info-link' href='https://vattenriket.kristianstad.se/hammarsjon/' target='_blank'>Vattenriket</a></p>",
       type: lakesIcon,
     },
     {
