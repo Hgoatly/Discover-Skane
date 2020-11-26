@@ -130,6 +130,10 @@ The external site also gives the site visitor more information about the destina
 
   - Fulltofta infowindow.
 
+  <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
+</div><br>
+
   - Skrylle infowindow.
 
 - User stories five and seven are concerned with finding beaches suitable for a seaside holiday. 
