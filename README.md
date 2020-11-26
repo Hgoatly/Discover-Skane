@@ -340,7 +340,7 @@ some of the custom markers are visible.
 
 <div align="center">
     <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards"><br>
-    <img src="assets/images/readme-images/city-and-culture-maps-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps"><br>
+    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps"><br>
 </div>
 
 5. User Story 11 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
