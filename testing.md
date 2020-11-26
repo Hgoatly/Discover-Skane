@@ -102,9 +102,16 @@ recommended forests or National Parks in Skåne.
     <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
 </div><br>
 
-
+- User story 5 is concerned with finding beaches suitable for a seaside holiday. 
 
 5. I have booked a holiday to Skåne, and I want to find out where there are some beaches, so that I can enjoy a seaside break.
+
+- The 'Beautiful Beaches' section displays 3 cards. Each card represents a different part of the Skåne coastline, and shows an image of a beach in that region.
+Below the image, the text gives details of recommended beaches in that area. When 'Show on Map' is clicked on each card, a map is revealed, and the image is hidden. 
+Each map shows custom icons, which when clicked open infowindows which display information about each beach, and a link to the external site from where the text was sourced. 
+The external site also gives the site visitor more information about the destination. When 'Hide Map' is clicked, the map is hidden, and the image is shown once more.
+
+
 6. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
 7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 8. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
