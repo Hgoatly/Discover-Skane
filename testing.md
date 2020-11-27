@@ -58,48 +58,57 @@ have been fulfilled.
   - **Test Case 1**
     - Ensure that the 'Lakes' image shows a picture of a lake. 
   - **Expected Result**: 'Lakes' image should be visible.
-  - **Actual Result**: Pass.
+  - **Actual Result**: 'Lakes' image is visible.
+  - **Pass/Fail**: Pass.
   
   - **Test Case 2**
     - Ensure that the text below the image details some recommended lakes in Skåne. 
   - **Expected Result**: Text below the 'Lakes' image should be visible.
-  - **Actual Result**: Pass.
+  - **Actual Result**: Text below the 'Lakes' image is visible.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 3**
     - Ensure that when 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Expected Result**: When 'Show on Map' is clicked, the map should be visible, and the image should be hidden.
-  - **Actual Result**: Pass.
+  - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 4** 
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
   - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
-  - **Actual Result**: Pass.
+  - **Actual Result**:  When 'Hide Map' is clicked, the map will is hidden, and the image is visible.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 5**
     - Ensure that there are custom markers on each map. 
-  - **Expected Result**: When maps are visible, custom markers shoule be displayed on them.
-  - **Actual Result**: Pass.
+  - **Expected Result**: When map is visible, custom markers should be displayed on it.
+  - **Actual Result**: When map is visible, custom markers is displayed on it.
+  - **Pass/Fail**: Pass.
   
   - **Test Case 6**
     - Ensure that when clicked, each marker will display an infowindow. 
   - **Expected Result**: Each marker will display an infowindow when clicked.
-  - **Actual Result**: Pass.
+  - **Actual Result**: Each marker displays an infowindow when clicked.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 7**
     - Ensure that the Hjälmsjön and Lake Immeln infowindows display information about canoeing and fishing.
   - **Expected Result**: The Hjälmsjön and Lake Immeln infowindows will display information about canoeing and fishing.
-  - **Actual Result**: Pass.
+  - **Actual Result**:  The Hjälmsjön and Lake Immeln infowindows display information about canoeing and fishing.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 8**
     - Ensure that the Hammarsjön infowindow details information about the landscape and waterfoul in the area. 
   - **Expected Result**: The Hammarsjön infowindow will display information about the landscape and waterfoul in the area.
-  - **Actual Result**: Pass.
+  - **Actual Result**: The Hammarsjön infowindow displays information about the landscape and waterfoul in the area.
+  - **Pass/Fail**: Pass.
 
   - **Test Case 9**
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
-  - **Expected Result**: All 'Attribution' links to work, with external sites opening in new tabs. 
-  - **Actual Result**: Pass.
+  - **Expected Result**: All 'Attribution' links should work, with external sites opening in new tabs. 
+  - **Actual Result**: All 'Attribution' links work, with external sites opening in new tabs. 
+  - **Pass/Fail**: Pass.
 
 <div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
@@ -123,20 +132,54 @@ have been fulfilled.
 8. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
 
 - Navigate to the 'Lakes and Forests' section. 
-  - Ensure that the 'Forest' and 'National Parks' images show pictures of a National Park, and a Forest. 
-  - Ensure the that text below the image details some recommended forests and National Parks in Skåne. 
-  - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
-  - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
-  - Ensure that there are custom markers on each map. 
-  - Ensure that when clicked, each marker will display an infowindow. 
-  - Ensure that each infowindow details information about recommended forests or National Parks in Skåne. 
-  - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
+  - **Test Case 1**:
+    - Ensure that the 'Forests' and 'National Parks' images show pictures of a National Park, and a Forest. 
+  - **Expected Result**: 'Forests' and 'National Parks' images will be visible.
+  - **Actual Result**: 'Forests' and 'National Parks' images are visible.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 2**: 
+    - Ensure the that text below the images details some recommended forests and National Parks in Skåne. 
+  - **Expected Results**: Text below 'Forests' and 'National Parks' images will be visible.
+  - **Actual Results**: Text below 'Forests' and 'National Parks' images is visible.
+  - **Pass/Fail**: Pass.
+
+  - **Test case 3**:
+    - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
+  - **Expected Result**: When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
+  - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 4**:
+    - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
+  - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
+  - **Actual Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 5**:
+    - Ensure that there are custom markers on each map. 
+  - **Expected Result**: When maps are visible, custom markers will be displayed on them.
+  - **Actual Result**: When maps are visible, custom markers are displayed on them.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 6**:
+    - Ensure that when clicked, each marker will display an infowindow. 
+  - **Expected Result**: Each marker will display an infowindow when clicked.
+  - **Actual Result**: Each marker displays an infowindow when clicked.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 7**:
+    - Ensure that each infowindow details information about recommended forests or National Parks in Skåne. 
+  - **Expected Result**: Each infowindow will display information about a forest or a National Park in Skåne.
+  - **Actual Result**: Each infowindow displays information about a forest or a National Park in Skåne.
+  - **Pass/Fail**: Pass.
+  
+  - **Test Case 8**:
+    - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
-
-- **Expected Result**: All images and maps to render, all infowindows to open and display the correct content, and all 'Attribution'
-links to navigate to an external site which opens in a new tab.
-
-- **Actual Result**: Pass.
+  - **Expected Result**: 'Attribution' links on each infowindow will take the user to an external site, which opens in a new tab.
+  - **Actual Result**:  'Attribution' links on each infowindow take the user to external sites, which open in a new tab.
+  - **Pass/Fail**: Pass.
 
 <div align="center">
     <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
@@ -196,20 +239,54 @@ links to navigate to an external site which opens in a new tab.
 7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 
 - Navigate to the 'Beautiful Beaches' section of the website.
-  - Ensure that the 'East Coast', 'West Coast' and 'South Coast' images show pictures of beaches. 
-  - Ensure the that text below each image details some recommended beaches in Skåne. 
-  - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
-  - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
-  - Ensure that there are custom markers on each map. 
-  - Ensure that when clicked, each marker will display an infowindow. 
-  - Ensure that each infowindow details information about recommended beaches in Skåne. 
-  - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
+  - **Test Case 1**:
+    - Ensure that the 'East Coast', 'West Coast' and 'South Coast' images show pictures of beaches. 
+  - **Expected Result**: 'East Coast', 'West Coast' and 'South Coast' images will be visible.
+  - **Actual Result**: 'East Coast', 'West Coast' and 'South Coast' images are visible.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 2**:
+    - Ensure the that text below each image details some recommended beaches in Skåne.
+  - **Expected Results**: Text below 'East Coast', 'West Coast and 'South Coast' images will be visible.
+  - **Actual Results**: Text below 'East Coast', 'West Coast and 'South Coast' images is visible.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 3**:
+    - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
+  - **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
+  - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 4**:
+    - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
+  - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
+  - **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
+  - **Pass/Fail**: Pass.
+  
+  - **Test Case 5**: 
+    - Ensure that there are custom markers on each map.
+  - **Expected Result**: When maps are visible, custom markers will be displayed on them.
+  - **Actual Result**: When maps are visible, custom markers are displayed on them.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 6**:
+    - Ensure that when clicked, each marker will display an infowindow. 
+  - **Expected Result**: Each marker will display an infowindow when clicked.
+  - **Actual Result**: Each marker displays an infowindow when clicked.
+  - **Pass/Fail**: Pass.
+
+  - **Test Case 7**:
+    - Ensure that each infowindow details information about recommended beaches in Skåne. 
+  - **Expected Result**: Each infowindow will display information about a beach in Skåne.
+  - **Actual Result**: Each infowindow displays information about a beach in Skåne.
+  - **Pass/Fail**: Pass.
+  
+  - **Test Case 8**:
+    - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
-
-- **Expected Result**: All images and maps to render, all infowindows to open and display the correct content, and all 'Attribution'
-links to navigate to an external site which opens in a new tab.
-
-- **Actual Result**: Pass.
+  - **Expected Result**: 'Attribution' links on each infowindow will take the user to an external site, which opens in a new tab.
+  - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
+  - **Pass/Fail**: Pass.
   
   - 'Beautiful Beaches' cards.
 
@@ -229,20 +306,44 @@ links to navigate to an external site which opens in a new tab.
 10. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
 
 - Navigate to the 'City and Culture' section of the website.
+- **Test Case 1**:
   - Ensure that the 'Malmö', 'Helsingborg' and 'Lund' images show pictures of each city. 
-  - Ensure the that text below each image details recommended cultural activities in Malmö, Helsingborg and Lund respectively. 
-  - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
-  - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
-  - Ensure that there are custom markers on each map. 
-  - Ensure that when clicked, each marker will display an infowindow. 
-  - Ensure that each infowindow details information about recommended cultural activities in Malmö, Helsingborg and Lund. 
-  - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
-  new tab.
-
-- **Expected Result**: All images and maps to render, all infowindows to open and display the correct content, and all 'Attribution'
-links to navigate to an external site which opens in a new tab.
-
+- **Expected Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
 - **Actual Result**: Pass.
+
+- **Test Case 2**:
+  - Ensure the that text below each image details recommended cultural activities in Malmö, Helsingborg and Lund respectively. 
+- **Expected Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images should be visible.
+- **Actual Results**: Pass.
+
+- **Test Case 3**:
+  - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
+- **Expected Result** When 'Show on Map' is clicked, the map should be visible, and the image should be hidden.
+- **Actual Result**: Pass.
+
+- **Test Case 4**:
+  - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
+- **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
+- **Actual Result**: Pass.
+
+- **Test Case 5**:
+  - Ensure that there are custom markers on each map. 
+- **Expected Result**: When maps are visible, custom markers shoule be displayed on them.
+- **Actual Result**: Pass.
+
+- **Test Case 6**:
+  - Ensure that when clicked, each marker will display an infowindow. 
+- **Expected Result**: Each marker will display an infowindow when clicked.
+- **Actual Result**: Pass.
+
+- **Test Case 7**:
+  - Ensure that each infowindow details information about recommended cultural activities in Malmö, Helsingborg and Lund. 
+- **Expected Result**: Each infowindow will display information about recommended cultural activities in Malmö, Helsingborg and Lund.
+- **Actual Result**: Pass.
+
+- **Test Case 8**:
+- Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
+  new tab.
 
 11. I want to find some hotel deals, so that I can book my holiday in Skåne.
 
@@ -261,9 +362,49 @@ links to navigate to an external site which opens in a new tab.
 12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
 
 - Navigate to the 'Map' section of the website.
+- **Test Case 1**:
+  - Ensure that Google Maps API map renders.
+- **Expected Result**: Google map should be visible.
+- **Actual Result**: Pass.
+
+- **Test Case 2**: 
+  - Ensure that all custom markers are visible on the map.
+- **Expected Result**: All custom markers should be visible.
+- **Actual Result**: Pass.
+
+- **Test Case 3**:
+  - Ensure that all custom markers open infowindows when clicked.
+- **Expected Result**: All custom markers should open an infowindow when clicked.
+- **Actual Result**: Pass.
+
+- **Test Case 4**: 
+  - Ensure that all infowindows display relevant information about their location.
+- **Expected Result**: All infowindows should display relevant information about their location.
+- **Actual Result**: Pass.
+
+- **Test Case 5**: 
+  - Ensure that 'Attribution' links navigate to external sites when clicked, and that they open in new tabs.
+- **Expected Result**: All 'Attribution' links should navigate to external sites, and open in new tabs.
+- **Actual Result**: Pass.
+
 13. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
-
+- **Test Case 1**:
+  - Ensure that the contact form is visible and behaves as expected.
+  - Navigate to the 'Book' section of the page.
+    - Ensure that the contact form is visible and displays the following fields:
+      - 'Name' 
+      - 'Email'
+      - 'Your recommendations'
+    - Enter the following data into form fields:
+      - Your name.
+      - your email in the following format: name@host.com.
+      - Your recommendations (text input)
+    - Click 'Submit'
+      - Ensure alert box appears with the following message: "Thank you. Your email has been sent. We'll get back to you as soon as we can!"
+  - **Expected Result**: Form submits without errors, and alert box confirms submission.
+  - **Actual Result**: Form submits without errors, and alert box confirms sbmission.
+  - **Pass/Fail**: Pass.
   
 ## Manual Testing:
 
