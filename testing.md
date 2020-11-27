@@ -60,7 +60,11 @@ have been fulfilled.
   - **Expected Result**: 'Lakes' image should be visible.
   - **Actual Result**: 'Lakes' image is visible.
   - **Pass/Fail**: Pass.
-  
+
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
+    </div><br>
+
   - **Test Case 2**
     - Ensure that the text below the image details some recommended lakes in Skåne. 
   - **Expected Result**: Text below the 'Lakes' image should be visible.
@@ -73,6 +77,10 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div>
+  
   - **Test Case 4** 
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
   - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
@@ -84,12 +92,28 @@ have been fulfilled.
   - **Expected Result**: When map is visible, custom markers should be displayed on it.
   - **Actual Result**: When map is visible, custom markers is displayed on it.
   - **Pass/Fail**: Pass.
-  
+    
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+</div>
+
   - **Test Case 6**
     - Ensure that when clicked, each marker will display an infowindow. 
   - **Expected Result**: Each marker will display an infowindow when clicked.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map">
+    </div><br>
+    
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div>
 
   - **Test Case 7**
     - Ensure that the Hjälmsjön and Lake Immeln infowindows display information about canoeing and fishing.
@@ -97,11 +121,27 @@ have been fulfilled.
   - **Actual Result**:  The Hjälmsjön and Lake Immeln infowindows display information about canoeing and fishing.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map">
+    </div><br>
+    
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map">
+    </div><br>
+
   - **Test Case 8**
     - Ensure that the Hammarsjön infowindow details information about the landscape and waterfoul in the area. 
   - **Expected Result**: The Hammarsjön infowindow will display information about the landscape and waterfoul in the area.
   - **Actual Result**: The Hammarsjön infowindow displays information about the landscape and waterfoul in the area.
   - **Pass/Fail**: Pass.
+
+     <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+     <div align="center">
+    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
 
   - **Test Case 9**
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
@@ -109,22 +149,6 @@ have been fulfilled.
   - **Expected Result**: All 'Attribution' links should work, with external sites opening in new tabs. 
   - **Actual Result**: All 'Attribution' links work, with external sites opening in new tabs. 
   - **Pass/Fail**: Pass.
-
-<div align="center">
-    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
-</div><br>
-
-<div align="center">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map">
-</div><br>
-
-<div align="center">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map">
-</div><br>
-
-<div align="center">
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
-</div>
 
 - The fourth and eighth user stories are concerned with 'Forests' and 'National Parks' destinations:
 
@@ -138,11 +162,27 @@ have been fulfilled.
   - **Actual Result**: 'Forests' and 'National Parks' images are visible.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
+    </div><br>
+
   - **Test Case 2**: 
     - Ensure the that text below the images details some recommended forests and National Parks in Skåne. 
   - **Expected Results**: Text below 'Forests' and 'National Parks' images will be visible.
   - **Actual Results**: Text below 'Forests' and 'National Parks' images is visible.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
+    </div><br>
 
   - **Test case 3**:
     - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
@@ -150,11 +190,27 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the Forests map">
+    </div><br>
+
+  <div align="center">
+    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the National Parks map">
+    </div><br>
+
   - **Test Case 4**:
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
   - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
   - **Actual Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
+    </div><br>
 
   - **Test Case 5**:
     - Ensure that there are custom markers on each map. 
@@ -162,11 +218,39 @@ have been fulfilled.
   - **Actual Result**: When maps are visible, custom markers are displayed on them.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the Forests map">
+    </div><br>
+
+  <div align="center">
+    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the National Parks map">
+    </div><br>
+
   - **Test Case 6**:
     - Ensure that when clicked, each marker will display an infowindow. 
   - **Expected Result**: Each marker will display an infowindow when clicked.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/soderasen-infowindow.jpg" alt="Screenshot of the Soderasen infowindow on the National Parks card map">
+    </div><br>
+ 
+    <div align="center">
+    <img src="assets/images/readme-images/stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
 
   - **Test Case 7**:
     - Ensure that each infowindow details information about recommended forests or National Parks in Skåne. 
@@ -174,6 +258,26 @@ have been fulfilled.
   - **Actual Result**: Each infowindow displays information about a forest or a National Park in Skåne.
   - **Pass/Fail**: Pass.
   
+    <div align="center">
+    <img src="assets/images/readme-images/soderasen-infowindow.jpg" alt="Screenshot of the Soderasen infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
   - **Test Case 8**:
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
@@ -181,57 +285,6 @@ have been fulfilled.
   - **Actual Result**:  'Attribution' links on each infowindow take the user to external sites, which open in a new tab.
   - **Pass/Fail**: Pass.
 
-<div align="center">
-    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
-</div><br>
-
-  - 'Forests' map.
-
-<div align="center">
-    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the Forests map">
-</div><br>
-
-  - 'National Parks' card.
-
-<div align="center">
-    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
-</div><br>
-  
-  - 'National Parks' map.
-
-  <div align="center">
-    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the National Parks map">
-</div><br>
-
-  - 'Sö‎deråsen National Park' infowindow.
-
-<div align="center">
-    <img src="assets/images/readme-images/soderasen-infowindow.jpg" alt="Screenshot of the Soderasen infowindow on the National Parks card map">
-</div><br>
-
-  - 'Stenshuvuds National Park' infowindow.
-
-<div align="center">
-    <img src="assets/images/readme-images/stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
-</div><br>
-
-  - Häckeberga infowindow.
-
-<div align="center">
-    <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
-</div><br>
-
-  - Fulltofta infowindow.
-
-  <div align="center">
-    <img src="assets/images/readme-images/fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
-</div><br>
-
-  - Skrylle infowindow.
-
-  <div align="center">
-    <img src="assets/images/readme-images/skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
-</div><br>
 
 - User stories five and seven are concerned with finding beaches suitable for a seaside holiday. 
 
@@ -239,11 +292,16 @@ have been fulfilled.
 7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 
 - Navigate to the 'Beautiful Beaches' section of the website.
+  
   - **Test Case 1**:
     - Ensure that the 'East Coast', 'West Coast' and 'South Coast' images show pictures of beaches. 
   - **Expected Result**: 'East Coast', 'West Coast' and 'South Coast' images will be visible.
   - **Actual Result**: 'East Coast', 'West Coast' and 'South Coast' images are visible.
   - **Pass/Fail**: Pass.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
+    </div><br>
 
   - **Test Case 2**:
     - Ensure the that text below each image details some recommended beaches in Skåne.
@@ -251,11 +309,19 @@ have been fulfilled.
   - **Actual Results**: Text below 'East Coast', 'West Coast and 'South Coast' images is visible.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
+    </div><br>
+
   - **Test Case 3**:
     - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
   - **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' maps.">
+    </div><br>
 
   - **Test Case 4**:
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
@@ -263,17 +329,59 @@ have been fulfilled.
   - **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
   - **Pass/Fail**: Pass.
   
+    <div align="center">
+    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
+    </div><br>
+
   - **Test Case 5**: 
     - Ensure that there are custom markers on each map.
   - **Expected Result**: When maps are visible, custom markers will be displayed on them.
   - **Actual Result**: When maps are visible, custom markers are displayed on them.
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' maps.">
+    </div><br>
+
   - **Test Case 6**:
     - Ensure that when clicked, each marker will display an infowindow. 
   - **Expected Result**: Each marker will display an infowindow when clicked.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/knabackshusen-infowindow.jpg" alt="Screenshot of the knabackshusen-infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/yngsjo-infowindow.jpg" alt="Screenshot of Yngsjo infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the knabackshusen infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the farhultsbaden infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/ystad-sandskog-infowindow.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
+
 
   - **Test Case 7**:
     - Ensure that each infowindow details information about recommended beaches in Skåne. 
@@ -287,18 +395,7 @@ have been fulfilled.
   - **Expected Result**: 'Attribution' links on each infowindow will take the user to an external site, which opens in a new tab.
   - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
   - **Pass/Fail**: Pass.
-  
-  - 'Beautiful Beaches' cards.
 
-<div align="center">
-    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
-</div><br>
-
-  -'Beautiful Beaches' maps.
-
-<div align="center">
-    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' maps.">
-</div><br>
 
 - User stories six and ten are concerned with cultural activities in the region.
 
