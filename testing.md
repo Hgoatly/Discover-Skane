@@ -517,27 +517,75 @@ have been fulfilled.
   - **Pass/Fail**: Pass.
 
     <div align="center">
-    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom.jpg" alt="Screenshot of the Knäbäckshusen infowindow attribution.">
     </div><br>
 
     <div align="center">
-    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Knäbäckshusen external site in a new tab.">
     </div><br>
 
     <div align="center">
-    <img src="assets/images/readme-images/yngsjo-infowindow-bottom.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    <img src="assets/images/readme-images/yngsjo-infowindow-bottom.jpg" alt="Screenshot of Yngsjö Sandskog infowindow attribution.">
     </div><br>
 
     <div align="center">
-    <img src="assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    <img src="assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Yngsjö Sandskog external site in a new tab.">
     </div><br>
 
     <div align="center">
-    <img src="assets/images/readme-images/tappet-infowindow-bottom.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    <img src="assets/images/readme-images/tappet-infowindow-bottom.jpg" alt="Screenshot of the Täppet infowindow attribution.">
     </div><br>
 
     <div align="center">
-    <img src="assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    <img src="assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Täppet external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow-bottom.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Farhultsbaden external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lomma-norra-badplats-infowindow-bottom.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lomma-norra-badplats-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Lomma Norra Badplats external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/falsterbo-infowindow-bottom.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/falsterbo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Falsterbo external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/smygehuk-infowindow-bottom.jpg" alt="Screenshot of the Smygehuk infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/smygehuk-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Smygehuk external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/ystad-sandskog-infowindow-bottom.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/ystad-sandskog-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Ystad Sandskog external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/sandhammaren-infowindow-bottom.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/sandhammaren-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren external site in a new tab.">
     </div><br>
 
 ### City and Culture:
@@ -689,7 +737,6 @@ have been fulfilled.
     <img src="assets/images/readme-images/lund-infowindow3.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
     </div><br>
 
-
 - **Test Case 8**:
   - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
@@ -697,7 +744,31 @@ have been fulfilled.
 - **Actual Result**: The 'Attribution' link navigates to an external site, which opens in a new tab.
 - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-concert-house-infowindow-bottom.jpg" alt="Screenshot of the Malmo Concert House infowindow.">
+    </div><br>
 
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-concert-house-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Concert House external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-castle-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-castle-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-opera-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-opera-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    
 ### Book: 
 
 11. I want to find some hotel deals, so that I can book my holiday in Skåne.
@@ -730,6 +801,10 @@ have been fulfilled.
 - **Expected Result**: Google map should be visible.
 - **Actual Result**: Google map is visible.
 - **Pass/Fail**: Pass.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map.">
+    </div><br>
 
 - **Test Case 2**: 
   - Ensure that all custom markers are visible on the map.
@@ -738,7 +813,7 @@ have been fulfilled.
 - **Pass/Fail**: Pass.
 
     <div align="center">
-    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map.">
     </div><br>
 
 - **Test Case 3**:
