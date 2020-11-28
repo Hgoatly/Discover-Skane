@@ -9,7 +9,9 @@ The Discover Skåne site was discovered extensively, using the following process
 - [W3C-CSS-Validation-Service](#W3C-markup-validation-service)
 - [JSHint](#jshint)
 - [Testing-the-User-Stories](#testing-the-user-stories)
+- [Testing-the-Swedish-Content](#testing-the-swedish-content)
 - [Manual-Testing](#manual-testing)
+
 ## Chrome Developer Tools:
 
 - Chrome developer tools was used regulraly to check the layout, and to check the console for errors.
@@ -161,6 +163,31 @@ have been fulfilled.
   - **Actual Result**: All 'Attribution' links work, with external sites opening in new tabs. 
   - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hammarsjon-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hammarsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    </div><br>
+
+
 ### Forests and National Parks: 
 
 - The fourth and eighth user stories are concerned with 'Forests' and 'National Parks' destinations:
@@ -297,6 +324,47 @@ have been fulfilled.
   - **Expected Result**: 'Attribution' links on each infowindow will take the user to an external site, which opens in a new tab.
   - **Actual Result**:  'Attribution' links on each infowindow take the user to external sites, which open in a new tab.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/soderasen-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/soderasen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/skrylle-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/skrylle-infowindow-bottom-new-window.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/fulltofta-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/fulltofta-infowindow-bottom-new-window.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    </div><br>
+
 
 ### Beautiful Beaches:
 
@@ -447,6 +515,30 @@ have been fulfilled.
   - **Expected Result**: 'Attribution' links on each infowindow will take the user to an external site, which opens in a new tab.
   - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/yngsjo-infowindow-bottom.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/tappet-infowindow-bottom.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
 
 ### City and Culture:
 
@@ -604,6 +696,7 @@ have been fulfilled.
 - **Expected Result**: The 'Attribution' link will navigate to an external site, which opens in a new tab.
 - **Actual Result**: The 'Attribution' link navigates to an external site, which opens in a new tab.
 - **Pass/Fail**: Pass.
+
 
 ### Book: 
 
