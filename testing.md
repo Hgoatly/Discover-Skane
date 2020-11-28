@@ -46,6 +46,8 @@ recognise ECMAScript 6 features by adding: '/*jshint esversion: 6 */' at the top
 - The following user stories are listed in the README.md file. Images have been inserted below each of them to show how their requirements 
 have been fulfilled.
 
+### Lakes: 
+
 - User stories one, two, three and nine are concerned with 'Lake' destinations:
 
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
@@ -71,6 +73,11 @@ have been fulfilled.
   - **Actual Result**: Text below the 'Lakes' image is visible.
   - **Pass/Fail**: Pass.
 
+  <div align="center">
+    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
+    </div><br>
+
+
   - **Test Case 3**
     - Ensure that when 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Expected Result**: When 'Show on Map' is clicked, the map should be visible, and the image should be hidden.
@@ -86,6 +93,10 @@ have been fulfilled.
   - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
   - **Actual Result**:  When 'Hide Map' is clicked, the map will is hidden, and the image is visible.
   - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
+    </div><br>
 
   - **Test Case 5**
     - Ensure that there are custom markers on each map. 
@@ -149,6 +160,8 @@ have been fulfilled.
   - **Expected Result**: All 'Attribution' links should work, with external sites opening in new tabs. 
   - **Actual Result**: All 'Attribution' links work, with external sites opening in new tabs. 
   - **Pass/Fail**: Pass.
+
+### Forests and National Parks: 
 
 - The fourth and eighth user stories are concerned with 'Forests' and 'National Parks' destinations:
 
@@ -285,6 +298,7 @@ have been fulfilled.
   - **Actual Result**:  'Attribution' links on each infowindow take the user to external sites, which open in a new tab.
   - **Pass/Fail**: Pass.
 
+### Beautiful Beaches:
 
 - User stories five and seven are concerned with finding beaches suitable for a seaside holiday. 
 
@@ -373,6 +387,10 @@ have been fulfilled.
     <img src="assets/images/readme-images/falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
 
+     <div align="center">
+    <img src="assets/images/readme-images/smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
+    </div><br>
+
     <div align="center">
     <img src="assets/images/readme-images/ystad-sandskog-infowindow.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
     </div><br>
@@ -381,14 +399,48 @@ have been fulfilled.
     <img src="assets/images/readme-images/sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
     </div><br>
 
-
-
   - **Test Case 7**:
     - Ensure that each infowindow details information about recommended beaches in Skåne. 
   - **Expected Result**: Each infowindow will display information about a beach in Skåne.
   - **Actual Result**: Each infowindow displays information about a beach in Skåne.
   - **Pass/Fail**: Pass.
-  
+
+  <div align="center">
+    <img src="assets/images/readme-images/knabackshusen-infowindow.jpg" alt="Screenshot of the knabackshusen-infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/yngsjo-infowindow.jpg" alt="Screenshot of Yngsjo infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the knabackshusen infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the farhultsbaden infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
+
+     <div align="center">
+    <img src="assets/images/readme-images/smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/ystad-sandskog-infowindow.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
+    </div><br>
+
   - **Test Case 8**:
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
@@ -396,6 +448,7 @@ have been fulfilled.
   - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
   - **Pass/Fail**: Pass.
 
+### City and Culture:
 
 - User stories six and ten are concerned with cultural activities in the region.
 
@@ -406,41 +459,72 @@ have been fulfilled.
 - **Test Case 1**:
   - Ensure that the 'Malmö', 'Helsingborg' and 'Lund' images show pictures of each city. 
 - **Expected Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
-- **Actual Result**: Pass.
+- **Actual Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
+- **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
 
 - **Test Case 2**:
   - Ensure the that text below each image details recommended cultural activities in Malmö, Helsingborg and Lund respectively. 
-- **Expected Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images should be visible.
-- **Actual Results**: Pass.
+- **Expected Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images will be visible.
+- **Actual Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images is visible.
+- **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
 
 - **Test Case 3**:
   - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
-- **Expected Result** When 'Show on Map' is clicked, the map should be visible, and the image should be hidden.
-- **Actual Result**: Pass.
+- **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
+- **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
+
+<div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
 
 - **Test Case 4**:
   - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
 - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
-- **Actual Result**: Pass.
+- **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
+- **Pass/Fail**: Pass.
+
+<div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
 
 - **Test Case 5**:
   - Ensure that there are custom markers on each map. 
-- **Expected Result**: When maps are visible, custom markers shoule be displayed on them.
-- **Actual Result**: Pass.
+- **Expected Result**: When maps are visible, custom markers will be displayed on them.
+- **Actual Result**: When maps are visible, custom markers are displayed on them.
+- **Pass/Fail**: Pass.
+
+<div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    </div><br>
 
 - **Test Case 6**:
   - Ensure that when clicked, each marker will display an infowindow. 
 - **Expected Result**: Each marker will display an infowindow when clicked.
-- **Actual Result**: Pass.
+- **Actual Result**: Each marker displays an infowindow when clicked.
+- **Pass/Fail**: Pass.
 
 - **Test Case 7**:
   - Ensure that each infowindow details information about recommended cultural activities in Malmö, Helsingborg and Lund. 
 - **Expected Result**: Each infowindow will display information about recommended cultural activities in Malmö, Helsingborg and Lund.
-- **Actual Result**: Pass.
+- **Actual Result**:  Each infowindow displays information about recommended cultural activities in Malmö, Helsingborg and Lund.
+- **Pass/Fail**: Pass.
 
 - **Test Case 8**:
-- Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
+  - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
   new tab.
+- **Expected Result**: The 'Attribution' link will navigate to an external site, which opens in a new tab.
+- **Actual Result**: The 'Attribution' link navigates to an external site, which opens in a new tab.
+- **Pass/Fail**: Pass.
+
+### Book: 
 
 11. I want to find some hotel deals, so that I can book my holiday in Skåne.
 
@@ -449,12 +533,16 @@ have been fulfilled.
     - Ensure that the 'Booking.com' Dealfinder renders, and displays a selection of hotel deals in Skåne.
   - **Expected Result**: The 'Booking.com' Dealfinder API will render, and a selection of available hotels in Skåne
   will be visible.
-  - **Actual Result**: Pass.
+  - **Actual Result**: The 'Booking.com' Dealfinder API renders, and a selection of available hotels in Skåne
+  is visible.
 
   - **Test Case 2**:
     - Ensure that when clicked, the 'See All Deals' button takes the user to an external site, which opens in a new tab.
   - **Expected Result**: The 'See All Deals' button will take users to the 'Booking.com' site, which will open in a new tab.
-  - **Actual Result**: Pass.
+  - **Actual Result**: The 'See All Deals' button takes users to the 'Booking.com' site, which opens in a new tab.
+  - **Pass/Fail**: Pass.
+
+### Map:
 
 12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
 
@@ -462,27 +550,33 @@ have been fulfilled.
 - **Test Case 1**:
   - Ensure that Google Maps API map renders.
 - **Expected Result**: Google map should be visible.
-- **Actual Result**: Pass.
+- **Actual Result**: Google map is visible.
+- **Pass/Fail**: Pass.
 
 - **Test Case 2**: 
   - Ensure that all custom markers are visible on the map.
-- **Expected Result**: All custom markers should be visible.
-- **Actual Result**: Pass.
+- **Expected Result**: All custom markers will be visible.
+- **Actual Result**: All custom markers are visible.
+- **Pass/Fail**: Pass.
 
 - **Test Case 3**:
   - Ensure that all custom markers open infowindows when clicked.
-- **Expected Result**: All custom markers should open an infowindow when clicked.
-- **Actual Result**: Pass.
+- **Expected Result**: All custom markers will open an infowindow when clicked.
+- **Actual Result**: All custom markers open an infowindow when clicked.
+- **Pass/Fail**: Pass.
 
 - **Test Case 4**: 
   - Ensure that all infowindows display relevant information about their location.
-- **Expected Result**: All infowindows should display relevant information about their location.
-- **Actual Result**: Pass.
+- **Expected Result**: All infowindows will display relevant information about their location.
+- **Actual Result**: All infowindows display relevant information about their location.
+- **Pass/Fail**: Pass.
 
 - **Test Case 5**: 
   - Ensure that 'Attribution' links navigate to external sites when clicked, and that they open in new tabs.
-- **Expected Result**: All 'Attribution' links should navigate to external sites, and open in new tabs.
-- **Actual Result**: Pass.
+- **Expected Result**: All 'Attribution' links will navigate to external sites, which open in new tabs.
+- **Actual Result**: All 'Attribution' links navigate to external sites, which open in new tabs.
+
+### Contact: 
 
 13. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
