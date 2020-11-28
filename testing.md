@@ -100,8 +100,8 @@ have been fulfilled.
 
   - **Test Case 5**
     - Ensure that there are custom markers on each map. 
-  - **Expected Result**: When map is visible, custom markers should be displayed on it.
-  - **Actual Result**: When map is visible, custom markers is displayed on it.
+  - **Expected Result**: When map is visible, custom markers will be displayed on it. Markers that are close together will be displayed as marker clusters.
+  - **Actual Result**: When map is visible, custom markers is displayed on it. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
     
     <div align="center">
@@ -227,8 +227,8 @@ have been fulfilled.
 
   - **Test Case 5**:
     - Ensure that there are custom markers on each map. 
-  - **Expected Result**: When maps are visible, custom markers will be displayed on them.
-  - **Actual Result**: When maps are visible, custom markers are displayed on them.
+  - **Expected Result**: When maps are visible, custom markers will be displayed on them. Markers that are close together will be displayed as marker clusters.
+  - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
 
     <div align="center">
@@ -349,8 +349,8 @@ have been fulfilled.
 
   - **Test Case 5**: 
     - Ensure that there are custom markers on each map.
-  - **Expected Result**: When maps are visible, custom markers will be displayed on them.
-  - **Actual Result**: When maps are visible, custom markers are displayed on them.
+  - **Expected Result**: When maps are visible, custom markers will be displayed on them. Markers that are close together will be displayed as marker clusters.
+  - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
 
     <div align="center">
@@ -482,7 +482,7 @@ have been fulfilled.
 - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
 
 <div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    <img src="assets/images/readme-images/city-and-culture-cards-maps.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
 
 - **Test Case 4**:
@@ -497,12 +497,12 @@ have been fulfilled.
 
 - **Test Case 5**:
   - Ensure that there are custom markers on each map. 
-- **Expected Result**: When maps are visible, custom markers will be displayed on them.
-- **Actual Result**: When maps are visible, custom markers are displayed on them.
+- **Expected Result**: When maps are visible, custom markers will be displayed on them. Markers that are close together will be displayed as marker clusters.
+- **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
 - **Pass/Fail**: Pass.
 
-<div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+    <div align="center">
+    <img src="assets/images/readme-images/city-and-culture-cards-maps.jpg" alt="Screenshot of the City and Culture maps.">
     </div><br>
 
 - **Test Case 6**:
@@ -511,11 +511,92 @@ have been fulfilled.
 - **Actual Result**: Each marker displays an infowindow when clicked.
 - **Pass/Fail**: Pass.
 
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow1.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow2.jpg" alt="Screenshot of the Malmo Opera infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow3.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow4.jpg" alt="Screenshot of the Malmo Concert House infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow1.jpg" alt="Screenshot of the Sofiero Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow2.jpg" alt="Screenshot of the Helsingborg Consert House infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow3.jpg" alt="Screenshot of the Dunkers Concert Housse infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow1.jpg" alt="Screenshot of the Kulturen infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow2.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow3.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
+    </div><br>
+
 - **Test Case 7**:
   - Ensure that each infowindow details information about recommended cultural activities in Malmö, Helsingborg and Lund. 
 - **Expected Result**: Each infowindow will display information about recommended cultural activities in Malmö, Helsingborg and Lund.
 - **Actual Result**:  Each infowindow displays information about recommended cultural activities in Malmö, Helsingborg and Lund.
 - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow1.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow2.jpg" alt="Screenshot of the Malmo Opera infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow3.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-infowindow4.jpg" alt="Screenshot of the Malmo Concert House infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow1.jpg" alt="Screenshot of the Sofiero Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow2.jpg" alt="Screenshot of the Helsingborg Consert House infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow3.jpg" alt="Screenshot of the Dunkers Concert Housse infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow1.jpg" alt="Screenshot of the Kulturen infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow2.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-infowindow3.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
+    </div><br>
+
 
 - **Test Case 8**:
   - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
@@ -536,6 +617,10 @@ have been fulfilled.
   - **Actual Result**: The 'Booking.com' Dealfinder API renders, and a selection of available hotels in Skåne
   is visible.
 
+    <div align="center">
+    <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the booking.com Dealfinder API.">
+    </div><br>
+  
   - **Test Case 2**:
     - Ensure that when clicked, the 'See All Deals' button takes the user to an external site, which opens in a new tab.
   - **Expected Result**: The 'See All Deals' button will take users to the 'Booking.com' site, which will open in a new tab.
@@ -555,9 +640,13 @@ have been fulfilled.
 
 - **Test Case 2**: 
   - Ensure that all custom markers are visible on the map.
-- **Expected Result**: All custom markers will be visible.
-- **Actual Result**: All custom markers are visible.
+- **Expected Result**: All custom markers will be visible. When markers are close together, they will appear as a marker cluster.
+- **Actual Result**: All custom markers are visible. When markers are close together, they appear as a marker cluster.
 - **Pass/Fail**: Pass.
+
+    <div align="center">
+    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
 
 - **Test Case 3**:
   - Ensure that all custom markers open infowindows when clicked.
