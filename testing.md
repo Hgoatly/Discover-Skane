@@ -64,6 +64,8 @@ have been fulfilled.
   - **Expected Result**: 'Lakes' image should be visible.
   - **Actual Result**: 'Lakes' image is visible.
   - **Pass/Fail**: Pass.
+    
+    - Screenshot of the 'Lakes' card, clearly showing the image:
 
     <div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
@@ -75,6 +77,8 @@ have been fulfilled.
   - **Actual Result**: Text below the 'Lakes' image is visible.
   - **Pass/Fail**: Pass.
 
+    - Screenshot of the 'Lakes' card, with the text clearly visible below the image:
+  
   <div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
     </div><br>
@@ -86,6 +90,8 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
 
+    - Screenshot of the 'Lakes' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
     </div>
@@ -95,6 +101,8 @@ have been fulfilled.
   - **Expected Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
   - **Actual Result**:  When 'Hide Map' is clicked, the map will is hidden, and the image is visible.
   - **Pass/Fail**: Pass.
+    
+    - Screenshot of the 'Lakes' card, with the image clearly visible after 'Hide Map' has been clicked.
 
     <div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
@@ -106,8 +114,10 @@ have been fulfilled.
   - **Actual Result**: When map is visible, custom markers is displayed on it. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
     
+    - Screenshot if the 'Lakes' map, with custom markers clearly visible.
+    
     <div align="center">
-    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the lakes map with custom markers visible.">
 </div>
 
   - **Test Case 6**
@@ -829,6 +839,10 @@ have been fulfilled.
   - **Expected Result**: The 'See All Deals' button will take users to the 'Booking.com' site, which will open in a new tab.
   - **Actual Result**: The 'See All Deals' button takes users to the 'Booking.com' site, which opens in a new tab.
   - **Pass/Fail**: Pass.
+
+  <div align="center">
+    <img src="assets/images/readme-images/dealfinder-new-tab.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
 
 ### Map:
 
