@@ -115,7 +115,7 @@ have been fulfilled.
   - **Pass/Fail**: Pass.
     
     - Screenshot if the 'Lakes' map, with custom markers clearly visible.
-    
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the lakes map with custom markers visible.">
 </div>
@@ -126,13 +126,19 @@ have been fulfilled.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
     
+    - Screenshot of the Hjälmsjön infowindow, clearly visible on the 'Lakes' map.
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map">
     </div><br>
     
+    - Screenshot of the Lake Immeln infowindow, clearly visible on the 'Lakes' map.
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map">
     </div><br>
+
+    - Screenshot of the Hammarsjön infowindow, clearly visible on the 'Lakes' map.
 
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
@@ -143,11 +149,15 @@ have been fulfilled.
   - **Expected Result**: The Hjälmsjön and Lake Immeln infowindows will display information about canoeing and fishing.
   - **Actual Result**:  The Hjälmsjön and Lake Immeln infowindows display information about canoeing and fishing.
   - **Pass/Fail**: Pass.
+    
+    - Screenshot of the Hjälmsjön infowindow with information about canoeing and fishing clearly visible. 
 
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map">
     </div><br>
     
+    - Screenshot of the Lake Immeln infowindow with information about canoeing and fishing clearly visible. 
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map">
     </div><br>
@@ -157,6 +167,8 @@ have been fulfilled.
   - **Expected Result**: The Hammarsjön infowindow will display information about the landscape and waterfoul in the area.
   - **Actual Result**: The Hammarsjön infowindow displays information about the landscape and waterfoul in the area.
   - **Pass/Fail**: Pass.
+
+    - Screenshots of the Hammarsjön infowindow with information about the landscape and waterfoul clearly visible. 
 
      <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
@@ -173,26 +185,38 @@ have been fulfilled.
   - **Actual Result**: All 'Attribution' links work, with external sites opening in new tabs. 
   - **Pass/Fail**: Pass.
 
-    <div align="center">
-    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
-    </div><br>
+    - Screenshot of the Hjälmsjön infowindow with the 'Attribution' link clearly displayed.
 
     <div align="center">
-    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom.jpg" alt="Screenshot of the Hjälmsjön infowindow on the lakes card map with the 'Attribution' link visible.">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
-    </div><br>
+    - Screenshot of the Hjälmsjön external site open in a new tab.
 
     <div align="center">
-    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
+    <img src="assets/images/readme-images/hjalmsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hjälmsjön external site displayed in a new tab.">
     </div><br>
+
+    - Screenshot of the Lake Immeln infowindow with the 'Attribution' link clearly displayed.
+
+    <div align="center">
+    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom.jpg" alt="Screenshot of the Lake Immeln infowindow on the lakes card map with the 'Attribution' link visible.">
+    </div><br>
+
+    - Screenshot of the Lake Immeln external site displayed in a new tab.
+
+    <div align="center">
+    <img src="assets/images/readme-images/lake-immeln-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Lake Immeln external site displayed in a new tab.">
+    </div><br>
+
+    - Screenshot of the Hammarsjön infowindow with the 'Attribution' link clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/hammarsjon-infowindow-bottom.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
     </div><br>
 
+    - Screenshot of the Hammarsjön external site displayed in a new tab.
+    
     <div align="center">
     <img src="assets/images/readme-images/hammarsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
     </div><br>
