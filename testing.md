@@ -768,6 +768,45 @@ have been fulfilled.
     <img src="assets/images/readme-images/malmo-opera-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
     </div><br>
 
+    <div align="center">
+    <img src="assets/images/readme-images/sofiero-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/sofiero-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-concert-house-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-concert-house-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/kulturen-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/kulturen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-cathedral-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-cathedral-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-planetarium-infowindow-bottom.jpg" alt="Screenshot of the Malmo Castle infowindow.">
+    </div><br>
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-planetarium-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Malmo Castle external site in a new tab.">
+    </div><br>
     
 ### Book: 
 
