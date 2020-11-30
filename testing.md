@@ -57,7 +57,7 @@ have been fulfilled.
 3. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can enjoy the landscape and see some waterfoul.
 9. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
 
-- Navigate to the 'Lakes and Forests' section. 
+- Navigate to the 'Lakes and Forests' section by selecting 'Lakes and Forests' on the navbar, or by scrolling down the page. 
   
   - **Test Case 1**
     - Ensure that the 'Lakes' image shows a picture of a lake. 
@@ -114,7 +114,7 @@ have been fulfilled.
   - **Actual Result**: When map is visible, custom markers is displayed on it. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
     
-    - Screenshot if the 'Lakes' map, with custom markers clearly visible.
+    - Screenshot of the 'Lakes' map, with custom markers clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the lakes map with custom markers visible.">
@@ -216,7 +216,7 @@ have been fulfilled.
     </div><br>
 
     - Screenshot of the Hammarsjön external site displayed in a new tab.
-    
+
     <div align="center">
     <img src="assets/images/readme-images/hammarsjon-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
     </div><br>
@@ -229,16 +229,21 @@ have been fulfilled.
 4. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests and National Parks, so that I can enjoy getting back to nature.
 8. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
 
-- Navigate to the 'Lakes and Forests' section. 
+- Navigate to the 'Lakes and Forests' section by selecting 'Lakes and Forests' on the navbar, or by scrolling down the page. 
+  
   - **Test Case 1**:
     - Ensure that the 'Forests' and 'National Parks' images show pictures of a National Park, and a Forest. 
   - **Expected Result**: 'Forests' and 'National Parks' images will be visible.
   - **Actual Result**: 'Forests' and 'National Parks' images are visible.
   - **Pass/Fail**: Pass.
 
+    - Screenshot of the 'Forests' card, with the image clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
     </div><br>
+
+    - Screenshot of the 'National Parks' card, with the image clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
@@ -250,9 +255,13 @@ have been fulfilled.
   - **Actual Results**: Text below 'Forests' and 'National Parks' images is visible.
   - **Pass/Fail**: Pass.
 
+    - Screenshot of the 'Forests' card with the text below the image clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
     </div><br>
+
+    - Screenshot of the 'National parks' card, with the text below the image clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
@@ -264,11 +273,15 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
 
+     - Screenshot of the 'Forests' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
     <div align="center">
     <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the Forests map">
     </div><br>
 
-  <div align="center">
+     - Screenshot of the 'National Parks' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
+    <div align="center">
     <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the National Parks map">
     </div><br>
 
@@ -278,9 +291,13 @@ have been fulfilled.
   - **Actual Result**: When 'Hide Map' is clicked, the map will be hidden, and the image will be visible.
   - **Pass/Fail**: Pass.
 
+     - Screenshot of the 'Forests' card, with the image clearly visible, after 'Hide Map' has been clicked.
+
     <div align="center">
     <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the Forests card">
     </div><br>
+
+    - Screenshot of the 'National Parks' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
     <div align="center">
     <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the National Parks card">
@@ -292,11 +309,15 @@ have been fulfilled.
   - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
 
+    - Screenshot of the 'Forests' map with custom marker and marker cluster clearly visible.
+    
     <div align="center">
     <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the Forests map">
     </div><br>
 
-  <div align="center">
+    - Screenshot of the 'National Parks' screenshot with custom markers clearly visible.
+
+    <div align="center">
     <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the National Parks map">
     </div><br>
 
@@ -306,21 +327,31 @@ have been fulfilled.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
     
+    - Screenshot of the 'National Parks' map with the Sö‎deråsen infowindow clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/soderasen-infowindow.jpg" alt="Screenshot of the Soderasen infowindow on the National Parks card map">
     </div><br>
  
+      - Screenshot of the 'National Parks' map with the Stenshuvud infowindow clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
     </div><br>
+
+      - Screenshot of the 'Forests' map with the Häckeberga infowindow clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
     </div><br>
 
+      - Screenshot of the 'Forests' map with the Fulltofta infowindow clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
     </div><br>
+
+      - Screenshot of the 'Forests' map with the Skrylle infowindow clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
@@ -332,21 +363,31 @@ have been fulfilled.
   - **Actual Result**: Each infowindow displays information about a forest or a National Park in Skåne.
   - **Pass/Fail**: Pass.
   
+      - Screenshot of the Sö‎deråsen infowindow with information about the Sö‎deråsen National Park clearly displayed.
+    
     <div align="center">
     <img src="assets/images/readme-images/soderasen-infowindow.jpg" alt="Screenshot of the Soderasen infowindow on the National Parks card map">
     </div><br>
+
+      - Screenshot of the Stenshuvud infowindow with information about the Stenshuvud National Park clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
     </div><br>
 
+      - Screenshot of the Häckeberga infowindow with information about the Häckeberga forest clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/hackeberga-infowindow.jpg" alt="Screenshot of the Hackeberga infowindow on the National Parks card map">
     </div><br>
 
+      - Screenshot of the Häckeberga infowindow with information about the Fulltofta forest clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
     </div><br>
+
+      - Screenshot of the Häckeberga infowindow with information about the Skrylle forest clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
@@ -359,44 +400,64 @@ have been fulfilled.
   - **Actual Result**:  'Attribution' links on each infowindow take the user to external sites, which open in a new tab.
   - **Pass/Fail**: Pass.
 
-    <div align="center">
-    <img src="assets/images/readme-images/soderasen-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
-    </div><br>
+      - Screenshot of the Sö‎deråsen 'Attribution' link.
 
     <div align="center">
-    <img src="assets/images/readme-images/soderasen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    <img src="assets/images/readme-images/soderasen-infowindow-bottom.jpg" alt="Screenshot of the Sö‎deråsen infowindow on the National Parks card map">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
-    </div><br>
+      - Screenshot of the Sö‎deråsen 'Attribution' link having opened an external site in a new tab.
 
     <div align="center">
-    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    <img src="assets/images/readme-images/soderasen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sö‎deråsen infowindow on the National Parks card map">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/hackeberga-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
-    </div><br>
+      - Screenshot of the Stenshuvud 'Attribution' link.
 
     <div align="center">
-    <img src="assets/images/readme-images/hackeberga-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
     </div><br>
+
+       - Screenshot of the Stenshuvud 'Attribution' link having opened an external site in a new tab.
+
+    <div align="center">
+    <img src="assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Stenshuvud infowindow on the National Parks card map">
+    </div><br>
+
+      - Screenshot of the Häckeberga 'Attribution' link.
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow-bottom.jpg" alt="Screenshot of the Häckeberga infowindow on the National Parks card map">
+    </div><br>
+
+     - Screenshot of the Häckeberga 'Attribution' link having opened an external site in a new tab.
+
+    <div align="center">
+    <img src="assets/images/readme-images/hackeberga-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Häckeberga infowindow on the National Parks card map">
+    </div><br>
+
+      - Screenshot of the Skrylle 'Attribution' link.
 
     <div align="center">
     <img src="assets/images/readme-images/skrylle-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
     </div><br>
 
+     - Screenshot of the Skrylle 'Attribution' link having opened an external site in a new tab.
+
     <div align="center">
     <img src="assets/images/readme-images/skrylle-infowindow-bottom-new-window.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/fulltofta-infowindow-bottom.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
-    </div><br>
+      - Screenshot of the Fulltofta 'Attribution' link.
 
     <div align="center">
-    <img src="assets/images/readme-images/fulltofta-infowindow-bottom-new-window.jpg" alt="Screenshot of the Skrylle infowindow on the National Parks card map">
+    <img src="assets/images/readme-images/fulltofta-infowindow-bottom.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
+    </div><br>
+
+     - Screenshot of the Fulltofta 'Attribution' link having opened an external site in a new tab.
+
+    <div align="center">
+    <img src="assets/images/readme-images/fulltofta-infowindow-bottom-new-window.jpg" alt="Screenshot of the Fulltofta infowindow on the National Parks card map">
     </div><br>
 
 
@@ -407,7 +468,7 @@ have been fulfilled.
 5. I have booked a holiday to Skåne, and I want to find out where there are some beaches, so that I can enjoy a seaside break.
 7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 
-- Navigate to the 'Beautiful Beaches' section of the website.
+- Navigate to the 'Beautiful Beaches' section of the website by clicking on the 'Beautiful Beaches' navbar link, or by scrolling down the page.
   
   - **Test Case 1**:
     - Ensure that the 'East Coast', 'West Coast' and 'South Coast' images show pictures of beaches. 
@@ -415,6 +476,8 @@ have been fulfilled.
   - **Actual Result**: 'East Coast', 'West Coast' and 'South Coast' images are visible.
   - **Pass/Fail**: Pass.
     
+      - Screenshot of the 'Beautiful Beaches' cards with the images clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
     </div><br>
@@ -424,6 +487,8 @@ have been fulfilled.
   - **Expected Results**: Text below 'East Coast', 'West Coast and 'South Coast' images will be visible.
   - **Actual Results**: Text below 'East Coast', 'West Coast and 'South Coast' images is visible.
   - **Pass/Fail**: Pass.
+
+      - Screenshot of the 'Beautiful Beaches' cards with the text below the images clearly visible. 
 
     <div align="center">
     <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
@@ -435,8 +500,22 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
     
+      - Screenshot of the 'East Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
     <div align="center">
-    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' maps.">
+    <img src="assets/images/readme-images/east-coast-map.jpg" alt="Screenshot of the 'East Coast' map.">
+    </div><br>
+
+      - Screenshot of the 'West Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/west-coast-map.jpg" alt="Screenshot of the 'West Coast' map.">
+    </div><br>
+
+     - Screenshot of the 'South Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+ 
+    <div align="center">
+    <img src="assets/images/readme-images/south-coast-map.jpg" alt="Screenshot of the 'South Coast' map.">
     </div><br>
 
   - **Test Case 4**:
@@ -445,15 +524,31 @@ have been fulfilled.
   - **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
   - **Pass/Fail**: Pass.
   
+     - Screenshot of the 'East Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
+
     <div align="center">
-    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards with images displayed.">
+    <img src="assets/images/readme-images/east-coast-card-screenshot.jpg" alt="Screenshot of the 'East Coast' card with image displayed.">
     </div><br>
+
+      - Screenshot of the 'West Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/west-coast-card-screenshot.jpg" alt="Screenshot of the 'East Coast' card with image displayed.">
+    </div><br>    
+
+    - Screenshot of the 'South Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/south-coast-card-screenshot.jpg" alt="Screenshot of the 'East Coast' card with image displayed.">
+    </div><br>    
 
   - **Test Case 5**: 
     - Ensure that there are custom markers on each map.
   - **Expected Result**: When maps are visible, custom markers will be displayed on them. Markers that are close together will be displayed as marker clusters.
   - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
+
+      - Screenshot of the 'Beautiful Beaches' maps with custom markers and marker clusters clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' maps.">
@@ -465,37 +560,55 @@ have been fulfilled.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
 
-    <div align="center">
-    <img src="assets/images/readme-images/knabackshusen-infowindow.jpg" alt="Screenshot of the knabackshusen-infowindow.">
-    </div><br>
+      - Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displayed.
 
     <div align="center">
-    <img src="assets/images/readme-images/yngsjo-infowindow.jpg" alt="Screenshot of Yngsjo infowindow.">
+    <img src="assets/images/readme-images/knabackshusen-infowindow.jpg" alt="Screenshot of the Knäbäckshusen infowindow.">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the knabackshusen infowindow.">
-    </div><br>
+      - Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displayed.
 
     <div align="center">
-    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the farhultsbaden infowindow.">
+    <img src="assets/images/readme-images/yngsjo-infowindow.jpg" alt="Screenshot of Yngsjö infowindow.">
     </div><br>
+
+      - Screenshot of the 'East Coast' map with the Täppet infowindow clearly displayed.
+
+    <div align="center">
+    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the Täppet infowindow.">
+    </div><br>
+
+      - Screenshot of the 'East Coast' map with the Farhultsbaden infowindow clearly displayed.
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
+    </div><br>
+
+      - Screenshot of the 'East Coast' map with the Lomma Norra Badplats infowindow clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
     </div><br>
 
+      - Screenshot of the 'East Coast' map with the Falsterbo infowindow clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
+
+      - Screenshot of the 'East Coast' map with the Smygehuk infowindow clearly displayed.
 
      <div align="center">
     <img src="assets/images/readme-images/smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
     </div><br>
 
+      - Screenshot of the 'East Coast' map with the Ystad Sandskog infowindow clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/ystad-sandskog-infowindow.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
     </div><br>
+
+      - Screenshot of the 'East Coast' map with the Sandhammaren infowindow clearly displayed.
 
     <div align="center">
     <img src="assets/images/readme-images/sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
@@ -507,37 +620,55 @@ have been fulfilled.
   - **Actual Result**: Each infowindow displays information about a beach in Skåne.
   - **Pass/Fail**: Pass.
 
+      - Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displaying information about the beach.
+
   <div align="center">
     <img src="assets/images/readme-images/knabackshusen-infowindow.jpg" alt="Screenshot of the knabackshusen-infowindow.">
     </div><br>
+
+      - Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displaying information about the beach.
 
     <div align="center">
     <img src="assets/images/readme-images/yngsjo-infowindow.jpg" alt="Screenshot of Yngsjo infowindow.">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the knabackshusen infowindow.">
-    </div><br>
+      - Screenshot of the 'East Coast' map with the Täppet infowindow clearly displaying information about the beach.
 
     <div align="center">
-    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the farhultsbaden infowindow.">
+    <img src="assets/images/readme-images/tappet-infowindow.jpg" alt="Screenshot of the Täppet infowindow.">
     </div><br>
+
+      - Screenshot of the 'West Coast' map with the Farhultsbaden infowindow clearly displaying information about the beach.
+
+    <div align="center">
+    <img src="assets/images/readme-images/farhultsbaden-infowindow.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
+    </div><br>
+
+      - Screenshot of the 'West Coast' map with the Lomma Norra Badplats infowindow clearly displaying information about the beach.
 
     <div align="center">
     <img src="assets/images/readme-images/lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
     </div><br>
 
+      - Screenshot of the 'West Coast' map with the Falsterbo infowindow clearly displaying information about the beach.
+
     <div align="center">
     <img src="assets/images/readme-images/falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
+
+      - Screenshot of the 'South Coast' map with the Smygehuk infowindow clearly displaying information about the beach.
 
      <div align="center">
     <img src="assets/images/readme-images/smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
     </div><br>
 
+      - Screenshot of the 'South Coast' map with the Ystad Sandskog infowindow clearly displaying information about the beach.
+
     <div align="center">
     <img src="assets/images/readme-images/ystad-sandskog-infowindow.jpg" alt="Screenshot of Ystad Sandskog infowindow.">
     </div><br>
+
+      - Screenshot of the 'South Coast' map with the Sandhameren infowindow clearly displaying information about the beach.
 
     <div align="center">
     <img src="assets/images/readme-images/sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
@@ -550,73 +681,109 @@ have been fulfilled.
   - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
   - **Pass/Fail**: Pass.
 
+      - Screenshot of the Knäbäckshusen infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/knabackshusen-infowindow-bottom.jpg" alt="Screenshot of the Knäbäckshusen infowindow attribution.">
     </div><br>
+
+      - Screenshot of the Knäbäckshusen external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Knäbäckshusen external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Yngsjö Sandskog infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/yngsjo-infowindow-bottom.jpg" alt="Screenshot of Yngsjö Sandskog infowindow attribution.">
     </div><br>
+
+      - Screenshot of the Yngsjö Sandskog external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Yngsjö Sandskog external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Täppet infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/tappet-infowindow-bottom.jpg" alt="Screenshot of the Täppet infowindow attribution.">
     </div><br>
+
+      - Screenshot of the Täppet external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Täppet external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Farhultsbaden infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/farhultsbaden-infowindow-bottom.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
     </div><br>
+
+      - Screenshot of the Farhultsbaden external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/farhultsbaden-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Farhultsbaden external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Lomma Norra Badplats infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/lomma-norra-badplats-infowindow-bottom.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
     </div><br>
+
+      - Screenshot of the Lomma Norra Badplats external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/lomma-norra-badplats-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Lomma Norra Badplats external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Falsterbo infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/falsterbo-infowindow-bottom.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
+
+       - Screenshot of the Falsterbo external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/falsterbo-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Falsterbo external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Smygehuk infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/smygehuk-infowindow-bottom.jpg" alt="Screenshot of the Smygehuk infowindow.">
     </div><br>
+
+      - Screenshot of the Smygehuk external site open in a new tab.  
 
     <div align="center">
     <img src="assets/images/readme-images/smygehuk-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Smygehuk external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Ystad Sandskog infowindow with the 'Attribution' link clearly displayed. 
+
     <div align="center">
     <img src="assets/images/readme-images/ystad-sandskog-infowindow-bottom.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
     </div><br>
+
+      - Screenshot of the Ystad Sandskog external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/ystad-sandskog-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Ystad Sandskog external site in a new tab.">
     </div><br>
 
+      - Screenshot of the Sandhammaren infowindow with the 'Attribution' link clearly displayed.
+
     <div align="center">
     <img src="assets/images/readme-images/sandhammaren-infowindow-bottom.jpg" alt="Screenshot of the Sandhammaren infowindow.">
     </div><br>
+
+      - Screenshot of the Sandhammaren external site open in a new tab.
 
     <div align="center">
     <img src="assets/images/readme-images/sandhammaren-infowindow-bottom-new-tab.jpg" alt="Screenshot of the Sandhammaren external site in a new tab.">
@@ -629,12 +796,14 @@ have been fulfilled.
 6. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
 10. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
 
-- Navigate to the 'City and Culture' section of the website.
+- Navigate to the 'City and Culture' section of the website by clicking on 'City and Culture' on the navbar, or by scrolling down the page.
 - **Test Case 1**:
   - Ensure that the 'Malmö', 'Helsingborg' and 'Lund' images show pictures of each city. 
 - **Expected Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
 - **Actual Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
 - **Pass/Fail**: Pass.
+
+      - City and Culture cards with images clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
@@ -646,6 +815,8 @@ have been fulfilled.
 - **Actual Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images is visible.
 - **Pass/Fail**: Pass.
 
+      - City and Culture cards with text below images clearly visible.  
+
     <div align="center">
     <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
     </div><br>
@@ -655,8 +826,22 @@ have been fulfilled.
 - **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
 - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
 
-<div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-maps.jpg" alt="Screenshot of the Falsterbo infowindow.">
+      - Screenshot of the 'Malmö' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/malmo-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
+    </div><br>
+
+      - Screenshot of the 'Helsingborg' card, with the map clearly visible, after 'Show on Map' has been clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
+    </div><br>
+
+     - Screenshot of the 'Lund' card, with the map clearly visible, after 'Show on Map' has been clicked.  
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
     </div><br>
 
 - **Test Case 4**:
@@ -665,9 +850,24 @@ have been fulfilled.
 - **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
 - **Pass/Fail**: Pass.
 
-<div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the Falsterbo infowindow.">
+      - Screenshot of the 'Malmö' card, with the image clearly visible, after 'Hide Map' has been clicked. 
+
+    <div align="center">    
+    <img src="assets/images/readme-images/malmo-card-screenshot.jpg" alt="Screenshot of the Malmö card with the image visible.">
     </div><br>
+
+      - Screenshot of the 'Helsingborg' card, with the image clearly visible, after 'Hide Map' has been clicked. 
+
+    <div align="center">    
+    <img src="assets/images/readme-images/helsingborg-card-screenshot.jpg" alt="Screenshot of the Helsingborg card with the image visible.">
+    </div><br>
+
+      - Screenshot of the 'Lund' card, with the image clearly visible, after 'Hide Map' has been clicked. 
+
+    <div align="center">    
+    <img src="assets/images/readme-images/lund-card-screenshot.jpg" alt="Screenshot of the Helsingborg card with the image visible.">
+    </div><br>
+
 
 - **Test Case 5**:
   - Ensure that there are custom markers on each map. 
@@ -675,9 +875,24 @@ have been fulfilled.
 - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
 - **Pass/Fail**: Pass.
 
-    <div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-maps.jpg" alt="Screenshot of the City and Culture maps.">
+      - Screenshot of the 'Malmö' map with custom markers and marker clusters clearly visible.
+
+   <div align="center">
+    <img src="assets/images/readme-images/malmo-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
     </div><br>
+
+     - Screenshot of the 'Helsingborg' map with custom markers and marker clusters clearly visible.
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
+    </div><br>
+
+     - Screenshot of the 'Lund' map with custom markers and marker clusters clearly visible. 
+
+    <div align="center">
+    <img src="assets/images/readme-images/lund-card-map-screenshot.jpg" alt="Screenshot of the Malmö map.">
+    </div><br>
+
 
 - **Test Case 6**:
   - Ensure that when clicked, each marker will display an infowindow. 
@@ -685,41 +900,61 @@ have been fulfilled.
 - **Actual Result**: Each marker displays an infowindow when clicked.
 - **Pass/Fail**: Pass.
 
+      - Screenshot of the 'Malmö' map with the Disgusting Food Museum infowindow clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow1.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
     </div><br>
+
+      - Screenshot of the 'Malmö' map with the Malmö Opera infowindow clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow2.jpg" alt="Screenshot of the Malmo Opera infowindow.">
     </div><br>
 
+      - Screenshot of the 'Malmö' map with the Malmö Castle infowindow clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow3.jpg" alt="Screenshot of the Malmo Castle infowindow.">
     </div><br>
+
+    - Screenshot of the 'malmo' map with the Malmö Concert House infowindow clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow4.jpg" alt="Screenshot of the Malmo Concert House infowindow.">
     </div><br>
 
+      - Screenshot of the 'Helsingborg' map with the Sofiero infowindow clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/helsingborg-infowindow1.jpg" alt="Screenshot of the Sofiero Castle infowindow.">
     </div><br>
 
-    <div align="center">
-    <img src="assets/images/readme-images/helsingborg-infowindow2.jpg" alt="Screenshot of the Helsingborg Consert House infowindow.">
-    </div><br>
+      - Screenshot of the 'Helsingborg' map with the Helsingborg Concert House infowindow clearly visible.
 
     <div align="center">
-    <img src="assets/images/readme-images/helsingborg-infowindow3.jpg" alt="Screenshot of the Dunkers Concert Housse infowindow.">
+    <img src="assets/images/readme-images/helsingborg-infowindow2.jpg" alt="Screenshot of the Helsingborg Concert House infowindow.">
     </div><br>
+
+      - Screenshot of the 'Helsingborg' map with the Dunkers Culture House infowindow clearly visible.
+
+    <div align="center">
+    <img src="assets/images/readme-images/helsingborg-infowindow3.jpg" alt="Screenshot of the Dunkers Culture Housse infowindow.">
+    </div><br>
+
+      - Screenshot of the 'Lund' map with the Kulturen infowindow clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow1.jpg" alt="Screenshot of the Kulturen infowindow.">
     </div><br>
 
+      - Screenshot of the 'Lund' map with the Lund Cathedral infowindow clearly visible.
+
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow2.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
     </div><br>
+
+      - Screenshot of the 'Lund' map with the Lund Planetarium infowindow clearly visible.
 
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow3.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
@@ -731,41 +966,61 @@ have been fulfilled.
 - **Actual Result**:  Each infowindow displays information about recommended cultural activities in Malmö, Helsingborg and Lund.
 - **Pass/Fail**: Pass.
 
+      - Screenshot of the 'Malmö' map with the Disgusting Food Museum infowindow clearly displaying information about the location.
+
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow1.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
     </div><br>
+
+      - Screenshot of the 'Malmö' map with the Malmö Opera infowindow clearly displaying information about the location.
 
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow2.jpg" alt="Screenshot of the Malmo Opera infowindow.">
     </div><br>
 
+      - Screenshot of the 'Malmö' map with the Malmö Castle infowindow clearly displaying information about the location.
+
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow3.jpg" alt="Screenshot of the Malmo Castle infowindow.">
     </div><br>
-
+      
+      - Screenshot of the 'Malmö' map with the Malmö Concert House infowindow clearly displaying information about the location.
+    
     <div align="center">
     <img src="assets/images/readme-images/malmo-infowindow4.jpg" alt="Screenshot of the Malmo Concert House infowindow.">
     </div><br>
+
+      - Screenshot of the 'Helsingborg' map with the Sofiero infowindow clearly displaying information about the location.
 
     <div align="center">
     <img src="assets/images/readme-images/helsingborg-infowindow1.jpg" alt="Screenshot of the Sofiero Castle infowindow.">
     </div><br>
 
+      - Screenshot of the 'Helsingborg' map with the Helsingborg Concert House infowindow clearly displaying information about the location.
+
     <div align="center">
     <img src="assets/images/readme-images/helsingborg-infowindow2.jpg" alt="Screenshot of the Helsingborg Consert House infowindow.">
     </div><br>
 
+      - Screenshot of the 'Helsingborg' map with the Dunkers Culture House infowindow clearly displaying information about the location.
+    
     <div align="center">
     <img src="assets/images/readme-images/helsingborg-infowindow3.jpg" alt="Screenshot of the Dunkers Concert Housse infowindow.">
     </div><br>
+
+      - Screenshot of the 'Lund' map with the Kulturen infowindow clearly displaying information about the location.
 
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow1.jpg" alt="Screenshot of the Kulturen infowindow.">
     </div><br>
 
+      - Screenshot of the 'Lund' map with the Lund Cathedral infowindow clearly displaying information about the location.
+
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow2.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
     </div><br>
+
+       - Screenshot of the 'Lund' map with the Lund Planetarium infowindow clearly displaying information about the location.
 
     <div align="center">
     <img src="assets/images/readme-images/lund-infowindow3.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
