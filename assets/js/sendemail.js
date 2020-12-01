@@ -16,10 +16,9 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
             alert("Sorry, there has been an error. Your email has not been sent.");
-        }
-         
+        }  
     ); 
-        
+
     return false;  // To block from loading a new page
  
 }

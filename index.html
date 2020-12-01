@@ -692,7 +692,7 @@
 			</div><!--Form example copied from the CI Resume project-->
 			<div class="center-form">
 				<form id="contact-form" name="contact-form" onsubmit="return sendMail(this);">
-					<input class="form-control" id="fullname" name="name" placeholder="Name" type="text"> <input class="form-control" id="emailaddress" name="emailaddress" placeholder="Email" type="email"> 
+					<input class="form-control" id="fullname" name="name" placeholder="Name" type="text" required=""> <input class="form-control" id="emailaddress" name="emailaddress" placeholder="Email" type="email" required=""> 
 					<textarea class="form-control" id="suggestions" name="suggestions" placeholder="Your recommendations" required="" rows="5"></textarea>
 					<div class="row">
 						<div class="col-12 text-center">
@@ -701,7 +701,7 @@
 							</div>
 							<div class="row justify-content-center">
 								<button class="btn form-button center-block swedish-content" id="submit-button-swedish" type="submit">Skicka</button>
-							</div>
+							</div>  
 						</div>
 					</div>
 				</form>

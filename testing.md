@@ -1578,7 +1578,11 @@ have been fulfilled.
 - **Expected Result**: All 'Attribution' links will navigate to external sites, which open in new tabs.
 - **Actual Result**: All 'Attribution' links navigate to external sites, which open in new tabs.
 
-    
+    Whilst screenshots of the 'Attribution' links are provided, the developer deemed it unnecessary to provide screenshots
+    of the external sites open in new tabs, as the code is the same for the main map markers as it is for the smaller maps further 
+    up the page. Therefore, providing that the markers are visible on the map, the 'Attribution' link will work exactly as it does in 
+    all other instances.
+
     - Screenshot of the 'Disgusting Food Museum' infowindow with the 'Attribution' link clearly displayed.
 
     <div align="center">
@@ -1770,16 +1774,142 @@ have been fulfilled.
       - 'Name' 
       - 'Email'
       - 'Your recommendations'
+
+        - Screenshot of the contact form.
+
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-screenshot.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
+
     - Enter the following data into form fields:
       - Your name.
       - your email in the following format: name@host.com.
       - Your recommendations (text input)
     - Click 'Submit'
       - Ensure alert box appears with the following message: "Thank you. Your email has been sent. We'll get back to you as soon as we can!"
+  
   - **Expected Result**: Form submits without errors, and alert box confirms submission.
   - **Actual Result**: Form submits without errors, and alert box confirms sbmission.
   - **Pass/Fail**: Pass.
+
+        - Screenshot of the submitted form with alert box confirming submission.
+
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-submission-confirmation.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
   
+- **Test Case 2**:
+
+    - Ensure that Contact Form cannot be submitted with any blank fields, or with an email address that doesn't contain @.
+
+      - Screenshot of the Contact Form with the 'Name' field left blank when submit is clicked.
+    
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-blank-name-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
+
+      - Screenshot of the contact form with the email field blank when submit is clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-blank-email-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
+
+      - Screenshot of the contact form with the email field without an '@' sign when submit is clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-incorrect-email-format-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
+
+      - Screenshot of the contact form with a blank 'suggestions' field when submit is clicked.
+
+    <div align="center">
+    <img src="assets/images/readme-images/contact-form-blank-suddestions-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    </div><br>
+
+    - **Expected Result**: Form will not submit unless filled out correctly.
+    - **Actual Result**: Form will not submit unless filled out correctly.
+    - **Pass/Fail**: Pass.
+
+## Testing the Swedish content:
+
+- **Test Case 1**:
+
+  - Ensure that all text is displayed in Swedish once the Swedish flag is clicked.
+
+  - Screenshot of the Navbar in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-navbar.jpg" alt="Screenshot of the navbar in Swedish.">
+</div><br>
+
+  - Screenshot of the introduction in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-intro-text.jpg" alt="Screenshot of the introduction in Swedish.">
+</div><br>
+
+  - Screenshot of the Lakes and Forests Header and Card Tops in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-lakes-and-forests-header-and-card-tops.jpg" alt="Screenshot of the Lakes and Forests header and card tops.">
+</div><br>
+
+  - Screenshot of the Lakes and Forests text and scroll to top button in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-lakes-and-forests-cards-text-and-top-button.jpg" alt="Screenshot of the Lakes and Forests cards test and scroll to top button.">
+</div><br>
+
+  - Screenshot of the Beautiful Beaches Header and Card Tops in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-beautiful-beaches-header-and-card-tops.jpg" alt="Screenshot of Beautiful Beaches Header and card tops in Swedish.">
+</div><br>
+
+  - Screenshot of the Beautiful Beaches text and scroll to top button in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-beautiful-beaches-cards-text-and-top-button.jpg" alt="Screenshot of Beautiful Beaches text and scroll to top button in Swedish.">
+</div><br>
+
+  - Screenshot of the City and Culture Header and card topsin Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-city-and-culture-header-and-card-tops.jpg" alt="Screenshot of the City and Culture Header and Card Tops.">
+</div><br>
+
+  - Screenshot of the City and Culture text and scroll to top button in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-city-and-culture-text-and-top-button.jpg" alt="Screenshot of the City and Culture text and scroll to top button.">
+</div><br>
+
+  - Screenshot of the Map header and Search the Map text in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-map-header-and-search-on-map.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
+</div><br>
+
+  - Screenshot of the Book header and text in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-book-header-and-text.jpg" alt="Screenshot of the Book header and text in Swedish.">
+</div><br>
+
+  - Screenshot of the Map header and Search the Map text in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-map-header-and-search-on-map.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
+</div><br>
+
+  - Screenshot of the Contact header, text and contact form in Swedish.
+
+<div align="center">
+<img src="assets/images/readme-images/swedish-contact.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
+</div><br>
+
+
+
 ## Manual Testing:
 
 - Manual testing was carried out across a variety of browsers. The results are detailed here: 
