@@ -1890,16 +1890,17 @@ have been fulfilled.
 <img src="assets/images/readme-images/swedish-map-header-and-search-on-map.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
 </div><br>
 
+  - Screenshot of the infowindows with the text in Swedish. The developer thought it unnecessary to provide screnshots of the infowindows on the smaller maps as the 
+  code is the same for the main map markers as it is for the smaller maps further 
+  up the page. Therefore, providing that the markers are visible on the map, the infowindow will work exactly as it does in 
+  all other instances. 
+
+
+  
   - Screenshot of the Book header and text in Swedish.
 
 <div align="center">
 <img src="assets/images/readme-images/swedish-book-header-and-text.jpg" alt="Screenshot of the Book header and text in Swedish.">
-</div><br>
-
-  - Screenshot of the Map header and Search the Map text in Swedish.
-
-<div align="center">
-<img src="assets/images/readme-images/swedish-map-header-and-search-on-map.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
 </div><br>
 
   - Screenshot of the Contact header, text and contact form in Swedish.

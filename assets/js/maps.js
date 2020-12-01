@@ -384,7 +384,7 @@ function initAutocomplete() {
       lng: 14.1932,
       infoEng:
         "<h3 class='info-header'>Sandhammaren</h3><p>The silky white sands of Sandhammaren match the best beaches of the Caribbean. It’s been voted as Sweden’s best beach several times. Slouch around on white, powdery sand, take a dip in the sea, or enjoy a beach walk that goes for miles.</p><p>Attribution: <a class='info-link' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Visit Skåne</a></p>",
-      infSwe:
+      infoSwe:
          "<h3 class='info-header'>Sandhammaren</h3><p lang='sv'>Sandhammarens silkeslena vita sand har gjort att stranden utnämnts till Sveriges bästa flera gånger om. Koppla av, bada i havet eller promenera längs den flera kilometer långa stranden.</p><p>Attribution: <a class='info-link' href='https://visitskane.com/outdoors-adventure/sandhammaren-beach' target='_blank'>Visit Skåne</a></p>",
         type: beachesIcon,
     },
