@@ -21,22 +21,18 @@ The Discover Skåne site was discovered extensively, using the following process
 - The [W3C-Markup-Validation-Service](https://validator.w3.org/) was used to check that HTML used for the site was compliant with modern standards.
 The code passed the validator's tests with no errors or warnings:
 
-<img src="assets/images/readme-images/html-validator-w3c-results.jpg" alt="Screenshot of the W3 HTML validator results">
+![Screenshot of the W3 HTML validator results](assets/images/readme-images/html-validator-w3c-results.jpg "Screenshot of the W3 HTML validator results") 
 
 ## W3C CSS Validation Service: 
 
 - The [W3C-CSS-Validation-Service](https://jigsaw.w3.org/) was used to check that CSS used on the site was compliant with modern standards. The code passed the 
 validator's tests with no errors. 
 
-<div align="center">
-    <img src="assets/images/readme-images/w3c-css-validator.jpg" alt="Screenshot of the W3 CSS validator results">
-</div>
+![Screenshot of the W3 CSS validator results](assets/images/readme-images/w3c-css-validator.jpg "Screenshot of the W3 CSS validator results")
 
 There were, however, some warnings. These were to do with the code used to cross browser compatability for the display of background images.
 
-<div align="center">
-    <img src="assets/images/readme-images/w3c-css-validator-warnings.jpg" alt="Screenshot of the W3 CSS validator warnings">
-</div>
+![Screenshot of the W3 CSS validator warnings](assets/images/readme-images/w3c-css-validator-warnings.jpg "Screenshot of the W3 CSS validator warnings")
 
 ## JSHint:
 
@@ -67,6 +63,8 @@ have been fulfilled.
     
     - Screenshot of the 'Lakes' card, clearly showing the image:
 
+    ![Screenshot of the lakes card](assets/images/readme-images/lakes-card-screenshot.jpg "Screenshot of the lakes card")
+
     <div align="center">
     <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the lakes card">
     </div><br>
@@ -91,10 +89,6 @@ have been fulfilled.
   - **Pass/Fail**: Pass.
 
     - Screenshot of the 'Lakes' card, with the map clearly visible, after 'Show on Map' has been clicked.
-
-    <div align="center">
-    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the Hammarsjön infowindow on the lakes card map">
-    </div>
   
   - **Test Case 4** 
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
