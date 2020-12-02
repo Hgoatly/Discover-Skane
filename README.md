@@ -106,7 +106,8 @@ To find out how the features relate to the User Stories, jump to [How-The-Featur
 9. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
 10. I want to know what kind of cultural activities there are in the largest cities in Skåne, so that I know whether to book a city break there.
 11. I want to find some hotel deals, so that I can book my holiday in Skåne.
-12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
+12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another. I also want to be able to
+search the map to find additional locations.
 13. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
 
 ### First Time Visitor Goals:
@@ -349,7 +350,8 @@ some of the custom markers are visible.
     <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder"><br>
 </div>
 
-6. User Story 12 is concerned with being able to see all of the recommended places on one map. The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers.
+6. User Story 12 is concerned with being able to see all of the recommended places on one map, and to be able to search for additional locations on the map. 
+The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers. It also has a search box.
 
 <div align="center">
     <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map"><br>

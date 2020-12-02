@@ -1161,9 +1161,11 @@ have been fulfilled.
 
 ### Map:
 
-12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another.
+12. I want to view all the recommended places to visit in Skåne on one map, so that I know where they all are in relation to one another. I also want to be able to
+search the map to find additional locations.
 
-- Navigate to the 'Map' section of the website.
+- Navigate to the 'Map' section of the website by clicking on 'Map' on the navbar, or by scrolling down the page.
+
 - **Test Case 1**:
   - Ensure that Google Maps API map renders.
 - **Expected Result**: Google map should be visible.
@@ -1763,6 +1765,18 @@ have been fulfilled.
     <img src="assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
     </div><br>
 
+- **Test Case 5**: 
+  - Ensure that the searchbox functions correctly, and that the results of the search carried out are displayed on the map.
+- **Expected Result**: When locations are searched for in the searchbox, they will be displayed on the map.
+- **Actual Result**: When locations are searched for in the searchbox, they are displayed on the map.
+- **Pass/Fail**: Pass.
+
+    - Screenshot of the searchbox with location submitted, and location displayed on the map.
+
+    <div align="center">
+    <img src="assets/images/readme-images/search-box-test.jpg" alt="Screenshot of the searchbox with content visible, and result displayed on the map.">
+    </div><br>
+
 ### Contact: 
 
 13. I want to get in touch with the site owner so that I can recommend more places to visit in Skåne.
@@ -1801,34 +1815,32 @@ have been fulfilled.
 - **Test Case 2**:
 
     - Ensure that Contact Form cannot be submitted with any blank fields, or with an email address that doesn't contain @.
-
-      - Screenshot of the Contact Form with the 'Name' field left blank when submit is clicked.
+- **Expected Result**: Form will not submit unless filled out correctly.
+- **Actual Result**: Form will not submit unless filled out correctly.
+- **Pass/Fail**: Pass
+    - Screenshot of the Contact Form with the 'Name' field left blank when submit is clicked.
     
     <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-name-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    <img src="assets/images/readme-images/contact-form-blank-name-screenshot.jpg" alt="Screenshot of Contact Form with the name field left blank.">
     </div><br>
 
-      - Screenshot of the contact form with the email field blank when submit is clicked.
+    - Screenshot of the contact form with the email field blank when submit is clicked.
 
     <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-email-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    <img src="assets/images/readme-images/contact-form-blank-email-screenshot.jpg" alt="Screenshot of Contact Form with a blank email field.">
     </div><br>
 
-      - Screenshot of the contact form with the email field without an '@' sign when submit is clicked.
+    - Screenshot of the contact form with the email field without an '@' sign when submit is clicked.
 
     <div align="center">
-    <img src="assets/images/readme-images/contact-form-incorrect-email-format-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    <img src="assets/images/readme-images/contact-form-incorrect-email-format-screenshot.jpg" alt="Screenshot of Contact Form with the email field without an '@' sign.">
     </div><br>
 
-      - Screenshot of the contact form with a blank 'suggestions' field when submit is clicked.
+    - Screenshot of the contact form with a blank 'suggestions' field when submit is clicked.
 
     <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-suddestions-screenshot-confirmation.jpg" alt="Screenshot of Contact Form.">
+    <img src="assets/images/readme-images/contact-form-blank-sggestions-screenshot.jpg" alt="Screenshot of Contact Form with a blank 'suggestions' field.">
     </div><br>
-
-    - **Expected Result**: Form will not submit unless filled out correctly.
-    - **Actual Result**: Form will not submit unless filled out correctly.
-    - **Pass/Fail**: Pass.
 
 ## Testing the Swedish content:
 
@@ -2091,6 +2103,11 @@ have been fulfilled.
 
 
 
-## Manual Testing:
+## Manual Browser Compatibility Testing:
 
-- Manual testing was carried out across a variety of browsers. The results are detailed here: 
+- Manual testing was carried out across a variety of browsers. The results are detailed below. To download the tests as an Excel document, 
+click here.
+
+|  Page  | Section | Test | Windows 10 Home Edition version 1909. 64 bit |
+| -------------------------------------------------------------------- |
+
