@@ -93,7 +93,7 @@ The 'contact' section encourages the user to contact the site owner via a contac
 
 ### User Stories:
 
-To find out how the features relate to the User Stories, jump to [How-The-Features-Relate-To-The-User-Stories](#how-the-features-relate-to-the-user-stories).
+To find out how the features relate to the User Stories, jump to [How The Features Relate To The User Stories](#how-the-features-relate-to-the-user-stories).
 
 1. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go fishing.
 2. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can go canoeing.
@@ -146,7 +146,7 @@ from English to Swedish.
 
 - **404 Error Page:** A custom 404 error page has been designed in order to help the user find their way back to the site in the event of a 404 error.
 
-#### Colours Used:
+### Colours Used:
 
 - **Site Logo and Section Titles:** The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
@@ -181,40 +181,29 @@ clean and easy to read, which makes it an appropriate font for the text.
 - Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
 image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge.  
 
-<div align="center">
-    <img src="assets/images/landing-page.jpg" alt="Discover Skåne logo">
-</div><br>
+![Discover Skåne logo superimposed on a picture of the Öresund bridge](assets/images/landing-page.jpg)
 
 - Other appropriate images were chosen to represent different sections:
+
     - A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
     
-    <div align="center">
-    <img src="assets/images/hero-image.jpg" alt="Discover Skåne logo">
-</div><br>
+![Discover Skåne logo on a beautiful meadow](assets/images/hero-image.jpg)    
 
-    - A picture of a pine forest was chosen for the 'Lakes and Forests' section header.
-    
- <div align="center">
-    <img src="assets/images/sunlit-forest-resized.jpg" alt="Discover Skåne logo">
-</div><br>   
+- A picture of a pine forest was chosen for the 'Lakes and Forests' section header.
 
-    - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
+![A Pine Forest with sunbeams](assets/images/sunlit-forest-resized.jpg)       
 
- <div align="center">
-    <img src="assets/images/ystad-beach-resized.jpg" alt="Discover Skåne logo">
-</div><br>
+- A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
 
-    - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
+![A walkway over a sand dune on a beach](assets/images/ystad-beach-resized.jpg)
 
- <div align="center">
-    <img src="assets/images/castle1.jpg" alt="Discover Skåne logo">
-</div><br>
+- A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
 
-    - A picutre of a road in Skåne was chosen for the 'Map' section.
+![A moated castle](assets/images/castle1.jpg)
 
- <div align="center">
-    <img src="assets/images/road-resized.jpg" alt="Discover Skåne logo">
-</div><br>
+- A picutre of a road in Skåne was chosen for the 'Map' section.
+
+![A road winding through a forest in Autumn](assets/images/road-resized.jpg)
 
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
@@ -222,24 +211,18 @@ sections respectively, as they are descriptive images that represent the content
 
 - 'Book' Header Image:
 
- <div align="center">
-    <img src="assets/images/hotel.jpg" alt="Discover Skåne logo">
-</div><br>
+![A picture of a bed in a hotel room](assets/images/hotel.jpg)
 
 - 'Contact' Header Image:
 
- <div align="center">
-    <img src="assets/images/contact.jpg" alt="Discover Skåne logo">
-</div><br>
+![A picture of hands on a laptop](assets/images/contact.jpg)
 
 - The 404 Error page features an image of Tower Bridge in London. It is a visual metaphor to let the user know that they are definitely in the wrong place. 
 By featuring completely the wrong bridge, the idea is to keep the page lighthearted, but in the same style as the Landing Page. Sabina Plimmer on [LCN.com](https://www.lcn.com/blog/beginners-guide-custom-404-pages/)
 states: 'Try to keep it light-hearted. Remember, one of the primary reasons why we’re creating a custom 404 page is to replace the blunt and annoying “page cannot be displayed” 
 message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive.   
 
-<div align="center">
-    <img src="assets/images/readme-images/error-page.jpg" alt="Discover Skåne error page">
-</div>
+![A picture of Tower Bridge in London](assets/images/readme-images/error-page.jpg)
 
 ### Layout: 
 
@@ -308,61 +291,93 @@ is designed to be visually appealing. None of the content is collapsed.
 with custom markers. Each custom marker has an infowindow that displays more information about each lake.
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
-<div align="center">
-    <img src="assets/images/readme-images/lakes-card-screenshot.jpg" alt="Screenshot of the 'Lakes' card"><br>
-    <img src="assets/images/readme-images/lakes-map-screenshot.jpg" alt="Screenshot of the 'Lakes' map"><br>
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg" alt="Screenshot of one the Lakes map infowindows"><br>
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg" alt="Screenshot of one of the Lakes map infowindows"><br>
-    <img src="assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg" alt="Screenshot of one of the Lakes map infowindows"><br>
-</div>
+- Screenshot of the Lakes Card with image displayed.
+
+![Screenshot of the 'Lakes' card](assets/images/readme-images/lakes-card-screenshot.jpg)
+
+- Screenshot of the Lakes card with the map diplayed.
+
+![Screenshot of the 'Lakes' map](assets/images/readme-images/lakes-map-screenshot.jpg)
+
+- Screenshot of the Lakes card with the map displayed, and an info window open.
+
+![Screenshot of one the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg)
+
+- Screenshot of the Lakes card with the map displayed, and an info window open
+
+![Screenshot of one of the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg)
+
+- Screenshot of the Lakes card with the map displayed, and an info window open
+
+![Screenshot of one of the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg)
 
 2. User Stories 4 and 8 are concerned with finding a forest or National Park. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
 Each custom marker has an infowindow that displays more information about the forest, and a link that takes the user to an external site that can be visited to find out more about the destination.
 The same forests are displayed on the main map in the 'Map' section.
 
-<div align="center">
-    <img src="assets/images/readme-images/national-parks-card-screenshot.jpg" alt="Screenshot of the 'National Parks' card"><br>
-    <img src="assets/images/readme-images/national-parks-map-screenshot.jpg" alt="Screenshot of the 'National Parks' map"><br>
-    <img src="assets/images/readme-images/forests-card-screenshot.jpg" alt="Screenshot of the 'Forests' card"><br>
-    <img src="assets/images/readme-images/forests-map-screenshot.jpg" alt="Screenshot of the 'Forests' map"><br>
-</div>
+- Screenshot of the National Parks card with the image displayed.
+
+![Screenshot of the 'National Parks' card image](assets/images/readme-images/national-parks-card-screenshot.jpg)
+
+- Screenshot of the National Parks card with the map displayed.
+
+![Screenshot of the 'National Parks' map](assets/images/readme-images/national-parks-map-screenshot.jpg)
+
+- Screenshot of the Forests card with the image displayed.
+
+![assets/images/readme-images/forests-card-screenshot.jpg](Screenshot of the 'Forests' card)
+
+- Screenshot of the Forests card with the map displayed.
+
+![assets/images/readme-images/forests-map-screenshot.jpg](Screenshot of the 'Forests' map)
 
 3. User Stories 5 and 7 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
 maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
 
-<div align="center">
-    <img src="assets/images/readme-images/beach-cards-screenshot.jpg" alt="Screenshot of the 'Beautiful Beaches' cards"><br>
-    <img src="assets/images/readme-images/beach-cards-maps.jpg" alt="Screenshot of the 'Beautiful Beaches' cards maps"><br>
-</div>
+- Screenshot of the Beautiful Beaches cards with the images displayed.
+
+![Screenshot of the 'Beautiful Beaches' cards images](assets/images/readme-images/beach-cards-screenshot.jpg)
+
+- Screenshot of the Beautiful Beaches cards with the maps displayed.
+
+![Screenshot of the 'Beautiful Beaches' cards maps](assets/images/readme-images/beach-cards-maps.jpg)
+
 
 4. User Stories 6 and 10 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
 and displays them on a series of maps with custom markers. Usually, the custom markers display as marker clusters on these maps. In these images, the zoom level of the maps has been changed so that
 some of the custom markers are visible.
 
-<div align="center">
-    <img src="assets/images/readme-images/city-and-culture-cards-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards"><br>
-    <img src="assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg" alt="Screenshot of the 'City and Culture' cards maps"><br>
-</div>
+- Screenshot of the City and Culture cards with the images displayed.
+
+![Screenshot of the 'City and Culture' cards images](assets/images/readme-images/city-and-culture-cards-screenshot.jpg)
+
+- Screenshot of the City and Culture cards with the maps displayed.
+
+![Screenshot of the 'City and Culture' cards maps](assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg)
+
 
 5. User Story 11 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
 
-<div align="center">
-    <img src="assets/images/readme-images/book-screenshot.jpg" alt="Screenshot of the 'booking.com' deal finder"><br>
-</div>
+- Screenshot of the Booking.com deal finder API embedded on the page.
+
+![Screenshot of the 'booking.com' deal finder](assets/images/readme-images/book-screenshot.jpg)
+
 
 6. User Story 12 is concerned with being able to see all of the recommended places on one map, and to be able to search for additional locations on the map. 
 The 'Map' section uses the Google maps API to show all of the recommended places in Skåne on map, with custom markers. It also has a search box.
 
-<div align="center">
-    <img src="assets/images/readme-images/main-map-screenshot.jpg" alt="Screenshot of the main map"><br>
-</div>
+- Screenshot of the main map (Google Maps API) embedded on the page.
+
+![Screenshot of the main map](assets/images/readme-images/main-map-screenshot.jpg)
+
 
 7. User Story 13 is concerned with being able to contact the site owner, in order to be able to suggest more places that could be featured on the site. The 'Book' section uses the emailjs.com API, in order for the 
 user to be able to contact the site owner. 
 
-<div align="center">
-    <img src="assets/images/readme-images/contact-screenshot.jpg" alt="Screenshot of the contact form"><br>
-</div>
+- Screenshot of the Contact Form
+
+![Screenshot of the contact form](assets/images/readme-images/contact-screenshot.jpg)
+
 
 ### Interactive Features:
 
@@ -431,13 +446,12 @@ Information about tests carried out can be found in a separate [testing.md](test
 In order for this to work, in the CSS file, the header images must be set to ``background-attachement: fixed;``. This is not
 supported on iOS, and the images would not render correctly. An example of the 'Beautiful Beaches' picture is below:
 
-<div align="center">
-    <img src="assets/images/readme-images/broken-parallax.jpg" alt="Screenshot of the parallax images not rendering correctly">
-</div>
+![Screenshot of the parallax images not rendering correctly](assets/images/readme-images/broken-parallax.jpg)
+
 
 - The solution was to change create a media query that finds devices running iOS, and to within that media query change the background-attachment to scroll instead in this case.
 
-        ```@supports (-webkit-touch-callout: none) {
+        @supports (-webkit-touch-callout: none) {
         .section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{
         position: relative;
         opacity: 1;
@@ -446,7 +460,7 @@ supported on iOS, and the images would not render correctly. An example of the '
         background-repeat: no-repeat;
         background-attachment: scroll;
         } 
-        }```
+        }
 
 - **Bi-lingual-Infowindows:** As Discover Skåne is a bi-lingual site, it was important to make sure that the infowindows on the maps
 showed content in both languages. Initially, when an infowindow was opened, and then the language was changed, the language of the 
@@ -458,6 +472,9 @@ the language when clicked.
 the text of the 'Show Map'/Hide Map' buttons defaulted to 'Show Map'. This means that even if the map is already visible, the button will say 'Show Map'. 
 This issue was solved by using the JQuery hide() and show() effects to make sure that the map was hidden, and the picture was displayed whan the flag was clicked.
 
+- **Local Storage:** The intention was to be able to save the language preference to local storage, so that when the language Selection is made, it will be saved 
+in the user's browser for subsequent visits. Unfortunately, although something is being saved to local storage, it is not working as planned, and the language selection
+is not being saved. Due to time restraints this has not been resolved. It will be fixed in future releases. 
 
 ## Deployment:
 
@@ -465,17 +482,21 @@ This issue was solved by using the JQuery hide() and show() effects to make sure
 Discover Skåne was written in [Gitpod](https://www.gitpod.io/), and pushed to [Github](https://github.com/) for version control.
 The repository was named 'Discover Skane' rather than 'Discover Skåne' as the letter 'å' was not a valid character, and 'Discover Sk-ne' 
 was suggested instead.
-<img src="assets/images/readme-images/discover-sk-ne-image.jpg" alt="Screenshot showing suggested repository name of 'Discover Sk-ne'">
+
+![Screenshot showing suggested repository name of 'Discover Sk-ne](assets/images/readme-images/discover-sk-ne-image.jpg)
+
 It was deployed to [GitHub Pages](https://pages.github.com/) by following this process:
 
 1. Log in to [Github](https://github.com/).
 2. Locate the 'Discover Skane' repository.
 3. Click on the 'Settings' option on the menu: 
-<img src="assets/images/readme-images/inkeddiscover-skane-menu-screenshot.jpg" alt="Screenshot showing suggested repository name of 'Discover Sk-ne'">
+
+![Screenshot showing the Github menu with 'settings' highlighted](assets/images/readme-images/inkeddiscover-skane-menu-screenshot.jpg)
 
 4. Scroll down the 'Settings' page until the 'Github Pages' section is located.
 5. Under 'Source', on the drop-down menu, select 'Branch: master' instead of 'Branch: none'.
-<img src="assets/images/readme-images/github-pages-screenshot.jpg" alt="Screenshot showing Github Pages section of Github 'Settings' page with site successfully deployed.">
+
+![Screenshot showing Github Pages section of Github 'Settings' page with site successfully deployed](assets/images/readme-images/github-pages-screenshot.jpg)
 
 6. Selection will be saved, and page automatically refreshed. 
 7. To access the deployed site, click on the following link in the Github Pages section of the 'Settings' page:
@@ -488,7 +509,8 @@ In order to do this, please take the following steps:
 
 1. Log into Github, and select the [Discover Skane](https://hgoatly.github.io/Discover-Skane/) repository.
 2. In the top right hand corner of the page, click on the 'fork' button.
-<img src="assets/images/readme-images/inkedfork-repository-image.jpg" alt="Screenshot showing Github Pages menu with 'fork' option highlighted.">
+
+![Screenshot showing Github Pages menu with 'fork' option highlighted](assets/images/readme-images/inkedfork-repository-image.jpg)
 
 3. This will create a copy of the original repository in your own account.
 
@@ -498,7 +520,8 @@ The code can be run locally by taking the following steps:
 
 1. Log into Github, and select the [Discover Skane](https://hgoatly.github.io/Discover-Skane/) repository.
 2. Click on the 'code' button (circled in red below).
-<img src="assets/images/readme-images/inkedclone-repository-image.jpg" alt="Screenshot showing Github Pages menu with 'code' option highlighted.">
+
+![Screenshot showing Github Pages menu with 'code' option highlighted](assets/images/readme-images/inkedclone-repository-image.jpg)
 
 3. A dropdown will appear. 
 4. On the top left hand side, HTTPS should already be selected. If it is not, please select it. 
@@ -558,7 +581,7 @@ has been copied from the Bootstrap 4 documentation, and adapted by the developer
   - [Vattenhallen-Science-Center](http://www.vattenhallen.lth.se/english/the-planetarium/)
 
 
-- All other content was written by the developer, and translated by my Swedish husband: Ola Olsson.
+- All other content was written by the developer, and translated by her Swedish husband: Ola Olsson.
 
 ### Media:
 
