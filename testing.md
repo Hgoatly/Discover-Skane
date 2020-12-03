@@ -920,183 +920,125 @@ search the map to find additional locations.
 
       - Screenshot of the 'Dunkers Cultre House' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg" alt="Screenshot of the Dunkers Culture House infowindow.">
-    </div><br>
+    ![Screenshot of the Dunkers Culture House infowindow](assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg)
 
       - Screenshot of the 'Falsterbo' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
-    </div><br>
+    ![Screenshot of the Falsterbo infowindow](assets/images/readme-images/main-map-falsterbo-infowindow.jpg)
 
       - Screenshot of the 'Farhultsbaden' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
-    </div><br>
+    ![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg)
 
       - Screenshot of the 'Fulltofta' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow.">
-    </div><br>
+      ![Screenshot of the Fulltofta infowindow](assets/images/readme-images/main-map-fulltofta-infowindow.jpg)
 
       - Screenshot of the 'Häckeberga' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hackeberga-infowindow.jpg" alt="Screenshot of the Häckeberga infowindow.">
-    </div><br>    
-
+    ![Screenshot of the Häckeberga infowindow](assets/images/readme-images/main-map-hackeberga-infowindow.jpg)
+      
       - Screenshot of the 'Hammarsjön' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hammarsjon-infowindow.jpg" alt="Screenshot of the Hammarsjön infowindow.">
-    </div><br>    
+    ![Screenshot of the Hammarsjön infowindow](assets/images/readme-images/main-map-hammarsjon-infowindow.jpg)   
 
       - Screenshot of the 'Helsingborg Concert House' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg" alt="Screenshot of the Helsingborg Concert House infowindow.">
-    </div><br>    
+    ![Screenshot of the Helsingborg Concert House infowindow](assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg)   
 
       - Screenshot of the 'Helsingborg' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-infowindow.jpg" alt="Screenshot of the Helsingborg infowindow.">
-    </div><br>  
+    ![Screenshot of the Helsingborg infowindow](assets/images/readme-images/main-map-helsingborg-infowindow.jpg)
+
 
     - Screenshot of the 'Hjälmsjön' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg" alt="Screenshot of the Hjälmsjön infowindow.">
-    </div><br>   
+    ![Screenshot of the Hjälmsjön infowindow](assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg) 
 
       - Screenshot of the 'Knäbäckshusen' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-knabackshusen-infowindow.jpg" alt="Screenshot of the Knäbäckshusen infowindow.">
-    </div><br>   
+    ![Screenshot of the Knäbäckshusen infowindow](assets/images/readme-images/main-map-knabackshusen-infowindow.jpg)   
 
       - Screenshot of the 'Kulturen' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-kulturen-infowindow.jpg" alt="Screenshot of the Kulturen infowindow.">
-    </div><br> 
+    ![Screenshot of the Kulturen infowindow](assets/images/readme-images/main-map-kulturen-infowindow.jpg)
 
         - Screenshot of the 'Lake Immeln' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lake-immeln-infowindow.jpg" alt="Screenshot of the Lake Immeln infowindow.">
-    </div><br>   
+    ![Screenshot of the Lake Immeln infowindow](assets/images/readme-images/main-map-lake-immeln-infowindow.jpg) 
 
         - Screenshot of the 'Lomma Norra Badplats' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
-    </div><br>  
+    ![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg)  
 
     - Screenshot of the 'Lund Cathedral' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Cathedral infowindow](assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg) 
 
     - Screenshot of the 'Lund' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-infowindow.jpg" alt="Screenshot of the Lund infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund infowindow](assets/images/readme-images/main-map-lund-infowindow.jpg)  
 
     - Screenshot of the 'Lund' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-infowindow.jpg" alt="Screenshot of the Lund infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund infowindow](assets/images/readme-images/main-map-lund-infowindow.jpg) 
 
     - Screenshot of the 'Lund Planetarium' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Planetarium infowindow](assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg) 
 
     - Screenshot of the 'Malmö Castle' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-castle-infowindow.jpg" alt="Screenshot of the Malmö Castle infowindow.">
-    </div><br>  
+    ![Screenshot of the Malmö Castle infowindow](assets/images/readme-images/main-map-malmo-castle-infowindow.jpg) 
 
     - Screenshot of the 'Malmö Concert House' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg" alt="Screenshot of the Malmö Concert House infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö Concert House infowindow](assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg)
 
     - Screenshot of the 'Malmö' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-infowindow.jpg" alt="Screenshot of the Malmö infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö infowindow](assets/images/readme-images/main-map-malmo-infowindow.jpg)
 
     - Screenshot of the 'Malmö Opera' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-opera-infowindow.jpg" alt="Screenshot of the Malmö Opera infowindow.">
-    </div><br>
+    ![Screenshot of the Malmö Opera infowindow](assets/images/readme-images/main-map-malmo-opera-infowindow.jpg)
 
     - Screenshot of the 'Sandhameren' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
-    </div><br>
+    ![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/main-map-sandhammaren-infowindow.jpg)
 
     - Screenshot of the 'Skrylle' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow.">
-    </div><br>
+    ![Screenshot of the Skrylle infowindow](assets/images/readme-images/main-map-skrylle-infowindow.jpg)
 
     - Screenshot of the 'Smygehuk' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
-    </div><br>
+    ![Screenshot of the Smygehuk infowindow](assets/images/readme-images/main-map-smygehuk-infowindow.jpg)
 
     - Screenshot of the 'Sö‎deråsen' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-soderasen-infowindow.jpg" alt="Screenshot of the Sö‎deråsen infowindow.">
-    </div><br>
+    ![Screenshot of the Sö‎deråsen infowindow](assets/images/readme-images/main-map-soderasen-infowindow.jpg)
 
     - Screenshot of the 'Sofiero' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sofiero-infowindow.jpg" alt="Screenshot of the Sofiero infowindow.">
-    </div><br>
+    ![Screenshot of the Sofiero infowindow](assets/images/readme-images/main-map-sofiero-infowindow.jpg)
 
     - Screenshot of the 'Stenshuvud' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow.">
-    </div><br>
+    ![Screenshot of the Stenshuvud infowindow](assets/images/readme-images/main-map-stenshuvud-infowindow.jpg)
 
     - Screenshot of the 'Täppet' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-tappet-infowindow.jpg" alt="Screenshot of the Täppet infowindow.">
-    </div><br>
+    ![Screenshot of the Täppet infowindow](assets/images/readme-images/main-map-tappet-infowindow.jpg)
 
     - Screenshot of the 'Yngsjö' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-yngsjo-infowindow.jpg" alt="Screenshot of the Yngsjö infowindow.">
-    </div><br>
+    ![Screenshot of the Yngsjö infowindow](assets/images/readme-images/main-map-yngsjo-infowindow.jpg)
 
     - Screenshot of the 'Ystad Sandskog' infowindow.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
-    </div><br>
+    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
+
 
 - **Test Case 4**: 
   - Ensure that all infowindows display relevant information about their location.
@@ -1104,191 +1046,125 @@ search the map to find additional locations.
 - **Actual Result**: All infowindows display relevant information about their location.
 - **Pass/Fail**: Pass.
 
-      - Screenshot of the 'Disgusting Food Museum' infowindow with informationa clearly displayed about the location.
+      - Screenshot of the 'Disgusting Food Museum' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-disgusting-food-infowindow.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
-    </div><br>
+    ![Screenshot of the Disgusting Food Museum infowindow](assets/images/readme-images/main-map-disgusting-food-infowindow.jpg)
 
       - Screenshot of the 'Dunkers Cultre House' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg" alt="Screenshot of the Dunkers Culture House infowindow.">
-    </div><br>
+    ![Screenshot of the Dunkers Culture House infowindow](assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg)
 
       - Screenshot of the 'Falsterbo' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
-    </div><br>
+    ![Screenshot of the Falsterbo infowindow](assets/images/readme-images/main-map-falsterbo-infowindow.jpg)
 
       - Screenshot of the 'Farhultsbaden' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
-    </div><br>
+    ![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg)
 
       - Screenshot of the 'Fulltofta' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow.">
-    </div><br>
+    ![Screenshot of the Fulltofta infowindow](assets/images/readme-images/main-map-fulltofta-infowindow.jpg)
 
       - Screenshot of the 'Häckeberga' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hackeberga-infowindow.jpg" alt="Screenshot of the Häckeberga infowindow.">
-    </div><br>    
+    ![Screenshot of the Häckeberga infowindow](assets/images/readme-images/main-map-hackeberga-infowindow.jpg)  
 
       - Screenshot of the 'Hammarsjön' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hammarsjon-infowindow.jpg" alt="Screenshot of the Hammarsjön infowindow.">
-    </div><br>    
+    ![Screenshot of the Hammarsjön infowindow](assets/images/readme-images/main-map-hammarsjon-infowindow.jpg)    
 
       - Screenshot of the 'Helsingborg Concert House' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg" alt="Screenshot of the Helsingborg Concert House infowindow.">
-    </div><br>    
+    ![Screenshot of the Helsingborg Concert House infowindow](assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg)   
 
       - Screenshot of the 'Helsingborg' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-infowindow.jpg" alt="Screenshot of the Helsingborg infowindow.">
-    </div><br>  
+    ![Screenshot of the Helsingborg infowindow](assets/images/readme-images/main-map-helsingborg-infowindow.jpg)  
 
     - Screenshot of the 'Hjälmsjön' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg" alt="Screenshot of the Hjälmsjön infowindow.">
-    </div><br>   
+    ![Screenshot of the Hjälmsjön infowindow](assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg)  
 
       - Screenshot of the 'Knäbäckshusen' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-knabackshusen-infowindow.jpg" alt="Screenshot of the Knäbäckshusen infowindow.">
-    </div><br>   
+    ![Screenshot of the Knäbäckshusen infowindow](assets/images/readme-images/main-map-knabackshusen-infowindow.jpg)   
 
       - Screenshot of the 'Kulturen' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-kulturen-infowindow.jpg" alt="Screenshot of the Kulturen infowindow.">
-    </div><br> 
+    ![Screenshot of the Kulturen infowindow](assets/images/readme-images/main-map-kulturen-infowindow.jpg)
 
         - Screenshot of the 'Lake Immeln' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lake-immeln-infowindow.jpg" alt="Screenshot of the Lake Immeln infowindow.">
-    </div><br>   
+    ![Screenshot of the Lake Immeln infowindow](assets/images/readme-images/main-map-lake-immeln-infowindow.jpg)  
 
         - Screenshot of the 'Lomma Norra Badplats' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
-    </div><br>  
+    ![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg) 
 
     - Screenshot of the 'Lund Cathedral' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Cathedral infowindow](assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg)  
 
     - Screenshot of the 'Lund' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-infowindow.jpg" alt="Screenshot of the Lund infowindow.">
-    </div><br>  
-
-    - Screenshot of the 'Lund' infowindow with information clearly displayed about the location.
-
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-infowindow.jpg" alt="Screenshot of the Lund infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund infowindow](assets/images/readme-images/main-map-lund-infowindow.jpg)  
 
     - Screenshot of the 'Lund Planetarium' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Planetarium infowindow](assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg)  
 
     - Screenshot of the 'Malmö Castle' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-castle-infowindow.jpg" alt="Screenshot of the Malmö Castle infowindow.">
-    </div><br>  
+    ![Screenshot of the Malmö Castle infowindow](assets/images/readme-images/main-map-malmo-castle-infowindow.jpg)  
 
     - Screenshot of the 'Malmö Concert House' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg" alt="Screenshot of the Malmö Concert House infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö Concert House infowindow](assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg)
 
     - Screenshot of the 'Malmö' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-infowindow.jpg" alt="Screenshot of the Malmö infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö infowindow](assets/images/readme-images/main-map-malmo-infowindow.jpg)
 
     - Screenshot of the 'Malmö Opera' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-opera-infowindow.jpg" alt="Screenshot of the Malmö Opera infowindow.">
-    </div><br>
+    ![Screenshot of the Malmö Opera infowindow](assets/images/readme-images/main-map-malmo-opera-infowindow.jpg)
 
     - Screenshot of the 'Sandhameren' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
-    </div><br>
+    ![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/main-map-sandhammaren-infowindow.jpg)
 
     - Screenshot of the 'Skrylle' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow.">
-    </div><br>
+    ![Screenshot of the Skrylle infowindow](assets/images/readme-images/main-map-skrylle-infowindow.jpg)
 
     - Screenshot of the 'Smygehuk' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
-    </div><br>
+    ![Screenshot of the Smygehuk infowindow](assets/images/readme-images/main-map-smygehuk-infowindow.jpg)
 
     - Screenshot of the 'Sö‎deråsen' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-soderasen-infowindow.jpg" alt="Screenshot of the Sö‎deråsen infowindow.">
-    </div><br>
+    ![Screenshot of the Sö‎deråsen infowindow](assets/images/readme-images/main-map-soderasen-infowindow.jpg)
 
     - Screenshot of the 'Sofiero' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sofiero-infowindow.jpg" alt="Screenshot of the Sofiero infowindow.">
-    </div><br>
+    ![Screenshot of the Sofiero infowindow](assets/images/readme-images/main-map-sofiero-infowindow.jpg)
 
     - Screenshot of the 'Stenshuvud' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow.">
-    </div><br>
+    ![Screenshot of the Stenshuvud infowindow](assets/images/readme-images/main-map-stenshuvud-infowindow.jpg)
 
     - Screenshot of the 'Täppet' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-tappet-infowindow.jpg" alt="Screenshot of the Täppet infowindow.">
-    </div><br>
+    ![Screenshot of the Täppet infowindow](assets/images/readme-images/main-map-tappet-infowindow.jpg)
 
     - Screenshot of the 'Yngsjö' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-yngsjo-infowindow.jpg" alt="Screenshot of the Yngsjö infowindow.">
-    </div><br>
+    ![Screenshot of the Yngsjö infowindow.](assets/images/readme-images/main-map-yngsjo-infowindow.jpg)
 
     - Screenshot of the 'Ystad Sandskog' infowindow with information clearly displayed about the location.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
-    </div><br>
+    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
 
 
 - **Test Case 5**: 
@@ -1303,183 +1179,124 @@ search the map to find additional locations.
 
     - Screenshot of the 'Disgusting Food Museum' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-disgusting-food-infowindow.jpg" alt="Screenshot of the Disgusting Food Museum infowindow.">
-    </div><br>
+    ![Screenshot of the Disgusting Food Museum infowindow attribution](assets/images/readme-images/main-map-disgusting-food-infowindow.jpg)
 
       - Screenshot of the 'Dunkers Cultre House' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg" alt="Screenshot of the Dunkers Culture House infowindow.">
-    </div><br>
+    ![Screenshot of the Dunkers Culture House infowindow attribution](assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg)
 
       - Screenshot of the 'Falsterbo' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-falsterbo-infowindow.jpg" alt="Screenshot of the Falsterbo infowindow.">
-    </div><br>
+    ![Screenshot of the Falsterbo infowindow attribution](assets/images/readme-images/main-map-falsterbo-infowindow.jpg)
 
       - Screenshot of the 'Farhultsbaden' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg" alt="Screenshot of the Farhultsbaden infowindow.">
-    </div><br>
+    ![Screenshot of the Farhultsbaden infowindow attribution](assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg)
 
       - Screenshot of the 'Fulltofta' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-fulltofta-infowindow.jpg" alt="Screenshot of the Fulltofta infowindow.">
-    </div><br>
+    ![Screenshot of the Fulltofta infowindow attribution](assets/images/readme-images/main-map-fulltofta-infowindow.jpg)
 
       - Screenshot of the 'Häckeberga' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hackeberga-infowindow.jpg" alt="Screenshot of the Häckeberga infowindow.">
-    </div><br>    
+    ![Screenshot of the Häckeberga infowindow attribution](assets/images/readme-images/main-map-hackeberga-infowindow.jpg)   
 
       - Screenshot of the 'Hammarsjön' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hammarsjon-infowindow.jpg" alt="Screenshot of the Hammarsjön infowindow.">
-    </div><br>    
+    ![Screenshot of the Hammarsjön infowindow attribution](assets/images/readme-images/main-map-hammarsjon-infowindow.jpg) 
 
       - Screenshot of the 'Helsingborg Concert House' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg" alt="Screenshot of the Helsingborg Concert House infowindow.">
-    </div><br>    
+    ![Screenshot of the Helsingborg Concert House infowindow attribution](assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg)  
 
       - Screenshot of the 'Helsingborg' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-helsingborg-infowindow.jpg" alt="Screenshot of the Helsingborg infowindow.">
-    </div><br>  
+    ![Screenshot of the Helsingborg infowindow attribution](assets/images/readme-images/main-map-helsingborg-infowindow.jpg)
 
     - Screenshot of the 'Hjälmsjön' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg" alt="Screenshot of the Hjälmsjön infowindow.">
-    </div><br>   
+    ![Screenshot of the Hjälmsjön infowindow attribution](assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg)  
 
       - Screenshot of the 'Knäbäckshusen' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-knabackshusen-infowindow.jpg" alt="Screenshot of the Knäbäckshusen infowindow.">
-    </div><br>   
+    ![Screenshot of the Knäbäckshusen infowindow attribution](assets/images/readme-images/main-map-knabackshusen-infowindow.jpg) 
 
       - Screenshot of the 'Kulturen' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-kulturen-infowindow.jpg" alt="Screenshot of the Kulturen infowindow.">
-    </div><br> 
+    ![Screenshot of the Kulturen infowindow attribution](assets/images/readme-images/main-map-kulturen-infowindow.jpg) 
 
         - Screenshot of the 'Lake Immeln' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lake-immeln-infowindow.jpg" alt="Screenshot of the Lake Immeln infowindow.">
-    </div><br>   
+    ![Screenshot of the Lake Immeln infowindow attribution](assets/images/readme-images/main-map-lake-immeln-infowindow.jpg) 
 
         - Screenshot of the 'Lomma Norra Badplats' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow.">
-    </div><br>  
+    ![Screenshot of the Lomma Norra Badplats infowindow attribution](assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg)
 
     - Screenshot of the 'Lund Cathedral' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg" alt="Screenshot of the Lund Cathedral infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Cathedral infowindow attribution](assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg)
 
     - Screenshot of the 'Lund' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-infowindow.jpg" alt="Screenshot of the Lund infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund infowindow attribution](assets/images/readme-images/main-map-lund-infowindow.jpg)
 
     - Screenshot of the 'Lund Planetarium' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg" alt="Screenshot of the Lund Planetarium infowindow.">
-    </div><br>  
+    ![Screenshot of the Lund Planetarium infowindow attribution](assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg)
 
     - Screenshot of the 'Malmö Castle' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-castle-infowindow.jpg" alt="Screenshot of the Malmö Castle infowindow.">
-    </div><br>  
+    ![Screenshot of the Malmö Castle infowindow attribution](assets/images/readme-images/main-map-malmo-castle-infowindow.jpg) 
 
     - Screenshot of the 'Malmö Concert House' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg" alt="Screenshot of the Malmö Concert House infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö Concert House infowindow attribution](assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg)
 
     - Screenshot of the 'Malmö' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-infowindow.jpg" alt="Screenshot of the Malmö infowindow.">
-    </div><br> 
+    ![Screenshot of the Malmö infowindow attribution](assets/images/readme-images/main-map-malmo-infowindow.jpg)
 
     - Screenshot of the 'Malmö Opera' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-malmo-opera-infowindow.jpg" alt="Screenshot of the Malmö Opera infowindow.">
-    </div><br>
+    ![Screenshot of the Malmö Opera infowindow attribution](assets/images/readme-images/main-map-malmo-opera-infowindow.jpg)
 
     - Screenshot of the 'Sandhameren' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sandhammaren-infowindow.jpg" alt="Screenshot of the Sandhammaren infowindow.">
-    </div><br>
+    ![Screenshot of the Sandhammaren infowindow attribution](assets/images/readme-images/main-map-sandhammaren-infowindow.jpg)
 
     - Screenshot of the 'Skrylle' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-skrylle-infowindow.jpg" alt="Screenshot of the Skrylle infowindow.">
-    </div><br>
+    ![Screenshot of the Skrylle infowindow attribution](assets/images/readme-images/main-map-skrylle-infowindow.jpg)
 
     - Screenshot of the 'Smygehuk' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-smygehuk-infowindow.jpg" alt="Screenshot of the Smygehuk infowindow.">
-    </div><br>
+    ![Screenshot of the Smygehuk infowindow attribution](assets/images/readme-images/main-map-smygehuk-infowindow.jpg)
 
     - Screenshot of the 'Sö‎deråsen' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-soderasen-infowindow.jpg" alt="Screenshot of the Sö‎deråsen infowindow.">
-    </div><br>
+    ![Screenshot of the Sö‎deråsen infowindow](assets/images/readme-images/main-map-soderasen-infowindow.jpg)
 
     - Screenshot of the 'Sofiero' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-sofiero-infowindow.jpg" alt="Screenshot of the Sofiero infowindow.">
-    </div><br>
+    ![Screenshot of the Sofiero infowindow](assets/images/readme-images/main-map-sofiero-infowindow.jpg)
 
     - Screenshot of the 'Stenshuvud' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-stenshuvud-infowindow.jpg" alt="Screenshot of the Stenshuvud infowindow.">
-    </div><br>
+    ![Screenshot of the Stenshuvud infowindow](assets/images/readme-images/main-map-stenshuvud-infowindow.jpg)
 
     - Screenshot of the 'Täppet' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-tappet-infowindow.jpg" alt="Screenshot of the Täppet infowindow.">
-    </div><br>
+    ![Screenshot of the Täppet infowindow](assets/images/readme-images/main-map-tappet-infowindow.jpg)
 
     - Screenshot of the 'Yngsjö' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-yngsjo-infowindow.jpg" alt="Screenshot of the Yngsjö infowindow.">
-    </div><br>
+    ![Screenshot of the Yngsjö infowindow](assets/images/readme-images/main-map-yngsjo-infowindow.jpg)
 
     - Screenshot of the 'Ystad Sandskog' infowindow with the 'Attribution' link clearly displayed.
 
-    <div align="center">
-    <img src="assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg" alt="Screenshot of the Ystad Sandskog infowindow.">
-    </div><br>
+    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
+
 
 - **Test Case 5**: 
   - Ensure that the searchbox functions correctly, and that the results of the search carried out are displayed on the map.
@@ -1489,9 +1306,8 @@ search the map to find additional locations.
 
     - Screenshot of the searchbox with location submitted, and location displayed on the map.
 
-    <div align="center">
-    <img src="assets/images/readme-images/search-box-test.jpg" alt="Screenshot of the searchbox with content visible, and result displayed on the map.">
-    </div><br>
+    ![Screenshot of the searchbox with content visible, and result displayed on the map](assets/images/readme-images/search-box-test.jpg)
+
 
 ### Contact: 
 
@@ -1507,9 +1323,7 @@ search the map to find additional locations.
 
         - Screenshot of the contact form.
 
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-screenshot.jpg" alt="Screenshot of Contact Form.">
-    </div><br>
+    ![Screenshot of Contact Form](assets/images/readme-images/contact-form-screenshot.jpg)
 
     - Enter the following data into form fields:
       - Your name.
@@ -1524,9 +1338,8 @@ search the map to find additional locations.
 
         - Screenshot of the submitted form with alert box confirming submission.
 
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-submission-confirmation.jpg" alt="Screenshot of Contact Form.">
-    </div><br>
+    ![Screenshot of Contact Form](assets/images/readme-images/contact-form-submission-confirmation.jpg)
+
   
 - **Test Case 2**:
 
@@ -1535,28 +1348,21 @@ search the map to find additional locations.
 - **Actual Result**: Form will not submit unless filled out correctly.
 - **Pass/Fail**: Pass
     - Screenshot of the Contact Form with the 'Name' field left blank when submit is clicked.
-    
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-name-screenshot.jpg" alt="Screenshot of Contact Form with the name field left blank.">
-    </div><br>
+
+    ![Screenshot of Contact Form with the name field left blank](assets/images/readme-images/contact-form-blank-name-screenshot.jpg)
 
     - Screenshot of the contact form with the email field blank when submit is clicked.
 
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-email-screenshot.jpg" alt="Screenshot of Contact Form with a blank email field.">
-    </div><br>
+    ![Screenshot of Contact Form with a blank email field](assets/images/readme-images/contact-form-blank-email-screenshot.jpg)
 
     - Screenshot of the contact form with the email field without an '@' sign when submit is clicked.
 
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-incorrect-email-format-screenshot.jpg" alt="Screenshot of Contact Form with the email field without an '@' sign.">
-    </div><br>
+    ![Screenshot of Contact Form with the email field without an '@' sign.](assets/images/readme-images/contact-form-incorrect-email-format-screenshot.jpg)
 
     - Screenshot of the contact form with a blank 'suggestions' field when submit is clicked.
 
-    <div align="center">
-    <img src="assets/images/readme-images/contact-form-blank-sggestions-screenshot.jpg" alt="Screenshot of Contact Form with a blank 'suggestions' field.">
-    </div><br>
+    ![Screenshot of Contact Form with a blank 'suggestions' field](assets/images/readme-images/contact-form-blank-sggestions-screenshot.jpg)
+
 
 ## Testing the Swedish content:
 
@@ -1566,57 +1372,39 @@ search the map to find additional locations.
 
   - Screenshot of the Navbar in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-navbar.jpg" alt="Screenshot of the navbar in Swedish.">
-</div><br>
+    ![Screenshot of the navbar in Swedish](assets/images/readme-images/swedish-navbar.jpg)
 
   - Screenshot of the introduction in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-intro-text.jpg" alt="Screenshot of the introduction in Swedish.">
-</div><br>
+    ![Screenshot of the introduction in Swedish](assets/images/readme-images/swedish-intro-text.jpg)
 
   - Screenshot of the Lakes and Forests Header and Card Tops in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-lakes-and-forests-header-and-card-tops.jpg" alt="Screenshot of the Lakes and Forests header and card tops.">
-</div><br>
+    ![Screenshot of the Lakes and Forests header and card tops](assets/images/readme-images/swedish-lakes-and-forests-header-and-card-tops.jpg)
 
   - Screenshot of the Lakes and Forests text and scroll to top button in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-lakes-and-forests-cards-text-and-top-button.jpg" alt="Screenshot of the Lakes and Forests cards test and scroll to top button.">
-</div><br>
+    ![Screenshot of the Lakes and Forests cards test and scroll to top button](assets/images/readme-images/swedish-lakes-and-forests-cards-text-and-top-button.jpg)
 
   - Screenshot of the Beautiful Beaches Header and Card Tops in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-beautiful-beaches-header-and-card-tops.jpg" alt="Screenshot of Beautiful Beaches Header and card tops in Swedish.">
-</div><br>
+    ![Screenshot of Beautiful Beaches Header and card tops in Swedish](assets/images/readme-images/swedish-beautiful-beaches-header-and-card-tops.jpg)
 
   - Screenshot of the Beautiful Beaches text and scroll to top button in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-beautiful-beaches-cards-text-and-top-button.jpg" alt="Screenshot of Beautiful Beaches text and scroll to top button in Swedish.">
-</div><br>
+    ![Screenshot of Beautiful Beaches text and scroll to top button in Swedish](assets/images/readme-images/swedish-beautiful-beaches-cards-text-and-top-button.jpg)
 
   - Screenshot of the City and Culture Header and card topsin Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-city-and-culture-header-and-card-tops.jpg" alt="Screenshot of the City and Culture Header and Card Tops.">
-</div><br>
+    ![Screenshot of the City and Culture Header and Card Tops](assets/images/readme-images/swedish-city-and-culture-header-and-card-tops.jpg)
 
   - Screenshot of the City and Culture text and scroll to top button in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-city-and-culture-text-and-top-button.jpg" alt="Screenshot of the City and Culture text and scroll to top button.">
-</div><br>
+    ![Screenshot of the City and Culture text and scroll to top button](assets/images/readme-images/swedish-city-and-culture-text-and-top-button.jpg)
 
   - Screenshot of the Map header and Search the Map text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-map-header-and-search-on-map.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
-</div><br>
+    ![Screenshot of the Map header and Search on Map text in Swedish](assets/images/readme-images/swedish-map-header-and-search-on-map.jpg)
 
   - Screenshots of the infowindows with the text in Swedish. 
   
