@@ -632,17 +632,17 @@ have been fulfilled.
 - **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
 - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
 
-      - Screenshot of the 'Malmö' card, with the map clearly visible, after 'Show on Map' has been clicked.
+    - Screenshot of the 'Malmö' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
-    ![Screenshot of the Malmö map](assets/images/readme-images/malmo-card-map-screenshot.jpg)
+![Screenshot of the Malmö map](assets/images/readme-images/malmo-card-map-screenshot.jpg)
 
       - Screenshot of the 'Helsingborg' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
-    ![Screenshot of the Helsingborg map](assets/images/readme-images/helsingborg-card-map-screenshot.jpg)
+![Screenshot of the Helsingborg map](assets/images/readme-images/helsingborg-card-map-screenshot.jpg)
 
      - Screenshot of the 'Lund' card, with the map clearly visible, after 'Show on Map' has been clicked.  
 
-    ![Screenshot of the Lund map](assets/images/readme-images/lund-card-map-screenshot.jpg)
+![Screenshot of the Lund map](assets/images/readme-images/lund-card-map-screenshot.jpg)
 
 
 - **Test Case 4**:
@@ -653,7 +653,7 @@ have been fulfilled.
 
       - Screenshot of the 'Malmö' card, with the image clearly visible, after 'Hide Map' has been clicked. 
 
-    ![Screenshot of the Malmö card with the image visible](assets/images/readme-images/malmo-card-screenshot.jpg)
+![Screenshot of the Malmö card with the image visible](assets/images/readme-images/malmo-card-screenshot.jpg)
 
       - Screenshot of the 'Helsingborg' card, with the image clearly visible, after 'Hide Map' has been clicked. 
 
@@ -1400,7 +1400,7 @@ search the map to find additional locations.
 
   - Screenshot of the City and Culture text and scroll to top button in Swedish.
 
-    ![Screenshot of the City and Culture text and scroll to top button](assets/images/readme-images/swedish-city-and-culture-text-and-top-button.jpg)
+    ![Screenshot of the City and Culture text and scroll to top button](assets/images/readme-images/swedish-city-and-culture-card-text-and-top-button.jpg)
 
   - Screenshot of the Map header and Search the Map text in Swedish.
 
@@ -1415,196 +1415,131 @@ search the map to find additional locations.
 
   - Screenshot of the Disgusting Food Museum infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-disgusting-museum.jpg" alt="Screenshot of the Disgusting Food Museum infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Disgusting Food Museum infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-disgusting-museum.jpg)
 
   - Screenshot of the Dunkers Cultre House infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-dunkers-culture-house.jpg" alt="Screenshot of the Dunkers Culture House infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Dunkers Culture House infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-dunkers-culture-house.jpg)
 
   - Screenshot of the Falsterbo infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-falsterbo.jpg" alt="Screenshot of the Falsterbo infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Falsterbo infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-falsterbo.jpg)
 
   - Screenshot of the Farhultsbaden infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-farhultsbaden.jpg" alt="Screenshot of the Farhultsbaden infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Farhultsbaden infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-farhultsbaden.jpg)
 
   - Screenshot of the Fulltofta infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-fulltofta.jpg" alt="Screenshot of the Fulltofta infowindow with the text in Swedish.">
-</div><br>  
+    ![Screenshot of the Fulltofta infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-fulltofta.jpg)
 
   - Screenshot of the Häckeberga infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-hackeberga.jpg" alt="Screenshot of the Häckeberga infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Häckeberga infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-hackeberga.jpg)
 
   - Screenshot of the Hammarsjön infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-hammarsjon.jpg" alt="Screenshot of the Hammarsjön infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Hammarsjön infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-hammarsjon.jpg)
 
   - Screenshot of the Helsingborg infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-helsingborg.jpg" alt="Screenshot of the Helsingborg infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Helsingborg infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-helsingborg.jpg)
 
   - Screenshot of the Helsingborg Concert House infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-helsingborg-concert-house.jpg" alt="Screenshot of the Helsingborg Concert House infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Helsingborg Concert House infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-helsingborg-concert-house.jpg)
 
   - Screenshot of the Hjälmsjön infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-hjalmsjon.jpg" alt="Screenshot of the Hjälmsjön Concert House infowindow with the text in Swedish.">
-</div><br>
- 
+    ![Screenshot of the Hjälmsjön Concert House infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-hjalmsjon.jpg)
+
   - Screenshot of the Knäbäckshusen infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-knabackshusen.jpg" alt="Screenshot of the Knäbäckshusen infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Knäbäckshusen infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-knabackshusen.jpg)
  
   - Screenshot of the Kulturen infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-kulturen.jpg" alt="Screenshot of the Kulturen infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Kulturen infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-kulturen.jpg)
 
   - Screenshot of the Lake Immeln infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-lake-immeln.jpg" alt="Screenshot of the Lake Immeln infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Lake Immeln infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-lake-immeln.jpg)
 
   - Screenshot of the Lomma Norra Badplats infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-lomma-norra-badplats.jpg" alt="Screenshot of the Lomma Norra Badplats infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Lomma Norra Badplats infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-lomma-norra-badplats.jpg)
 
   - Screenshot of the Lund infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-lund.jpg" alt="Screenshot of the Lund infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Lund infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-lund.jpg)
 
   - Screenshot of the Lund Cathedral infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-lund-cathedral.jpg" alt="Screenshot of the Lund Cathedral infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Lund Cathedral infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-lund-cathedral.jpg)
 
   - Screenshot of the Lund Planetarium infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-lund-planetarium.jpg" alt="Screenshot of the Lund Planetarium infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Lund Planetarium infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-lund-planetarium.jpg)
 
   - Screenshot of the Malmö infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-malmo.jpg" alt="Screenshot of the Malmö infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Malmö infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-malmo.jpg)
 
   - Screenshot of the Malmö Castle infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-malmo-castle.jpg" alt="Screenshot of the Malmö Castle infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Malmö Castle infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-malmo-castle.jpg)
 
   - Screenshot of the Malmö Concert Hall infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-malmo-concert-hall.jpg" alt="Screenshot of the Malmö Concert Hall infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Malmö Concert Hall infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-malmo-concert-hall.jpg)
 
   - Screenshot of the Malmö Opera infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-malmo-opera.jpg" alt="Screenshot of the Malmö Opera infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Malmö Opera infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-malmo-opera.jpg)
 
   - Screenshot of the Sandhammaren infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-sandhammaren.jpg" alt="Screenshot of the Sandhammaren infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Sandhammaren infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-sandhammaren.jpg)
 
    - Screenshot of the Skrylle infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-skrylle.jpg" alt="Screenshot of the Skrylle infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Skrylle infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-skrylle.jpg)
   
   - Screenshot of the Smygehuk infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-smygehuk.jpg" alt="Screenshot of the Smygehuk infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Smygehuk infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-smygehuk.jpg)
 
   - Screenshot of the Sö‎deråsen infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-soderasen.jpg" alt="Screenshot of the Sö‎deråsen infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Sö‎deråsen infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-soderasen.jpg)
 
   - Screenshot of the Sofiero infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-sofiero.jpg" alt="Screenshot of the Sofiero infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Sofiero infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-sofiero.jpg)
 
   - Screenshot of the Stenshuvud infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-stenshuvud.jpg" alt="Screenshot of the Stenshuvud infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Stenshuvud infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-stenshuvud.jpg)
 
    - Screenshot of the Täppet infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-tappet.jpg" alt="Screenshot of the Täppet infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Täppet infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-tappet.jpg)
 
   - Screenshot of the Yngsjö infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-yngsjo.jpg" alt="Screenshot of the Yngsjö infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Yngsjö infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-yngsjo.jpg)
 
   - Screenshot of the Ystad Sandskog infowindow with the text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-infowindow-ystad-sandskog.jpg" alt="Screenshot of the Ystad Sandskog infowindow with the text in Swedish.">
-</div><br>
+    ![Screenshot of the Ystad Sandskog infowindow with the text in Swedish](assets/images/readme-images/swedish-infowindow-ystad-sandskog.jpg)
 
   - Screenshot of the Book header and text in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-book-header-and-text.jpg" alt="Screenshot of the Book header and text in Swedish.">
-</div><br>
+    ![Screenshot of the Book header and text in Swedish](assets/images/readme-images/swedish-book-header-and-text.jpg)
 
   - Screenshot of the Contact header, text and contact form in Swedish.
 
-<div align="center">
-<img src="assets/images/readme-images/swedish-contact.jpg" alt="Screenshot of the Map header and Search on Map text in Swedish.">
-</div><br>
-
+    ![Screenshot of the Map header and Search on Map text in Swedish](assets/images/readme-images/swedish-contact.jpg)
 
 
 ## Manual Browser Compatibility Testing:
