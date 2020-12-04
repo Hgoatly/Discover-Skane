@@ -330,7 +330,7 @@ have been fulfilled.
 
        - Screenshot of the Stenshuvud 'Attribution' link having opened an external site in a new tab.
 
-    ![Screenshot of the Sö‎deråsen external site](assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg)
+    ![Screenshot of the Sötenshuvud external site](assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg)
 
       - Screenshot of the Häckeberga 'Attribution' link.
 
@@ -354,7 +354,7 @@ have been fulfilled.
 
      - Screenshot of the Fulltofta 'Attribution' link having opened an external site in a new tab.
 
-    ![Screenshot of the Fulltofta external site](assets/images/readme-images/fulltofta-infowindow-bottom-new-window.jpg)
+    ![Screenshot of the Fulltofta external site](assets/images/readme-images/fulltofta-infowindow-bottom-new-tab.jpg)
 
 ### Beautiful Beaches:
 

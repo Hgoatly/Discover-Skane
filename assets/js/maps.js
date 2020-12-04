@@ -1,8 +1,10 @@
-//Google Maps and Marker Cluster code as instructed on CI 'Resume' walkthrough, and on Google Maps documentation.
+//Google Maps and Marker Cluster code inspired by CI 'Resume' walkthrough, and on Google Maps documentation.
 //Help with code for how Info Windows can be used in conjunction with Marker Clusters found in an answer on 'Stack Overflow':
 //https://stackoverflow.com/questions/40047210/integrate-google-maps-markerclusterer-with-infowindow.
 
+//Function to initialise maps
 function initAutocomplete() {
+//Main Map
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 8.15,
     center: {
@@ -111,6 +113,7 @@ function initAutocomplete() {
     }
   );
 
+  //Accordion maps for smaller screens
   var accordionNationalParksMap = new google.maps.Map(
     document.getElementById("accordion-national-parks-map"),
     {
@@ -199,8 +202,10 @@ function initAutocomplete() {
     }
   );
 
+
   var infoWin = new google.maps.InfoWindow();
 
+  //Custom Icons.
   const lakesIcon = {
     url: "assets/images/lake-icon.png",
     scaledSize: new google.maps.Size(32, 32),
@@ -241,6 +246,8 @@ function initAutocomplete() {
     scaledSize: new google.maps.Size(32, 32),
   };
 
+
+  //Map Locations.
   var locations = [
     //Lakes and Forests coordinates
     {
@@ -519,6 +526,7 @@ function initAutocomplete() {
     },
   ];
 
+  //Display correct custom icons on each map.
   var lakeLocations = locations.slice(0, 3);
   var nationalParksLocations = locations.slice(3, 5);
   var forestLocations = locations.slice(5, 8);
@@ -529,14 +537,16 @@ function initAutocomplete() {
   var helsingborgLocations = locations.slice(23, 27);
   var lundLocations = locations.slice(27, 31);
 
+  //Add custom markers to the main map.
   var markers = locations.map(function (location, i) {
     var marker = new google.maps.Marker({
       position: location,
       icon: locations[i % locations.length].type,
     });
 
+    //Open infowindows on click event, and ensure they display content in the correct language.
     google.maps.event.addListener(marker, "click", function () {
-    //The following code was helpfully suggested on Stack Overflow:
+    //The following code was helpfully suggested on Stack Overflow: https://stackoverflow.com/questions/64563206/i-have-a-site-with-content-in-two-languages-how-do-i-change-the-language-of-the
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
      //End of copied code.
      infoWin.open(map, marker);
@@ -544,24 +554,31 @@ function initAutocomplete() {
     return marker;
   });
 
+  //Add custom markers to the Lake map.
   var lakeMarkers = lakeLocations.map(function (location, i) {
     var lakeMarker = new google.maps.Marker({
       position: location,
       icon: lakeLocations[i % locations.length].type,
     });
     
+    //Open infowindows on the Lakes map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(lakeMarker, "click", function () {
+    //The following code was helpfully suggested on Stack Overflow: https://stackoverflow.com/questions/64563206/i-have-a-site-with-content-in-two-languages-how-do-i-change-the-language-of-the
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
+    //End of copied code.  
       infoWin.open(map, lakeMarker);
     });
     return lakeMarker;
     });
   
+    //Display custom markers on the National Parks map.
   var nationalParksMarkers = nationalParksLocations.map(function (location, i) {
     var nationalParksMarker = new google.maps.Marker({
       position: location,
       icon: nationalParksLocations[i % locations.length].type,
     });
+
+    //Open infowindows on the National Parks map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(nationalParksMarker, "click", function () {
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, nationalParksMarker);
@@ -569,11 +586,14 @@ function initAutocomplete() {
     return nationalParksMarker;
   });
 
+  //Display custom markers on the Forests map.
   var forestsMarkers = forestLocations.map(function (location, i) {
     var forestMarker = new google.maps.Marker({
       position: location,
       icon: forestLocations[i % locations.length].type,
     });
+
+    //Open infowindows on the Forests map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(forestMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, forestMarker);
@@ -581,11 +601,14 @@ function initAutocomplete() {
     return forestMarker;
   });
 
+  //Display custom markers on the East Coast map.
   var eastCoastMarkers = eastCoastLocations.map(function (location, i) {
     var eastCoastMarker = new google.maps.Marker({
       position: location,
       icon: eastCoastLocations[i % locations.length].type,
     });
+
+    //Open infowindows on the East Coast map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(eastCoastMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, eastCoastMarker);
@@ -593,11 +616,14 @@ function initAutocomplete() {
     return eastCoastMarker;
   });
 
+    //Display custom markers on the West Coast map.
   var westCoastMarkers = westCoastLocations.map(function (location, i) {
     var westCoastMarker = new google.maps.Marker({
       position: location,
       icon: westCoastLocations[i % locations.length].type,
     });
+
+    //Open infowindows on the West Coast map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(westCoastMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, westCoastMarker);

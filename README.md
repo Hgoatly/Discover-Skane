@@ -2,7 +2,7 @@
     <img src="assets/images/readme-images/discover-skane-logo.jpg" alt="Discover Skåne logo">
     <img src="assets/images/readme-images/responsive-screenshot.jpg" alt="Responsive images of the Discover Skåne website.">
     
-**A tourist website that showcases the region of Skåne in Southern Sweden**
+# **A tourist website that showcases the region of Skåne in Southern Sweden**
 
 Built using [GitHub Pages](https://pages.github.com/).
 Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
