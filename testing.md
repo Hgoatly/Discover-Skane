@@ -1,6 +1,6 @@
 # Discover Skåne Testing:
 
-The Discover Skåne site was discovered extensively, using the following processes:
+The Discover Skåne site was tested extensively, using the following processes:
 
 # Table of Contents:
 
@@ -330,7 +330,7 @@ have been fulfilled.
 
        - Screenshot of the Stenshuvud 'Attribution' link having opened an external site in a new tab.
 
-    ![Screenshot of the Sötenshuvud external site](assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg)
+    ![Screenshot of the Stenshuvud external site](assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg)
 
       - Screenshot of the Häckeberga 'Attribution' link.
 
@@ -612,7 +612,7 @@ have been fulfilled.
 - **Actual Result**: 'Malmö', 'Helsingborg' and 'Lund' images are visible.
 - **Pass/Fail**: Pass.
 
-      - City and Culture cards with images clearly visible.
+- City and Culture cards with images clearly visible.
 
 ![Screenshot of the City and Culture cards](assets/images/readme-images/city-and-culture-cards-screenshot.jpg)
 
@@ -622,9 +622,9 @@ have been fulfilled.
 - **Actual Results**: Text below 'Malmö', 'Helsingborg' and 'Lund' images is visible.
 - **Pass/Fail**: Pass.
 
-      - City and Culture cards with text below images clearly visible.  
+- City and Culture cards with text below images clearly visible.  
 
-    ![Screenshot of the City and Culture cards](assets/images/readme-images/city-and-culture-cards-screenshot.jpg)
+![Screenshot of the City and Culture cards](assets/images/readme-images/city-and-culture-cards-screenshot.jpg)
 
 
 - **Test Case 3**:
@@ -632,11 +632,11 @@ have been fulfilled.
 - **Expected Result** When 'Show on Map' is clicked, the map will be visible, and the image will be hidden.
 - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
 
-    - Screenshot of the 'Malmö' card, with the map clearly visible, after 'Show on Map' has been clicked.
+- Screenshot of the 'Malmö' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
 ![Screenshot of the Malmö map](assets/images/readme-images/malmo-card-map-screenshot.jpg)
 
-      - Screenshot of the 'Helsingborg' card, with the map clearly visible, after 'Show on Map' has been clicked.
+- Screenshot of the 'Helsingborg' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
 ![Screenshot of the Helsingborg map](assets/images/readme-images/helsingborg-card-map-screenshot.jpg)
 
@@ -803,7 +803,6 @@ have been fulfilled.
 - Screenshot of the Malmö Opera infowindow with the 'Attribution' link clearly displayed.
 
 ![Screenshot of the Malmo Opera infowindow attribution](assets/images/readme-images/malmo-opera-infowindow-bottom.jpg)
-
 
 - Screenshot of the Malmö Opera external site open in a new tab.
 
