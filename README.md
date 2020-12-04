@@ -325,11 +325,11 @@ The same forests are displayed on the main map in the 'Map' section.
 
 - Screenshot of the Forests card with the image displayed.
 
-![assets/images/readme-images/forests-card-screenshot.jpg](Screenshot of the 'Forests' card)
+![Screenshot of the 'Forests' card](assets/images/readme-images/forests-card-screenshot.jpg)
 
 - Screenshot of the Forests card with the map displayed.
 
-![assets/images/readme-images/forests-map-screenshot.jpg](Screenshot of the 'Forests' map)
+![Screenshot of the 'Forests' map](assets/images/readme-images/forests-map-screenshot.jpg)
 
 3. User Stories 5 and 7 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
 maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
@@ -353,7 +353,7 @@ some of the custom markers are visible.
 
 - Screenshot of the City and Culture cards with the maps displayed.
 
-![Screenshot of the 'City and Culture' cards maps](assets/images/readme-images/city-and-culture-cards-maps-screenshot.jpg)
+![Screenshot of the 'City and Culture' cards maps](assets/images/readme-images/city-and-culture-cards-maps.jpg)
 
 
 5. User Story 11 is concerned with being able to book a holiday to Skåne. The 'Book' section uses the Booking.com partner centre 'Deal Finder' API to allow people to book somewhere to stay. 
