@@ -22,6 +22,14 @@ html, body {
    }
 /*-----------End of copied code-------------*/
 
+.container-fluid{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+}
+
 /*--------------------------Navbar----------------------------*/
 
 .navbar-container-fluid{
@@ -59,7 +67,7 @@ html, body {
     float: right;
 }
 
-/*-----------------------Parallax--------------------*/
+/*-----------------------Parallax. Section Images and text--------------------*/
 /* This section copied and adapted from an example posted on CI Slack: https://github.com/Eventyret/simple-parallax/blob/master/css/style.css */
 
 .section-image1, .section-image2, .section-image3, .section-image4, .section-image5, .section-image6, .section-image7{
@@ -110,7 +118,6 @@ html, body {
     min-height: 400px;
     min-width: 100vw;
 }
-/*--------------------------------------------------------------------------------*/
 
 .section-text{
     position: absolute;
@@ -130,6 +137,9 @@ html, body {
 }
 /* End of copied code */
 
+/*--------------------------------------------------------------------------------*/
+
+/* -------------------------- Buttons --------------------------*/
 #enter-link{
     top:75%;
 }
@@ -144,13 +154,47 @@ html, body {
     color:#fff;
 }
 
-.container-fluid{
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    border: 0;
+.map-buttons {
+    display: block;
+    font-family: 'Oswald', cursive;
+    border-radius: 0rem;
 }
+
+.map-buttons-swedish {
+    font-family: 'Oswald', cursive;
+    border-radius: 0rem;
+}
+
+
+.btn-link{
+    color:#fff;
+}
+
+.btn-link:hover {
+    color: #fff;
+}
+.top-button,.form-button {
+    background-color:#4f4646;
+    color: #fff;
+    font-family: 'Oswald', cursive; 
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+    letter-spacing: 4px;
+    border-radius: 0rem; 
+  }
+  
+.top-button:hover,.form-button:hover {
+    background-color:#fff;
+    color:  #4f4646; 
+}
+
+#submit-button #submit-button-swedish{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*----------------Text, Content, Paragraphs  and Headings-----------------*/
 
 .intro-text {
     padding-left: 6rem;
@@ -182,15 +226,17 @@ html, body {
     display: none;
     font-family: 'Oswald', cursive;
 }
+
+p {
+    font-family: 'roboto', sans-serif;
+}
+
 .intro-paragraph, .map-paragraph, 
 .contact-us-paragraph {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-p {
-    font-family: 'roboto', sans-serif;
-}
 /*---------Cards---------*/
 .card-deck {
     margin-left: 15px;
@@ -224,21 +270,6 @@ p {
     border-radius: 0rem;
 }
 
-#map {
-    min-height: 85vh;
-    min-width: 95vw; 
-    margin-bottom: 30px;
-    }
-
-.card-maps {
-    flex-shrink: 0;
-    width: 91%;
-    vertical-align: middle;
-    border-style: none;
-    height: 20rem;
-    border-radius: 0rem;
- }
-
  #card-front-1, #card-front-2, #card-front-3,
  #card-front-4, #card-front-5, #card-front-6,
  #card-front-7, #card-front-8, #card-front-9,
@@ -261,53 +292,22 @@ p {
     display: none;
 }
 
-.map-buttons {
-    display: block;
-    font-family: 'Oswald', cursive;
-    border-radius: 0rem;
-}
-
-.map-buttons-swedish {
-    font-family: 'Oswald', cursive;
-    border-radius: 0rem;
-}
-
-.accordians {
-    margin-top: 30px;
+/*-------------------------------Maps----------------------*/
+#map {
+    min-height: 85vh;
+    min-width: 95vw; 
     margin-bottom: 30px;
-}
+    }
 
-.btn-link{
-    color:#fff;
-}
+.card-maps {
+    flex-shrink: 0;
+    width: 91%;
+    vertical-align: middle;
+    border-style: none;
+    height: 20rem;
+    border-radius: 0rem;
+ }
 
-.btn-link:hover {
-    color: #fff;
-}
-.top-button,.form-button {
-    background-color:#4f4646;
-    color: #fff;
-    font-family: 'Oswald', cursive; 
-    margin-bottom: 30px;
-    text-transform: uppercase; 
-    letter-spacing: 4px;
-    border-radius: 0rem; 
-  }
-  
-.top-button:hover,.form-button:hover {
-    background-color:#fff;
-    color:  #4f4646; 
-}
-
-#submit-button #submit-button-swedish{
-    text-transform: uppercase;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.accordian-card {
-    padding: 0rem;
-}
 .info-header {
     font-weight: 500;
     color: #dc3545;
@@ -328,6 +328,20 @@ p {
 input {
     margin-top: 1rem;
 }
+
+/*------------------Accordions for smaller screens-----------------*/
+
+.accordions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.accordion-card {
+    padding: 0rem;
+}
+
+/*-------------------Footer----------------------------------------*/
+
 #footer {
   position: relative;
   left: 0;
@@ -341,6 +355,8 @@ input {
   font-family: 'oswald', cursive;
 }
 
+/*-------------------------Social Links------------------------*/
+
 .social-links {
     margin-top: 16px;
 }
@@ -353,12 +369,15 @@ input {
     color: #dc3545;
 }
 
+/*-----------------------Deal Finder-----------------------*/
+
 #deal-finder {
     width: 95vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
 }
+
+/*-----------------------Contact Form---------------------*/
 
 .center-form {
     margin-right: 1rem;
@@ -368,6 +387,8 @@ input {
 #suggestions {
       margin-bottom: 1rem;
 }
+
+/*----------------------------404 Error Page-------------------*/
 
 .error-page-image {
     height: 100vh;
@@ -400,7 +421,7 @@ input {
     padding-right: 30px;
 }
 
-#error-link, #error-link-sm, #error-link-swe, #error-link-sm-swe {
+#error-link, #error-link-sm {
     font-weight: 700;
     color: #d8b54d;
     text-decoration: none;
@@ -410,12 +431,14 @@ input {
     padding-left: 30px;
 }
 
-#error-link:hover, #error-link-sm:hover, #error-link-swe:hover, #error-link-sm-swe:hover {
+#error-link:hover, #error-link-sm:hover {
     color: #dc3545;
     text-decoration: none;
 }
 
 /*---- Media Queries-----*/
+
+/*-------------Smaller images to fit mobile screens------------*/
 @media only screen and (max-width: 700px) {
     .callout-container-fluid{
         height: 100vh;
@@ -476,7 +499,7 @@ input {
          background: url("../images/contact-mobile.jpg") no-repeat center center fixed;
     } 
 }
-
+/*-------------Reduce letter spacing to fit smallest screens----------*/
 @media only screen and (max-width: 374px) {
      .section-text {
         letter-spacing: 1px;
@@ -500,8 +523,6 @@ input {
     color: #fff;
 }
 }
-
-/* Detect Internet Explorer 10+ */
 
 @media only screen and (min-width: 1600px) {
     #deal-finder, #contact-form {

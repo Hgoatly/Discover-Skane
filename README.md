@@ -178,14 +178,16 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 ### Imagery:
 
-- Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. The landing page 
-image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge.  
+- Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. They were 
+reduced in size for mobile screens, so that the entire image would fit on the screen.
+
+- The landing page image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge.  
 
 ![Discover Skåne logo superimposed on a picture of the Öresund bridge](assets/images/landing-page.jpg)
 
 - Other appropriate images were chosen to represent different sections:
 
-    - A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
+- A picture of a beautiful meadow in the Skåne countryside was chosen as the hero image on the 'Main Content' page, with the site logo superimposed on it.
     
 ![Discover Skåne logo on a beautiful meadow](assets/images/hero-image.jpg)    
 
