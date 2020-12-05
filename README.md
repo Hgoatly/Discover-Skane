@@ -178,8 +178,7 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 ### Imagery:
 
-- Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. They were 
-reduced in size for mobile screens, so that the entire image would fit on the screen.
+- Images of Skåne were chosen for the site that were considered to be both striking, and appropriate for their context. 
 
 - The landing page image was chosen as a visual metaphor for entering Skåne via the famous Öresund bridge.  
 
@@ -222,7 +221,8 @@ sections respectively, as they are descriptive images that represent the content
 - The 404 Error page features an image of Tower Bridge in London. It is a visual metaphor to let the user know that they are definitely in the wrong place. 
 By featuring completely the wrong bridge, the idea is to keep the page lighthearted, but in the same style as the Landing Page. Sabina Plimmer on [LCN.com](https://www.lcn.com/blog/beginners-guide-custom-404-pages/)
 states: 'Try to keep it light-hearted. Remember, one of the primary reasons why we’re creating a custom 404 page is to replace the blunt and annoying “page cannot be displayed” 
-message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive.   
+message with something which is less likely to chase away visitors.' This is what the Discover Skåne 404 Error page is trying to acheive. The text on the mobile version
+has been changed to: "Wrong Bridge! Discover Skåne instead", so that it will fit on the screen better. 
 
 ![A picture of Tower Bridge in London](assets/images/readme-images/error-page.jpg)
 

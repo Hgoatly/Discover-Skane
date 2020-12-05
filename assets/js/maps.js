@@ -526,7 +526,7 @@ function initAutocomplete() {
     },
   ];
 
-  //Display correct custom icons on each map.
+  //Select custom icons to be displayed on each map.
   var lakeLocations = locations.slice(0, 3);
   var nationalParksLocations = locations.slice(3, 5);
   var forestLocations = locations.slice(5, 8);
@@ -537,16 +537,16 @@ function initAutocomplete() {
   var helsingborgLocations = locations.slice(23, 27);
   var lundLocations = locations.slice(27, 31);
 
-  //Add custom markers to the main map.
+  //Add custom markers to the main map. This code is reused for each map, and has the same functionality each time.
   var markers = locations.map(function (location, i) {
     var marker = new google.maps.Marker({
       position: location,
       icon: locations[i % locations.length].type,
     });
 
-    //Open infowindows on click event, and ensure they display content in the correct language.
+    //Open infowindows on click event, and ensure they display content in the correct language. This code is reused for each map, and has the same functionality each time.
     google.maps.event.addListener(marker, "click", function () {
-    //The following code was helpfully suggested on Stack Overflow: https://stackoverflow.com/questions/64563206/i-have-a-site-with-content-in-two-languages-how-do-i-change-the-language-of-the
+    //The following code, which is reused extensively was helpfully suggested on Stack Overflow: https://stackoverflow.com/questions/64563206/i-have-a-site-with-content-in-two-languages-how-do-i-change-the-language-of-the
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
      //End of copied code.
      infoWin.open(map, marker);
@@ -554,31 +554,26 @@ function initAutocomplete() {
     return marker;
   });
 
-  //Add custom markers to the Lake map.
+  //Map markers and infowindows for card maps.
   var lakeMarkers = lakeLocations.map(function (location, i) {
     var lakeMarker = new google.maps.Marker({
       position: location,
       icon: lakeLocations[i % locations.length].type,
     });
     
-    //Open infowindows on the Lakes map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(lakeMarker, "click", function () {
-    //The following code was helpfully suggested on Stack Overflow: https://stackoverflow.com/questions/64563206/i-have-a-site-with-content-in-two-languages-how-do-i-change-the-language-of-the
-      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
-    //End of copied code.  
-      infoWin.open(map, lakeMarker);
+    infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe); 
+    infoWin.open(map, lakeMarker);
     });
     return lakeMarker;
     });
   
-    //Display custom markers on the National Parks map.
   var nationalParksMarkers = nationalParksLocations.map(function (location, i) {
     var nationalParksMarker = new google.maps.Marker({
       position: location,
       icon: nationalParksLocations[i % locations.length].type,
     });
 
-    //Open infowindows on the National Parks map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(nationalParksMarker, "click", function () {
      infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, nationalParksMarker);
@@ -586,14 +581,12 @@ function initAutocomplete() {
     return nationalParksMarker;
   });
 
-  //Display custom markers on the Forests map.
   var forestsMarkers = forestLocations.map(function (location, i) {
     var forestMarker = new google.maps.Marker({
       position: location,
       icon: forestLocations[i % locations.length].type,
     });
 
-    //Open infowindows on the Forests map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(forestMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, forestMarker);
@@ -601,14 +594,12 @@ function initAutocomplete() {
     return forestMarker;
   });
 
-  //Display custom markers on the East Coast map.
   var eastCoastMarkers = eastCoastLocations.map(function (location, i) {
     var eastCoastMarker = new google.maps.Marker({
       position: location,
       icon: eastCoastLocations[i % locations.length].type,
     });
 
-    //Open infowindows on the East Coast map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(eastCoastMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, eastCoastMarker);
@@ -616,14 +607,12 @@ function initAutocomplete() {
     return eastCoastMarker;
   });
 
-    //Display custom markers on the West Coast map.
   var westCoastMarkers = westCoastLocations.map(function (location, i) {
     var westCoastMarker = new google.maps.Marker({
       position: location,
       icon: westCoastLocations[i % locations.length].type,
     });
 
-    //Open infowindows on the West Coast map markers when clicked, and ensure they display content in the correct language.
     google.maps.event.addListener(westCoastMarker, "click", function () {
       infoWin.setContent(siteLang === "english" ? location.infoEng : location.infoSwe);
       infoWin.open(map, westCoastMarker);
@@ -679,6 +668,7 @@ function initAutocomplete() {
     return lundMarker;
   });
 
+  //Select custom icons to be displayed on each accordion map.
   var accordionLakeLocations = locations.slice(0, 3);
   var accordionNationalParksLocations = locations.slice(3, 5);
   var accordionForestLocations = locations.slice(5, 8);
@@ -689,6 +679,8 @@ function initAutocomplete() {
   var accordionHelsingborgLocations = locations.slice(23, 27);
   var accordionLundLocations = locations.slice(27, 31);
 
+  
+    //Map markers and infowindows for accordion card maps.
   var accordionLakeMarkers = accordionLakeLocations.map(function (location, i) {
     var accordionLakeMarker = new google.maps.Marker({
       position: location,
@@ -845,7 +837,6 @@ var flag = document.getElementById("flag");
     }
 
   //Marker clusters for each map
-
 var markerCluster = new MarkerClusterer(map, markers, {
     imagePath:
       "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",

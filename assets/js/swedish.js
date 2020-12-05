@@ -69,19 +69,22 @@ $(document).ready(function () {
     $("#accordion-card-back-9").hide();
    });
 
+   //Change the placholder text on the Search Box and Contact Form to Swedish when Swedish Flag is clicked
    $("#swedish-flag").click(function(){
-       $("#pac-input").attr('placeholder', 'Sök på Karta');
-       $("#fullname").attr('placeholder', 'Namn');
-       $("#suggestions").attr('placeholder', 'Dina rekommendationer');
+    $("#pac-input").attr('placeholder', 'Sök på Karta');
+    $("#fullname").attr('placeholder', 'Namn');
+    $("#suggestions").attr('placeholder', 'Dina rekommendationer');
    });
 
+
+   //Change the placholder text on the Search Box and Contact Form to English when British Flag is clicked
    $("#british-flag").click(function(){
-       $("#pac-input").attr('placeholder', 'Search the Map');
-       $("#fullname").attr('placeholder', 'Name');
-       $("#suggestions").attr('placeholder', 'Your recommendations');
+    $("#pac-input").attr('placeholder', 'Search the Map');
+    $("#fullname").attr('placeholder', 'Name');
+    $("#suggestions").attr('placeholder', 'Your recommendations');
     });
 
-  //Toggle card pictures and maps to be shown and hidden.
+  //Toggle card pictures and maps to be shown and hidden when 'Show on Map/Hide Map' is clicked.
   $("#maps-button-1-swedish").click(function () {
     $("#card-front-1").toggle();
     $("#card-back-1").toggle();
