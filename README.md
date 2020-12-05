@@ -169,6 +169,8 @@ the card elements, which have a background colour of #fff (white).
 - **404-Error-Page** As for the Site Logo and section titles, the colour #4f4646 was used as the background colour for the error text. Below this, the colour #d8b54d was used for the link. On hover, this changes to #dc3545 on hover. The colours 
 were chosen in order to match the Skåne flag. 
 
+- **Social Links:** The colour of the social links was chosen to be #d8b54d (yellow). On hover, the links turn red: #dc3545 (red). This was in order for the colours to match the Skåne flag, like elsewhere on the site.
+
 ### Typography:
 
 - 'Oswald' was chosen as the font for all of the Section Titles, with a fallback of 'cursive' - in case the 'Oswald' font fails to load. 
@@ -429,6 +431,7 @@ speed up their load time.
 - [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
 - [Microsoft-Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) was used for displaying the manual tests undertaken.
 - [Dirty-Markup](https://www.10bestdesign.com/dirtymarkup/) was used to beautify the code.
+- [This-Davej](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) was used to generate a markdown table for the cross browser testing in the Testing.md file.
 
 ### Application Programming Interfaces Used (APIs):
 
@@ -542,7 +545,7 @@ a zip file directly to your computer to be used in your own code editor.
  - The Code Institute lectures and code for the contact form and Email.js API was used and adapted in this project. 
 
 - **Code Institute Slack Channels:** The parallax effect was copied and adapted from code posted on CI Slack as an example by Simen Daehlin (Eventyret Mentor):
-  https://github.com/Eventyret/simple-parallax/blob/master/index.html.
+[Github](https://github.com/Eventyret/simple-parallax/blob/master/index.html)
 
 - **Bootstrap-4:** Bootstrap 4 was referenced for the the Navbar, Card Decks (including cards), buttons, and accordions included in the site. Code for these elements 
 has been copied from the Bootstrap 4 documentation, and adapted by the developer.
@@ -594,6 +597,14 @@ from [Shutterstock](https://www.shutterstock.com/home).
 - **City and Culture Header Image, Lakes, National Parks, Forests, Malmö, Helsingborg and Lund cards and Book Header Image** 
 from [Pixabay](https://pixabay.com/).  
 - **Contact and East Coast Beaches Images** from [Unsplash](https://unsplash.com/).
+
+### Acknowledgements:
+
+- **My Mentor** Can Sücüllü, for help and guidance on this project.
+- **My Friends and Family** for constant support, and feedback on the content and functionality.
+- **My Husband, Ola Olsson** for translating parts of the site into Swedish.
+- **Code Institute Slack Channel** for help answering my many questions.
+- **Code Institute Tutor Support** for helping me work out why 'it' wasn't working. 
 
 ## Version Control:
 

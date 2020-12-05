@@ -87,12 +87,12 @@ html, body {
 }
 
 .section-image2{
-    background-image:url('../images/sunlit-forest-resized.jpg');
+    background-image:url('../images/sunlit-forest.jpg');
     min-height: 400px;
 }
 
 .section-image3{
-    background-image:url('../images/ystad-beach-resized.jpg');
+    background-image:url('../images/ystad-beach.jpg');
     min-height: 400px;
 }
 
@@ -102,7 +102,7 @@ html, body {
 }
 
 .section-image5{
-    background-image:url('../images/road-resized.jpg');
+    background-image:url('../images/road.jpg');
     min-height: 400px;
     min-width: 100vw;
 }

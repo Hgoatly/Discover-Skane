@@ -320,39 +320,39 @@ have been fulfilled.
 
     ![Screenshot of the attribution link on the Sö‎deråsen infowindow](assets/images/readme-images/soderasen-infowindow-bottom.jpg)
 
-      - Screenshot of the Sö‎deråsen 'Attribution' link having opened an external site in a new tab.
+    - Screenshot of the Sö‎deråsen 'Attribution' link having opened an external site in a new tab.
 
     ![Screenshot of the Sö‎deråsen external site](assets/images/readme-images/soderasen-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Stenshuvud 'Attribution' link.
+    - Screenshot of the Stenshuvud 'Attribution' link.
 
     ![Screenshot of the attribution link on the Stenshuvud infowindow](assets/images/readme-images/stenshuvud-infowindow-bottom.jpg)
 
-       - Screenshot of the Stenshuvud 'Attribution' link having opened an external site in a new tab.
+    - Screenshot of the Stenshuvud 'Attribution' link having opened an external site in a new tab.
 
     ![Screenshot of the Stenshuvud external site](assets/images/readme-images/stenshuvud-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Häckeberga 'Attribution' link.
+    - Screenshot of the Häckeberga 'Attribution' link.
 
     ![Screenshot of the attribution link on the Häckeberga infowindow](assets/images/readme-images/hackeberga-infowindow-bottom.jpg)
 
-     - Screenshot of the Häckeberga 'Attribution' link having opened an external site in a new tab.
+    - Screenshot of the Häckeberga 'Attribution' link having opened an external site in a new tab.
 
-     ![Screenshot of the Häckeberga external site](assets/images/readme-images/hackeberga-infowindow-bottom-new-tab.jpg)
+    ![Screenshot of the Häckeberga external site](assets/images/readme-images/hackeberga-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Skrylle 'Attribution' link.
+    - Screenshot of the Skrylle 'Attribution' link.
 
     ![Screenshot of the attribution link on the Skrylle infowindow](assets/images/readme-images/skrylle-infowindow-bottom.jpg)
 
-     - Screenshot of the Skrylle 'Attribution' link having opened an external site in a new tab.
+    - Screenshot of the Skrylle 'Attribution' link having opened an external site in a new tab.
 
     ![Screenshot of the Skrylle external site](assets/images/readme-images/skrylle-infowindow-bottom-new-window.jpg)
 
-      - Screenshot of the Fulltofta 'Attribution' link.
+    - Screenshot of the Fulltofta 'Attribution' link.
 
     ![Screenshot of the attribution link on the Fulltofta infowindow](assets/images/readme-images/fulltofta-infowindow-bottom.jpg)
 
-     - Screenshot of the Fulltofta 'Attribution' link having opened an external site in a new tab.
+    - Screenshot of the Fulltofta 'Attribution' link having opened an external site in a new tab.
 
     ![Screenshot of the Fulltofta external site](assets/images/readme-images/fulltofta-infowindow-bottom-new-tab.jpg)
 
@@ -371,9 +371,9 @@ have been fulfilled.
   - **Actual Result**: 'East Coast', 'West Coast' and 'South Coast' images are visible.
   - **Pass/Fail**: Pass.
     
-      - Screenshot of the 'Beautiful Beaches' cards with the images clearly visible.
+- Screenshot of the 'Beautiful Beaches' cards with the images clearly visible.
 
-    ![Screenshot of the 'Beautiful Beaches' cards with images displayed](assets/images/readme-images/beach-cards-screenshot.jpg)
+![Screenshot of the 'Beautiful Beaches' cards with images displayed](assets/images/readme-images/beach-cards-screenshot.jpg)
 
   - **Test Case 2**:
     - Ensure the that text below each image details some recommended beaches in Skåne.
@@ -381,9 +381,9 @@ have been fulfilled.
   - **Actual Results**: Text below 'East Coast', 'West Coast and 'South Coast' images is visible.
   - **Pass/Fail**: Pass.
 
-      - Screenshot of the 'Beautiful Beaches' cards with the text below the images clearly visible. 
+- Screenshot of the 'Beautiful Beaches' cards with the text below the images clearly visible. 
 
-    ![Screenshot of the 'Beautiful Beaches' cards with text displayed clearly](assets/images/readme-images/beach-cards-screenshot.jpg)
+![Screenshot of the 'Beautiful Beaches' cards with text displayed clearly](assets/images/readme-images/beach-cards-screenshot.jpg)
 
   - **Test Case 3**:
     - Ensure that when 'Show on Map is clicked, the map is visible, and the image is hidden. 
@@ -391,18 +391,17 @@ have been fulfilled.
   - **Actual Result**: When 'Show on Map' is clicked, the map is visible, and the image is hidden.
   - **Pass/Fail**: Pass.
     
-      - Screenshot of the 'East Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+- Screenshot of the 'East Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
-    ![Screenshot of the 'East Coast' map](assets/images/readme-images/east-coast-map.jpg)
+![Screenshot of the 'East Coast' map](assets/images/readme-images/east-coast-map.jpg)
 
-      - Screenshot of the 'West Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+- Screenshot of the 'West Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
 
-    ![Screenshot of the 'West Coast' map](assets/images/readme-images/west-coast-map.jpg)
+![Screenshot of the 'West Coast' map](assets/images/readme-images/west-coast-map.jpg)
 
-     - Screenshot of the 'South Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
+- Screenshot of the 'South Coast' card, with the map clearly visible, after 'Show on Map' has been clicked.
  
-    ![Screenshot of the 'South Coast' map](assets/images/readme-images/south-coast-map.jpg)
-
+![Screenshot of the 'South Coast' map](assets/images/readme-images/south-coast-map.jpg)
 
   - **Test Case 4**:
     - Ensure that when 'Hide Map is clicked, the map is hidden and the image is visible.
@@ -410,17 +409,16 @@ have been fulfilled.
   - **Actual Result**: When 'Hide Map' is clicked, the map is hidden, and the image is visible.
   - **Pass/Fail**: Pass.
   
-     - Screenshot of the 'East Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
+- Screenshot of the 'East Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
-    ![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/east-coast-card-screenshot.jpg)
+![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/east-coast-card-screenshot.jpg)
 
-      - Screenshot of the 'West Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
+- Screenshot of the 'West Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
-    ![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/west-coast-card-screenshot.jpg)   
+![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/west-coast-card-screenshot.jpg)   
+- Screenshot of the 'South Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
-    - Screenshot of the 'South Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
-
-    ![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/south-coast-card-screenshot.jpg)   
+![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/south-coast-card-screenshot.jpg)   
 
 
   - **Test Case 5**: 
@@ -429,9 +427,9 @@ have been fulfilled.
   - **Actual Result**: When maps are visible, custom markers are displayed on them. Markers that are close together are displayed as marker clusters.
   - **Pass/Fail**: Pass.
 
-      - Screenshot of the 'Beautiful Beaches' maps with custom markers and marker clusters clearly visible.
+- Screenshot of the 'Beautiful Beaches' maps with custom markers and marker clusters clearly visible.
 
-    ![Screenshot of the 'Beautiful Beaches' maps](assets/images/readme-images/beach-cards-maps.jpg)
+![Screenshot of the 'Beautiful Beaches' maps](assets/images/readme-images/beach-cards-maps.jpg)
 
   - **Test Case 6**:
     - Ensure that when clicked, each marker will display an infowindow. 
@@ -439,41 +437,41 @@ have been fulfilled.
   - **Actual Result**: Each marker displays an infowindow when clicked.
   - **Pass/Fail**: Pass.
 
-      - Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displayed.
 
-    ![Screenshot of the Knäbäckshusen infowindow](assets/images/readme-images/knabackshusen-infowindow.jpg)
+![Screenshot of the Knäbäckshusen infowindow](assets/images/readme-images/knabackshusen-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displayed.
 
-    ![Screenshot of the Yngsjö infowindow](assets/images/readme-images/yngsjo-infowindow.jpg)
+![Screenshot of the Yngsjö infowindow](assets/images/readme-images/yngsjo-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Täppet infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Täppet infowindow clearly displayed.
 
-    ![Screenshot of the Täppet infowindow](assets/images/readme-images/tappet-infowindow.jpg)>
+![Screenshot of the Täppet infowindow](assets/images/readme-images/tappet-infowindow.jpg)>
 
-      - Screenshot of the 'East Coast' map with the Farhultsbaden infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Farhultsbaden infowindow clearly displayed.
 
-    ![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/farhultsbaden-infowindow.jpg)
+![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/farhultsbaden-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Lomma Norra Badplats infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Lomma Norra Badplats infowindow clearly displayed.
 
-    ![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/lomma-norra-badplats-infowindow.jpg)
+![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/lomma-norra-badplats-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Falsterbo infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Falsterbo infowindow clearly displayed.
 
-    ![Screenshot of the Falsterbo infowindow](assets/images/readme-images/falsterbo-infowindow.jpg)
+![Screenshot of the Falsterbo infowindow](assets/images/readme-images/falsterbo-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Smygehuk infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Smygehuk infowindow clearly displayed.
 
-    ![Screenshot of the Smygehuk infowindow](assets/images/readme-images/smygehuk-infowindow.jpg)
+![Screenshot of the Smygehuk infowindow](assets/images/readme-images/smygehuk-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Ystad Sandskog infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Ystad Sandskog infowindow clearly displayed.
 
-    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/ystad-sandskog-infowindow.jpg)
+![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/ystad-sandskog-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Sandhammaren infowindow clearly displayed.
+- Screenshot of the 'East Coast' map with the Sandhammaren infowindow clearly displayed.
 
-    ![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/sandhammaren-infowindow.jpg)
+![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/sandhammaren-infowindow.jpg)
 
 
   - **Test Case 7**:
@@ -482,42 +480,41 @@ have been fulfilled.
   - **Actual Result**: Each infowindow displays information about a beach in Skåne.
   - **Pass/Fail**: Pass.
 
-      - Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displaying information about the beach.
+- Screenshot of the 'East Coast' map with the Knäbäckshusen infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the knabackshusen-infowindow](assets/images/readme-images/knabackshusen-infowindow.jpg)
+![Screenshot of the knabackshusen-infowindow](assets/images/readme-images/knabackshusen-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displaying information about the beach.
+- Screenshot of the 'East Coast' map with the Yngsjö infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Yngsjo infowindow](assets/images/readme-images/yngsjo-infowindow.jpg)
+![Screenshot of the Yngsjo infowindow](assets/images/readme-images/yngsjo-infowindow.jpg)
 
-      - Screenshot of the 'East Coast' map with the Täppet infowindow clearly displaying information about the beach.
+- Screenshot of the 'East Coast' map with the Täppet infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Täppet infowindow](assets/images/readme-images/tappet-infowindow.jpg)
+![Screenshot of the Täppet infowindow](assets/images/readme-images/tappet-infowindow.jpg)
 
-      - Screenshot of the 'West Coast' map with the Farhultsbaden infowindow clearly displaying information about the beach.
+- Screenshot of the 'West Coast' map with the Farhultsbaden infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/farhultsbaden-infowindow.jpg)
+![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/farhultsbaden-infowindow.jpg)
 
-      - Screenshot of the 'West Coast' map with the Lomma Norra Badplats infowindow clearly displaying information about the beach.
+- Screenshot of the 'West Coast' map with the Lomma Norra Badplats infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/lomma-norra-badplats-infowindow.jpg)
+![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/lomma-norra-badplats-infowindow.jpg)
 
-      - Screenshot of the 'West Coast' map with the Falsterbo infowindow clearly displaying information about the beach.
+- Screenshot of the 'West Coast' map with the Falsterbo infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Falsterbo infowindow](assets/images/readme-images/falsterbo-infowindow.jpg)
+![Screenshot of the Falsterbo infowindow](assets/images/readme-images/falsterbo-infowindow.jpg)
 
-      - Screenshot of the 'South Coast' map with the Smygehuk infowindow clearly displaying information about the beach.
+- Screenshot of the 'South Coast' map with the Smygehuk infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Smygehuk infowindow](assets/images/readme-images/smygehuk-infowindow.jpg)
+![Screenshot of the Smygehuk infowindow](assets/images/readme-images/smygehuk-infowindow.jpg)
 
-      - Screenshot of the 'South Coast' map with the Ystad Sandskog infowindow clearly displaying information about the beach.
+- Screenshot of the 'South Coast' map with the Ystad Sandskog infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/ystad-sandskog-infowindow.jpg)
+![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/ystad-sandskog-infowindow.jpg)
 
-      - Screenshot of the 'South Coast' map with the Sandhameren infowindow clearly displaying information about the beach.
+- Screenshot of the 'South Coast' map with the Sandhameren infowindow clearly displaying information about the beach.
 
-    ![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/sandhammaren-infowindow.jpg)
-
+![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/sandhammaren-infowindow.jpg)
 
   - **Test Case 8**:
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
@@ -526,77 +523,77 @@ have been fulfilled.
   - **Actual Result**: 'Attribution' links on each infowindow take the user to an external site, which opens in a new tab.
   - **Pass/Fail**: Pass.
 
-      - Screenshot of the Knäbäckshusen infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Knäbäckshusen infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Knäbäckshusen infowindow attribution](assets/images/readme-images/knabackshusen-infowindow-bottom.jpg)
+![Screenshot of the Knäbäckshusen infowindow attribution](assets/images/readme-images/knabackshusen-infowindow-bottom.jpg)
 
-      - Screenshot of the Knäbäckshusen external site open in a new tab.
+- Screenshot of the Knäbäckshusen external site open in a new tab.
 
-    ![Screenshot of the Knäbäckshusen external site in a new tab](assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Knäbäckshusen external site in a new tab](assets/images/readme-images/knabackshusen-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Yngsjö Sandskog infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Yngsjö infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of Yngsjö Sandskog infowindow attribution](assets/images/readme-images/yngsjo-infowindow-bottom.jpg)
+![Screenshot of Yngsjö infowindow attribution](assets/images/readme-images/yngsjo-infowindow-bottom.jpg)
 
-      - Screenshot of the Yngsjö Sandskog external site open in a new tab.
+- Screenshot of the Yngsjö external site open in a new tab.
 
-    ![Screenshot of the Yngsjö Sandskog external site in a new tab](assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Yngsjö external site in a new tab](assets/images/readme-images/yngsjo-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Täppet infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Täppet infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Täppet infowindow attribution](assets/images/readme-images/tappet-infowindow-bottom.jpg)
+![Screenshot of the Täppet infowindow attribution](assets/images/readme-images/tappet-infowindow-bottom.jpg)
 
-      - Screenshot of the Täppet external site open in a new tab.
+- Screenshot of the Täppet external site open in a new tab.
 
-    ![Screenshot of the Täppet external site in a new tab](assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Täppet external site in a new tab](assets/images/readme-images/tappet-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Farhultsbaden infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Farhultsbaden infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Farhultsbaden infowindow attribution](assets/images/readme-images/farhultsbaden-infowindow-bottom.jpg)
+![Screenshot of the Farhultsbaden infowindow attribution](assets/images/readme-images/farhultsbaden-infowindow-bottom.jpg)
 
-      - Screenshot of the Farhultsbaden external site open in a new tab.
+- Screenshot of the Farhultsbaden external site open in a new tab.
 
-    ![Screenshot of the Farhultsbaden external site in a new tab](assets/images/readme-images/farhultsbaden-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Farhultsbaden external site in a new tab](assets/images/readme-images/farhultsbaden-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Lomma Norra Badplats infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Lomma Norra Badplats infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lomma Norra Badplats infowindow attribution](assets/images/readme-images/lomma-norra-badplats-infowindow-bottom.jpg)
+![Screenshot of the Lomma Norra Badplats infowindow attribution](assets/images/readme-images/lomma-norra-badplats-infowindow-bottom.jpg)
 
-      - Screenshot of the Lomma Norra Badplats external site open in a new tab.
+- Screenshot of the Lomma Norra Badplats external site open in a new tab.
 
-    ![Screenshot of the Lomma Norra Badplats external site in a new tab](assets/images/readme-images/lomma-norra-badplats-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Lomma Norra Badplats external site in a new tab](assets/images/readme-images/lomma-norra-badplats-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Falsterbo infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Falsterbo infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Falsterbo infowindow attribution](assets/images/readme-images/falsterbo-infowindow-bottom.jpg)
+![Screenshot of the Falsterbo infowindow attribution](assets/images/readme-images/falsterbo-infowindow-bottom.jpg)
 
-       - Screenshot of the Falsterbo external site open in a new tab.
+- Screenshot of the Falsterbo external site open in a new tab.
 
-    ![Screenshot of the Falsterbo external site in a new tab](assets/images/readme-images/falsterbo-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Falsterbo external site in a new tab](assets/images/readme-images/falsterbo-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Smygehuk infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Smygehuk infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Smygehuk infowindow attribution](assets/images/readme-images/smygehuk-infowindow-bottom.jpg)
+![Screenshot of the Smygehuk infowindow attribution](assets/images/readme-images/smygehuk-infowindow-bottom.jpg)
 
-      - Screenshot of the Smygehuk external site open in a new tab.  
+- Screenshot of the Smygehuk external site open in a new tab.  
 
-    ![Screenshot of the Smygehuk external site in a new tab](assets/images/readme-images/smygehuk-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Smygehuk external site in a new tab](assets/images/readme-images/smygehuk-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Ystad Sandskog infowindow with the 'Attribution' link clearly displayed. 
+- Screenshot of the Ystad Sandskog infowindow with the 'Attribution' link clearly displayed. 
 
-    ![Screenshot of the Ystad Sandskog infowindow attribution](assets/images/readme-images/ystad-sandskog-infowindow-bottom.jpg)
+![Screenshot of the Ystad Sandskog infowindow attribution](assets/images/readme-images/ystad-sandskog-infowindow-bottom.jpg)
 
-      - Screenshot of the Ystad Sandskog external site open in a new tab.
+- Screenshot of the Ystad Sandskog external site open in a new tab.
 
-    ![Screenshot of the Ystad Sandskog external site in a new tab](assets/images/readme-images/ystad-sandskog-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Ystad Sandskog external site in a new tab](assets/images/readme-images/ystad-sandskog-infowindow-bottom-new-tab.jpg)
 
-      - Screenshot of the Sandhammaren infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the Sandhammaren infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Sandhammaren infowindow attribution](assets/images/readme-images/sandhammaren-infowindow-bottom.jpg)
+![Screenshot of the Sandhammaren infowindow attribution](assets/images/readme-images/sandhammaren-infowindow-bottom.jpg)
 
-      - Screenshot of the Sandhammaren external site open in a new tab.
+- Screenshot of the Sandhammaren external site open in a new tab.
 
-    ![Screenshot of the Sandhammaren external site in a new tab](assets/images/readme-images/sandhammaren-infowindow-bottom-new-tab.jpg)
+![Screenshot of the Sandhammaren external site in a new tab](assets/images/readme-images/sandhammaren-infowindow-bottom-new-tab.jpg)
 
 ### City and Culture:
 
@@ -842,7 +839,6 @@ have been fulfilled.
 
 - Screenshot of the Lund Planetarium infowindow with the 'Attribution' link clearly displayed.
 
-
 ![Screenshot of the Lund Planetarium infowindow attribution](assets/images/readme-images/lund-planetarium-infowindow-bottom.jpg)
 
 - Screenshot of the Lund Planetarium external site open in a new tab.
@@ -865,8 +861,7 @@ have been fulfilled.
 - Screenshot of the Booking.com Dealfinder API clearly visible on the page.
 
 ![Screenshot of the booking.com Dealfinder API](assets/images/readme-images/book-screenshot.jpg)
-
-  
+ 
   - **Test Case 2**:
     - Ensure that when clicked, the 'See All Deals' button takes the user to an external site, which opens in a new tab.
   - **Expected Result**: The 'See All Deals' button will take users to the 'Booking.com' site, which will open in a new tab.
@@ -894,7 +889,6 @@ search the map to find additional locations.
 - Screenshot of Google Maps API map.
 
 ![Screenshot of the main map](assets/images/readme-images/main-map-screenshot.jpg)
-
 
 - **Test Case 2**: 
   - Ensure that all custom markers are visible on the map.
@@ -1037,7 +1031,6 @@ search the map to find additional locations.
 
 ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
 
-
 - **Test Case 4**: 
   - Ensure that all infowindows display relevant information about their location.
 - **Expected Result**: All infowindows will display relevant information about their location.
@@ -1175,126 +1168,125 @@ search the map to find additional locations.
     up the page. Therefore, providing that the markers are visible on the map, the 'Attribution' link will work exactly as it does in 
     all other instances.
 
-    - Screenshot of the 'Disgusting Food Museum' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Disgusting Food Museum' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Disgusting Food Museum infowindow attribution](assets/images/readme-images/main-map-disgusting-food-infowindow.jpg)
+![Screenshot of the Disgusting Food Museum infowindow attribution](assets/images/readme-images/main-map-disgusting-food-infowindow.jpg)
 
-    - Screenshot of the 'Dunkers Cultre House' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Dunkers Cultre House' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Dunkers Culture House infowindow attribution](assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg)
+![Screenshot of the Dunkers Culture House infowindow attribution](assets/images/readme-images/main-map-dunkers-culture-house-infowindow.jpg)
 
-    - Screenshot of the 'Falsterbo' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Falsterbo' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Falsterbo infowindow attribution](assets/images/readme-images/main-map-falsterbo-infowindow.jpg)
+![Screenshot of the Falsterbo infowindow attribution](assets/images/readme-images/main-map-falsterbo-infowindow.jpg)
 
-    - Screenshot of the 'Farhultsbaden' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Farhultsbaden' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Farhultsbaden infowindow attribution](assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg)
+![Screenshot of the Farhultsbaden infowindow attribution](assets/images/readme-images/main-map-farhultsbaden-infowindow.jpg)
 
-    - Screenshot of the 'Fulltofta' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Fulltofta' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Fulltofta infowindow attribution](assets/images/readme-images/main-map-fulltofta-infowindow.jpg)
+![Screenshot of the Fulltofta infowindow attribution](assets/images/readme-images/main-map-fulltofta-infowindow.jpg)
 
-    - Screenshot of the 'Häckeberga' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Häckeberga' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Häckeberga infowindow attribution](assets/images/readme-images/main-map-hackeberga-infowindow.jpg)   
+![Screenshot of the Häckeberga infowindow attribution](assets/images/readme-images/main-map-hackeberga-infowindow.jpg)   
 
-    - Screenshot of the 'Hammarsjön' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Hammarsjön' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Hammarsjön infowindow attribution](assets/images/readme-images/main-map-hammarsjon-infowindow.jpg) 
+![Screenshot of the Hammarsjön infowindow attribution](assets/images/readme-images/main-map-hammarsjon-infowindow.jpg) 
 
-    - Screenshot of the 'Helsingborg Concert House' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Helsingborg Concert House' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Helsingborg Concert House infowindow attribution](assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg)  
+![Screenshot of the Helsingborg Concert House infowindow attribution](assets/images/readme-images/main-map-helsingborg-concert-house-infowindow.jpg)  
 
-    - Screenshot of the 'Helsingborg' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Helsingborg' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Helsingborg infowindow attribution](assets/images/readme-images/main-map-helsingborg-infowindow.jpg)
+![Screenshot of the Helsingborg infowindow attribution](assets/images/readme-images/main-map-helsingborg-infowindow.jpg)
 
-    - Screenshot of the 'Hjälmsjön' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Hjälmsjön' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Hjälmsjön infowindow attribution](assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg)  
+![Screenshot of the Hjälmsjön infowindow attribution](assets/images/readme-images/main-map-hjalmsjon-infowindow.jpg)  
 
-    - Screenshot of the 'Knäbäckshusen' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Knäbäckshusen' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Knäbäckshusen infowindow attribution](assets/images/readme-images/main-map-knabackshusen-infowindow.jpg) 
+![Screenshot of the Knäbäckshusen infowindow attribution](assets/images/readme-images/main-map-knabackshusen-infowindow.jpg) 
 
-    - Screenshot of the 'Kulturen' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Kulturen' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Kulturen infowindow attribution](assets/images/readme-images/main-map-kulturen-infowindow.jpg) 
+![Screenshot of the Kulturen infowindow attribution](assets/images/readme-images/main-map-kulturen-infowindow.jpg) 
 
-    - Screenshot of the 'Lake Immeln' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Lake Immeln' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lake Immeln infowindow attribution](assets/images/readme-images/main-map-lake-immeln-infowindow.jpg) 
+![Screenshot of the Lake Immeln infowindow attribution](assets/images/readme-images/main-map-lake-immeln-infowindow.jpg) 
 
-    - Screenshot of the 'Lomma Norra Badplats' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Lomma Norra Badplats' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lomma Norra Badplats infowindow attribution](assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg)
+![Screenshot of the Lomma Norra Badplats infowindow attribution](assets/images/readme-images/main-map-lomma-norra-badplats-infowindow.jpg)
 
-    - Screenshot of the 'Lund Cathedral' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Lund Cathedral' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lund Cathedral infowindow attribution](assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg)
+![Screenshot of the Lund Cathedral infowindow attribution](assets/images/readme-images/main-map-lund-cathedral-infowindow.jpg)
 
-    - Screenshot of the 'Lund' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Lund' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lund infowindow attribution](assets/images/readme-images/main-map-lund-infowindow.jpg)
+![Screenshot of the Lund infowindow attribution](assets/images/readme-images/main-map-lund-infowindow.jpg)
 
-    - Screenshot of the 'Lund Planetarium' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Lund Planetarium' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Lund Planetarium infowindow attribution](assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg)
+![Screenshot of the Lund Planetarium infowindow attribution](assets/images/readme-images/main-map-lund-planetarium-infowindow.jpg)
 
-    - Screenshot of the 'Malmö Castle' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Malmö Castle' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Malmö Castle infowindow attribution](assets/images/readme-images/main-map-malmo-castle-infowindow.jpg) 
+![Screenshot of the Malmö Castle infowindow attribution](assets/images/readme-images/main-map-malmo-castle-infowindow.jpg) 
 
-    - Screenshot of the 'Malmö Concert House' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Malmö Concert House' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Malmö Concert House infowindow attribution](assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg)
+![Screenshot of the Malmö Concert House infowindow attribution](assets/images/readme-images/main-map-malmo-concert-house-infowindow.jpg)
 
-    - Screenshot of the 'Malmö' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Malmö' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Malmö infowindow attribution](assets/images/readme-images/main-map-malmo-infowindow.jpg)
+![Screenshot of the Malmö infowindow attribution](assets/images/readme-images/main-map-malmo-infowindow.jpg)
 
-    - Screenshot of the 'Malmö Opera' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Malmö Opera' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Malmö Opera infowindow attribution](assets/images/readme-images/main-map-malmo-opera-infowindow.jpg)
+![Screenshot of the Malmö Opera infowindow attribution](assets/images/readme-images/main-map-malmo-opera-infowindow.jpg)
 
-    - Screenshot of the 'Sandhameren' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Sandhameren' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Sandhammaren infowindow attribution](assets/images/readme-images/main-map-sandhammaren-infowindow.jpg)
+![Screenshot of the Sandhammaren infowindow attribution](assets/images/readme-images/main-map-sandhammaren-infowindow.jpg)
 
-    - Screenshot of the 'Skrylle' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Skrylle' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Skrylle infowindow attribution](assets/images/readme-images/main-map-skrylle-infowindow.jpg)
+![Screenshot of the Skrylle infowindow attribution](assets/images/readme-images/main-map-skrylle-infowindow.jpg)
 
-    - Screenshot of the 'Smygehuk' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Smygehuk' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Smygehuk infowindow attribution](assets/images/readme-images/main-map-smygehuk-infowindow.jpg)
+![Screenshot of the Smygehuk infowindow attribution](assets/images/readme-images/main-map-smygehuk-infowindow.jpg)
 
-    - Screenshot of the 'Sö‎deråsen' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Sö‎deråsen' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Sö‎deråsen infowindow](assets/images/readme-images/main-map-soderasen-infowindow.jpg)
+![Screenshot of the Sö‎deråsen infowindow](assets/images/readme-images/main-map-soderasen-infowindow.jpg)
 
-    - Screenshot of the 'Sofiero' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Sofiero' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Sofiero infowindow](assets/images/readme-images/main-map-sofiero-infowindow.jpg)
+![Screenshot of the Sofiero infowindow](assets/images/readme-images/main-map-sofiero-infowindow.jpg)
 
-    - Screenshot of the 'Stenshuvud' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Stenshuvud' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Stenshuvud infowindow](assets/images/readme-images/main-map-stenshuvud-infowindow.jpg)
+![Screenshot of the Stenshuvud infowindow](assets/images/readme-images/main-map-stenshuvud-infowindow.jpg)
 
-    - Screenshot of the 'Täppet' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Täppet' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Täppet infowindow](assets/images/readme-images/main-map-tappet-infowindow.jpg)
+![Screenshot of the Täppet infowindow](assets/images/readme-images/main-map-tappet-infowindow.jpg)
 
-    - Screenshot of the 'Yngsjö' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Yngsjö' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Yngsjö infowindow](assets/images/readme-images/main-map-yngsjo-infowindow.jpg)
+![Screenshot of the Yngsjö infowindow](assets/images/readme-images/main-map-yngsjo-infowindow.jpg)
 
-    - Screenshot of the 'Ystad Sandskog' infowindow with the 'Attribution' link clearly displayed.
+- Screenshot of the 'Ystad Sandskog' infowindow with the 'Attribution' link clearly displayed.
 
-    ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
-
+![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/main-map-ystad-sandskog-infowindow.jpg)
 
 - **Test Case 5**: 
   - Ensure that the searchbox functions correctly, and that the results of the search carried out are displayed on the map.
@@ -1302,10 +1294,9 @@ search the map to find additional locations.
 - **Actual Result**: When locations are searched for in the searchbox, they are displayed on the map.
 - **Pass/Fail**: Pass.
 
-    - Screenshot of the searchbox with location submitted, and location displayed on the map.
+- Screenshot of the searchbox with location submitted, and location displayed on the map.
 
-    ![Screenshot of the searchbox with content visible, and result displayed on the map](assets/images/readme-images/search-box-test.jpg)
-
+![Screenshot of the searchbox with content visible, and result displayed on the map](assets/images/readme-images/search-box-test.jpg)
 
 ### Contact: 
 
@@ -1652,27 +1643,27 @@ click here.
 
 - Issues on Internet Explorer were as follows:
 
-  - The Header and 'Enter' button were not centralised on the Landing Page.
+- The Header and 'Enter' button were not centralised on the Landing Page.
 
 ![Screenshot of the Landing Page on Internet Explorer](assets/images/readme-images/internet-explorer-landing-page.jpg)
 
 
-  - The Card Decks were squashed to the point of being unreadable.
+- The Card Decks were squashed to the point of being unreadable.
 
 
 ![Screenshot of the Card Deck on Internet Explorer](assets/images/readme-images/internet-explorer-card-deck.jpg)
 
 
-  - The Social Links would not open at all in Internet Explorer, and the browser automatically opened them in Microsoft Edge instead.
+- The Social Links would not open at all in Internet Explorer, and the browser automatically opened them in Microsoft Edge instead.
 
-  - Screenshot of Facebook having been opened in Microsoft Edge instead of Internet Explorer.
+- Screenshot of Facebook having been opened in Microsoft Edge instead of Internet Explorer.
 
 ![Screenshot of Facebook open in Microsoft Edge instead of Internet Explorer](assets/images/readme-images/internet-explorer-facebook-opens-in-microsoft-edge.jpg)
 
-  - Screenshot of Instagram having been opened in Microsoft Edge instead of Internet Explorer.
+- Screenshot of Instagram having been opened in Microsoft Edge instead of Internet Explorer.
 
 ![Screenshot of Facebook open in Microsoft Edge instead of Internet Explorer](assets/images/readme-images/internet-explorer-instagram-opens-in-microsoft-edge.jpg)
 
-  - Screenshot of Twitter having been opened in Microsoft Edge instead of Internet Explorer.
+- Screenshot of Twitter having been opened in Microsoft Edge instead of Internet Explorer.
 
 ![Screenshot of Facebook open in Microsoft Edge instead of Internet Explorer](assets/images/readme-images/internet-explorer-twitter-opens-in-microsoft-edge.jpg)
