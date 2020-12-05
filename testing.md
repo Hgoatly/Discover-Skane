@@ -10,6 +10,10 @@ The Discover Skåne site was tested extensively, using the following processes:
 - [JSHint](#jshint)
 - [Testing-the-User-Stories](#testing-the-user-stories)
 - [Testing-the-Swedish-Content](#testing-the-swedish-content)
+- [Testing-the-Visitor-Goals](#testing-the-visitor-goals)
+  - [First-Time-Visitor-Goals](#first-time-visitor-goals)
+  - [Returning-Visitor-Goals](#returning-visitor-goals)
+  - [Frequent-Visitor-Goals](#frequent-visitor-goals)
 - [Manual-Testing](#manual-testing)
 
 ## Chrome Developer Tools:
