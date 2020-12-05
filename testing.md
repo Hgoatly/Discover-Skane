@@ -1530,6 +1530,48 @@ search the map to find additional locations.
 
 ![Screenshot of the Map header and Search on Map text in Swedish](assets/images/readme-images/swedish-contact.jpg)
 
+## Testing the Visitor Goals:
+
+### First Time Visitor Goals:
+
+The First Time Visitor Goals were tested as follows: 
+
+1. To easily find out the main purpose of the site. 
+  - The text beneath the Hero Image clearly explains that the main purpose of the site is to help you to plan your perfect 
+   trip to Southern Sweden.
+
+2. To easily find out what the county of Skåne has to offer as a holiday destination.
+  - The site is divided into 7 sections. The first three of these (Lakes and Forests, Beautiful Beaches and City and Culture) all 
+  detail different types of holiday destination in Skåne.
+
+3. To easily navigate around the site to find relevant content.
+  - At the top of the page, there is a navbar that takes the user to the relevant content. Below each section, there is a scroll to top
+  button ('Top of Page') that enables the site user to quickly access the navbar again without having to manually scroll to the top of the page.
+
+4. To easily be able to find points of interest on a map. 
+  - Each of the first three sections has three cards, with an image, and text below the image that details recommended locations. If one clicks on
+  'Show on Map' - below the text, a map is revealed with custom markers showing where the recommended locations are. There is also a main map
+  further down the page that shows all of the markers in one place. 
+
+### Returning Visitor Goals:
+
+The returning visitor goals were tested as follows:
+
+1. To find out if any new content has been added for subsequent visits to Skåne.
+  - In future releases, new content will be added to the maps when new recommendations have been made.
+
+2. To contact the site owner to let them know about any places to visit in Skåne that they would like to recommend.
+  - A contact form has been provided in order for users to get in touch with the site owner.
+
+### Frequent Visitor Goals:
+
+1. To find out whether any new content has been added for subsequent visits to Skåne.
+ - In future releases, new content will be added to the maps when new recommendations have been made.
+
+2. To find out about different holiday options from those that the site visitor has already experienced.
+ - The first three sections of the page detail the different kinds of holidays available in Skåne. Frequent visitors to 
+ the site can navigate to these sections in order to learn about them and to choose a different holiday from before.
+
 
 ## Manual Browser Compatibility Testing:
 
