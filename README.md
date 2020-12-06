@@ -291,7 +291,7 @@ is designed to be visually appealing. None of the content is collapsed.
 
 ### How the Features Relate to the User Stories:
 
-1. User Stories 1, 2, 3 and 9 are concerned with finding a lake to suit their specific purposes. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map 
+1. User Stories 1, 2, 3 and 9 are concerned with finding a lake to suit a specific purposes. The 'Lakes and Forests' section details recommended lakes in Skåne, and displays them on a map 
 with custom markers. Each custom marker has an infowindow that displays more information about each lake.
 The same lakes are also displayed on the main map in the 'Map' section of the page.
 
@@ -303,21 +303,22 @@ The same lakes are also displayed on the main map in the 'Map' section of the pa
 
 ![Screenshot of the 'Lakes' map](assets/images/readme-images/lakes-map-screenshot.jpg)
 
-- Screenshot of the Lakes card with the map displayed, and an info window open.
+- Screenshot of the Lakes card with the map displayed, and the Hjälmsjön infowindow open.
 
-![Screenshot of one the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg)
+![Screenshot of the Hjälmsjön infowindow](assets/images/readme-images/lakes-map-screenshot-infowindow1.jpg)
 
-- Screenshot of the Lakes card with the map displayed, and an info window open
+- Screenshot of the Lakes card with the map displayed, and the Lake Immeln infowindow open
 
-![Screenshot of one of the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg)
+![Screenshot of the Lake Immeln map infowindow](assets/images/readme-images/lakes-map-screenshot-infowindow2.jpg)
 
-- Screenshot of the Lakes card with the map displayed, and an info window open
+- Screenshot of the Lakes card with the map displayed, and the Hammarsjön infowindow open
 
-![Screenshot of one of the Lakes map infowindows](assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg)
+![Screenshot of the Hammarsjön infowindow](assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg)
 
 2. User Stories 4 and 8 are concerned with finding a forest or National Park. The 'Lakes and Forests' section details recommended forests and national parks, and displays them on maps with custom markers.
 Each custom marker has an infowindow that displays more information about the forest, and a link that takes the user to an external site that can be visited to find out more about the destination.
-The same forests are displayed on the main map in the 'Map' section.
+Screenshots of the infowindows can be viewed in the [testing.md](testing.md) file.
+The same forests and National Parks are displayed on the main map in the 'Map' section.
 
 - Screenshot of the National Parks card with the image displayed.
 
@@ -336,7 +337,8 @@ The same forests are displayed on the main map in the 'Map' section.
 ![Screenshot of the 'Forests' map](assets/images/readme-images/forests-map-screenshot.jpg)
 
 3. User Stories 5 and 7 are concerned with finding beaches in Skåne. The 'Beautiful Beaches' section details recommended beaches in 3 regions of Skane, and displays them on a series of 
-maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster.
+maps with custom markers. The same markers are displayed on the main map section of the page. In the image below, some of the beach markers are displayed in a marker cluster due to their proximity to 
+one another. Screenshots of the infowindows can be found in the [testing.md](testing.md) file.
 
 - Screenshot of the Beautiful Beaches cards with the images displayed.
 
@@ -349,7 +351,7 @@ maps with custom markers. The same markers are displayed on the main map section
 
 4. User Stories 6 and 10 are concerned with finding cultural activities in Skåne. The 'City and Culture' section details recommended cultural activites in the cities of Malmö, Helsingborg and Lund, 
 and displays them on a series of maps with custom markers. Usually, the custom markers display as marker clusters on these maps. In these images, the zoom level of the maps has been changed so that
-some of the custom markers are visible.
+some of the custom markers are visible. Screenshots of the infowindows can be found in the [testing.md](testing.md) file.
 
 - Screenshot of the City and Culture cards with the images displayed.
 
@@ -412,7 +414,7 @@ It was not possible to add it at this stage, as it requires proficiency in XML i
 
 ### Frameworks, Libraries and Other Sources Used:
 
-- [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks and navbar.
+- [Bootstrap-4.5.0](https://getbootstrap.com/) was used to help facilitate responsive design. It was also used for the card-decks, accordions and navbar.
 - [Google-Fonts](https://fonts.google.com/) was used to facilitate the use of the 'Oswald' and 'Roboto' fonts - both of which are used extensively 
 throughout the site.
 - [JQuery](https://jquery.com/) was used to toggle content from English to Swedish, and also to toggle the maps and pictures on the cards from 'display' to 'hidden'. It is also used to enable Bootstrap.
@@ -540,7 +542,7 @@ a zip file directly to your computer to be used in your own code editor.
 
 ### Code:
 
--**Code Institute Course:** 
+- **Code Institute Course:** 
  - The Code Institute lectures and code for the Google Maps API was referenced extensively in this project.
  - The Code Institute lectures and code for the contact form and Email.js API was used and adapted in this project. 
 
