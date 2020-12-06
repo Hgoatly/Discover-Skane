@@ -68,7 +68,7 @@ The sections are as follows:
 Each of these three sections has three card elements with a picture on the front, and a map on the back. The text below talks about recommended places based 
 on the theme of the card, for example, the text on the 'Lakes' card talks about recommended lakes to visit in Skåne. Below this, the user has the option to click on the text
 that says 'Show on Map'. When clicked, this reveals the map specific to the that particular card. On the map, the recommended places to visit are 
-marked on the map with a custom marker, specific to the theme of the card. When the marker is clicked, an infowindow appears, which displays the name of the location, some information about
+marked on the map with a custom marker, which is also specific to the theme of the card. When the marker is clicked, an infowindow appears, which displays the name of the location, some information about
 the location, and the attribution - which is also a link to an external site from where the text for the infowindow was sourced, and where the site visitor can 
 can learn more about the destination. 
 
@@ -84,10 +84,10 @@ The final two sections are mainly interactive. They are as follows:
 2. Contact.
 
 The 'Book' section uses the [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API,
-so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay. Out of the available booking.com APIs, it was decided that the 'Deal Fider' API was the most appropriate
-as it is the only one that features images, that can also have the search area spcifies as Skåne. 
+so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay. Out of the available booking.com APIs, it was decided that the 'Deal Fider' API was the most appropriate.
+This is because it not only shows images, but also because the search area can be restricted to Skåne The other options either had no images, or would searche the whole of Sweden - which would be confusing for the site visitor. 
 
-The 'contact' section encourages the user to contact the site owner via a contact form with their suggestions for places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
+The 'contact' section encourages the user to contact the site owner via a contact form. This is so they can suggest places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
 
 ## User Experience (UX):
 
@@ -152,12 +152,12 @@ from English to Swedish.
 good colour match with all of the images used throughout the site. The text colour is #fff (white) as it makes a good contrast with the background, and makes the text easy to read.
 
 - **Enter Button:** The Skåne flag is a yellow cross on a red background. #dc3545 (red) was chosen for the background of the enter button, and #d8b54d (yellow) was chosen
-for the text. This is to represent the Skåne flag.  Whilst, this yellow is perhaps not as bright as the colour on the Skåne flag, it was chosen because text written in a 
+for the text in order to represent the Skåne flag.  Whilst this yellow is perhaps not as bright as the colour on the Skåne flag, it was chosen because text written in a 
 brighter yellow was more difficult to read against the background colours used on the site. On a desktop, when the button is hovered over, the text colour changes to white. This is a metaphor for crossing the
 bridge into Skåne, as the Danish flag is a white cross on a red background. It is representative of what the picture suggests: that you are leaving Denmark to enter Skåne.
 
 - **Navbar and Footer, Card Headers and 'Top of Page' Button:** The background colour of each of these elements is #4f4646, and the text colour is #fff. It was deliberately decided that they should be the same colours as on the 
-logo, to create a colour theme for the site. The 'Show on Map' and 'Hide Map' text (and their Swedish equivalents) is black (#212529) in order to stand put a little more than the rest of the text on the card. 
+logo, to create a colour theme for the site. The 'Show on Map' and 'Hide Map' text (and their Swedish equivalents) is black (#212529) in order to stand out a little more than the rest of the text on the card. 
 
 - **Cards:** #fff was chosen as the background for the card elements, in order to make a good contrast with the text, for which the colour #4f4646 was chosen as it fits well with the general colour theme of the site.
 
@@ -194,7 +194,7 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 - A picture of a pine forest was chosen for the 'Lakes and Forests' section header.
 
-![A Pine Forest with sunbeams](assets/images/sunlit-forest-resized.jpg)       
+![A Pine Forest with sunbeams](assets/images/sunlit-forest.jpg)       
 
 - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
 
