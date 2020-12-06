@@ -198,7 +198,7 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 - A picture of a beach in Skåne was chosen for the 'Beautiful Beaches' section.
 
-![A walkway over a sand dune on a beach](assets/images/ystad-beach-resized.jpg)
+![A walkway over a sand dune on a beach](assets/images/ystad-beach.jpg)
 
 - A picture of a castle in Skåne was chosen for the 'City and Culture' section. 
 
@@ -206,7 +206,7 @@ clean and easy to read, which makes it an appropriate font for the text.
 
 - A picutre of a road in Skåne was chosen for the 'Map' section.
 
-![A road winding through a forest in Autumn](assets/images/road-resized.jpg)
+![A road winding through a forest in Autumn](assets/images/road.jpg)
 
 - The images of the hotel room, and of hands on a computer were not pictures that were taken 
 in Skåne, but were more metaphorical in nature, and chosen to represent the 'Book' and 'Contact' 
