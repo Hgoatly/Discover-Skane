@@ -9,6 +9,13 @@ The Discover Skåne site was tested extensively, using the following processes:
 - [W3C-CSS-Validation-Service](#W3C-markup-validation-service)
 - [JSHint](#jshint)
 - [Testing-the-User-Stories](#testing-the-user-stories)
+  - [Lakes](#lakes)
+  - [Forests-and-National-Parks](#forests-and-national-parks)
+  - [Beautiful-Beaches](#beautiful-beaches)
+  - [City-and-Culture](#city-and-culture)
+  - [Book](#book)
+  - [Map](#map)
+  - [Contact](#contact)
 - [Testing-the-Swedish-Content](#testing-the-swedish-content)
 - [Testing-the-Visitor-Goals](#testing-the-visitor-goals)
   - [First-Time-Visitor-Goals](#first-time-visitor-goals)
@@ -1372,7 +1379,7 @@ search the map to find additional locations.
 
 ![Screenshot of the introduction in Swedish](assets/images/readme-images/swedish-intro-text.jpg)
 
-- Screenshot of the Lakes and Forests Header and Card Tops in Swedish.
+- Screenshot of the Lakes and Forests header and card tops in Swedish.
 
 ![Screenshot of the Lakes and Forests header and card tops](assets/images/readme-images/swedish-lakes-and-forests-header-and-card-tops.jpg)
 
@@ -1380,7 +1387,7 @@ search the map to find additional locations.
 
 ![Screenshot of the Lakes and Forests cards test and scroll to top button](assets/images/readme-images/swedish-lakes-and-forests-cards-text-and-top-button.jpg)
 
-- Screenshot of the Beautiful Beaches Header and Card Tops in Swedish.
+- Screenshot of the Beautiful Beaches header and card tops in Swedish.
 
 ![Screenshot of Beautiful Beaches Header and card tops in Swedish](assets/images/readme-images/swedish-beautiful-beaches-header-and-card-tops.jpg)
 
@@ -1388,7 +1395,7 @@ search the map to find additional locations.
 
 ![Screenshot of Beautiful Beaches text and scroll to top button in Swedish](assets/images/readme-images/swedish-beautiful-beaches-text-and-top-button.jpg)
 
-- Screenshot of the City and Culture Header and card topsin Swedish.
+- Screenshot of the City and Culture Header and card tops in Swedish.
 
 ![Screenshot of the City and Culture Header and Card Tops](assets/images/readme-images/swedish-city-and-culture-header-and-card-tops.jpg)
 
@@ -1399,6 +1406,10 @@ search the map to find additional locations.
 - Screenshot of the Map header and Search the Map text in Swedish.
 
 ![Screenshot of the Map header and Search on Map text in Swedish](assets/images/readme-images/swedish-map-header-and-search-on-map.jpg)
+
+- Screenshot of the scroll to top button below the map in Swedish.
+
+![Screenshot of the scroll to top button below the map in Swedish](assets/images/readme-images/map-scroll-to-top-swedish.jpg)
 
 - Screenshots of the infowindows with the text in Swedish. 
   
@@ -1531,9 +1542,17 @@ search the map to find additional locations.
 
 ![Screenshot of the Book header and text in Swedish](assets/images/readme-images/swedish-book-header-and-text.jpg)
 
+- Screenshot of the scroll to top button below the Book section in Swedish.
+
+![Screenshot of the scroll to top button below the Book section in Swedish](assets/images/readme-images/book-scroll-to-top-swedish.jpg)
+
 - Screenshot of the Contact header, text and contact form in Swedish.
 
-![Screenshot of the Map header and Search on Map text in Swedish](assets/images/readme-images/swedish-contact.jpg)
+![Screenshot of the Contact header, text and contact form in Swedish](assets/images/readme-images/swedish-contact.jpg)
+
+- Screenshot of the scroll to top and submit buttons below the Contact section in Swedish.
+
+![Screenshot of the scroll to top button below the Contact section in Swedish](assets/images/readme-images/contact-scroll-to-top-and-submit-swedish.jpg)
 
 ## Testing the Visitor Goals:
 
