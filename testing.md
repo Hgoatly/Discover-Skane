@@ -723,9 +723,9 @@ have been fulfilled.
 
 ![Screenshot of the Malmo Castle infowindow](assets/images/readme-images/malmo-infowindow3.jpg)
 
-- Screenshot of the 'malmo' map with the Malmö Concert House infowindow clearly visible.
+- Screenshot of the 'malmo' map with the Malmö Concert Hall infowindow clearly visible.
 
-![Screenshot of the Malmo Concert House infowindow](assets/images/readme-images/malmo-infowindow4.jpg)
+![Screenshot of the Malmo Concert Hall infowindow](assets/images/readme-images/malmo-infowindow4.jpg)
 
 - Screenshot of the 'Helsingborg' map with the Sofiero infowindow clearly visible.
 
