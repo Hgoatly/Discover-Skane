@@ -42,6 +42,7 @@ There were, however, some warnings. These were to do with the code used to cross
 
 - JSHint was used to test the validity of the Javascript code in the project. 'Const' was flagged as a warning, but once it was told to
 recognise ECMAScript 6 features by adding: '/*jshint esversion: 6 */' at the top, all Javascript code passed with no errors or warnings. 
+Undefined and unused vairables are noted however, but these are all either defined in other files, or necessary for the Google maps API functionality.
 
 ## Testing the User Stories:
 
