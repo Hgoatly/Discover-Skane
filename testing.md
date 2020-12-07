@@ -48,7 +48,7 @@ There were, however, some warnings. These were to do with the code used to cross
 
 ## JSHint:
 
-- JSHint was used to test the validity of the Javascript code in the project. 'Const' and 'let' were flagged as warnings, but once it was told to
+- JSHint was used to test the validity of the Javascript code in the project. 'const' and 'let' were flagged as warnings, but once it was told to
 recognise ECMAScript 6 features by adding: '/*jshint esversion: 6 */' at the top, all Javascript code passed with no errors or warnings. 
 Undefined and unused vairables are noted however, but these are all either defined in other files, necessary for the Google maps API functionality, 
 or in the case of the '$' sign, necessary for jquery - which has been used extensively in the project.
@@ -168,6 +168,7 @@ have been fulfilled.
     - Screenshots of the Hammarsjön infowindow with information about the landscape and waterfoul clearly visible. 
 
     ![Screenshot of the Hammarsjön infowindow on the lakes card map](assets/images/readme-images/lakes-map-screenshot-infowindow3.jpg)
+    ![Screenshot of the Hammarsjön infowindow on the lakes card map](assets/images/readme-images/hammarsjon-infowindow-bottom.jpg)
 
   - **Test Case 9**
     - Ensure that the 'Attribution' link on each infowindow works, and takes the user to an external site, which opens in a
@@ -290,18 +291,19 @@ have been fulfilled.
 
     ![Screenshot of the Sö‎deråsen infowindow on the National Parks card map](assets/images/readme-images/soderasen-infowindow.jpg)
  
-      - Screenshot of the 'National Parks' map with the Stenshuvud infowindow clearly displayed.
+    - Screenshot of the 'National Parks' map with the Stenshuvud infowindow clearly displayed.
 
     ![Screenshot of the Stenshuvud infowindow on the National Parks card map](assets/images/readme-images/stenshuvud-infowindow.jpg)
 
-      - Screenshot of the 'Forests' map with the Häckeberga infowindow clearly displayed.
+    - Screenshot of the 'Forests' map with the Häckeberga infowindow clearly displayed.
 
     ![Screenshot of the Hackeberga infowindow on the National Parks card map](assets/images/readme-images/hackeberga-infowindow.jpg)
 
-      - Screenshot of the 'Forests' map with the Fulltofta infowindow clearly displayed.
+    - Screenshot of the 'Forests' map with the Fulltofta infowindow clearly displayed.
+    
     ![Screenshot of the Fulltofta infowindow on the National Parks card map](assets/images/readme-images/fulltofta-infowindow.jpg)
 
-      - Screenshot of the 'Forests' map with the Skrylle infowindow clearly displayed.
+    - Screenshot of the 'Forests' map with the Skrylle infowindow clearly displayed.
 
     ![Screenshot of the Skrylle infowindow on the National Parks card map](assets/images/readme-images/skrylle-infowindow.jpg)
 
@@ -311,23 +313,23 @@ have been fulfilled.
   - **Actual Result**: Each infowindow displays information about a forest or a National Park in Skåne.
   - **Pass/Fail**: Pass.
   
-      - Screenshot of the Sö‎deråsen infowindow with information about the Sö‎deråsen National Park clearly displayed.
+    - Screenshot of the Sö‎deråsen infowindow with information about the Sö‎deråsen National Park clearly displayed.
     
     ![Screenshot of the Sö‎deråsen infowindow on the National Parks card map](assets/images/readme-images/soderasen-infowindow.jpg)
 
-      - Screenshot of the Stenshuvud infowindow with information about the Stenshuvud National Park clearly displayed.
+    - Screenshot of the Stenshuvud infowindow with information about the Stenshuvud National Park clearly displayed.
 
     ![Screenshot of the Stenshuvud infowindow on the National Parks card map](assets/images/readme-images/stenshuvud-infowindow.jpg)
 
-      - Screenshot of the Häckeberga infowindow with information about the Häckeberga forest clearly displayed.
+    - Screenshot of the Häckeberga infowindow with information about the Häckeberga forest clearly displayed.
 
     ![Screenshot of the Hackeberga infowindow on the National Parks card map](assets/images/readme-images/hackeberga-infowindow.jpg)
 
-      - Screenshot of the Häckeberga infowindow with information about the Fulltofta forest clearly displayed.
+    - Screenshot of the Fulltofta infowindow with information about the Fulltofta forest clearly displayed.
 
     ![Screenshot of the Fulltofta infowindow on the National Parks card map](assets/images/readme-images/fulltofta-infowindow.jpg)
 
-      - Screenshot of the Häckeberga infowindow with information about the Skrylle forest clearly displayed.
+    - Screenshot of the Skrylle infowindow with information about the Skrylle forest clearly displayed.
 
     ![Screenshot of the Skrylle infowindow on the National Parks card map](assets/images/readme-images/skrylle-infowindow.jpg)
 
@@ -437,10 +439,11 @@ have been fulfilled.
 
 - Screenshot of the 'West Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
-![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/west-coast-card-screenshot.jpg)   
+![Screenshot of the 'West Coast' card with image displayed](assets/images/readme-images/west-coast-card-screenshot.jpg)   
+
 - Screenshot of the 'South Coast' card, with the image clearly visible, after 'Hide Map' has been clicked.
 
-![Screenshot of the 'East Coast' card with image displayed](assets/images/readme-images/south-coast-card-screenshot.jpg)   
+![Screenshot of the 'South Coast' card with image displayed](assets/images/readme-images/south-coast-card-screenshot.jpg)   
 
 
   - **Test Case 5**: 
@@ -471,27 +474,27 @@ have been fulfilled.
 
 ![Screenshot of the Täppet infowindow](assets/images/readme-images/tappet-infowindow.jpg)>
 
-- Screenshot of the 'East Coast' map with the Farhultsbaden infowindow clearly displayed.
+- Screenshot of the 'West Coast' map with the Farhultsbaden infowindow clearly displayed.
 
 ![Screenshot of the Farhultsbaden infowindow](assets/images/readme-images/farhultsbaden-infowindow.jpg)
 
-- Screenshot of the 'East Coast' map with the Lomma Norra Badplats infowindow clearly displayed.
+- Screenshot of the 'West Coast' map with the Lomma Norra Badplats infowindow clearly displayed.
 
 ![Screenshot of the Lomma Norra Badplats infowindow](assets/images/readme-images/lomma-norra-badplats-infowindow.jpg)
 
-- Screenshot of the 'East Coast' map with the Falsterbo infowindow clearly displayed.
+- Screenshot of the 'West Coast' map with the Falsterbo infowindow clearly displayed.
 
 ![Screenshot of the Falsterbo infowindow](assets/images/readme-images/falsterbo-infowindow.jpg)
 
-- Screenshot of the 'East Coast' map with the Smygehuk infowindow clearly displayed.
+- Screenshot of the 'South Coast' map with the Smygehuk infowindow clearly displayed.
 
 ![Screenshot of the Smygehuk infowindow](assets/images/readme-images/smygehuk-infowindow.jpg)
 
-- Screenshot of the 'East Coast' map with the Ystad Sandskog infowindow clearly displayed.
+- Screenshot of the 'South Coast' map with the Ystad Sandskog infowindow clearly displayed.
 
 ![Screenshot of the Ystad Sandskog infowindow](assets/images/readme-images/ystad-sandskog-infowindow.jpg)
 
-- Screenshot of the 'East Coast' map with the Sandhammaren infowindow clearly displayed.
+- Screenshot of the 'South Coast' map with the Sandhammaren infowindow clearly displayed.
 
 ![Screenshot of the Sandhammaren infowindow](assets/images/readme-images/sandhammaren-infowindow.jpg)
 
