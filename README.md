@@ -84,8 +84,9 @@ The final two sections are mainly interactive. They are as follows:
 2. Contact.
 
 The 'Book' section uses the [Booking.com](https://www.booking.com/affiliate-program/v2/index.html?utm_source=&utm_campaign=&utm_content=&utm_term=&utm_medium=) affiliate partner program API,
-so that after having chosen their ideal holidys in Skåne, visitors to the site can book their stay. Out of the available booking.com APIs, it was decided that the 'Deal Fider' API was the most appropriate.
-This is because it not only shows images, but also because the search area can be restricted to Skåne The other options either had no images, or would searche the whole of Sweden - which would be confusing for the site visitor. 
+so that after having chosen their ideal holidays in Skåne, visitors to the site can book their stay. Out of the available booking.com APIs, it was decided that the 'Deal Fider' API was the most appropriate.
+This is because it not only shows images, but also because the search area can be restricted to Skåne. The other options either had no images, or would search the whole of Sweden - which the developer thought 
+would be confusing for the site visitor. 
 
 The 'contact' section encourages the user to contact the site owner via a contact form. This is so they can suggest places that could also be listed on the 'Discover Skåne' website as additional recommendations to site users. It uses the email.js API 
 
@@ -100,7 +101,7 @@ To find out how the features relate to the User Stories, jump to [How The Featur
 3. I have booked a holiday to Skåne, and I want to find out where there is a lake, so that I can enjoy the landscape and see some waterfoul.
 4. I have booked a holiday to Skåne, and I want to find out where there are some unspoilt forests and National Parks, so that I can enjoy getting back to nature.
 5. I have booked a holiday to Skåne, and I want to find out where there are some beaches, so that I can enjoy a seaside break.
-6. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see somehting new.
+6. I have booked a holiday to Skåne, and I want to find out where there are some cultural activities available, so that I can learn/see something new.
 7. I want to find out whether there are any nice beaches in Skåne, so that I know whether to book a beach holiday there.
 8. I want find out whether there are any unspoilt forests in Skåne, so that I know whether to book a holiday there where I can 'get away from it all'. 
 9. I want to know where there are some nice lakes in Skåne, so that I know whether to book a holiday there. 
@@ -146,6 +147,8 @@ from English to Swedish.
 
 - **404 Error Page:** A custom 404 error page has been designed in order to help the user find their way back to the site in the event of a 404 error.
 
+- **Favicon:** A favicon of the Skåne flag has been created for the site, so that the appropriate tab is clearly visible in the user's browser.
+
 ### Colours Used:
 
 - **Site Logo and Section Titles:** The colour #4f4646, which is brown/grey, was chosen as the background colour, as it has a neutral, but somewhat 'Scandinavian' feel to it. It is also a 
@@ -153,7 +156,7 @@ good colour match with all of the images used throughout the site. The text colo
 
 - **Enter Button:** The Skåne flag is a yellow cross on a red background. #dc3545 (red) was chosen for the background of the enter button, and #d8b54d (yellow) was chosen
 for the text in order to represent the Skåne flag.  Whilst this yellow is perhaps not as bright as the colour on the Skåne flag, it was chosen because text written in a 
-brighter yellow was more difficult to read against the background colours used on the site. On a desktop, when the button is hovered over, the text colour changes to white. This is a metaphor for crossing the
+brighter yellow was more difficult to read against the background colours used on the site. On a desktop, when the button is hovered over, the text colour changes to white. This is a visual metaphor for crossing the
 bridge into Skåne, as the Danish flag is a white cross on a red background. It is representative of what the picture suggests: that you are leaving Denmark to enter Skåne.
 
 - **Navbar and Footer, Card Headers and 'Top of Page' Button:** The background colour of each of these elements is #4f4646, and the text colour is #fff. It was deliberately decided that they should be the same colours as on the 
@@ -165,11 +168,12 @@ logo, to create a colour theme for the site. The 'Show on Map' and 'Hide Map' te
 the card elements, which have a background colour of #fff (white). 
 
 - **Infowindows:** The colour #dc3545 (red) was chosen for the name of the location inside each infowindow. The colour for the 'Attribution' link is #d8b54d (yellow). This was in order to match the colours of the Skåne flag.
+The background colour of the infowindows is #fff, and the text is #4f4646 in order to match the background and text colours on the rest of the card. These colours are the same on the infowindows on the main map in order to create consistency
 
 - **404-Error-Page** As for the Site Logo and section titles, the colour #4f4646 was used as the background colour for the error text. Below this, the colour #d8b54d was used for the link. On hover, this changes to #dc3545 on hover. The colours 
-were chosen in order to match the Skåne flag. 
+were chosen in order to match the Skåne flag, and to stand out against the background. 
 
-- **Social Links:** The colour of the social links was chosen to be #d8b54d (yellow). On hover, the links turn red: #dc3545 (red). This was in order for the colours to match the Skåne flag, like elsewhere on the site.
+- **Social Links:** The colour of the social links was chosen to be #d8b54d (yellow). On hover, the links turn red: #dc3545 (red). This was in order for the colours to match the Skåne flag, like elsewhere on the site, and to stand out against the background.
 
 ### Typography:
 
@@ -431,9 +435,9 @@ throughout the site.
 - [CompressImage.touler](https://compressimage.toolur.com/) was used to crompress and resize the image files to a more appropriate size for the site, and in order to 
 speed up their load time.
 - [Microsoft-Photos](https://www.microsoft.com/en-gb/p/microsoft-photos/9wzdncrfjbh4?activetab=pivot:overviewtab)(Windows 10 version) was used to crop images for the README.md file.
-- [Microsoft-Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) was used for displaying the manual tests undertaken.
+- [Microsoft-Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) was used for writing the manual tests undertaken.
 - [Dirty-Markup](https://www.10bestdesign.com/dirtymarkup/) was used to beautify the code.
-- [This-Davej](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) was used to generate a markdown table for the cross browser testing in the Testing.md file.
+- [This-Davej](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/) was used to generate a markdown table from an excel document for the cross browser testing in the testing.md file.
 
 ### Application Programming Interfaces Used (APIs):
 
@@ -507,7 +511,7 @@ It was deployed to [GitHub Pages](https://pages.github.com/) by following this p
 
 6. Selection will be saved, and page automatically refreshed. 
 7. To access the deployed site, click on the following link in the Github Pages section of the 'Settings' page:
-[Discover Skåne](https://hgoatly.github.io/Discover-Skane/)
+https://hgoatly.github.io/Discover-Skane/
 
 ### Forking the Repository:
 
@@ -606,7 +610,7 @@ from [Pixabay](https://pixabay.com/).
 - **My Friends and Family** for constant support, and feedback on the content and functionality.
 - **My Husband, Ola Olsson** for translating parts of the site into Swedish.
 - **Code Institute Slack Channel** for help answering my many questions.
-- **Code Institute Tutor Support** for helping me work out why 'it' wasn't working. 
+- **Code Institute Tutor Support** for helping me work out why things weren't working how they should. 
 
 ## Version Control:
 

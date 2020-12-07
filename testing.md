@@ -21,6 +21,7 @@ The Discover Skåne site was tested extensively, using the following processes:
   - [First-Time-Visitor-Goals](#first-time-visitor-goals)
   - [Returning-Visitor-Goals](#returning-visitor-goals)
   - [Frequent-Visitor-Goals](#frequent-visitor-goals)
+- [Testing-the-404-error-page](#testing-the-404-error-page)
 - [Manual-Testing](#manual-testing)
 
 ## Chrome Developer Tools:
@@ -1607,11 +1608,20 @@ The returning visitor goals were tested as follows:
  - The first three sections of the page detail the different kinds of holidays available in Skåne. Frequent visitors to 
  the site can navigate to these sections in order to learn about them and to choose a different holiday from before.
 
+### Testing the 404 Error Page:
+
+- In the event of a 404 'not found' error, a custom page has been created, so that users can safely and easily navigate
+back to the Discover Skåne site. In order to test it, a 404 error was forced by entering the following url: [https://hgoatly.github.io/Discover-Skane/404.html](https://hgoatly.github.io/Discover-Skane/404.html)
+This successfully opened the custom error page, as can bee seen below. The link was also tested, and it navigates successfully back to the landing page.
+
+- Screenshot of the custom 404 error page.
+
+![Screenshot of the custom error page](assets/images/readme-images/error-page-test.jpg)
+
 
 ## Manual Browser Compatibility Testing:
 
-- Manual testing was carried out across a variety of browsers. The results are detailed below. To download the tests as an Excel document, 
-click here.
+- Manual testing was carried out across a variety of browsers. The results are detailed below.
 
 |              |                   |                                                                                                                              | Windows 10 Home Edition version 1909. 64 bit. |         |       |                |                   | MacOS High Sierra Version 10.13.6 | Apple iPhone       |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---------|-------|----------------|-------------------|-----------------------------------|--------------------|
