@@ -25,7 +25,7 @@ The Discover Skåne site was tested extensively, using the following processes:
 
 ## Chrome Developer Tools:
 
-- Chrome developer tools was used regulraly to check the layout, and to check the console for errors.
+- Chrome developer tools was used regularly to check the layout, and to check the console for errors.
 
 ## W3C Markup Validation Service:
 
@@ -47,9 +47,18 @@ There were, however, some warnings. These were to do with the code used to cross
 
 ## JSHint:
 
-- JSHint was used to test the validity of the Javascript code in the project. 'Const' was flagged as a warning, but once it was told to
+- JSHint was used to test the validity of the Javascript code in the project. 'Const' and 'let' were flagged as warnings, but once it was told to
 recognise ECMAScript 6 features by adding: '/*jshint esversion: 6 */' at the top, all Javascript code passed with no errors or warnings. 
-Undefined and unused vairables are noted however, but these are all either defined in other files, or necessary for the Google maps API functionality.
+Undefined and unused vairables are noted however, but these are all either defined in other files, necessary for the Google maps API functionality, 
+or in the case of the '$' sign, necessary for jquery - which has been used extensively in the project.
+
+- Screenshot of JSHint warning about the use of 'const' and 'let'.
+
+![Screenshot of JSHint warning about the use of 'const' and 'let'](assets/images/readme-images/jshint-warnings.jpg)
+
+- Screenshot of JSHint with /*jshint esversion: 6 */ added to the top of the file, and with no warnings.
+
+![Screenshot of JSHint with no warnings](assets/images/readme-images/jshint-no-warnings.jpg)
 
 ## Testing the User Stories:
 
@@ -1369,7 +1378,8 @@ search the map to find additional locations.
 
 - **Test Case 1**:
 
-- Ensure that all text is displayed in Swedish once the Swedish flag is clicked.
+- Ensure that all text is displayed in Swedish once the Swedish flag is clicked. Please note that the Booking.com dealfinder API is only available in English
+in this case.
 
 - Screenshot of the Navbar in Swedish.
 
@@ -1553,6 +1563,7 @@ search the map to find additional locations.
 - Screenshot of the scroll to top and submit buttons below the Contact section in Swedish.
 
 ![Screenshot of the scroll to top button below the Contact section in Swedish](assets/images/readme-images/contact-scroll-to-top-and-submit-swedish.jpg)
+
 
 ## Testing the Visitor Goals:
 
