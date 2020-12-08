@@ -22,7 +22,7 @@ The Discover Skåne site was tested extensively, using the following processes:
   - [Returning Visitor Goals](#returning-visitor-goals)
   - [Frequent Visitor Goals](#frequent-visitor-goals)
 - [Testing the 404 error page](#testing-the-404-error-page)
-- [Manual Testing](#manual-testing)
+- [Manual Browser Compatibility Testing](#Manual-browser-compatibility-testing)
 
 ## Chrome Developer Tools:
 
