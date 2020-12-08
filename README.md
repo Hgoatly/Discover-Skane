@@ -12,7 +12,7 @@ Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
 
 - [Site Owner Goals](#site-owner-goals)
 - [User Experience (UX)](#user-experience-(ux))
-  - [User stories](#user-stories)
+  - [User Stories](#user-stories)
     - [First Time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals)
     - [Frequent Visitor Goals](#frequent-visitor-goals)
@@ -23,25 +23,25 @@ Click here to [Discover Skåne](https://hgoatly.github.io/Discover-Skane/).
     - [Layout](#layout)
     - [Wireframes](#wireframes)
   - [Features](#features)
-    - [Mobile-Design-Features](#mobile-design-features)
-    - [Tablet-Design-Features](#tablet-design-features)
-    - [Desktop-Design-Features](#desktop-design-features)
-    - [How-The-Features-Relate-To-The-User-Stories](#how-the-features-relate-to-the-user-stories)
-    - [Future-Features](#future-features)
+    - [Mobile Design Features](#mobile-design-features)
+    - [Tablet Design Features](#tablet-design-features)
+    - [Desktop Design Features](#desktop-design-features)
+    - [How The Features Relate To The User Stories](#how-the-features-relate-to-the-user-stories)
+    - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
-  - [Languages-Used](#languages-used)
-  - [Frameworks,-Libraries-and-Other-Sources-Used](#frameworks,-libraries-and-other-sources-used)
-  - [Application-Programming-Interfaces-Used-(APIs)](#application-programming-interfaces-used-(APIs))
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries and Other Sources Used](#frameworks,-libraries-and-other-sources-used)
+  - [Application Programming Interfaces Used (APIs)](#application-programming-interfaces-used-(APIs))
 - [Testing](#testing)
-  - [Known-Bugs-and-Fixes](#known-bugs-and-fixes)
+  - [Known Bugs and Fixes](#known-bugs-and-fixes)
 - [Deployment](#deployment)
-  - [Github-Pages](#github-pages)
-  - [Forking-The-Repository](#forking-the-repository)
-  - [Making-A-Local-Clone](#making-a-local-clone)
+  - [Github Pages](#github-pages)
+  - [Forking The Repository](#forking-the-repository)
+  - [Making A Local Clone](#making-a-local-clone)
 - [Credits](#credits)
-- [Version-Control](#version-control)
+- [Version Control](#version-control)
 
-## Site Owner's Goals:
+## Site Owner Goals:
 
 Discover Skåne is a tourist site showcasing the different types of holidays available in the county of Skåne, in Southern Sweden.
 It is primarily an informative website. The site has two main objectives.
